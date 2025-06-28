@@ -66,112 +66,120 @@ Lastly, we need to setup Visual Studio Code as our IDE.
 
 ## OSX
 
-### Step 1: Install Xcode
-**Why first?** Xcode is large and takes time to install, so start here.
+# macOS Flutter Setup Instructions
 
-1. Open the **App Store** on your Mac
-2. Search for **Xcode** and install it (this will take a while - it's several GB)
-3. Once installed, open Xcode and accept the license agreement
+## Overview
+This guide complements the [official Flutter macOS installation documentation](https://docs.flutter.dev/get-started/install/macos/mobile-ios) with additional context and tips for IGME-340 students.
+
+## Prerequisites
+- macOS 10.15 (Catalina) or later
+- At least 2.8 GB of free disk space (more recommended)
+- Git (comes pre-installed on macOS)
+- Xcode (for iOS development)
+
+## Installation Method: VS Code Extension (Recommended)
+
+The Flutter team now recommends installing Flutter through VS Code, which simplifies the setup process significantly.
+
+### Step 1: Install VS Code
+1. Download [Visual Studio Code](https://code.visualstudio.com/) if you don't already have it
+2. Install VS Code by dragging it to your Applications folder
+
+### Step 2: Install Flutter via VS Code
+1. Open VS Code
+2. Open the Command Palette (`Cmd + Shift + P`)
+3. Type "Flutter: New Project"
+4. VS Code will prompt you to install the Flutter SDK if it's not already installed
+5. Follow the prompts to download and install Flutter automatically
+
+### Step 3: Install Xcode (for iOS Development)
+1. Install Xcode from the [Mac App Store](https://apps.apple.com/us/app/xcode/id497799835)
+2. This is a large download (several GB) so plan accordingly
+3. Once installed, open Xcode at least once to accept the license agreements
 4. Install additional components when prompted
 
-### Step 2: Install Flutter
-Download Link: [https://docs.flutter.dev/get-started/install/macos](https://docs.flutter.dev/get-started/install/macos)
+### Step 4: Configure iOS Development Tools
+After Xcode is installed, run these commands in Terminal:
 
-1. Download the latest stable Flutter SDK for macOS; If asked to choose your first type of app you can choose any; though for now i'd recommend choosing iOS.
-2. Extract the zip file to a location like `~/development/` (avoid paths with spaces)
+```bash
+# Install Xcode command line tools
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+sudo xcodebuild -runFirstLaunch
+
+# Install CocoaPods (iOS dependency manager)
+sudo gem install cocoapods
+```
+
+### Step 5: Verify Your Installation
+Run this command in Terminal to check your Flutter setup:
+
+```bash
+flutter doctor
+```
+
+You should see checkmarks for:
+- Flutter
+- Android toolchain (if you've set up Android Studio)
+- Xcode
+- VS Code
+
+## Common Issues and Solutions
+
+### Issue: "flutter" command not found
+If the `flutter` command isn't recognized after VS Code installation:
+
+1. Find where VS Code installed Flutter (usually in `~/development/flutter`)
+2. Add Flutter to your PATH by adding this to your `~/.zshrc` file:
    ```bash
-   cd ~/development
-   unzip ~/Downloads/flutter_macos_*-stable.zip
+   export PATH="$PATH:$HOME/development/flutter/bin"
    ```
-3. Add Flutter to your PATH by editing your shell profile:
-   
-   **For zsh (default on newer macOS):**
-   ```bash
-   echo 'export PATH="$PATH:$HOME/development/flutter/bin"' >> ~/.zshrc
-   source ~/.zshrc
-   ```
-   
-   **For bash:**
-   ```bash
-   echo 'export PATH="$PATH:$HOME/development/flutter/bin"' >> ~/.bash_profile
-   source ~/.bash_profile
-   ```
+3. Reload your terminal or run `source ~/.zshrc`
 
-### Step 3: Install Android Studio
-Download Link: [https://developer.android.com/studio](https://developer.android.com/studio)
+### Issue: CocoaPods installation fails
+If you get permission errors installing CocoaPods:
+```bash
+# Use homebrew instead
+brew install cocoapods
+```
 
-1. Download and install Android Studio for Mac
-2. Launch Android Studio and complete the setup wizard
-3. On the welcome screen, click **More Actions** → **SDK Manager**
-4. In the SDK Manager:
-   - Go to the **SDK Tools** tab
-   - Check **Android SDK Command-line Tools (latest)**
-   - Check **Android SDK Build-Tools**
-   - Click **Apply** to install
+### Issue: iOS Simulator won't start
+1. Open Xcode
+2. Go to Xcode → Preferences → Locations
+3. Make sure a Command Line Tools version is selected
 
-### Step 4: Install Visual Studio Code
-Download Link: [https://code.visualstudio.com/](https://code.visualstudio.com/)
+## Testing Your Setup
 
-1. Download and install VS Code for Mac
-2. Open VS Code and install the Flutter extension:
-   - Open Extensions panel (Cmd+Shift+X)
-   - Search for "Flutter" 
-   - Install the official Flutter extension (this will also install the Dart extension)
+### Create a Test Project
+1. In VS Code, open Command Palette (`Cmd + Shift + P`)
+2. Run "Flutter: New Project"
+3. Choose "Application"
+4. Name it "test_app"
+5. Select a folder to create it in
 
-### Step 5: Configure iOS Development
-1. Install Xcode command line tools:
-   ```bash
-   sudo xcode-select --install
-   ```
-2. Accept the Xcode license:
-   ```bash
-   sudo xcodebuild -license accept
-   ```
-3. Install CocoaPods (iOS dependency manager):
-   ```bash
-   sudo gem install cocoapods
-   ```
+### Run on iOS Simulator
+1. Open the iOS Simulator: `open -a Simulator`
+2. In VS Code, press `F5` or click Run → Start Debugging
+3. Your app should launch in the iOS Simulator
 
-### Step 6: Test Your Environment
-1. Open **Terminal** 
-2. Run the Flutter doctor command:
-   ```bash
-   flutter doctor
-   ```
-3. Address any issues flagged by Flutter doctor:
-   - **Android licenses**: Run `flutter doctor --android-licenses` and accept all
-   - **iOS setup issues**: Usually resolved by running Xcode once and accepting licenses
-   - **Missing dependencies**: Follow the specific instructions provided
+### Run on Physical iPhone (Optional)
+1. Connect your iPhone via USB
+2. Trust the computer on your iPhone when prompted
+3. In VS Code, select your iPhone from the device selector in the bottom bar
+4. Press `F5` to run
 
-### Step 7: Create and Test a Project
-1. Create a new Flutter project:
-   ```bash
-   flutter create my_test_app
-   cd my_test_app
-   ```
-2. Test on iOS Simulator:
-   ```bash
-   open -a Simulator
-   flutter run
-   ```
-3. Test on Android Emulator:
-   - Open Android Studio
-   - Create/start an Android Virtual Device (AVD)
-   - Run `flutter run` in your project directory
+## Next Steps
+- Complete the [Flutter codelab](https://docs.flutter.dev/get-started/codelab)
+- Set up [Android Studio](https://developer.android.com/studio) if you want to develop for Android
+- Review the [Dart language tour](https://dart.dev/guides/language/language-tour)
 
-## Troubleshooting Common Issues
+## Helpful Resources
+- [Official Flutter macOS Install Guide](https://docs.flutter.dev/get-started/install/macos/mobile-ios)
+- [Flutter Doctor Troubleshooting](https://docs.flutter.dev/get-started/install/macos/mobile-ios#troubleshooting)
+- [VS Code Flutter Extension Documentation](https://marketplace.visualstudio.com/items?itemName=Dart-Code.flutter)
 
-- **Xcode issues**: Make sure you've opened Xcode at least once and accepted all agreements
-- **PATH issues**: Restart your terminal after modifying shell profiles
-- **Android licenses**: Run `flutter doctor --android-licenses` if prompted
-- **CocoaPods issues**: Try `sudo gem install cocoapods` if iOS builds fail
-
-## Verification
-Your setup is complete when `flutter doctor` shows green checkmarks for:
-- ✓ Flutter (Channel stable)
-- ✓ Android toolchain
-- ✓ Xcode - develop for iOS and macOS
-- ✓ VS Code
-
-**Success!** You now have a complete Flutter development environment capable of building for both iOS and Android platforms.
- 
+## Getting Help
+If you encounter issues:
+1. Run `flutter doctor -v` for detailed diagnostic information
+2. Check the error messages carefully - they often include the solution
+3. Search for the specific error message online
+4. Ask in class or during office hours with your `flutter doctor` output ready
