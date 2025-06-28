@@ -77,7 +77,7 @@ Lastly, we need to setup Visual Studio Code as our IDE.
 ### Step 2: Install Flutter
 Download Link: [https://docs.flutter.dev/get-started/install/macos](https://docs.flutter.dev/get-started/install/macos)
 
-1. Download the latest stable Flutter SDK for macOS
+1. Download the latest stable Flutter SDK for macOS; If asked to choose your first type of app you can choose any; though for now i'd recommend choosing iOS.
 2. Extract the zip file to a location like `~/development/` (avoid paths with spaces)
    ```bash
    cd ~/development
