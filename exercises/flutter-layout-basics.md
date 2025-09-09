@@ -99,3 +99,5 @@ This code will be the basis for the exercise.
 
 (Why flutter clean etc???: this will give you practice running these commands and submitting a project. So when the actual project is due we know how to do this).
 
+Attribution: This HW was origanlly developed by Dower Chin. I copied the repo to make subtle changes but want to give proper credit!
+
