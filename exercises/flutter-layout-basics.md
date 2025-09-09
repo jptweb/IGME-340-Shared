@@ -97,4 +97,4 @@ This code will be the basis for the exercise.
     
 13. Save the work to a new file, `basics04.dart`.
 
-Zip all dart files and submit to the dropbox.
+14. Add the art file to a zip file (so mycourses lets you submit it) and upload the the assignment dropbox.
