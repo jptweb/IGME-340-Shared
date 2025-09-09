@@ -119,4 +119,6 @@ This code will be the basis for the exercise.
 
 14. Add an `onPressed` event for each of your buttons, you can use either an external function or an anonymous function. Output some text to the console.
    
-Perform a `flutter clean`, zip up your app and submit to the Assignment dropbox.
+15. Perform a `flutter clean`, zip up your app and submit to the Assignment dropbox. Your app should be pretty small after running these commands! I may make a submission guide / video if I can find time BUT if you  have questions please let me know
+
+(Why flutter clean etc???: this will give you practice running these commands and submitting a project. So when the actual project is due we know how to do this).
