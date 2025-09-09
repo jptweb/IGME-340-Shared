@@ -97,7 +97,7 @@ This code will be the basis for the exercise.
     
 13. Perform a `flutter clean`, zip up your app and submit to the Assignment dropbox. Your app should be pretty small after running these commands! I may make a submission guide / video if I can find time BUT if you  have questions please let me know.
 
-(Why flutter clean etc???: this will give you practice running these commands and submitting a project. So when the actual project is due we know how to do this).
+[Comprehensive Guide on submitting your flutter projects to mycourses](../submission-guidelines.md)
 
 Attribution: This HW was origanlly developed by Dower Chin. I copied the repo to make subtle changes but want to give proper credit!
 
