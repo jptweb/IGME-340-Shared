@@ -95,6 +95,7 @@ This code will be the basis for the exercise.
     Also make the containers fill the entire width of the column. 
     Run the program, you should see the contents have overflown the bounds, Fix this problem (hint, it's not by shrinking any of the containers. Internet search for a potential solution with another widget).
     
-13. Save the work to a new file, `basics04.dart`.
+13. Perform a `flutter clean`, zip up your app and submit to the Assignment dropbox. Your app should be pretty small after running these commands! I may make a submission guide / video if I can find time BUT if you  have questions please let me know.
 
-14. Add the art file to a zip file (so mycourses lets you submit it) and upload the the assignment dropbox.
+(Why flutter clean etc???: this will give you practice running these commands and submitting a project. So when the actual project is due we know how to do this).
+
