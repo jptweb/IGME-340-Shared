@@ -4,7 +4,7 @@
 
 ### 🎨 Styling & Theming
 - [BoxDecoration](styling/box-decoration.md) - Borders, shadows, gradients, rounded corners
-- Themes & ThemeData *(coming soon - Week 3B)*
+- [Themes & ThemeData](styling/themes.md) - Global app styling and color systems
 - ColorScheme & Color Generation *(coming soon - Week 3B)*
 - Text Styling & Custom Fonts *(coming soon - Week 4B)*
 - Material vs Cupertino Design *(coming soon - Week 4B)*
