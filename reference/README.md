@@ -6,12 +6,13 @@
 - [BoxDecoration](styling/box-decoration.md) - Borders, shadows, gradients, rounded corners
 - [Themes & ThemeData](styling/themes.md) - Global app styling and color systems
 - ColorScheme & Color Generation *(coming soon - see [Week 3B notes](../weekly/3B.md))*
-- Text Styling & Custom Fonts *(coming soon - see [Week 4B notes](../weekly/4B.md))*
+- [Text Styling & Custom Fonts](styling/text-fonts.md) - TextStyle, custom fonts, Google Fonts
 - Material vs Cupertino Design *(coming soon - see [Week 4B notes](../weekly/4B.md))*
 
 ### 📦 Core Widgets
 - [Container Basics](widgets/container-basics.md) - Sizing, padding, margin, alignment
 - [Layout Widgets (Row, Column, Stack)](widgets/layout-widgets.md) - Arranging widgets
+- [Images & Assets](widgets/images-assets.md) - Local and network images, asset configuration
 - Positioned & Align Widgets *(coming soon - see [Week 5A notes](../weekly/5A.md))*
 - Expanded & Flexible *(coming soon - Week 8B)*
 - Padding & SizedBox *(coming soon - see [Week 3A notes](../weekly/3A.md))*
@@ -33,7 +34,7 @@
 - Focus Management *(coming soon - Week 8B)*
 
 ### 📋 Lists & Scrolling
-- SingleChildScrollView *(coming soon - see [Week 3A notes](../weekly/3A.md))*
+- [SingleChildScrollView](widgets/singlechildscrollview.md) - Handling overflow and scrolling
 - ListView & ListTile *(coming soon - Week 6B)*
 - ListView.builder *(coming soon - Week 7A)*
 - GridView & GridTile *(coming soon - Week 7B)*
