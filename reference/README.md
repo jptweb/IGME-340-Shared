@@ -5,22 +5,22 @@
 ### 🎨 Styling & Theming
 - [BoxDecoration](styling/box-decoration.md) - Borders, shadows, gradients, rounded corners
 - [Themes & ThemeData](styling/themes.md) - Global app styling and color systems
-- ColorScheme & Color Generation *(coming soon - Week 3B)*
-- Text Styling & Custom Fonts *(coming soon - Week 4B)*
-- Material vs Cupertino Design *(coming soon - Week 4B)*
+- ColorScheme & Color Generation *(coming soon - see [Week 3B notes](../weekly/3B.md))*
+- Text Styling & Custom Fonts *(coming soon - see [Week 4B notes](../weekly/4B.md))*
+- Material vs Cupertino Design *(coming soon - see [Week 4B notes](../weekly/4B.md))*
 
 ### 📦 Core Widgets
 - [Container Basics](widgets/container-basics.md) - Sizing, padding, margin, alignment
 - [Layout Widgets (Row, Column, Stack)](widgets/layout-widgets.md) - Arranging widgets
-- Positioned & Align Widgets *(coming soon - Week 5A)*
+- Positioned & Align Widgets *(coming soon - see [Week 5A notes](../weekly/5A.md))*
 - Expanded & Flexible *(coming soon - Week 8B)*
-- Padding & SizedBox *(coming soon - Week 3A)*
+- Padding & SizedBox *(coming soon - see [Week 3A notes](../weekly/3A.md))*
 
 ### 🔘 Buttons & Interaction
 - [Button Types (Elevated, Outlined, Text)](widgets/button-types.md) - All button variants and styling
 - IconButton & FloatingActionButton *(coming soon - Week 9A)*
 - [InkWell & GestureDetector](widgets/inkwell-gesturedetector.md) - Making any widget clickable
-- Button Styling & Themes *(coming soon - Week 3B)*
+- Button Styling & Themes *(coming soon - see [Week 3B notes](../weekly/3B.md))*
 
 ### 📝 Input & Forms
 - TextField Basics *(coming soon - Week 6A)*
@@ -33,7 +33,7 @@
 - Focus Management *(coming soon - Week 8B)*
 
 ### 📋 Lists & Scrolling
-- SingleChildScrollView *(coming soon - Week 3A)*
+- SingleChildScrollView *(coming soon - see [Week 3A notes](../weekly/3A.md))*
 - ListView & ListTile *(coming soon - Week 6B)*
 - ListView.builder *(coming soon - Week 7A)*
 - GridView & GridTile *(coming soon - Week 7B)*
@@ -41,8 +41,8 @@
 
 ### 🧭 Navigation
 - [Dialogs & Alerts](navigation/dialogs-alerts.md) - AlertDialog, showDialog, popups
-- ScaffoldMessenger & SnackBar *(coming soon - Week 5A)*
-- MaterialBanner *(coming soon - Week 5A)*
+- ScaffoldMessenger & SnackBar *(coming soon - see [Week 5A notes](../weekly/5A.md))*
+- MaterialBanner *(coming soon - see [Week 5A notes](../weekly/5A.md))*
 - Navigator & MaterialPageRoute *(coming soon - Week 9B)*
 - Named Routes *(coming soon - Week 9B)*
 - GoRouter Package *(coming soon - Week 10A)*
@@ -51,7 +51,7 @@
 
 ### 🔄 State Management
 - [setState Basics](state-management/setstate-basics.md) - Fundamental state updates
-- StatefulWidget Lifecycle *(coming soon - Week 4A)*
+- StatefulWidget Lifecycle *(coming soon - see [Week 4A notes](../weekly/4A.md))*
 - Provider Pattern *(coming soon - Week 10A)*
 - ChangeNotifier *(coming soon - Week 10A)*
 - FutureProvider *(coming soon - Week 10B)*
@@ -90,20 +90,20 @@
 - Build & Release *(coming soon - Week 13B)*
 
 ### 🎯 Common Patterns
-- Extract Method & DRY *(coming soon - Week 5B)*
-- Code Organization *(coming soon - Week 5B)*
+- Extract Method & DRY *(coming soon - see [Week 5B notes](../weekly/5B.md))*
+- Code Organization *(coming soon - see [Week 5B notes](../weekly/5B.md))*
 - Professional Commenting *(coming soon - Week 7B)*
-- Widget Extraction *(coming soon - Week 2B)*
+- Widget Extraction *(coming soon - see [Week 2B notes](../weekly/2B.md))*
 
 ### 🐛 Troubleshooting
 - Common Flutter Errors *(coming soon)*
-- Debugging Techniques *(coming soon - Week 2B)*
+- Debugging Techniques *(coming soon - see [Week 2B notes](../weekly/2B.md))*
 - Widget Inspector *(coming soon - Week 7B)*
 - Performance Tips *(coming soon)*
-- flutter clean & Submission *(coming soon - Week 2A)*
+- flutter clean & Submission *(coming soon - see [Week 2A notes](../weekly/2A.md))*
 
 ### 📱 Platform-Specific
-- iOS Cupertino Widgets *(coming soon - Week 4B)*
+- iOS Cupertino Widgets *(coming soon - see [Week 4B notes](../weekly/4B.md))*
 - Platform-Adaptive Design *(coming soon)*
 - Android vs iOS Differences *(coming soon)*
 
