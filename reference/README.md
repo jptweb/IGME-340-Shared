@@ -105,8 +105,6 @@
 
 ### 📱 Platform-Specific
 - iOS Cupertino Widgets *(coming soon - see [Week 4B notes](../weekly/4B.md))*
-- Platform-Adaptive Design *(coming soon)*
-- Android vs iOS Differences *(coming soon)*
 
 ---
 
