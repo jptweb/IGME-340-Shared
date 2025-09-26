@@ -10,14 +10,14 @@
 - Material vs Cupertino Design *(coming soon - Week 4B)*
 
 ### 📦 Core Widgets
-- Container Basics *(coming soon - Week 3A)*
-- Layout Widgets (Row, Column, Stack) *(coming soon - Week 3A/5A)*
+- [Container Basics](widgets/container-basics.md) - Sizing, padding, margin, alignment
+- [Layout Widgets (Row, Column, Stack)](widgets/layout-widgets.md) - Arranging widgets
 - Positioned & Align Widgets *(coming soon - Week 5A)*
 - Expanded & Flexible *(coming soon - Week 8B)*
 - Padding & SizedBox *(coming soon - Week 3A)*
 
 ### 🔘 Buttons & Interaction
-- Button Types (Elevated, Outlined, Text) *(coming soon - Week 3B)*
+- [Button Types (Elevated, Outlined, Text)](widgets/button-types.md) - All button variants and styling
 - IconButton & FloatingActionButton *(coming soon - Week 9A)*
 - InkWell & GestureDetector *(coming soon - Week 4B)*
 - Button Styling & Themes *(coming soon - Week 3B)*
