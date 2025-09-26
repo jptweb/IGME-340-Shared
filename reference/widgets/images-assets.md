@@ -74,30 +74,6 @@ Container(
 )
 ```
 
-### With Error Handling
-```dart
-Image.network(
-  'https://example.com/image.jpg',
-  errorBuilder: (context, error, stackTrace) {
-    return Container(
-      color: Colors.grey,
-      child: Icon(Icons.error, color: Colors.red),
-    );
-  },
-  loadingBuilder: (context, child, loadingProgress) {
-    if (loadingProgress == null) return child;
-    return Center(
-      child: CircularProgressIndicator(
-        value: loadingProgress.expectedTotalBytes != null
-            ? loadingProgress.cumulativeBytesLoaded /
-                loadingProgress.expectedTotalBytes!
-            : null,
-      ),
-    );
-  },
-)
-```
-
 ## pubspec.yaml Configuration
 
 ### Specific Files
@@ -179,16 +155,6 @@ Stack(
       ),
     ),
   ],
-)
-```
-
-### Placeholder While Loading
-```dart
-FadeInImage.assetNetwork(
-  placeholder: 'assets/images/loading.gif',
-  image: 'https://example.com/image.jpg',
-  width: 200,
-  height: 200,
 )
 ```
 
