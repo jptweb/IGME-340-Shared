@@ -19,7 +19,7 @@
 ### 🔘 Buttons & Interaction
 - [Button Types (Elevated, Outlined, Text)](widgets/button-types.md) - All button variants and styling
 - IconButton & FloatingActionButton *(coming soon - Week 9A)*
-- InkWell & GestureDetector *(coming soon - Week 4B)*
+- [InkWell & GestureDetector](widgets/inkwell-gesturedetector.md) - Making any widget clickable
 - Button Styling & Themes *(coming soon - Week 3B)*
 
 ### 📝 Input & Forms
@@ -40,7 +40,7 @@
 - SliverGridDelegate *(coming soon - Week 7B)*
 
 ### 🧭 Navigation
-- Dialogs & Alerts *(coming soon - Week 4B)*
+- [Dialogs & Alerts](navigation/dialogs-alerts.md) - AlertDialog, showDialog, popups
 - ScaffoldMessenger & SnackBar *(coming soon - Week 5A)*
 - MaterialBanner *(coming soon - Week 5A)*
 - Navigator & MaterialPageRoute *(coming soon - Week 9B)*
@@ -50,7 +50,7 @@
 - TabBar & TabBarView *(coming soon - Week 11A)*
 
 ### 🔄 State Management
-- setState Basics *(coming soon - Week 4A)*
+- [setState Basics](state-management/setstate-basics.md) - Fundamental state updates
 - StatefulWidget Lifecycle *(coming soon - Week 4A)*
 - Provider Pattern *(coming soon - Week 10A)*
 - ChangeNotifier *(coming soon - Week 10A)*
