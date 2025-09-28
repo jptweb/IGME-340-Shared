@@ -1,10 +1,16 @@
-NOTE to students; I am currently working an enhanced view of the schedule with all the RIT breaks etc mapped out. If you are finding this I haven't yet offically published it but feel free to browse; I am just not sure if its 100% perfect yet
-
-
 # IGME-340 Fall 2025 - Complete Course Roadmap
 
 ## Course Overview Summary
 Multi-platform development focused on Flutter/Dart, progressing from foundational skills (Weeks 1-5) to project-based learning (Weeks 6-15). Android-first approach ensuring all students can participate regardless of computer type.
+
+### Important Dates
+- 09/02: Last day of Add/Drop period
+- 10/13-10/14: Fall Break
+- 11/07: Last day to drop with grade of "W"
+- 11/27-11/28: Thanksgiving Break
+- 12/08: Last day of classes
+- 12/09: Reading Day
+- 12/10-12/17: Final Exam Period
 
 ---
 
