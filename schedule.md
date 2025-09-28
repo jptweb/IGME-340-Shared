@@ -127,7 +127,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **CheckBox Widgets:** Basic checkboxes, CheckboxListTile, tri-state checkboxes
 - **ListView:** Basic ListView, ListView.builder for dynamic content, ListTile widgets
 
-**Homework:** Gif Finder Lab preparation
+**Homework:** TextFields and Dropdown Lab
 
 ---
 
@@ -148,7 +148,8 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Widget Inspector:** Visual debugging tools, widget tree navigation
 - **Code Standards:** Professional commenting, widget extraction techniques
 
-**Project 1 Due:** Design to Spec completion
+
+**Homework:** Gif Finder Lab
 
 ---
 
