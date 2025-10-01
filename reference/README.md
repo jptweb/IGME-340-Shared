@@ -17,7 +17,7 @@
 - **[SVG Images](assets/svg-images.md)** - Using flutter_svg, handling color issues ✨ NEW
 - Positioned & Align Widgets *(covered in [Stack Widget](widgets/stack-widget.md))*
 - Expanded & Flexible *(coming soon - Week 8B)*
-- Padding & SizedBox *(coming soon - see [Week 3A notes](../weekly/3A.md))*
+- [Padding & SizedBox](widgets/padding-sizedbox.md) - Spacing and sizing widgets
 
 ### 🔘 Buttons & Interaction
 - [Button Types & Styling](widgets/button-types.md) - All button variants with theming and customization
