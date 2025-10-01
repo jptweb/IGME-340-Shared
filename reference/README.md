@@ -24,11 +24,11 @@
 - Button Styling & Themes *(coming soon - see [Week 3B notes](../weekly/3B.md))*
 
 ### 📝 Input & Forms
-- TextField Basics *(coming soon - Week 6A)*
+- [TextField Basics](input-forms/textfield-basics.md) - Text input, controllers, decoration
 - TextFormField & Validation *(coming soon - Week 6B)*
-- InputDecoration & Styling *(coming soon - Week 6A)*
-- TextEditingController *(coming soon - Week 6A)*
-- DropdownButton *(coming soon - Week 6A)*
+- InputDecoration & Styling *(covered in [TextField Basics](input-forms/textfield-basics.md))*
+- [TextEditingController](input-forms/textfield-basics.md#using-texteditingcontroller-recommended) - Managing text input
+- [DropdownButton](input-forms/dropdown-button.md) - Selection from predefined options
 - Checkbox & Radio *(coming soon - Week 6B)*
 - Form Widget & GlobalKey *(coming soon - Week 6B)*
 - Focus Management *(coming soon - Week 8B)*
