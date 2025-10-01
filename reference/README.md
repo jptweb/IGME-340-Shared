@@ -12,8 +12,10 @@
 ### 📦 Core Widgets
 - [Container Basics](widgets/container-basics.md) - Sizing, padding, margin, alignment
 - [Layout Widgets (Row, Column, Stack)](widgets/layout-widgets.md) - Arranging widgets
+- **[Stack Widget](widgets/stack-widget.md)** - Layering widgets, Positioned, z-order ✨ NEW
 - [Images & Assets](widgets/images-assets.md) - Local and network images, asset configuration
-- Positioned & Align Widgets *(coming soon - see [Week 5A notes](../weekly/5A.md))*
+- **[SVG Images](assets/svg-images.md)** - Using flutter_svg, handling color issues ✨ NEW
+- Positioned & Align Widgets *(covered in [Stack Widget](widgets/stack-widget.md))*
 - Expanded & Flexible *(coming soon - Week 8B)*
 - Padding & SizedBox *(coming soon - see [Week 3A notes](../weekly/3A.md))*
 
@@ -40,10 +42,9 @@
 - GridView & GridTile *(coming soon - Week 7B)*
 - SliverGridDelegate *(coming soon - Week 7B)*
 
-### 🧭 Navigation
+### 🧭 Navigation & Notifications
 - [Dialogs & Alerts](navigation/dialogs-alerts.md) - AlertDialog, showDialog, popups
-- ScaffoldMessenger & SnackBar *(coming soon - see [Week 5A notes](../weekly/5A.md))*
-- MaterialBanner *(coming soon - see [Week 5A notes](../weekly/5A.md))*
+- **[ScaffoldMessenger](notifications/scaffold-messenger.md)** - SnackBar, MaterialBanner ✨ NEW
 - Navigator & MaterialPageRoute *(coming soon - Week 9B)*
 - Named Routes *(coming soon - Week 9B)*
 - GoRouter Package *(coming soon - Week 10A)*
@@ -123,6 +124,9 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 ## By Week Coverage
 
 ### Currently Available (Weeks 1-5)
+- Stack Widget (Week 5A)
+- SVG Images (Week 5A)
+- ScaffoldMessenger (Week 5A)
 - BoxDecoration (Week 4A)
 - *More topics being added weekly*
 
