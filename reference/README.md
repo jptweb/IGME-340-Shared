@@ -20,10 +20,9 @@
 - Padding & SizedBox *(coming soon - see [Week 3A notes](../weekly/3A.md))*
 
 ### 🔘 Buttons & Interaction
-- [Button Types (Elevated, Outlined, Text)](widgets/button-types.md) - All button variants and styling
-- IconButton & FloatingActionButton *(coming soon - Week 9A)*
+- [Button Types & Styling](widgets/button-types.md) - All button variants with theming and customization
+- IconButton & FloatingActionButton *(covered in [Button Types](widgets/button-types.md), FAB details Week 9A)*
 - [InkWell & GestureDetector](widgets/inkwell-gesturedetector.md) - Making any widget clickable
-- Button Styling & Themes *(coming soon - see [Week 3B notes](../weekly/3B.md))*
 
 ### 📝 Input & Forms
 - [TextField Basics](input-forms/textfield-basics.md) - Text input, controllers, decoration
