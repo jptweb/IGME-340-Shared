@@ -5,7 +5,7 @@
 ### 🎨 Styling & Theming
 - [BoxDecoration](styling/box-decoration.md) - Borders, shadows, gradients, rounded corners
 - [Themes & ThemeData](styling/themes.md) - Global app styling and color systems
-- ColorScheme & Color Generation *(coming soon - see [Week 3B notes](../weekly/3B.md))*
+- [ColorScheme & Color Generation](styling/colorscheme.md) - Material Design color system, fromSeed generation
 - [Text Styling & Custom Fonts](styling/text-fonts.md) - TextStyle, custom fonts, Google Fonts
 - Material vs Cupertino Design *(coming soon - see [Week 4B notes](../weekly/4B.md))*
 
@@ -91,10 +91,9 @@
 - Build & Release *(coming soon - Week 13B)*
 
 ### 🎯 Common Patterns
-- Extract Method & DRY *(coming soon - see [Week 5B notes](../weekly/5B.md))*
-- Code Organization *(coming soon - see [Week 5B notes](../weekly/5B.md))*
+- [Code Organization & DRY Principles](patterns/code-organization.md) - Extract methods, widget extraction, file structure, naming conventions
+- Widget Extraction Techniques *(covered in [Code Organization](patterns/code-organization.md))*
 - Professional Commenting *(coming soon - Week 7B)*
-- Widget Extraction *(coming soon - see [Week 2B notes](../weekly/2B.md))*
 
 ### 🐛 Troubleshooting
 - Common Flutter Errors *(coming soon)*
