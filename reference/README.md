@@ -31,7 +31,7 @@
 - [Form Validation](input-forms/form-validation.md) - Forms, validators, and input validation
 - InputDecoration & Styling *(covered in [TextField Basics](input-forms/textfield-basics.md))*
 - [TextEditingController](input-forms/textfield-basics.md#using-texteditingcontroller-recommended) - Managing text input
-- Form Widget & GlobalKey *(coming soon - Week 6B)*
+- Form Widget & GlobalKey - [Introduced in Form Validation Reference Section](input-forms/form-validation.md)
 - Focus Management *(coming soon - Week 8B)*
 
 ### 📋 Lists & Scrolling
