@@ -36,7 +36,7 @@
 
 ### 📋 Lists & Scrolling
 - [SingleChildScrollView](widgets/singlechildscrollview.md) - Handling overflow and scrolling
-- [ListView & ListTile / Lisview.builder](listview-basics.md)
+- [ListView & ListTile / Lisview.builder](widgets/listview-basics.md)
 - GridView & GridTile *(coming soon - Week 7B)*
 - SliverGridDelegate *(coming soon - Week 7B)*
 
