@@ -323,7 +323,3 @@ ListView(
 ---
 *Last updated: Week 6B | IGME-340 Reference*
 ```
-
----
-
-You can now copy each of these three sections and paste them into their respective files in your repository. Let me know if you need any adjustments to the content!
