@@ -1,4 +1,4 @@
-# Layout Widgets (Row, Column, Stack)
+# Row & Column Layout Widgets
 
 ## Quick Examples
 
@@ -20,16 +20,6 @@ Row(
     Icon(Icons.star),
     Text('5.0'),
     Text('(100 reviews)'),
-  ],
-)
-```
-
-### Stack - Layered Layout
-```dart
-Stack(
-  children: [
-    Container(color: Colors.blue, width: 200, height: 200),  // Bottom
-    Container(color: Colors.red, width: 100, height: 100),   // Top
   ],
 )
 ```
@@ -130,101 +120,9 @@ SingleChildScrollView(
 )
 ```
 
-## Stack Widget
-
-### Basic Layering
-```dart
-Stack(
-  alignment: Alignment.center,  // How to align non-positioned children
-  children: [
-    // Bottom layer
-    Container(
-      width: 300,
-      height: 300,
-      color: Colors.blue,
-    ),
-    // Middle layer
-    Container(
-      width: 200,
-      height: 200,
-      color: Colors.green,
-    ),
-    // Top layer
-    Container(
-      width: 100,
-      height: 100,
-      color: Colors.red,
-    ),
-  ],
-)
-```
-
-### Positioned Widget in Stack
-```dart
-Stack(
-  children: [
-    Container(
-      width: 300,
-      height: 300,
-      color: Colors.grey[300],
-    ),
-    Positioned(
-      top: 20,
-      left: 20,
-      child: Text('Top Left'),
-    ),
-    Positioned(
-      bottom: 20,
-      right: 20,
-      child: ElevatedButton(
-        onPressed: () {},
-        child: Text('Bottom Right'),
-      ),
-    ),
-    Positioned(
-      left: 0,
-      right: 0,
-      bottom: 50,
-      child: Center(
-        child: Text('Centered Horizontally'),
-      ),
-    ),
-  ],
-)
-```
-
-### Stack with Overflow
-```dart
-Stack(
-  clipBehavior: Clip.none,  // Allow children to overflow
-  children: [
-    Container(
-      width: 200,
-      height: 200,
-      color: Colors.blue,
-    ),
-    Positioned(
-      top: -25,    // Negative positioning
-      right: -25,
-      child: Container(
-        width: 50,
-        height: 50,
-        decoration: BoxDecoration(
-          color: Colors.red,
-          shape: BoxShape.circle,
-        ),
-        child: Center(
-          child: Text('3', style: TextStyle(color: Colors.white)),
-        ),
-      ),
-    ),
-  ],
-)
-```
-
 ## Common Patterns
 
-### Card Layout with Row
+### Card Layout with Row and Column
 ```dart
 Card(
   child: Padding(
@@ -263,28 +161,25 @@ Container(
 )
 ```
 
-### Overlay Badge with Stack
+### Form Layout with Column
 ```dart
-Stack(
+Column(
+  crossAxisAlignment: CrossAxisAlignment.stretch,
   children: [
-    Icon(Icons.shopping_cart, size: 40),
-    Positioned(
-      right: 0,
-      top: 0,
-      child: Container(
-        padding: EdgeInsets.all(2),
-        decoration: BoxDecoration(
-          color: Colors.red,
-          shape: BoxShape.circle,
-        ),
-        constraints: BoxConstraints(minWidth: 16, minHeight: 16),
-        child: Center(
-          child: Text(
-            '3',
-            style: TextStyle(color: Colors.white, fontSize: 10),
-          ),
-        ),
-      ),
+    Text('Login Form', style: TextStyle(fontSize: 24)),
+    SizedBox(height: 20),
+    TextField(
+      decoration: InputDecoration(labelText: 'Email'),
+    ),
+    SizedBox(height: 16),
+    TextField(
+      decoration: InputDecoration(labelText: 'Password'),
+      obscureText: true,
+    ),
+    SizedBox(height: 24),
+    ElevatedButton(
+      onPressed: () {},
+      child: Text('Login'),
     ),
   ],
 )
@@ -353,38 +248,58 @@ Row(
 | `crossAxisAlignment` | CrossAxisAlignment | Alignment along cross axis |
 | `mainAxisSize` | MainAxisSize | How much space to take |
 | `spacing` | double? | Space between children (new!) |
+| `textDirection` | TextDirection? | Direction for alignment |
+| `verticalDirection` | VerticalDirection | Order of children vertically |
 
-### Stack Properties
-| Property | Type | Description |
-|----------|------|-------------|
-| `children` | List<Widget> | Widgets to layer (first = bottom) |
-| `alignment` | AlignmentDirectional | How to align non-positioned children |
-| `fit` | StackFit | How to size non-positioned children |
-| `clipBehavior` | Clip | Whether to clip overflowing children |
+### MainAxisAlignment Values
+| Value | Description | Visual |
+|-------|-------------|--------|
+| `start` | Place at beginning | Items cluster at start |
+| `end` | Place at end | Items cluster at end |
+| `center` | Center items | Items centered |
+| `spaceBetween` | Space between items | Equal space between, none at edges |
+| `spaceEvenly` | Even space | Equal space including edges |
+| `spaceAround` | Space around items | Equal space, half at edges |
 
-## Key Differences
+## Key Differences Between Row and Column
 
-| Aspect | Column | Row | Stack |
-|--------|--------|-----|-------|
-| Direction | Vertical | Horizontal | Layered (z-axis) |
-| Main Axis | Vertical | Horizontal | N/A |
-| Cross Axis | Horizontal | Vertical | N/A |
-| Children Order | Top to bottom | Left to right | Bottom to top |
-| Overflow | Height issues | Width issues | Clips by default |
+| Aspect | Column | Row |
+|--------|--------|-----|
+| Direction | Vertical | Horizontal |
+| Main Axis | Vertical (↓) | Horizontal (→) |
+| Cross Axis | Horizontal (→) | Vertical (↓) |
+| Children Order | Top to bottom | Left to right (or RTL) |
+| Common Overflow | Height issues | Width issues |
+| Scroll Direction | Vertical | Horizontal |
 
 ## Common Mistakes & Solutions
 
 | Issue | Solution |
 |-------|----------|
 | Column/Row overflow errors | Wrap in SingleChildScrollView or use Expanded |
-| Stack children not visible | Check layering order (first = bottom) |
 | Alignment not working | Check if parent is constraining size |
 | Spacing between items | Use `spacing` property or SizedBox widgets |
 | Text overflow in Row | Wrap Text in Expanded or Flexible |
+| Items not stretching | Use `crossAxisAlignment: CrossAxisAlignment.stretch` |
+| Unwanted space | Check `mainAxisSize` - try `MainAxisSize.min` |
+
+## Best Practices
+
+1. **Use `spacing` property** - Cleaner than multiple SizedBox widgets
+2. **Wrap long content** - Always use Expanded/Flexible for variable-length text in Rows
+3. **Handle overflow early** - Add ScrollView before you need it
+4. **Consider mainAxisSize** - Use `MainAxisSize.min` when Column/Row shouldn't take full space
+5. **Test on different screens** - Row overflow often only appears on smaller devices
 
 ## When Covered in Course
-- **[Week 3A](../../weekly/3A.md)** - Column and Row basics
-- **[Week 5A](../../weekly/5A.md)** - Stack widget and Positioned
+- **[Week 3A](../../weekly/3A.md)** - Introduction to Column and Row
+- Used throughout course in almost every layout
+
+## Related Topics
+- [Stack Widget](stack-widget.md) - For layering widgets on top of each other
+- [Padding & SizedBox](padding-sizedbox.md) - For spacing between widgets
+- [SingleChildScrollView](singlechildscrollview.md) - For handling overflow
+- [Expanded & Flexible](../coming-soon.md) - For responsive sizing within Row/Column
 
 ---
 *Last updated: Week 5 | IGME-340 Reference*

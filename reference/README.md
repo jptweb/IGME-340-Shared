@@ -11,8 +11,8 @@
 
 ### 📦 Core Widgets
 - [Container Basics](widgets/container-basics.md) - Sizing, padding, margin, alignment
-- [Layout Widgets (Row, Column, Stack)](widgets/layout-widgets.md) - Arranging widgets
-- **[Stack Widget](widgets/stack-widget.md)** - Layering widgets, Positioned, z-order ✨ NEW
+- [Row & Column Layout](widgets/layout-widgets.md) - Horizontal and vertical widget arrangement
+- [Stack Widget](widgets/stack-widget.md) - Layering widgets, Positioned, z-order
 - [Images & Assets](widgets/images-assets.md) - Local and network images, asset configuration
 - **[SVG Images](assets/svg-images.md)** - Using flutter_svg, handling color issues ✨ NEW
 - Positioned & Align Widgets *(covered in [Stack Widget](widgets/stack-widget.md))*
