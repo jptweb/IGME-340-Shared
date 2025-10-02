@@ -29,17 +29,14 @@
 - [DropdownButton](input-forms/dropdown-button.md) - Selection menus and lists
 - [CheckBox Widgets](input-forms/checkbox-widgets.md) - CheckBox, CheckboxListTile, and tri-state
 - [Form Validation](input-forms/form-validation.md) - Forms, validators, and input validation
-- TextFormField & Validation *(coming soon - Week 6B)*
 - InputDecoration & Styling *(covered in [TextField Basics](input-forms/textfield-basics.md))*
 - [TextEditingController](input-forms/textfield-basics.md#using-texteditingcontroller-recommended) - Managing text input
-- Checkbox & Radio *(coming soon - Week 6B)*
 - Form Widget & GlobalKey *(coming soon - Week 6B)*
 - Focus Management *(coming soon - Week 8B)*
 
 ### 📋 Lists & Scrolling
 - [SingleChildScrollView](widgets/singlechildscrollview.md) - Handling overflow and scrolling
-- ListView & ListTile *(coming soon - Week 6B)*
-- ListView.builder *(coming soon - Week 7A)*
+- [ListView & ListTile / Lisview.builder](listview-basics.md)
 - GridView & GridTile *(coming soon - Week 7B)*
 - SliverGridDelegate *(coming soon - Week 7B)*
 
