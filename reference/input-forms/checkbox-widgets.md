@@ -1,4 +1,3 @@
-```markdown
 # Checkbox Widgets Reference
 
 ## Quick Example
