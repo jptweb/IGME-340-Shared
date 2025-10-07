@@ -1,5 +1,5 @@
 # HTTP & API Integration Reference
-
+> Some of this code goes well beyond what we covered in class, and maybe not all needed for your projects; but adding it to the reference guide so we have a nice resource to get us through all sorts of potential challenges we may encounter.
 ## Quick Example
 ```dart
 import 'package:http/http.dart' as http;
