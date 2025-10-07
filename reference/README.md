@@ -58,11 +58,12 @@
 - Consumer Widget *(coming soon - Week 10B)*
 
 ### 🌐 External Data & APIs
-- Async/Await Fundamentals *(coming soon - Week 7A)*
-- HTTP Package *(coming soon - Week 7A)*
-- JSON Parsing *(coming soon - Week 7A)*
-- API Authentication *(coming soon - Week 7A)*
-- Error Handling *(coming soon - Week 7A)*
+- **[Async/Await Fundamentals](network/async-await-fundamentals.md)** - Future, async, await, error handling ✨ NEW
+- **[HTTP & API Integration](network/http-api-integration.md)** - Complete API guide with sections on: ✨ NEW
+  - [Making HTTP Requests](network/http-api-integration.md#making-http-requests)
+  - [JSON Parsing](network/http-api-integration.md#json-parsing)
+  - [API Authentication](network/http-api-integration.md#api-authentication)
+  - [Error Handling](network/http-api-integration.md#error-handling)
 - CachedNetworkImage *(coming soon - Week 9A)*
 
 ### 💾 Data Persistence
@@ -120,7 +121,8 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 
 ## By Week Coverage
 
-### Currently Available (Weeks 1-5)
+### Currently Available (Weeks 1-7A)
+- **Async/Await & API Integration (Week 7A)** ✨ NEW
 - Stack Widget (Week 5A)
 - SVG Images (Week 5A)
 - ScaffoldMessenger (Week 5A)
@@ -128,8 +130,8 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 - *More topics being added weekly*
 
 ### Coming Soon
-- **Week 6:** Forms, TextFields, Validation
-- **Week 7:** API Calls, Async Programming, GridView
+- **Week 7B:** GridView, Widget Inspector
+- **Week 8:** Focus Management, Responsive Design
 - **Week 8-9:** Navigation, Data Persistence
 - **Week 10:** Provider State Management
 - **Week 11-12:** Flame Game Development
