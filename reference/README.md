@@ -37,8 +37,7 @@
 ### 📋 Lists & Scrolling
 - [SingleChildScrollView](widgets/singlechildscrollview.md) - Handling overflow and scrolling
 - [ListView & ListTile / Lisview.builder](widgets/listview-basics.md)
-- GridView & GridTile *(coming soon - Week 7B)*
-- SliverGridDelegate *(coming soon - Week 7B)*
+- **[GridView & GridTile](widgets/gridview-basics.md)** - Grid layouts, GridView.builder, SliverGridDelegate ✨ NEW
 
 ### 🧭 Navigation & Notifications
 - [Dialogs & Alerts](navigation/dialogs-alerts.md) - AlertDialog, showDialog, popups
@@ -121,7 +120,8 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 
 ## By Week Coverage
 
-### Currently Available (Weeks 1-7A)
+### Currently Available (Weeks 1-7B)
+- **GridView & GridTile (Week 7B)** ✨ NEW
 - **Async/Await & API Integration (Week 7A)** ✨ NEW
 - Stack Widget (Week 5A)
 - SVG Images (Week 5A)
@@ -130,7 +130,7 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 - *More topics being added weekly*
 
 ### Coming Soon
-- **Week 7B:** GridView, Widget Inspector
+- **Week 7B:** Widget Inspector
 - **Week 8:** Focus Management, Responsive Design
 - **Week 8-9:** Navigation, Data Persistence
 - **Week 10:** Provider State Management

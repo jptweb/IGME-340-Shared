@@ -14,6 +14,14 @@ GridView.count(
 )
 ```
 
+## Visual GridView Designer Tool
+
+🎨 **Want to experiment with GridView layouts visually?** Check out the [GridView Builder Tool](https://jptweb.github.io/GridView-Builder-For-Flutter/gridview-builder-all-in-one.html) - an interactive designer that lets you play with crossAxisCount, spacing, aspect ratios, and more. Great for prototyping your layouts before coding!
+
+> **Note:** This is a work-in-progress tool created by Prof. Takats. It's useful for getting a visual sense of how different properties affect your grid layout. Try it out and provide feedback!
+
+---
+
 ## Core Concepts
 
 ### GridView.count - Fixed Static Grid
