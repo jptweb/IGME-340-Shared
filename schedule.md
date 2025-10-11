@@ -18,7 +18,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 **Aug 26 & 28**
 
 ### Week 1A (Tuesday): Course Introduction
-- **Administrative:** Syllabus, grading structure (70% projects, 10% each: participation, assessments, homework)
+- **Administrative:** Syllabus, grading structure (70% projects, 20% homework/labs, 10% participation)
 - **Platform Overview:** Multiplatform development concepts, why Flutter (46% adoption rate)
 - **Dart Basics:** Variables, data types (int, double, String, bool), string interpolation
 - **Tools:** DartPad introduction for immediate practice
@@ -158,8 +158,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 
 ### Week 8A: Fall Break - No Class
 
-### Week 8B: Midterm Assessment & Advanced Text Fields
-- **Midterm Assessment:** In-class technical assessment (5% of grade)
+### Week 8B: Advanced Text Fields & Responsive Design
 - **Responsive Design:** Expanded widget for dynamic sizing, orientation handling
 - **Focus Management:** FocusNode, FocusManager, programmatic focus control
 - **Text Field Enhancement:** Suffix icons, onTapOutside, onEditingComplete
@@ -297,7 +296,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ---
 
 ## Finals Week: Dec 10-17
-**Final Assessment (5%) & Project 3 Final Submissions**
+**Project 3 Final Submissions**
 
 ---
 
