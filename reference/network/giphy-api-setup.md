@@ -1,5 +1,7 @@
 # GIPHY API Setup Guide
-
+> This documentation walks you through the process of completing the Giffinder Lab. Keep in mind though for project 2 you will need to navigate much of this process
+> on your own for the API you choose. So do use the documentation; but try and understand each step of the process so you can do this on your own later.
+> The good news is that most APIs have comprehensive documenation and examples that mirror what you will find below (although they may be written for another programming language and not flutter.
 ## Getting Your API Key
 
 GIPHY provides free API access with generous rate limits for development and educational use. Here's how to get started.
