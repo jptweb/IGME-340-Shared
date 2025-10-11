@@ -305,8 +305,9 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 **Dec 16 (Tuesday 10:45 AM - 1:15 PM)**
 
 **Project 3 Final Submissions & Presentations**
-- Online submission (no in-person meeting required)
-- Project presentations due by scheduled final exam time
+- I am currently planning out the format for this. I think i'd like to give everyone a chance to present there topics; but I will likely want to do this on zoom as it is
+so late in the final exam period and I know some people may want to travel as early as possible. So we will likely have to try and do a QUICK rapid fire presentation where
+people can show there projects off!
 
 ---
 
