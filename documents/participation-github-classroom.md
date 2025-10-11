@@ -47,7 +47,7 @@ Submit your work using **one of two methods**:
 
 ## Submission Method 2: Full Flutter Project (Optional)
 
-If you prefer to keep the complete project structure:
+If you prefer to keep the complete project structure. This method is probably the more advisable method as it preserves your .yaml and other assets for example, and you could easilly restart the project another time. However it is a tad more work and want to make this easy:
 
 ### Option A: Using GitHub Desktop (Recommended)
 1. Clone your assignment repo using GitHub Desktop
