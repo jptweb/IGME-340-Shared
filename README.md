@@ -59,13 +59,11 @@ Reference pages link back to weekly notes for context, and weekly notes link to 
 ---
 
 ### 🔬 [Labs](labs/)
-Hands-on assignments that build foundational Flutter and Dart skills. Most labs are concentrated in the first 6 weeks.
+Hands-on assignments that build foundational Flutter and Dart skills. 
 
 **Current Labs:**
 - **Lab 01** - Basic Layout Challenge
 - **Lab 02** - GIF Finder (HTTP requests, GridView, API integration)
-- **Lab 03** - TBD
-- **Lab 04** - TBD
 - *(More labs added throughout semester)*
 
 **What to Expect:**
