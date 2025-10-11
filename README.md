@@ -135,7 +135,7 @@ How to properly submit your work for this course.
 ## 🚀 Getting Started
 
 ### New to the Course?
-1. Read the [syllabus](documents/) to understand course structure
+1. Read the Syllabus in mycourses to understand course structure
 2. Check the [schedule](schedule.md) to see what's coming up
 3. Follow [Week 1A notes](weekly/1A.md) to set up your development environment
 4. Bookmark the [reference guide](reference/) for quick lookups while coding
@@ -143,54 +143,19 @@ How to properly submit your work for this course.
 ### Looking for Something Specific?
 - **Setting up Flutter?** → [Week 1A Notes](weekly/1A.md)
 - **How do I use [widget]?** → [Reference Guide](reference/)
-- **What's due this week?** → [Schedule](schedule.md) or [MyCourses](https://mycourses.rit.edu)
+- **What's due this week?** → [Schedule](schedule.md) for a general idea; but use MyCourses Assignment page for the source of truth!
 - **Lab instructions?** → [Labs folder](labs/)
 - **What did we do in class?** → [Weekly Notes](weekly/)
 
 ### Working on an Assignment?
 1. Check the [weekly notes](weekly/) for what we covered in class
 2. Review the [reference guide](reference/) for syntax and patterns
-3. Look at [previous labs](labs/) for similar examples
 4. Test early and often!
 5. Don't forget `flutter clean` before submission!
 
 ---
 
-## 🔍 How to Navigate This Repository
-
-### By Timeline (Chronological Learning)
-```
-schedule.md → weekly/1A.md → weekly/1B.md → weekly/2A.md → ...
-```
-Follow this path to experience the course as it unfolds week-by-week.
-
-### By Topic (Reference Lookup)
-```
-reference/README.md → reference/widgets/container-basics.md
-                   → reference/styling/box-decoration.md
-                   → reference/network/http-api-integration.md
-```
-Jump directly to specific topics when you need quick syntax help.
-
-### By Assignment (Getting Work Done)
-```
-schedule.md → labs/lab_01.md + weekly/2A.md + reference/widgets/
-```
-Check schedule for due dates, read lab requirements, refer to class notes for context, use reference for syntax.
-
----
-
 ## 💡 Course Philosophy
-
-**Engagement Over Encyclopedias**  
-This course prioritizes sparking your curiosity about multiplatform development over memorizing every widget. You'll learn to:
-- Assess client needs and recommend solutions
-- Make informed architecture decisions
-- Communicate technical concepts professionally
-- Navigate documentation and learn independently
-
-**AI in a Flutter World**  
-We acknowledge AI's capabilities while ensuring you develop foundational understanding. Assessments focus on architecture, decision-making, and communication - skills that complement AI rather than compete with it.
 
 **Real-World Readiness**  
 By the end of this course, you'll be able to:
@@ -265,13 +230,6 @@ By completing this course, you will be able to:
 
 ## 📊 Grading Breakdown
 
-| Component | Weight | Details |
-|-----------|--------|---------|
-| **Projects** | 70% | Three major projects (15% + 25% + 30%) |
-| **Labs/Homework** | 10% | ~5-6 assignments (front-loaded in weeks 1-6) |
-| **Participation** | 10% | In-class activities and engagement |
-| **Technical Assessments** | 10% | Midterm (5%) + Final (5%) |
-
 **Note:** See [syllabus](documents/) for complete grading policies, late work, and academic integrity guidelines.
 
 ---
@@ -295,31 +253,16 @@ By completing this course, you will be able to:
 - Have your development environment ready
 
 **During Class:**
-- Take notes in addition to these shared notes (personalize them!)
+- Have the days Notes open (from this repo, linked to from mycourses as well)
 - Try code examples yourself as we go
-- Ask questions when concepts are unclear
-- Engage with in-class exercises
+- Ask questions when concepts are unclear (i'll try and stop to help thats fine; if you fall to far behind don't fret as the weekly content has the examples; and I can help you later).
 
 **After Class:**
-- Review the weekly notes within 24 hours
+- Review the weekly notes within 24 hours; and submit the newly added Participation Metric in github classroom.
 - Complete homework assignments early (don't wait until due date)
 - Practice concepts on your own projects
 - Use the reference guide when coding
 
-**Project Success:**
-- Start early - time management is crucial
-- Read requirements carefully before starting
-- Test on actual devices when possible
-- Always run `flutter clean` before submitting
-- Document your architecture decisions
-
-**Getting Unstuck:**
-- Read the error message carefully (they're usually helpful!)
-- Check the reference guide for common issues
-- Search the weekly notes for similar problems
-- Try the Flutter documentation
-- Ask on Slack with specific error messages
-- Come to office hours with reproducible issues
 
 ---
 
@@ -346,12 +289,10 @@ Course materials © 2025 John-Paul Takats, RIT School of Interactive Games and M
 - Share knowledge with future students
 
 **Attribution:**
-Some materials adapted from previous IGME-340 instructors. Credit given where applicable.
+Some materials adapted from previous IGME-340 instructors. Special shout out to Dower Chin! Credit given where applicable.
 
 ---
 
-**Last Updated:** January 2025  
-**Course Website:** [GitHub Repository](https://github.com/jptweb/IGME-340-Shared)  
 **Questions?** Contact jxtadm@rit.edu
 
 ---
