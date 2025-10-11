@@ -94,24 +94,18 @@ Projects emphasize architecture decisions, client communication, and solution as
 ---
 
 ### 🏋️ [Exercises](exercises/)
-In-class practice exercises and Dart fundamentals.
+Similar to the Labs. Probably should just be renamed next semester to either call these Labs or Exercises! The idea these were meant to perhaps be early general activities that were a little smaller then the labs.
 
 **Content:**
 - Dart language exercises
 - Quick Flutter widget practice
-- In-class challenges
 - Warm-up activities
 
 ---
 
 ### 📋 [Documents](documents/)
-Course policies, guidelines, and supplementary materials.
-
-**Includes:**
-- Syllabus and course policies
-- Academic integrity guidelines
-- AI usage guidelines
-- Additional resources
+Course policies, guidelines, and supplementary materials that don't fit in the reference documentation. Since I have the syllabus on mycourses. The syllabus probabably should have gone here, but instead its linked to from
+mycourses (see Syllabus folder in content for that in mycourses)
 
 ---
 
