@@ -17,13 +17,13 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 1: Course Foundation & Dart Introduction
 **Aug 26 & 28**
 
-### Week 1A (Tuesday): Course Introduction
+### [Week 1A](weekly/1A.md) (Tuesday): Course Introduction
 - **Administrative:** Syllabus, grading structure (70% projects, 20% homework/labs, 10% participation)
 - **Platform Overview:** Multiplatform development concepts, why Flutter (46% adoption rate)
 - **Dart Basics:** Variables, data types (int, double, String, bool), string interpolation
 - **Tools:** DartPad introduction for immediate practice
 
-### Week 1B (Thursday): Dart Fundamentals 
+### [Week 1B](weekly/1B.md) (Thursday): Dart Fundamentals 
 - **Collections:** Lists (arrays), Maps (dictionaries), basic operations
 - **Functions:** Basic syntax, arrow functions, named parameters
 - **Environment Setup:** Flutter installation guidance, VS Code configuration
@@ -35,13 +35,13 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 2: Flutter Development Environment
 **Sep 2 & 4**
 
-### Week 2A: VS Code Setup & First Flutter App
+### [Week 2A](weekly/2A.md): VS Code Setup & First Flutter App
 - **Project Creation:** Command Palette, Flutter project templates, path requirements (no spaces!)
 - **Development Cycle:** Running apps, device selection (emulator/Chrome), hot reload/restart
 - **Architecture:** Widget tree introduction, StatelessWidget vs StatefulWidget, BuildContext
 - **Core Widgets:** MaterialApp, Scaffold, AppBar, basic structure
 
-### Week 2B: Development Tools & Debugging
+### [Week 2B](weekly/2B.md): Development Tools & Debugging
 - **VS Code Features:** Widget manipulation shortcuts (Cmd/Ctrl + Period), code extraction methods
 - **Debugging:** Breakpoints, debug console, Chrome DevTools integration
 - **Code Organization:** Extract Method, Extract Widget, Extract Local Variable
@@ -54,14 +54,14 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 3: Layout Fundamentals
 **Sep 9 & 11**
 
-### Week 3A: Basic Layout Widgets
+### [Week 3A](weekly/3A.md): Basic Layout Widgets
 - **Container:** Sizing behavior, positioning, styling basics
 - **Layout Widgets:** Column, Row, spacing property (new Flutter feature)
 - **Alignment:** MainAxisAlignment, CrossAxisAlignment
 - **Overflow Handling:** SingleChildScrollView for scrollable content
 - **Widget Shortcuts:** Using Cmd/Ctrl + Period for quick widget wrapping
 
-### Week 3B: Buttons & Theme System
+### [Week 3B](weekly/3B.md): Buttons & Theme System
 - **Button Types:** ElevatedButton, OutlinedButton, TextButton, IconButton
 - **Styling:** Inline styles with styleFrom(), custom icons and text
 - **Theme System:** ThemeData, ColorScheme.fromSeed (47 color generation), light/dark themes
@@ -74,14 +74,14 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 4: Interactive Elements & Assets
 **Sep 16 & 18**
 
-### Week 4A: State Management & Styling
+### [Week 4A](weekly/4A.md): State Management & Styling
 - **Project 1 Launch:** Design to Spec (Minecraft theme) introduction
 - **State Management:** setState() fundamentals, button callbacks, UI rebuilding
 - **AppBar Customization:** Background colors, elevation, leading/action widgets
 - **Advanced Styling:** BoxDecoration (borders, shadows, backgrounds), Color.fromARGB()
 - **Images:** Local assets (pubspec.yaml configuration), Network images, AssetImage vs NetworkImage
 
-### Week 4B: Custom Fonts & Dialogs
+### [Week 4B](weekly/4B.md): Custom Fonts & Dialogs
 - **Font Installation:** Manual font setup, assets folder structure, pubspec.yaml font declarations
 - **Google Fonts:** Package limitations, compatibility issues with certain fonts
 - **Clickable Widgets:** InkWell (with ripple effects), GestureDetector, Material wrapper
@@ -95,13 +95,13 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 5: Advanced UI Components
 **Sep 23 & 25**
 
-### Week 5A: Stack & Communication Widgets
+### [Week 5A](weekly/5A.md): Stack & Communication Widgets
 - **Stack Widget:** Overlaying widgets, positioning with Positioned
 - **SVG Images:** flutter_svg package, vector graphics handling
 - **ScaffoldMessenger:** SnackBar, MaterialBanner with cascade notation (..)
 - **Communication Patterns:** Showing temporary messages, user feedback
 
-### Week 5B: Project 1 Support & Code Organization
+### [Week 5B](weekly/5B.md): Project 1 Support & Code Organization
 - **Project 1 Support:** Focus shifted to helping with current project needs
 - **Code Organization:** Extract Method for reducing repetition (DRY principle)
 - **GestureDetector:** Implementing clickable containers for Project 1
@@ -113,14 +113,14 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 6: User Input & Forms
 **Sep 30 & Oct 2**
 
-### Week 6A: DropdownList & TextFields
+### [Week 6A](weekly/6A.md): DropdownList & TextFields
 - **DropdownButton:** DropdownMenuItem, selection handling, dynamic options with .map()
 - **TextField Basics:** onSubmitted callbacks, capturing user input
 - **Input Styling:** InputDecoration (borders, labels, padding, fill colors)
 - **Keyboard Types:** TextInputType (numeric, datetime, email) for appropriate contexts
 - **TextEditingController:** Better text field management, initialization and cleanup
 
-### Week 6B: Form Validation & Advanced Input
+### [Week 6B](weekly/6B.md): Form Validation & Advanced Input
 - **Form Management:** Global keys, form validation patterns, validator functions
 - **TextFormField:** Validation with validator property, auto-validation modes
 - **Validation Packages:** email_validator from pub.dev
@@ -134,14 +134,14 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 7: External Data & Advanced Layouts
 **Oct 7 & 9**
 
-### Week 7A: Asynchronous Programming & HTTP Requests
+### [Week 7A](weekly/7A.md): Asynchronous Programming & HTTP Requests
 - **API Integration:** HTTP package, GET/POST requests, authentication with Bearer tokens
 - **Async Programming:** Future, async/await, error handling with try-catch
 - **JSON Handling:** Parsing API responses with jsonDecode()
 - **ListView.Builder:** Dynamically generating lists from API data
 - **State Management:** Using setState() to update UI after async operations
 
-### Week 7B: GridView & Giphy API Integration
+### [Week 7B](weekly/7B.md): GridView & Giphy API Integration
 - **Giphy API:** Real API integration, authentication with API keys, nested JSON responses
 - **GridView:** GridView.count, GridView.builder, SliverGridDelegate
 - **GridTile:** Structured grid items with headers/footers
@@ -158,7 +158,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 
 ### Week 8A: Fall Break - No Class
 
-### Week 8B: Advanced Text Fields & Responsive Design
+### [Week 8B](weekly/8B.md): Advanced Text Fields & Responsive Design
 - **Responsive Design:** Expanded widget for dynamic sizing, orientation handling
 - **Focus Management:** FocusNode, FocusManager, programmatic focus control
 - **Text Field Enhancement:** Suffix icons, onTapOutside, onEditingComplete
@@ -170,14 +170,14 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 9: Data Persistence & Navigation Fundamentals
 **Oct 21 & 23**
 
-### Week 9A: Data Storage & External Integration
+### [Week 9A](weekly/9A.md): Data Storage & External Integration
 - **Project 2 Introduction:** Web Service Application overview
 - **Data Persistence:** shared_preferences package for local storage
 - **External Apps:** url_launcher for opening web browsers
 - **Image Caching:** CachedNetworkImage for efficient image loading
 - **FloatingActionButton:** Action buttons, integration patterns
 
-### Week 9B: Page Navigation Fundamentals
+### [Week 9B](weekly/9B.md): Page Navigation Fundamentals
 - **Navigation Stack:** Understanding push/pop behavior, Navigator methods
 - **MaterialPageRoute:** Basic page navigation with full widget references
 - **Named Routes:** String-based navigation, route definitions in MaterialApp
@@ -191,14 +191,14 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 10: Advanced Navigation & State Management
 **Oct 28 & 30**
 
-### Week 10A: GoRouter & Provider Pattern
+### [Week 10A](weekly/10A.md): GoRouter & Provider Pattern
 - **GoRouter Package:** Navigation 2.0, URL-style routing with parameters
 - **Provider Pattern:** ChangeNotifier, ChangeNotifierProvider, global state management
 - **Context Methods:** context.watch() vs context.read(), automatic UI updates
 - **State Architecture:** Eliminating setState, centralized data management
 - **notifyListeners():** Triggering UI rebuilds across multiple pages
 
-### Week 10B: Async State Management
+### [Week 10B](weekly/10B.md): Async State Management
 - **FutureProvider:** Provider wrapper for async operations, API integration
 - **Custom Providers:** Creating ChangeNotifier classes for business logic
 - **Consumer Widget:** Alternative syntax for accessing provider data
@@ -212,14 +212,14 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 11: Navigation UI & Game Development Introduction
 **Nov 4 & 6**
 
-### Week 11A: Navigation UI Components
+### [Week 11A](weekly/11A.md): Navigation UI Components
 - **TabBar System:** DefaultTabController, TabBar, TabBarView, Tab widgets
 - **BottomNavigationBar:** BottomNavigationBarItem, multiple page management
 - **State Preservation:** IndexedStack vs direct widget switching
 - **AutomaticKeepAliveClientMixin:** State maintenance for TabBar pages
 - **Navigation State:** Managing currentIndex, onTap handlers
 
-### Week 11B: Flame Game Engine Basics
+### [Week 11B](weekly/11B.md): Flame Game Engine Basics
 - **Project 3 Overview:** Roll Your Own Application requirements
 - **Flame Setup:** GameWidget, FlameGame base class, game lifecycle
 - **Sprite Components:** Loading and displaying game sprites
@@ -233,14 +233,14 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 12: Game Development & Audio
 **Nov 11 & 13**
 
-### Week 12A: Game UI Integration
+### [Week 12A](weekly/12A.md): Game UI Integration
 - **Flame Overlays:** UI layers on top of game canvas, overlay management
 - **Flutter Integration:** Combining game widgets with Material design
 - **WebView Integration:** webview_flutter package, HTML content in games
 - **Game Controls:** Pause/resume functionality, game state management
 - **Transparent UI:** Material backgrounds, overlay positioning
 
-### Week 12B: Provider with Games & Audio
+### [Week 12B](weekly/12B.md): Provider with Games & Audio
 - **GameWidget.controlled:** Required pattern for Provider integration
 - **Game State Management:** ChangeNotifier with Flame games
 - **Audio System:** audioplayers package, background music vs sound effects
@@ -254,7 +254,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 13: Lifecycle & Production Prep
 **Nov 18 & 20**
 
-### Week 13A: Application Lifecycle & Complex Navigation
+### [Week 13A](weekly/13A.md): Application Lifecycle & Complex Navigation
 - **Application Lifecycle:** WidgetsBindingObserver, AppLifecycleState handling
 - **Resource Management:** Pausing games/audio when app backgrounded
 - **Game Navigation:** Flame games within BottomNavigationBar structure
@@ -262,7 +262,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **IndexedStack:** Preventing game widget disposal when switching tabs
 - **Professional Patterns:** Lifecycle state handling, memory leak prevention
 
-### Week 13B: Splash Screens & App Icons
+### [Week 13B](weekly/13B.md): Splash Screens & App Icons
 - **Splash Screens:** flutter_native_splash package, app startup experience
 - **Custom Icons:** flutter_launcher_icons package, app icon generation
 - **Platform Requirements:** Icon sizes, adaptive icons for Android
@@ -273,7 +273,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 14: Responsive Design & Break
 **Nov 25 & 27**
 
-### Week 14A: Responsive Design
+### [Week 14A](weekly/14A.md): Responsive Design
 - **MediaQuery:** Device dimensions, screen size detection, orientation handling
 - **LayoutBuilder:** Building layouts based on parent constraints
 - **AspectRatio Widget:** Maintaining proportions across devices
@@ -288,13 +288,13 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 15: Course Wrap-up
 **Dec 2 & 4**
 
-### Week 15A: App Stores & Publishing + Lab Time
+### [Week 15A](weekly/15A.md): App Stores & Publishing + Lab Time
 - **Publishing Overview:** Google Play Store and Apple App Store processes
 - **Build Configurations:** Release builds, signing, version management
 - **App Store Optimization:** Screenshots, descriptions, keywords
 - **Lab Time:** Project 3 work session, Q&A
 
-### Week 15B: Last Class - Q&A + Lab Time
+### [Week 15B](weekly/15B.md): Last Class - Q&A + Lab Time
 - **Open Q&A:** Final questions, troubleshooting
 - **Project Work Time:** Final polish, testing
 - **Course Reflection:** Key takeaways, next steps in Flutter development
