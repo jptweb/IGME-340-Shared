@@ -259,44 +259,54 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Resource Management:** Pausing games/audio when app backgrounded
 - **Game Navigation:** Flame games within BottomNavigationBar structure
 - **External Game Control:** Provider-based game references, cross-widget communication
+- **IndexedStack:** Preventing game widget disposal when switching tabs
 - **Professional Patterns:** Lifecycle state handling, memory leak prevention
 
-### Week 13B: App Store Preparation
+### Week 13B: Splash Screens & App Icons
 - **Splash Screens:** flutter_native_splash package, app startup experience
-- **Custom Icons:** App icon generation, platform-specific requirements
-- **Responsive Design:** MediaQuery, LayoutBuilder, AspectRatio widgets
-- **Publishing Process:** Build configurations, release preparation
+- **Custom Icons:** flutter_launcher_icons package, app icon generation
+- **Platform Requirements:** Icon sizes, adaptive icons for Android
+- **Asset Tools:** easyappicon.com for quick icon generation
 
 ---
 
-## Week 14: Project Completion
+## Week 14: Responsive Design & Break
 **Nov 25 & 27**
 
-### Week 14A: Final Project Work
-- **Project 3 Polish:** Code cleanup, testing, final feature implementation
-- **Presentation Prep:** Video creation, demonstration planning
-- **Code Review:** Best practices, documentation standards
+### Week 14A: Responsive Design
+- **MediaQuery:** Device dimensions, screen size detection, orientation handling
+- **LayoutBuilder:** Building layouts based on parent constraints
+- **AspectRatio Widget:** Maintaining proportions across devices
+- **Adaptive Layouts:** Designing for different screen sizes
 
 ### Week 14B: Thanksgiving - No Class
+
+**Project 3 Prototype Due**
 
 ---
 
 ## Week 15: Course Wrap-up
 **Dec 2 & 4**
 
-### Week 15A: Project Presentations
-- **Project 3 Showcases:** Student presentations, peer feedback
-- **Portfolio Review:** Course progression, skill development assessment
+### Week 15A: App Stores & Publishing + Lab Time
+- **Publishing Overview:** Google Play Store and Apple App Store processes
+- **Build Configurations:** Release builds, signing, version management
+- **App Store Optimization:** Screenshots, descriptions, keywords
+- **Lab Time:** Project 3 work session, Q&A
 
-### Week 15B: Final Review & Assessment
-- **Final Assessment Prep:** Cumulative review, technical concepts
-- **Course Reflection:** Learning outcomes, industry applications
-- **Next Steps:** Advanced Flutter topics, career development
+### Week 15B: Last Class - Q&A + Lab Time
+- **Open Q&A:** Final questions, troubleshooting
+- **Project Work Time:** Final polish, testing
+- **Course Reflection:** Key takeaways, next steps in Flutter development
 
 ---
 
 ## Finals Week: Dec 10-17
-**Project 3 Final Submissions**
+**Dec 16 (Tuesday 10:45 AM - 1:15 PM)**
+
+**Project 3 Final Submissions & Presentations**
+- Online submission (no in-person meeting required)
+- Project presentations due by scheduled final exam time
 
 ---
 
