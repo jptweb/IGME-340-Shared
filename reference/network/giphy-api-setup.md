@@ -269,39 +269,47 @@ https://api.giphy.com/v1/gifs/search?api_key=YOUR_KEY&q=test&limit=5
 
 ---
 
-## 📱 Flutter Implementation Example
+## 📱 Flutter Implementation Pattern
 
-Here's a minimal working example using your GIPHY API key:
+**Required Imports:**
+```dart
+import 'dart:convert';  // For jsonDecode()
+import 'package:http/http.dart' as http;  // For making requests
+```
+
+**General Pattern for Making GIPHY API Calls:**
 
 ```dart
-import 'dart:convert';
-import 'package:http/http.dart' as http;
+// 1. Build your URL with the endpoint and parameters
+final url = Uri.parse('BASE_URL/ENDPOINT?api_key=YOUR_KEY&other_params=values');
 
-class GiphyService {
-  final String apiKey = 'YOUR_API_KEY_HERE';
-  final String baseUrl = 'https://api.giphy.com/v1/gifs';
+// 2. Make the HTTP GET request
+final response = await http.get(url);
 
-  Future<List<dynamic>> searchGifs(String query, {int limit = 25}) async {
-    try {
-      final url = Uri.parse(
-        '$baseUrl/search?api_key=$apiKey&q=$query&limit=$limit'
-      );
-      
-      final response = await http.get(url);
-      
-      if (response.statusCode == 200) {
-        final jsonResponse = jsonDecode(response.body);
-        return jsonResponse['data'] as List<dynamic>;
-      } else {
-        throw Exception('Failed to load GIFs: ${response.statusCode}');
-      }
-    } catch (e) {
-      print('Error fetching GIFs: $e');
-      rethrow;
-    }
-  }
+// 3. Check if the request was successful
+if (response.statusCode == 200) {
+  // 4. Decode the JSON response
+  final jsonResponse = jsonDecode(response.body);
+  
+  // 5. Extract and use the data
+  // You'll need to explore the JSON structure to know what to access!
+  var results = jsonResponse['???'];  // What key contains your data?
+} else {
+  // Handle errors
+  print('Request failed with status: ${response.statusCode}');
 }
 ```
+
+**Key Concepts:**
+- Use `Uri.parse()` to convert your URL string into a Uri object
+- Always check `response.statusCode` (200 = success)
+- Use `jsonDecode()` to convert the JSON string into Dart objects
+- Navigate the decoded JSON to extract what you need
+
+**Where to Learn More:**
+- See **[Week 7A Notes](../../weekly/7A.md)** for detailed async/await patterns
+- See **[HTTP & API Integration Reference](http-api-integration.md)** for error handling strategies
+- We built a complete example together in class - refer to your class demo code!
 
 ---
 
