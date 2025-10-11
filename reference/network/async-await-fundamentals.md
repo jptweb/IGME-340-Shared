@@ -327,8 +327,7 @@ class _UserProfilePageState extends State<UserProfilePage> {
 ```
 
 ## When Covered in Course
-- **[Week 7A](../../weekly/7A.md)** - Introduction to async/await with DartPad examples
-- **Week 7A** - First HTTP requests in Flutter
+- **[Week 7A](../../weekly/7A.md)** - Introduction to async/await with DartPad examples & First HTTP requests in Flutter
 - **Week 9A+** - Used extensively throughout remaining course
 
 ## External Resources
