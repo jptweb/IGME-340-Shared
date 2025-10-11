@@ -94,9 +94,13 @@ Follow the notes, write the code, and submit before next class!
 ## Why This Matters
 
 ✅ **You'll have working code samples** for all course concepts
+
 ✅ **Reference library** for projects and assessments
+
 ✅ **Stay caught up** with course material
+
 ✅ **10 bonus points** = great insurance for projects!
+
 ✅ **I can see where you need help** and provide support
 
 ---
@@ -104,13 +108,19 @@ Follow the notes, write the code, and submit before next class!
 ## Quick Tips
 
 ✅ **Method 1 is easiest** - just copy/paste on GitHub.com
+
 ✅ **Accept each assignment** when posted (new repo each class day)
+
 ✅ **Show good effort** - doesn't need to be perfect
+
 ✅ **Submit within 24 hours** while material is fresh
+
 ✅ **Use weekly notes** if you miss class or fall behind
 
 ❌ **Don't commit without `.gitignore`** if using Method 2 (creates huge repo)
+
 ❌ **Don't skip accepting assignments** - you need a repo for each class
+
 ❌ **Don't wait until end of semester** - submit as you go
 
 ---
