@@ -63,6 +63,11 @@
   - [JSON Parsing](network/http-api-integration.md#json-parsing)
   - [API Authentication](network/http-api-integration.md#api-authentication)
   - [Error Handling](network/http-api-integration.md#error-handling)
+- **[GIPHY API Setup Guide](network/giphy-api-setup.md)** - Complete guide to getting and using GIPHY API keys ✨ NEW
+  - [Getting Your API Key](network/giphy-api-setup.md#getting-your-api-key)
+  - [API Key Security Best Practices](network/giphy-api-setup.md#api-key-security)
+  - [Common Endpoints](network/giphy-api-setup.md#using-your-api-key-with-giphy)
+  - [Testing & Troubleshooting](network/giphy-api-setup.md#testing-your-api-key)
 - CachedNetworkImage *(coming soon - Week 9A)*
 
 ### 💾 Data Persistence

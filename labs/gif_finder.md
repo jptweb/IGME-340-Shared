@@ -24,8 +24,54 @@ The application will start off as below
 
 ---
 
-## Your Tasks
-1. Obtain your own Giphy API Key. [Giphy Developer Page](https://developers.giphy.com/)
+## III. Getting Started with GIPHY API
+
+Before you begin coding, you'll need your own GIPHY API key.
+
+> **📖 API Setup Guide:** See the complete [GIPHY API Setup Reference](../reference/network/giphy-api-setup.md) for detailed instructions on:
+> - Creating your GIPHY developer account
+> - Generating an API key (choose "API" not "SDK")
+> - Understanding rate limits and best practices
+> - Testing your API key before coding
+> - **Important:** Keep your API key secure - don't share it or commit it to public repositories!
+
+**Quick Start:**
+1. Go to [GIPHY Developers Dashboard](https://developers.giphy.com/)
+2. Create an account and click "Create an App"
+3. Choose **"API"** (not SDK) and select **"Other"** as platform
+4. Your API key will be generated - save it securely!
+
+### Helpful GIPHY Endpoints for This Lab
+
+You'll primarily use the **Search** endpoint, but here are some useful ones:
+
+**Search GIFs** (Required for core functionality):
+```
+https://api.giphy.com/v1/gifs/search?api_key=YOUR_KEY&q=SEARCH_TERM&limit=25
+```
+
+**Trending GIFs** (Useful for Task #6 - startup loading):
+```
+https://api.giphy.com/v1/gifs/trending?api_key=YOUR_KEY&limit=10
+```
+
+**Random GIF** (Alternative for Task #6):
+```
+https://api.giphy.com/v1/gifs/random?api_key=YOUR_KEY&tag=funny
+```
+
+**Tips:**
+- Test endpoints in browser or [Hopscotch](https://hoppscotch.io/) first!
+- Use the debugger to explore the JSON response structure before parsing
+- The `limit` parameter controls how many results you get (max 50)
+- All GIF data is wrapped in a `data` array in the response
+
+See the [GIPHY API Setup Reference](../reference/network/giphy-api-setup.md) for complete endpoint documentation and response structure examples.
+
+---
+
+## IV. Your Tasks
+1. **Obtain your own Giphy API Key** - See [Section III above](#iii-getting-started-with-giphy-api) or the [full API setup guide](../reference/network/giphy-api-setup.md)
 2. Add an addtional search option (Your choice), since Giphy will return more data than we are using.
 3. Make the results clickable to show a larger version of the GIF and more of the meta data.
 4. Show the number of results found.
