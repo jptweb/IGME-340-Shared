@@ -62,8 +62,8 @@ Reference pages link back to weekly notes for context, and weekly notes link to 
 Hands-on assignments that build foundational Flutter and Dart skills. 
 
 **Current Labs:**
-- **Lab 01** - Basic Layout Challenge
-- **Lab 02** - GIF Finder (HTTP requests, GridView, API integration)
+- **Lab 01** - Lab 01: TextFields & DropdownButtons
+- **Lab 02** - Lab 02: GIF Finder (HTTP requests, GridView, API integration)
 - *(More labs added throughout semester)*
 
 **What to Expect:**
