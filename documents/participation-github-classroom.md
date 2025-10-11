@@ -8,6 +8,8 @@ This repository is your personal archive of today's in-class coding exercise. Ke
 ## 🎁 BONUS: 10 Extra Points!
 **Complete 90% of in-class assignments and earn 10 bonus points** that can be applied to **any of your 3 projects** (your choice). This can help recover lost points or boost a strong project even higher!
 
+I will also use these to calculated your 5% particiaption metric. I know 5% is a small number but we also didn't start these till second half of semester.
+
 ---
 
 ## How It Works
