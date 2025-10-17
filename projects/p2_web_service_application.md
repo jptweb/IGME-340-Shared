@@ -32,7 +32,7 @@ For this project you are creating a Flutter Application that utilizes a Web serv
         
 #### Choose Your Own API Option
 - This choice is for the more adventurous students who want to try to go beyond the well-trodden paths and look for an alternative API that appeals to them.
-- But if you wish to make this choice, you must be able to prove that you can access the API by the due date of the PROPOSAL.
+- But if you wish to make this choice, you must be able to prove that you can access the API by the due date of the [PROPOSAL](p2_web_service_application_proposal.md).
 - You must also be able to keep your project to a reasonable scope that is roughly equivalent to the other assignments.
 - Be careful with your own API Choice, make sure you don't run into any CORS issues.
 
