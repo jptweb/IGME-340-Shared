@@ -12,17 +12,18 @@ Your proposal document must include:
 ### 1. API Selection & Justification (Required)
 - **API Name & Documentation Link** (ex: https://developers.giphy.com/docs/)
 - **API Choice Category**: Specify one of:
-  - 
   - Pre-approved API from Project 2 instructions [web_service_application.md](p2_web_service_application.md)
   - Custom API (requires API viability proof)
 
-**For Custom APIs Only:** You must demonstrate that your chosen API is accessible and returns usable data. Include ONE of the following:
+**For Custom APIs Only:** You must demonstrate that your chosen API is accessible and returns usable data. I'm willing to offer some guidance here as well if you come to office hours or contact me not last minute. 
+
+Include **ONE** of the following:
 
 - Screenshot of successful API call in Hoppscotch/Postman/browser showing JSON response
-- Screenshot of successful API call in DartPad showing parsed data
-- Code snippet with comments explaining how you'll access the API
+- OR Screenshot of successful API call in DartPad showing parsed data
+- OR Code snippet with comments explaining how you'll access the API
 
-*This doesn't need to be in your Flutter app yet - just proof the API is accessible and returns data you can work with.*
+*This doesn't need to be in your Flutter app yet - just proof the API is accessible and returns data you can work with, but you're welcome to do it in flutter too.*
 
 ### 2. Application Purpose (Required)
 In 2-3 sentences, describe:
