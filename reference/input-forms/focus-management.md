@@ -139,7 +139,9 @@ TextField(
   decoration: InputDecoration(
     labelText: 'Name',
     suffixIcon: IconButton(  // This gets keyboard focus!
-      onPressed: () => nameController.clear(),
+      onPressed: () {
+        nameController.clear();
+      },
       icon: Icon(Icons.clear),
     ),
   ),
@@ -156,7 +158,9 @@ TextField(
   decoration: InputDecoration(
     labelText: 'Name',
     suffixIcon: IconButton(
-      onPressed: () => nameController.clear(),
+      onPressed: () {
+        nameController.clear();
+      },
       icon: Icon(Icons.clear),
     ),
   ),
@@ -290,7 +294,9 @@ TextField(
 TextField(
   focusNode: nameFocusNode,
   textInputAction: TextInputAction.next,
-  onEditingComplete: () => emailFocusNode.requestFocus(),
+  onEditingComplete: () {
+    emailFocusNode.requestFocus();
+  },
 )
 ```
 
