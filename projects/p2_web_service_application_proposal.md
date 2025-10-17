@@ -3,7 +3,7 @@
 ## Purpose
 The proposal ensures you've thoughtfully planned your Project 2 application before diving into development. This checkpoint helps you validate your API choice, confirm scope feasibility, and receive early feedback.
 
-FULL APP INSTRUCTIONS located here: [web_service_application.md](p2_web_service_application.md)
+Before starting this please also review the requirments for the Project 2 App itself: [Project 2: Web_Service_application](p2_web_service_application.md)
 
 ## Requirements
 
