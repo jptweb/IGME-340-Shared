@@ -299,7 +299,7 @@ Row(
 - [Stack Widget](stack-widget.md) - For layering widgets on top of each other
 - [Padding & SizedBox](padding-sizedbox.md) - For spacing between widgets
 - [SingleChildScrollView](singlechildscrollview.md) - For handling overflow
-- [Expanded & Flexible](../coming-soon.md) - For responsive sizing within Row/Column
+- [Expanded & Flexible](expanded-flexible.md) - For responsive sizing within Row/Column
 
 ---
 *Last updated: Week 5 | IGME-340 Reference*

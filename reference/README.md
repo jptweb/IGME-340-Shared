@@ -16,7 +16,7 @@
 - [Images & Assets](widgets/images-assets.md) - Local and network images, asset configuration
 - **[SVG Images](assets/svg-images.md)** - Using flutter_svg, handling color issues ✨ NEW
 - Positioned & Align Widgets *(covered in [Stack Widget](widgets/stack-widget.md))*
-- Expanded & Flexible *(coming soon - Week 8B)*
+- **[Expanded & Flexible](widgets/expanded-flexible.md)** - Responsive layouts, filling available space ✨ NEW
 - [Padding & SizedBox](widgets/padding-sizedbox.md) - Spacing and sizing widgets
 
 ### 🔘 Buttons & Interaction
@@ -32,7 +32,7 @@
 - InputDecoration & Styling *(covered in [TextField Basics](input-forms/textfield-basics.md))*
 - [TextEditingController](input-forms/textfield-basics.md#using-texteditingcontroller-recommended) - Managing text input
 - Form Widget & GlobalKey - [Introduced in Form Validation Reference Section](input-forms/form-validation.md)
-- Focus Management *(coming soon - Week 8B)*
+- **[Focus Management](input-forms/focus-management.md)** - Keyboard control, focus flow, dismissing keyboard ✨ NEW
 
 ### 📋 Lists & Scrolling
 - [SingleChildScrollView](widgets/singlechildscrollview.md) - Handling overflow and scrolling
@@ -125,9 +125,11 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 
 ## By Week Coverage
 
-### Currently Available (Weeks 1-7B)
-- **GridView & GridTile (Week 7B)** ✨ NEW
-- **Async/Await & API Integration (Week 7A)** ✨ NEW
+### Currently Available (Weeks 1-8B)
+- **Expanded & Flexible (Week 8B)** ✨ NEW
+- **Focus Management (Week 8B)** ✨ NEW
+- GridView & GridTile (Week 7B)
+- Async/Await & API Integration (Week 7A)
 - Stack Widget (Week 5A)
 - SVG Images (Week 5A)
 - ScaffoldMessenger (Week 5A)
@@ -136,9 +138,9 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 
 ### Coming Soon
 - **Week 7B:** Widget Inspector
-- **Week 8:** Focus Management, Responsive Design
-- **Week 8-9:** Navigation, Data Persistence
-- **Week 10:** Provider State Management
+- **Week 9A:** Navigation, Data Persistence, CachedNetworkImage
+- **Week 9B-10A:** Named Routes, GoRouter, Provider
+- **Week 10-11:** Advanced State Management
 - **Week 11-12:** Flame Game Development
 - **Week 13:** Production & Deployment
 

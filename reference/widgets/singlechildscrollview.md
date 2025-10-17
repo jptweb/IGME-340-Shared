@@ -93,6 +93,8 @@ Scaffold(
 )
 ```
 
+> **📖 Pro Tip:** Combine with [Focus Management](../input-forms/focus-management.md) for professional form navigation and keyboard control.
+
 ### Card List (Before Learning ListView)
 ```dart
 SingleChildScrollView(
@@ -179,6 +181,13 @@ Container(
 ## When Covered in Course
 - **[Week 3A](../../weekly/3A.md)** - Fixing overflow with scrolling
 - **[Week 5B](../../weekly/5B.md)** - Used in Project 1 for scrollable text
+- **[Week 8B](../../weekly/8B.md)** - Preventing keyboard from covering form fields
+
+## Related Topics
+- [Focus Management](../input-forms/focus-management.md) - Keyboard control in forms (commonly paired with SingleChildScrollView)
+- [TextField Basics](../input-forms/textfield-basics.md) - Text input widgets
+- [ListView Basics](listview-basics.md) - Better for long lists of similar items
+- [Expanded & Flexible](expanded-flexible.md) - Use with Column + SingleChildScrollView
 
 ## External Resources
 - [Flutter Scrolling Documentation](https://docs.flutter.dev/ui/layout/scrolling)

@@ -254,6 +254,8 @@ _controller.selection = TextSelection.fromPosition(
 
 ## Focus Management
 
+> **📖 For Complete Focus Control:** See the [Focus Management Reference](focus-management.md) for comprehensive patterns including chaining fields, dismissing keyboard, and professional form navigation.
+
 ```dart
 // Dismiss keyboard
 FocusScope.of(context).unfocus();
@@ -317,8 +319,14 @@ InputDecoration(
 
 ## When Covered in Course
 - **[Week 6A](../../weekly/6A.md)** - TextField basics and InputDecoration
+- **[Week 8B](../../weekly/8B.md)** - Focus management and keyboard control
 - **Week 6B** - Form validation with TextFormField
 - **Project 2** - Search functionality
+
+## Related Topics
+- [Focus Management](focus-management.md) - Complete guide to keyboard navigation and focus control
+- [Form Validation](form-validation.md) - Validating text input
+- [SingleChildScrollView](../widgets/singlechildscrollview.md) - Preventing keyboard from covering fields
 
 ## External Resources
 - [TextField Documentation](https://api.flutter.dev/flutter/material/TextField-class.html)
