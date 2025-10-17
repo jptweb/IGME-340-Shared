@@ -10,7 +10,7 @@ Before starting this please also review the requirments for the Project 2 App it
 Your proposal document must include:
 
 ### 1. API Selection & Justification (Required)
-- **API Name & Documentation Link**
+- **API Name & Documentation Link** (ex: https://developers.giphy.com/docs/)
 - **API Choice Category**: Specify one of:
   - 
   - Pre-approved API from Project 2 instructions [web_service_application.md](p2_web_service_application.md)
