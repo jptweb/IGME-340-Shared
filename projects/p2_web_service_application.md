@@ -95,5 +95,5 @@ Reminder - 'A' -level work means doing college-level work that goes beyond what 
 ## VI. Submission
 - Perform a `flutter clean`, ZIP and post the completed project and documentation page to to the mycourses dropbox. Be sure to check the Submission Guidelines for more details!
 
-## Need Help?
-- Don't forget I added extensive documentation in the references area about how to [connect to Giphy](../reference/network/giphy-api-setup.md). Much of the code you need may end up being similar in nature to this; but the way you interact and build it will be different. In a sense we are providing you with much of the ingredients; but you need to creatively assemble and build the meal.
+> ## Need Help?
+>Don't forget I added extensive documentation in the references area about how to [connect to Giphy](../reference/network/giphy-api-setup.md). >Much of the code you need may end up being similar in nature to this; but the way you interact and build it will be different. In a sense we are >providing you with much of the ingredients; but you need to creatively assemble and build the meal.
