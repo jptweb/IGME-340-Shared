@@ -3,7 +3,7 @@
 ## Purpose
 The proposal ensures you've thoughtfully planned your Project 2 application before diving into development. This checkpoint helps you validate your API choice, confirm scope feasibility, and receive early feedback.
 
-FULL APP INSTRUCTIONS located here: (web_service_application.md](p2_web_service_application.md)
+FULL APP INSTRUCTIONS located here: [web_service_application.md](p2_web_service_application.md)
 
 ## Requirements
 
@@ -13,7 +13,7 @@ Your proposal document must include:
 - **API Name & Documentation Link**
 - **API Choice Category**: Specify one of:
   - 
-  - Pre-approved API from Project 2 instructions (web_service_application.md](p2_web_service_application.md)
+  - Pre-approved API from Project 2 instructions [web_service_application.md](p2_web_service_application.md)
   - Custom API (requires API viability proof)
 
 **For Custom APIs Only:** You must demonstrate that your chosen API is accessible and returns usable data. Include ONE of the following:
