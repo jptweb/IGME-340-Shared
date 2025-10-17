@@ -39,8 +39,8 @@ Describe what users will be able to do with your app. Your description must addr
 
 **Minimum Requirements:**
 - [ ] How users search/query the API (text input, dropdowns, etc.)
-- [ ] At least 3 user controls for filtering/displaying results
-- [ ] What data persists between app sessions (shared_preferences) likely the search term?
+- [ ] At least 3 user controls for filtering/displaying results (read more about this here [Project 2: Web_Service_application](p2_web_service_application.md))
+- [ ] What data persists between app sessions (shared_preferences) likely the search term? (we will talk about this week 9)
 - [ ] How results are displayed (ListView, GridView, cards, etc.)
 
 **Beyond the Basics (for 'A' level work):**
