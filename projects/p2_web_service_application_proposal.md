@@ -18,7 +18,7 @@ Your proposal document must include:
 
 **For Custom APIs Only:** You must demonstrate that your chosen API is accessible and returns usable data. Include ONE of the following:
 
-- Screenshot of successful API call in Postman/browser showing JSON response
+- Screenshot of successful API call in Hoppscotch/Postman/browser showing JSON response
 - Screenshot of successful API call in DartPad showing parsed data
 - Code snippet with comments explaining how you'll access the API
 
