@@ -10,7 +10,6 @@ Your proposal document must include:
 ### 1. API Selection & Justification (Required)
 - **API Name & Documentation Link**
 - **API Choice Category**: Specify one of:
-  - Enhanced GIF Finder (building on Lab 02)
   - Pre-approved API from Project 2 instructions
   - Custom API (requires API viability proof)
 
