@@ -1,47 +1,5 @@
 # Focus Management & Keyboard Control
 
-## Quick Example
-
-```dart
-class MyForm extends StatefulWidget {
-  @override
-  State<MyForm> createState() => _MyFormState();
-}
-
-class _MyFormState extends State<MyForm> {
-  late FocusNode emailFocusNode;
-  late TextEditingController emailController;
-  
-  @override
-  void initState() {
-    super.initState();
-    emailFocusNode = FocusNode();
-    emailController = TextEditingController();
-  }
-  
-  @override
-  void dispose() {
-    emailFocusNode.dispose();
-    emailController.dispose();
-    super.dispose();
-  }
-  
-  @override
-  Widget build(BuildContext context) {
-    return TextField(
-      controller: emailController,
-      focusNode: emailFocusNode,
-      decoration: InputDecoration(labelText: 'Email'),
-      textInputAction: TextInputAction.next,
-      onEditingComplete: () {
-        // Move to next field
-        passwordFocusNode.requestFocus();
-      },
-    );
-  }
-}
-```
-
 ## Core Concepts
 
 ### What is Focus?
