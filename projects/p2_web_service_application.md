@@ -1,5 +1,3 @@
-NOTE: this is still being developed but should give you a general idea of where this is going. It will be finalized week 7 and we will discuss more in class!
-
 # Project 2 - Web Service Application
 
 ## I. Overview
@@ -16,7 +14,7 @@ For this project you are creating a Flutter Application that utilizes a Web serv
 ## II. Requirements
 
 ### A. Functional
-1. Use one of a specified set of APIs or one of your choosing to create a similar experience to GIF Finder that meets the requirments.
+1. Use one of a specified set of APIs or one of your choosing to create a similar experience to [GIF Finder](../reference/network/giphy-api-setup.md) that meets the requirments.
 
 #### Some Preselected Options
 - You may get familiar with and use one of the APIs from this list:
@@ -96,3 +94,6 @@ Reminder - 'A' -level work means doing college-level work that goes beyond what 
 
 ## VI. Submission
 - Perform a `flutter clean`, ZIP and post the completed project and documentation page to to the mycourses dropbox. Be sure to check the Submission Guidelines for more details!
+
+## Need Help?
+- Don't forget I added extensive documentation in the references area about how to [connect to Giphy](../reference/network/giphy-api-setup.md). Much of the code you need may end up being similar in nature to this; but the way you interact and build it will be different. In a sense we are providing you with much of the ingredients; but you need to creatively assemble and build the meal.
