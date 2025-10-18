@@ -1,5 +1,7 @@
 # Lab 02: GIF Finder
 
+> This is our last Homework / Lab! After this all we have left is two LARGE projects so use your time wisely! Generally a 3 credit class you expect to put in 6 to 9 hours of outside class work per week. This time should be spent working on your projects!
+
 ## I. Overview
 This lab is designed to further your skills in Flutter, this time we will be using a GridView and using Flutter's HTTP functionality to call a restful API. The API, GIPHY, should be familiar since you all should have gone through IGME-230/235. This time, we're going to make GIF Finder in a Flutter App.
 The plan will be I will walk you through the initial part of the lab, and you will be assigned extra activities to expand on the applications capabilities.
@@ -85,5 +87,5 @@ See the [GIPHY API Setup Reference](../reference/network/giphy-api-setup.md) for
 ### Bonus points
 There are many things that can be done to enhance this application, these are some bonus tasks, if you choose to go above and beyond.
 1. Save a selected GIF to the device photo gallery.
-2. Save the users previous results.
+2. Save the users previous results. (Note: this would be possible with [Shared Prefences](../reference/data-persistence/shared-preferences.md) which we don't cover till week 9 after this is due but if you wish to browser ahead you're welcome to)
 3. Impress me with your mad Flutter skills!
