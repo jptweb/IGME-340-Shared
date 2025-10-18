@@ -21,7 +21,6 @@
 ### 🔘 Buttons & Interaction
 - [Button Types & Styling](widgets/button-types.md) - All button variants with theming and customization
 - [InkWell & GestureDetector](widgets/inkwell-gesturedetector.md) - Making any widget clickable
-- FloatingActionButton *(coming soon - Week 9A)*
 
 ### 📝 Input & Forms
 - [TextField Basics](input-forms/textfield-basics.md) - User text input and controllers
@@ -58,7 +57,7 @@
 - **[GIPHY API Setup Guide](network/giphy-api-setup.md)** - Complete guide to getting and using GIPHY API keys
 
 ### 💾 Data Persistence
-- SharedPreferences *(coming soon - Week 9A)*
+- **[SharedPreferences](data-persistence/shared-preferences.md)** - Persistent key-value storage for settings, preferences, favorites
 
 ### 🎮 Game Development (Flame)
 - Flame Engine Setup *(coming soon - Week 11B)*
@@ -69,8 +68,9 @@
 - Audio with Games *(coming soon - Week 12B)*
 
 ### 📱 Platform Integration
-- URL Launcher *(coming soon - Week 9A)*
-- CachedNetworkImage *(coming soon - Week 9A)*
+- **[URL Launcher](platform-integration/url-launcher.md)** - Open websites, phone calls, emails, SMS from your app
+- **[CachedNetworkImage](platform-integration/cached-network-image.md)** - Efficient image loading with caching
+- FloatingActionButton *(coming soon - Week 9A)*
 - WebView Flutter *(coming soon - Week 12A)*
 - AudioPlayers Package *(coming soon - Week 12B)*
 - App Lifecycle Management *(coming soon - Week 13A)*
@@ -109,9 +109,12 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 
 ## By Week Coverage
 
-### Currently Available (Weeks 1-8B)
-- **Focus Management (Week 8B)**
-- **Expanded & Flexible (Week 8B)**
+### Currently Available (Weeks 1-9A)
+- **SharedPreferences (Week 9A)**
+- **URL Launcher (Week 9A)**
+- **CachedNetworkImage (Week 9A)**
+- Focus Management (Week 8B)
+- Expanded & Flexible (Week 8B)
 - GridView & GridTile (Week 7B)
 - Async/Await & API Integration (Week 7A)
 - GIPHY API Setup (Week 7A-7B)
@@ -134,7 +137,6 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 - Code Organization (Week 5B)
 
 ### Coming Soon (In Course Order)
-- **Week 9A:** FloatingActionButton, SharedPreferences, URL Launcher, CachedNetworkImage
 - **Week 9B:** Navigation (push/pop), MaterialPageRoute, Named Routes, Data Passing
 - **Week 10A:** GoRouter, Provider, ChangeNotifier, context.watch/read
 - **Week 10B:** FutureProvider, Consumer Widget, Advanced State Patterns
@@ -170,4 +172,4 @@ Found an error or have a helpful example? Let me know! This reference grows base
 
 ---
 
-*Last updated: Week 8B | Fall 2025*
+*Last updated: Week 9A | Fall 2025*
