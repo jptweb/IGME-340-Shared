@@ -1,5 +1,7 @@
 # Project 2 - Web Service Application
 
+> Yes our last two projects seem big; but keep in mind I am providing extensive code examples in our [Reference Manual](../reference/README.md). For example there are comprehensive examples of how to do things like store favorites with complete code examples in the [shared preferences reference guide](../reference/data-persistence/shared-preferences.md) section. Secondly, remember that generally in a 3 credit class you expect to put in 6 to 9 hours of outside class work per week. This time should be spent working on your projects! If you start this project last minute you will likely do poorly and be misearble trying to complete an absurd amount of work in last minute.
+
 ## I. Overview
 
 For this project you are creating a Flutter Application that utilizes a Web service.
