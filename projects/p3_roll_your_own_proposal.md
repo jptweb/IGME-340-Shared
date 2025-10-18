@@ -2,6 +2,6 @@
 >
 > **Time Management:** Plan for 6 to 9 hours of outside work weekly—standard for a 3-credit course. [I'm not making this up :)](https://www.humboldt.edu/sites/default/files/learning-center/2024-11/studyratiorecommendations.pdf). Starting early gives you time to create A-quality work and impressive portfolio pieces. Unlike unpredictable exams, you control your project outcomes through consistent effort. Last-minute starts typically lead to poor results and unnecessary stress.
 
-> COMING SOON
+COMING SOON
 
 Sample Proposal: https://people.rit.edu/dxcigm/hunt_the_flutterumpus/
