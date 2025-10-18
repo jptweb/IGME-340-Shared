@@ -276,36 +276,6 @@ Future<bool> isFirstLaunch() async {
 }
 ```
 
-### Login State Persistence
-
-```dart
-class AuthService {
-  Future<void> saveLoginState(String userId, String token) async {
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.setBool('isLoggedIn', true);
-    await prefs.setString('userId', userId);
-    await prefs.setString('authToken', token);
-  }
-  
-  Future<bool> isLoggedIn() async {
-    final prefs = await SharedPreferences.getInstance();
-    return prefs.getBool('isLoggedIn') ?? false;
-  }
-  
-  Future<String?> getAuthToken() async {
-    final prefs = await SharedPreferences.getInstance();
-    return prefs.getString('authToken');
-  }
-  
-  Future<void> logout() async {
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.remove('isLoggedIn');
-    await prefs.remove('userId');
-    await prefs.remove('authToken');
-  }
-}
-```
-
 ---
 
 ## Advanced Patterns
