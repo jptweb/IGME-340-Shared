@@ -171,11 +171,9 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 **Oct 21 & 23**
 
 ### [Week 9A](weekly/9A.md): Data Storage & External Integration
-- **Project 2 Introduction:** Web Service Application overview
 - **Data Persistence:** shared_preferences package for local storage
 - **External Apps:** url_launcher for opening web browsers
 - **Image Caching:** CachedNetworkImage for efficient image loading
-- **FloatingActionButton:** Action buttons, integration patterns
 
 ### [Week 9B](weekly/9B.md): Page Navigation Fundamentals
 - **Navigation Stack:** Understanding push/pop behavior, Navigator methods
@@ -184,7 +182,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Data Passing:** Route arguments, ModalRoute.of(context) for data retrieval
 - **Navigation Methods:** push, pushReplacement, pop patterns
 
-**Project 2 Proposal Due**
+**Project 2 Proposal Due mid week**
 
 ---
 
