@@ -79,7 +79,8 @@ See the [GIPHY API Setup Reference](../reference/network/giphy-api-setup.md) for
 4. Show the number of results found.
 5. Customize the app with a custom font.
 6. On startup load a random GIF or show what's trending.
-7. Somewhere in the application, allow the user to go to the Giphy website for the result.
+~~7. Somewhere in the application, allow the user to go to the Giphy website for the result.~~
+EDIT 10/20/25 I realize #7 could have been problematic since we didn't cover URL opening. I am open to making that a bonus for those who figured it out.
 
 
 ---
