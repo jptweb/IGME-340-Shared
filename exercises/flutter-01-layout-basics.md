@@ -1,4 +1,4 @@
-# Flutter Exercise - Layout Basics
+# Flutter Exercise 1 - Layout Basics
 
 Welcome to Flutter, now that we've got to work with Dart, and hopefully you have a grasp of its basics, we can now move onto Flutter.
 
