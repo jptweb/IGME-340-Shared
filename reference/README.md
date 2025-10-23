@@ -37,8 +37,9 @@
 ### 🧭 Navigation & Dialogs
 - [Dialogs & Alerts](navigation/dialogs-alerts.md) - AlertDialog, showDialog, popups
 - **[ScaffoldMessenger](notifications/scaffold-messenger.md)** - SnackBar, MaterialBanner
-- Navigator & MaterialPageRoute *(coming soon - Week 9B)*
-- Named Routes & Data Passing *(coming soon - Week 9B)*
+- **[Basic Navigation](navigation/basic-navigation.md)** - Navigator.push/pop, MaterialPageRoute, navigation stack
+- **[Named Routes](navigation/named-routes.md)** - Clean routing with string identifiers, route configuration
+- **[Data Passing Between Pages](navigation/data-passing.md)** - Arguments, return values, async navigation
 - GoRouter Package *(coming soon - Week 10A)*
 - BottomNavigationBar *(coming soon - Week 11A)*
 - TabBar & TabBarView *(coming soon - Week 11A)*
@@ -109,10 +110,13 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 
 ## By Week Coverage
 
-### Currently Available (Weeks 1-9A)
-- **SharedPreferences (Week 9A)**
-- **URL Launcher (Week 9A)**
-- **CachedNetworkImage (Week 9A)**
+### Currently Available (Weeks 1-9B)
+- **Basic Navigation (Week 9B)** ✨ NEW!
+- **Named Routes (Week 9B)** ✨ NEW!
+- **Data Passing Between Pages (Week 9B)** ✨ NEW!
+- SharedPreferences (Week 9A)
+- URL Launcher (Week 9A)
+- CachedNetworkImage (Week 9A)
 - Focus Management (Week 8B)
 - Expanded & Flexible (Week 8B)
 - GridView & GridTile (Week 7B)
@@ -137,7 +141,6 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 - Code Organization (Week 5B)
 
 ### Coming Soon (In Course Order)
-- **Week 9B:** Navigation (push/pop), MaterialPageRoute, Named Routes, Data Passing
 - **Week 10A:** GoRouter, Provider, ChangeNotifier, context.watch/read
 - **Week 10B:** FutureProvider, Consumer Widget, Advanced State Patterns
 - **Week 11A:** BottomNavigationBar, TabBar/TabBarView, IndexedStack
@@ -172,4 +175,4 @@ Found an error or have a helpful example? Let me know! This reference grows base
 
 ---
 
-*Last updated: Week 9A | Fall 2025*
+*Last updated: Week 9B | Fall 2025*
