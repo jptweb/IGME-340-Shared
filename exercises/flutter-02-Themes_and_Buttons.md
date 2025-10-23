@@ -1,4 +1,4 @@
-# Flutter ICE 2 - Buttons, Styles and ThemeData
+# Flutter Exercise 2 - Buttons, Styles and ThemeData
 
 We've explored some basic layout, now let's start with looking at buttons and the Flutter Themeing/Styling system.
 
