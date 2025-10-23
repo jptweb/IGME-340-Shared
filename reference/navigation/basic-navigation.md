@@ -33,7 +33,7 @@ ElevatedButton(
 
 ---
 
-**Warning! theres lot of good info here overall about navigation BUT** keep in mind it may be best when you make you app routes to use (named routes)[named-routes.md] so make sure to check out all chapters here on this topic before picking an approach.
+**Warning! theres lot of good info here overall about navigation BUT** keep in mind it may be best when you make you app routes to use (named routes)[named routes](named-routes.md) so make sure to check out all chapters here on this topic before picking an approach.
 
 ## The Navigator Stack
 
