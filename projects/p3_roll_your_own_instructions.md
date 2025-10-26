@@ -36,9 +36,9 @@
   - Responsive Layout
   - Other package not discussed or shown in class.
 
-## III. Requirements
+## III. Final Code Submission Requirements
 
-Your project will be evaluated across six key categories for the code submission. Each category is detailed extensively in the **[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)** with specific technical requirements and links to relevant course materials.
+Your **Final Code Submission (65% of project grade)** will be evaluated across six key categories. Each category is detailed extensively in the **[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)** with specific technical requirements and links to relevant course materials.
 
 ### The Six Evaluation Categories (Code Submission):
 
