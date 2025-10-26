@@ -8,26 +8,34 @@ This guide breaks down the GRADING RUBRIC (which is attached to the MyCourses As
 
 ## Grading Philosophy
 
-This is a **quality-based rubric** where the same requirements can yield different grades based on execution:
+This is a **quality-based rubric** where execution matters as much as features:
 
-**Meeting Requirements (85-95 points):**
+**Meeting Requirements (80-90 points):**
 - Complete all "Must Have" items in each category
 - Your project works reliably without crashes
 - Code is functional and reasonably organized
 - Goes beyond class examples in at least one way
-- *Quality of execution determines where you land in this range*
+- *This is the "I did the assignment" tier*
 
-**Solid Execution (95-100 points):**
-- All requirements met with professional quality
-- Clean, well-organized, thoroughly documented code
-- Thoughtful design decisions and polish
-- Clear evidence of effort and attention to detail
+**Solid Execution (90-95 points):**
+- All requirements met with good quality
+- Clean, organized, documented code
+- Thoughtful design decisions
+- *This is the "I did it well" tier*
+
+**Professional Quality (95-100 points):**
+- All requirements met with professional execution
+- Polished UI/UX with attention to detail
+- Well-architected, maintainable code
+- **OR** solid execution + 1-2 advanced features from "Going Beyond"
+- *This is the "portfolio-worthy" tier*
 
 **Excellence & Innovation (100-105+ points):**
-- Everything in "Solid Execution" PLUS multiple advanced features
+- Professional quality execution PLUS multiple advanced features
 - See "Going 'Above and Beyond'" section below for examples
 - Production-quality polish and creative solutions
 - Demonstrates mastery beyond course scope
+- *This is the "I went above and beyond" tier*
 
 **The key to a high grade:** Document your work! If you implemented something cool but didn't document it, I might miss it during grading.
 
@@ -150,9 +158,9 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 
 ## Going "Above and Beyond"
 
-**To reach 100 points:** Meet all requirements with professional execution quality.
+**To reach 95-100 points:** Either exceptional execution quality on all requirements, OR solid execution + 1-2 advanced features.
 
-**To exceed 100 points (up to 105+):** Implement advanced features beyond course requirements. Consider:
+**To exceed 100 points (up to 105+):** Professional execution quality PLUS multiple advanced features. Consider:
 
 ### Advanced State Management (choose one if applicable):
 - **[Provider pattern](../reference/state-management/provider-pattern.md)** - Centralized state management
