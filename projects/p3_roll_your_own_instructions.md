@@ -14,17 +14,6 @@ Example projects:
 - Utiliy Application
 - Enhanced API based application (Enhancing Project 2 or something new).
 
-### What to implement
-The project will be very open and it will be up to you to decide what technologies/packages to implement, below are some examples:
-- **Flame Engine**
-- GPS / Maps
-- Native Camera
-- Flutter Casual Game Kit
-- **Firebase** 
-- Advanced State Management, ex: **Go Router**, **BLoC**, **Riverpod**
-- Responsive Layout
-- Other package not discussed or shown in class.
-
 ## II. Goal
 - Your goal is to create a app or game that is easy to use, functional, and aesthetically pleasing.
 
