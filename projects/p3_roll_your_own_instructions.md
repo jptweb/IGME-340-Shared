@@ -71,9 +71,9 @@ Example projects:
 - Delete or comment out your `print` statements.
 
 ## IV. Milestones
-- Proposal: Submit a proposal that provides the information described in the next section about what you plan to create for your app or game - see myCourses dropbox for submission info & the due date
-- Checkpoint / Prototype: Create a working draft of your project. See myCourses dropbox for the due date
-- Final project deliverable is due final exam week - see MyCourses dropbox for the due date and submission instructions.  
+1. Proposal: Submit a proposal that provides the information described in the next section about what you plan to create for your app or game - see myCourses dropbox for submission info & the due date
+2. Checkpoint / Prototype: Create a working draft of your project. See myCourses dropbox for the due date
+3. Final project deliverable is due final exam week - see MyCourses dropbox for the due date and submission instructions.  
     - Part of the final deliverable includes a demonstration of your app or game.  
         1. You should create a short video demo by recording your computer screen or device while using a tool such as OBS.  http://obsproject.com
  Submit this video by uploading it to YouTube as an unlisted video. (if you aren't comfortable uploading it to YouTube let me know we can maybe arrange something else; but I am thinking during the Final exam period I will play all the videos and we can watch together as a class)  Ideally, you should explain your project with a voice-over, however if you do not wish to do that, you can upload your description as a separate file to the dropbox.
