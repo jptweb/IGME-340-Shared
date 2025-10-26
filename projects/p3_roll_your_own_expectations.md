@@ -137,7 +137,7 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 
 ### Going Beyond:
 - Polished visual design with [BoxDecoration](../reference/styling/box-decoration.md) (gradients, shadows, borders)
-- **[CachedNetworkImage](../reference/platform-integration/cached-network-image.md)** for network images with thoughtful caching strategies
+- **[CachedNetworkImage](../reference/platform-integration/cached-network-image.md)** for network images that are reused across sessions (e.g., user profiles, product catalogs). Not appropriate for random/single-use images or static assets that should be bundled with the app.
 - **Sound effects/music** - *[Week 12B](../weekly/12B.md) (coming soon) - AudioPlayers package*
 - **Animations** - 🌐 [Flutter Animation Tutorial](https://docs.flutter.dev/ui/animations/tutorial) (external documentation)
 
