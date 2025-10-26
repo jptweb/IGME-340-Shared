@@ -40,7 +40,7 @@
 - **[Basic Navigation](navigation/basic-navigation.md)** - Navigator.push/pop, MaterialPageRoute, navigation stack
 - **[Named Routes](navigation/named-routes.md)** - Clean routing with string identifiers, route configuration
 - **[Data Passing Between Pages](navigation/data-passing.md)** - Arguments, return values, async navigation
-- GoRouter Package *(coming soon - Week 10A)*
+- **[GoRouter Package](navigation/gorouter.md)** - Modern Navigation 2.0, URL-style routing, path parameters
 - BottomNavigationBar *(coming soon - Week 11A)*
 - TabBar & TabBarView *(coming soon - Week 11A)*
 
@@ -48,8 +48,7 @@
 - **[Declarative UI Architecture](state-management/declarative-ui-architecture.md)** - "Your data controls the UI" - Flutter's foundational principle
 - [setState Basics](state-management/setstate-basics.md) - Fundamental state updates
 - StatefulWidget Lifecycle *(see [Week 4A notes](../weekly/4A.md))*
-- Provider Pattern *(coming soon - Week 10A)*
-- ChangeNotifier *(coming soon - Week 10A)*
+- **[Provider Pattern](state-management/provider-pattern.md)** - Centralized state management, ChangeNotifier, context.watch/read
 - FutureProvider *(coming soon - Week 10B)*
 - Consumer Widget *(coming soon - Week 10B)*
 
@@ -111,11 +110,13 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 
 ## By Week Coverage
 
-### Currently Available (Weeks 1-9B)
-- **Declarative UI Architecture (Week 9B)** ✨ NEW!
-- **Basic Navigation (Week 9B)** ✨ NEW!
-- **Named Routes (Week 9B)** ✨ NEW!
-- **Data Passing Between Pages (Week 9B)** ✨ NEW!
+### Currently Available (Weeks 1-10A)
+- **GoRouter Package (Week 10A)** ✨ NEW!
+- **Provider Pattern (Week 10A)** ✨ NEW!
+- Declarative UI Architecture (Week 9B)
+- Basic Navigation (Week 9B)
+- Named Routes (Week 9B)
+- Data Passing Between Pages (Week 9B)
 - SharedPreferences (Week 9A)
 - URL Launcher (Week 9A)
 - CachedNetworkImage (Week 9A)
@@ -143,7 +144,6 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 - Code Organization (Week 5B)
 
 ### Coming Soon (In Course Order)
-- **Week 10A:** GoRouter, Provider, ChangeNotifier, context.watch/read
 - **Week 10B:** FutureProvider, Consumer Widget, Advanced State Patterns
 - **Week 11A:** BottomNavigationBar, TabBar/TabBarView, IndexedStack
 - **Week 11B:** Flame Engine, GameWidget, Sprites, Input Handling
@@ -177,4 +177,4 @@ Found an error or have a helpful example? Let me know! This reference grows base
 
 ---
 
-*Last updated: Week 9B | Fall 2025*
+*Last updated: Week 10A | Fall 2025*
