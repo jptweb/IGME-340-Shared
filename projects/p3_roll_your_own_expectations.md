@@ -8,20 +8,24 @@ This guide breaks down the GRADING RUBRIC (which is attached to the MyCourses As
 
 ## Grading Philosophy
 
-Your project is graded on **six categories** (95 points total). Quality of execution and features both matter:
+Your project is graded on **six categories** (95 points total). Quality of execution matters:
 
 **Grade Ranges:**
-- **Below 80:** Missing requirements or major quality issues
-- **80-90 (B range):** All "Must Haves" completed with functional quality
-- **90-95 (A- range):** All "Must Haves" completed with good quality and attention to detail
-- **95-100 (A range):** Professional execution, **OR** good execution + advanced features
-- **100-110 (A+ range):** Professional execution AND multiple advanced features
+- **70-80:** Meets basic requirements but with quality issues or missing features
+- **80-90 (B range):** All "Must Haves" completed with solid, functional quality
+- **90-95 (A- range):** All "Must Haves" with strong execution and attention to detail
+- **95-100 (A range):** Exceptional polish throughout, **OR** solid execution + advanced feature(s)
+- **100-110 (A+ range):** Exceptional polish AND multiple advanced features
 
-**Two Paths to an A:**
-1. **Polish everything:** Do the must-haves exceptionally well (beautiful UI, clean code, thoughtful UX)
-2. **Add advanced features:** Do the must-haves solidly + implement features from "Going Beyond"
+**The Reality:**
+- Most students will land in 85-95 range (solid B+ to A- work)
+- Getting to 95+ requires either going deep on quality OR adding substantial features
+- 100+ requires BOTH polish and features
 
-Both paths are equally valid. Choose based on your project and interests!
+**Two Paths to 95+:**
+1. **Polish Path:** Make everything beautiful - professional UI, clean code, thoughtful UX
+2. **Feature Path:** Solid execution + implement advanced features like Provider, Flame, Firebase
+3. **Best Path:** Combine both for 100+
 
 **The key to success:** Document your work! I can only grade what I can see.
 
@@ -130,19 +134,19 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 ### Must Have:
 - **[Custom font](../reference/styling/text-fonts.md)** - Local or Google Fonts
 - **Coordinated colors** - [Theme](../reference/styling/themes.md) or [ColorScheme](../reference/styling/colorscheme.md)
+- **Polished visual design** with [BoxDecoration](../reference/styling/box-decoration.md) (gradients, shadows, borders, rounded corners)
 - **Appropriate imagery and icons**
   - [Images & Assets](../reference/widgets/images-assets.md)
   - [SVG Images](../reference/assets/svg-images.md)
 - Beyond default Flutter appearance
 
 ### Professional Execution (part of getting to 95-100):
-- Polished visual design with [BoxDecoration](../reference/styling/box-decoration.md) (gradients, shadows, borders, rounded corners)
+- **[CachedNetworkImage](../reference/platform-integration/cached-network-image.md)** with smart caching strategies (if your app uses network images)
 - Consistent visual hierarchy and spacing throughout
 - Thoughtful use of color for meaning (errors, success, warnings)
 - Professional iconography and imagery choices
 
 ### Advanced Features (for 100+):
-- **[CachedNetworkImage](../reference/platform-integration/cached-network-image.md)** with smart caching strategies for apps that reuse network images across sessions
 - **Sound effects/music** - *[Week 12B](../weekly/12B.md) (coming soon) - AudioPlayers package*
 - **Custom animations** - 🌐 [Flutter Animation Tutorial](https://docs.flutter.dev/ui/animations/tutorial) (beyond basic implicit animations)
 
