@@ -141,14 +141,15 @@ Since many people may want to travel for break, I'm conducting our final exam pe
 ### Grading Breakdown:
 - **10%** - Proposal
 - **5%** - Checkpoint/Prototype (essentially free points for submitting progress)
+- **65%** - Final Code Submission
+- **5%** - Documentation
 - **15%** - Video Demonstration
-- **70%** - Final Code Submission
 
 ### Grading Rubrics:
 The detailed grading rubrics for each part of this assignment are attached to the assignments in myCourses:
 - Project 3 - Proposal
 - Project 3 - Checkpoint/Prototype
 - Project 3 - Final Code Submission
-- Project 3 - Video Demo Link
+- Project 3 - Video Demo
 
 Please review them before you get deep into your project development. For a detailed breakdown of how to excel on the final submission, see the companion document: [Project 3 Expectations Guide](p3_roll_your_own_expectations.md).
