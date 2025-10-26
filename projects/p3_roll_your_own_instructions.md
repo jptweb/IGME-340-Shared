@@ -38,28 +38,28 @@
 
 ## III. Requirements
 
-Your project will be evaluated across seven key categories. Each category is detailed extensively in the **[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)** with specific technical requirements and links to relevant course materials.
+Your project will be evaluated across six key categories for the code submission. Each category is detailed extensively in the **[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)** with specific technical requirements and links to relevant course materials.
 
-### The Seven Evaluation Categories:
+### The Six Evaluation Categories (Code Submission):
 
 1. **Usefulness & Entertainment (10 pts)** - Create something genuinely engaging that people would want to use
 
 2. **Error Prevention & Handling (10 pts)** - Build robustly with input validation, graceful error handling, and user-friendly messages
 
-3. **Documentation (10 pts)** - In-app documentation page that explains your work and helps me grade effectively
+3. **Code Quality & Organization (15 pts)** - Clean, commented, well-structured code following best practices
 
-4. **Code Quality & Organization (10 pts)** - Clean, commented, well-structured code following best practices
-
-5. **Functional Requirements (20 pts)** - Core features including:
+4. **Functional Requirements (20 pts)** - Core features including:
    - Custom splash screen, app icon, and app name
    - SharedPreferences for data persistence
    - Multiple pages with appropriate navigation
    - Functionality that goes beyond class examples
    - No crashes or debug statements
 
-6. **Interface Quality (20 pts)** - Intuitive, well-labeled interface that works well in portrait orientation with appropriate use of dialogs and responsive layout techniques
+5. **Interface Quality (20 pts)** - Intuitive, well-labeled interface that works well in portrait orientation with appropriate use of dialogs and responsive layout techniques
 
-7. **Visual Design (20 pts)** - Custom fonts, coordinated colors, appropriate imagery, and polish beyond default Flutter appearance
+6. **Visual Design (20 pts)** - Custom fonts, coordinated colors, appropriate imagery, and polish beyond default Flutter appearance
+
+> 💡 **Note:** Documentation (5%) is graded separately as its own MyCourses submission (see Section VII).
 
 ### Critical Success Factors
 

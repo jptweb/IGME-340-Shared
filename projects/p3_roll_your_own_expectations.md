@@ -1,6 +1,8 @@
 # How to Excel on Project 3
 
 > 📋 **Start Here:** This guide shows you exactly how to succeed on Project 3 by breaking down the grading rubric into actionable items with links to relevant course materials. For project logistics, deadlines, and submission requirements, see the **[Project 3 Instructions](p3_roll_your_own_instructions.md)**.
+>
+> **Important:** The **Code Submission (65%)** is graded on six categories below. **Documentation (5%)** and **Video Demo (15%)** are separate MyCourses submissions.
 
 This guide breaks down the GRADING RUBRIC (which is attached to the MyCourses Assignment Dropbox) into actionable items. Not everything listed is required—focus on the categories that matter most for your grade. This is just to help people out but the [INSTRUCTIONS for P3](p3_roll_your_own_instructions.md) are still the source of truth!
 
@@ -50,20 +52,7 @@ Build a robust application:
 
 ---
 
-## 3. Documentation (10 pts)
-
-**Required:**
-- Documentation page accessible from within app
-- Explains what you built and how you met requirements
-- Lists resources and packages used
-- Describes your process
-- Highlights features you want graded
-
-> ⚠️ **Critical:** If you want credit for a feature, DOCUMENT IT. I can't grade what I can't find!
-
----
-
-## 4. Code Quality & Organization (10 pts)
+## 3. Code Quality & Organization (15 pts)
 
 **Required:**
 - Code comments (see [Commenting Guide](../commenting_guide.md))
@@ -79,7 +68,7 @@ Build a robust application:
 
 ---
 
-## 5. Functional Requirements (20 pts)
+## 4. Functional Requirements (20 pts)
 
 ### Must Have:
 - **Custom Splash Screen** - *[Week 13B](../weekly/13B.md) (coming soon)*
@@ -87,7 +76,9 @@ Build a robust application:
 - **Appropriate App Name** - *[Week 13B](../weekly/13B.md) (coming soon)*
 - **No debug banner** - Remove the "DEBUG" banner from your app (hint: MaterialApp has a property for this)
 - **[SharedPreferences](../reference/data-persistence/shared-preferences.md)** for data persistence
-- **Multiple pages** (at minimum: main app + about + documentation) - *Covered in [Week 9A](../weekly/9A.md) - Stupid Clicker Game*
+- **Multiple pages** (at minimum: your main app pages - no specific "about" page required)
+  - *Note: All project documentation is submitted as a separate PDF, not in-app*
+  - *Covered in [Week 9A](../weekly/9A.md) - Stupid Clicker Game*
 - **No crashes**
 
 ### Choose ONE navigation method:
@@ -111,7 +102,7 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 
 ---
 
-## 6. Interface Quality (20 pts)
+## 5. Interface Quality (20 pts)
 
 ### Must Have:
 - Intuitive, well-labeled interface
@@ -131,7 +122,7 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 
 ---
 
-## 7. Visual Design (20 pts)
+## 6. Visual Design (20 pts)
 
 ### Must Have:
 - **[Custom font](../reference/styling/text-fonts.md)** - Local or Google Fonts
