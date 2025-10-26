@@ -8,7 +8,7 @@ This guide breaks down the GRADING RUBRIC (which is attached to the MyCourses As
 
 ## Grading Philosophy
 
-Your project is graded on **six categories** (95 points total). Quality of execution matters:
+Your project is graded on **six categories** (95 points total); with advanced features you can reach 110. Quality of execution matters:
 
 **Grade Ranges:**
 - **70-80:** Meets basic requirements but with quality issues or missing features
@@ -16,11 +16,6 @@ Your project is graded on **six categories** (95 points total). Quality of execu
 - **90-95 (A- range):** All "Must Haves" with strong execution and attention to detail
 - **95-100 (A range):** Exceptional polish throughout, **OR** solid execution + advanced feature(s)
 - **100-110 (A+ range):** Exceptional polish AND multiple advanced features
-
-**The Reality:**
-- Most students will land in 85-95 range (solid B+ to A- work)
-- Getting to 95+ requires either going deep on quality OR adding substantial features
-- 100+ requires BOTH polish and features
 
 **Two Paths to 95+:**
 1. **Polish Path:** Make everything beautiful - professional UI, clean code, thoughtful UX
