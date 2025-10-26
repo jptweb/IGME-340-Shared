@@ -49,7 +49,6 @@ Example projects:
 - Sound is used to enhance the experience
 - Utilize a custom font.
 
-
 ### D. Code Conventions
 - Utilize at least one dart `class` of your own creation
 - by type aware, don't just use `var`.
@@ -61,15 +60,23 @@ Example projects:
 - Delete or comment out your `print` statements.
 
 ## IV. Milestones
-1. **Proposal:** Submit a proposal that provides the information described in Section V (Proposal) below about what you plan to create for your app or game. See MyCourses dropbox for submission info & the due date. *(10% of project grade)*
+1. **Proposal:**
+   - See Section V (Proposal) below for detailed Proposal requirments.
 
-2. **Checkpoint / Prototype:** Create a working draft of your project. This is essentially a "code check-in" to ensure you're making progress. See MyCourses dropbox for the due date. *(5% of project grade - basically free points for submitting your work-in-progress)*
+2. **Prototype / Code Checkpoint:** Create a working draft of your project. This is essentially a "code check-in" to ensure you're making progress. See MyCourses dropbox for the due date. *(5% of project grade - basically free points for submitting your work-in-progress)*
 
-3. **Final Project:** Final project deliverable is due final exam week - see MyCourses dropbox for the due date and submission instructions. *(85% of project grade - broken down as 15% video demo, 70% code submission)*
-   - Your final submission includes **both** a video demonstration and your complete project files
+3. **Final App:** Final project deliverable is due final exam week - see MyCourses dropbox for the due date and submission instructions. *(85% of project grade - broken down as 15% video demo, 70% code submission)*
+
+4. **Documentation**
+   - See Section V (Proposal) below for detailed Proposal
+     
+5. **Video Demonstration**
    - See Section VI (Video Demonstration) below for detailed video requirements
 
 ## V. Proposal
+
+⚠️ **This submission is worth 10% of your overall course grade.**
+
 We would like you to write a brief project treatment for your Project 3 Proposal:
 
 Here are some elements/sections to include:
@@ -98,6 +105,9 @@ You may format this in any way that you want, but break each bulleted item below
 During final exam week, you will present your project in a brief video demo. 
 
 ### Video Requirements:
+
+⚠️ **This submission is worth 15% of your overall course grade.**
+
 - **Length:** No more than **5 minutes** (ideally 3 minutes so we can watch everyone's during the final exam period)
 - **Format:** Record your computer screen or device using a tool such as [OBS](http://obsproject.com)
 - **Submission:** Upload to YouTube as an **unlisted video** and submit the link to MyCourses
