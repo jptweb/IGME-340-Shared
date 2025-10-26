@@ -23,7 +23,7 @@ Your project is graded on **six categories** (95 points total) in which you can 
 
 Both paths are equally valid. Choose based on your project and interests!
 
-> Because everyones project is differen't it's impossible to just give people a checklist of exactly what to do; so you must carefully understand these guidelines and reach out to me for clarification. I may also be able to respond to issues / questions you put in your proposal!
+> Because everyones project is differen't it's impossible to just give people a checklist of exactly what to do; so you must carefully understand these guidelines and/or contact me with questions about your features. I may also be able to respond to issues / questions you put in your proposal!
 
 **The key to success:** Document your work! I can only grade what I can see.
 
