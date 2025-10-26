@@ -15,7 +15,7 @@ The project will be very open and it will be up to you to decide what technologi
 - Native Camera
 - Flutter Casual Game Kit
 - **Firebase** 
-- Advanced State Management, ex: **BLoC**, **Riverpod**
+- Advanced State Management, ex: **Go Router**, **BLoC**, **Riverpod**
 - Responsive Layout
 - Other package not discussed or shown in class.
   
