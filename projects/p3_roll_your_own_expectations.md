@@ -27,7 +27,7 @@ Build a robust application:
 
 ## 4. Code Quality & Organization (10 pts)
 **Required:**
-- Code comments (see Commenting Guide)
+- Code comments (see [Commenting Guide](../commenting_guide.md))
 - Organized into multiple .dart files
 - Custom classes (at least one)
 - Type-aware variables (not just `var`)
