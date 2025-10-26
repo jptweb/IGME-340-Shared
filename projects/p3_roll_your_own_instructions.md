@@ -84,19 +84,30 @@ To reach the highest grades, consider implementing advanced features like:
 
 **See the [Project 3 Expectations Guide](p3_roll_your_own_expectations.md) for detailed examples, technical guidance, and links to relevant course materials for each category.**
 
-## IV. Milestones
-1. **Proposal:**
-   - See Section V (Proposal) below for detailed Proposal requirments.
+## IV. Milestones & Deliverables
 
-2. **Prototype / Code Checkpoint:** Create a working draft of your project. This is essentially a "code check-in" to ensure you're making progress. See MyCourses dropbox for the due date. *(5% of project grade - basically free points for submitting your work-in-progress)*
+This project has five separate submissions in MyCourses, each with its own dropbox:
 
-3. **Final App:** Final project deliverable is due final exam week - see MyCourses dropbox for the due date and submission instructions. *(85% of project grade - broken down as 15% video demo, 70% code submission)*
+1. **Proposal (10%)** - Due early in the project timeline
+   - See Section V below for detailed requirements
 
-4. **Documentation**
-   - See Section V (Proposal) below for detailed Proposal
-     
-5. **Video Demonstration**
-   - See Section VI (Video Demonstration) below for detailed video requirements
+2. **Prototype/Checkpoint (5%)** - Due mid-project
+   - Working draft showing progress (basically free points for submitting work-in-progress)
+   - See MyCourses dropbox for due date
+
+3. **Final Code Submission (65%)** - Due final exam week
+   - Your completed Flutter project
+   - See MyCourses dropbox for due date and submission instructions
+
+4. **Documentation (5%)** - Due final exam week
+   - Separate PDF submission explaining your project and features
+   - See Section VII below for detailed requirements
+
+5. **Video Demonstration (15%)** - Due final exam week
+   - 3-5 minute video showcasing your work
+   - See Section VI below for detailed requirements
+
+> ⚠️ **Important:** These are SEPARATE submissions in MyCourses. Make sure you submit to all five dropboxes!
 
 ## V. Proposal
 

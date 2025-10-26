@@ -6,17 +6,26 @@ This guide breaks down the GRADING RUBRIC (which is attached to the MyCourses As
 
 ## Grading Philosophy
 
-**Base Grade (0-95 points):** Meeting all requirements with solid execution
+This is a **quality-based rubric** where the same requirements can yield different grades based on execution:
+
+**Meeting Requirements (85-95 points):**
 - Complete all "Must Have" items in each category
 - Your project works reliably without crashes
-- Clean, well-organized, documented code
-- Goes beyond class examples in at least one meaningful way
+- Code is functional and reasonably organized
+- Goes beyond class examples in at least one way
+- *Quality of execution determines where you land in this range*
 
-**Excellence & Innovation (95-105+ points):** Going above and beyond
-- See "Going 'Above and Beyond'" section below
-- Multiple advanced features implemented well
-- Production-quality polish and attention to detail
-- Creative solutions to technical challenges
+**Solid Execution (95-100 points):**
+- All requirements met with professional quality
+- Clean, well-organized, thoroughly documented code
+- Thoughtful design decisions and polish
+- Clear evidence of effort and attention to detail
+
+**Excellence & Innovation (100-105+ points):**
+- Everything in "Solid Execution" PLUS multiple advanced features
+- See "Going 'Above and Beyond'" section below for examples
+- Production-quality polish and creative solutions
+- Demonstrates mastery beyond course scope
 
 **The key to a high grade:** Document your work! If you implemented something cool but didn't document it, I might miss it during grading.
 
@@ -76,7 +85,7 @@ Build a robust application:
 - **Custom Splash Screen** - *[Week 13B](../weekly/13B.md) (coming soon)*
 - **Custom App Icon** - *[Week 13B](../weekly/13B.md) (coming soon)*
 - **Appropriate App Name** - *[Week 13B](../weekly/13B.md) (coming soon)*
-- **No debug banner** - Set `debugShowCheckedModeBanner: false` in MaterialApp
+- **No debug banner** - Remove the "DEBUG" banner from your app (hint: MaterialApp has a property for this)
 - **[SharedPreferences](../reference/data-persistence/shared-preferences.md)** for data persistence
 - **Multiple pages** (at minimum: main app + about + documentation) - *Covered in [Week 9A](../weekly/9A.md) - Stupid Clicker Game*
 - **No crashes**
@@ -148,9 +157,9 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 
 ## Going "Above and Beyond"
 
-**To reach 95-100 points:** Meet all base requirements solidly with at least one area of excellence.
+**To reach 100 points:** Meet all requirements with professional execution quality.
 
-**To exceed 100 points (up to 105+):** Demonstrate multiple advanced implementations. Consider:
+**To exceed 100 points (up to 105+):** Implement advanced features beyond course requirements. Consider:
 
 ### Advanced State Management (choose one if applicable):
 - **[Provider pattern](../reference/state-management/provider-pattern.md)** - Centralized state management
@@ -172,39 +181,9 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 
 ---
 
-## Quick Reference by Category
-
-### Core Widgets You'll Need:
-- [Container Basics](../reference/widgets/container-basics.md)
-- [Row & Column Layout](../reference/widgets/layout-widgets.md)
-- [Expanded & Flexible](../reference/widgets/expanded-flexible.md) - Responsive layouts
-- [Stack Widget](../reference/widgets/stack-widget.md) - Layering
-- [Padding & SizedBox](../reference/widgets/padding-sizedbox.md)
-
-### Lists & Grids:
-- [ListView & ListTile](../reference/widgets/listview-basics.md)
-- [GridView & GridTile](../reference/widgets/gridview-basics.md)
-- [SingleChildScrollView](../reference/widgets/singlechildscrollview.md)
-
-### Input & Forms:
-- [TextField Basics](../reference/input-forms/textfield-basics.md)
-- [Form Validation](../reference/input-forms/form-validation.md)
-- [DropdownButton](../reference/input-forms/dropdown-button.md)
-- [CheckBox Widgets](../reference/input-forms/checkbox-widgets.md)
-
-### Buttons & Interaction:
-- [Button Types & Styling](../reference/widgets/button-types.md)
-- [InkWell & GestureDetector](../reference/widgets/inkwell-gesturedetector.md)
-
-### Working with APIs:
-- [Async/Await Fundamentals](../reference/network/async-await-fundamentals.md)
-- [HTTP & API Integration](../reference/network/http-api-integration.md)
-
----
-
 > 💡 **Remember:** Document which advanced features you implemented! If it's not documented, it might not get credit.
 
-> 📚 **Full Reference Guide:** See [reference/README.md](../reference/README.md) for complete documentation of all topics.
+> 📚 **Full Reference Guide:** See [reference/README.md](../reference/README.md) for complete documentation of all topics covered in this course.
 
 ---
 
