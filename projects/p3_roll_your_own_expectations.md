@@ -132,19 +132,19 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 ### Must Have:
 - **[Custom font](../reference/styling/text-fonts.md)** - Local or Google Fonts
 - **Coordinated colors** - [Theme](../reference/styling/themes.md) or [ColorScheme](../reference/styling/colorscheme.md)
+- Polished visual design with [BoxDecoration](../reference/styling/box-decoration.md) (gradients, shadows, borders, rounded corners)
 - **Appropriate imagery and icons**
   - [Images & Assets](../reference/widgets/images-assets.md)
   - [SVG Images](../reference/assets/svg-images.md)
 - Beyond default Flutter appearance
 
 ### Professional Execution (part of getting to 95-100):
-- Polished visual design with [BoxDecoration](../reference/styling/box-decoration.md) (gradients, shadows, borders, rounded corners)
+- **[CachedNetworkImage](../reference/platform-integration/cached-network-image.md)** with smart caching strategies for apps that reuse network images across sessions
 - Consistent visual hierarchy and spacing throughout
 - Thoughtful use of color for meaning (errors, success, warnings)
 - Professional iconography and imagery choices
 
 ### Advanced Features (for 100+):
-- **[CachedNetworkImage](../reference/platform-integration/cached-network-image.md)** with smart caching strategies for apps that reuse network images across sessions
 - **Sound effects/music** - *[Week 12B](../weekly/12B.md) (coming soon) - AudioPlayers package*
 - **Custom animations** - 🌐 [Flutter Animation Tutorial](https://docs.flutter.dev/ui/animations/tutorial) (beyond basic implicit animations)
 
