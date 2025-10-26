@@ -6,9 +6,15 @@
 
 ## I. Overview
 *Using Flutter, create a Game or App*:
-- For this project you are creating a Flutter game or experience for Mobile platforms, Android or IOS (ideally both).
-- You will be proposing an idea and describing it on a nicely formatted "proposal/about" document which will include the "game treatment" elements described below: 
+- For this project you are creating a Flutter game or App experience for Mobile platforms, Android or IOS (ideally both).
+- You will be proposing an idea and describing it on a nicely formatted "proposal/about". Additionally you will be submitting documentation for it (so I know how to grade it) and a video presentation that will be played during our final exam period to the class (over zoom for those who want to travel early).
+  
+Example projects:
+- Flutter Game
+- Utiliy Application
+- Enhanced API based application (Enhancing Project 2 or something new).
 
+### What to implement
 The project will be very open and it will be up to you to decide what technologies/packages to implement, below are some examples:
 - **Flame Engine**
 - GPS / Maps
@@ -18,11 +24,6 @@ The project will be very open and it will be up to you to decide what technologi
 - Advanced State Management, ex: **Go Router**, **BLoC**, **Riverpod**
 - Responsive Layout
 - Other package not discussed or shown in class.
-  
-Example projects:
-- Flutter Game
-- Utiliy Application
-- Enhanced API based application (Enhancing Project 2 or something new).
 
 ## II. Goal
 - Your goal is to create a app or game that is easy to use, functional, and aesthetically pleasing.
@@ -123,14 +124,28 @@ During final exam week, you will present your project in a brief video demo.
 ### Final Exam Viewing:
 Since many people may want to travel for break, I'm conducting our final exam period virtually this year on Zoom. We'll watch all the videos together as a class during that time.
 
-### Alternative for Technical Issues:
-If you have technical difficulties preventing you from creating a video, you may schedule a Zoom meeting with me to demonstrate your project live (which I may record for grading reference).
 
 ## VII. Documentation
-- You will be expected to maintain documentation for this project, and have it included as part of the project for submission. Ideally it should be someplace in your app, but if you don't want it there, then provide it in the submission Dropbox. 
-- Your documentation should include your proposal, your process for this project, cite any sources, tell me where to find anything special you want me to see, and also explain how you met the requirements.
 
-**If you want POINTS in your grade for a feature or technology you used, it needs to be documented! I won't have time at end of semester to browse every line of everyone's project! If I missed something and it was documented, I will retroactively adjust your score even after final grades are due by filing a change of grade form.**
+⚠️ **This submission is worth 5% of your overall course grade.**
+
+**WHY THIS MATTERS:** Your documentation tells me what to look for while grading. I will **NOT** have time to analyze everyone's code from top to bottom searching for features. **To get credit for the work you did, you MUST describe it in your documentation.** If you implemented something cool but didn't document it, I might miss it and you won't receive credit.
+
+### Instructions
+
+1. **Make a copy of the documentation template:** [Click here to copy the Google Doc template](YOUR_GOOGLE_DOC_URL_HERE/copy)
+
+2. **Fill out ALL sections** - Don't skip anything! Each section is important for grading.
+
+3. **Be SPECIFIC in Section 8 (Testing Notes)** - Tell me exactly where to find your features: "On the Home screen, tap the blue button..." not just "the app has a cool feature"
+
+4. Export your completed Google Doc to a PDF (in the file menu of google docs)
+
+5. Upload Submit this PDF to the correct dropbox in MyCourses by the due date indicated there. I know its possible to share google docs but this prevents any potential permission issues, and preserves a copy I know works in mycourses.
+
+**Remember:** If it's not documented, it might not get graded! This is your opportunity to make sure I see all the hard work you put into your project.
+
+---
 
 ## VIII. Grading
 
