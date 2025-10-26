@@ -103,7 +103,7 @@ You may format this in any way that you want, but break each bulleted item below
 - Other: Anything else that you like to say, like discuss packages you'd like to use, etc.
 - About the developer: Give your name/major/minor/year and your skill set/interests.  
 
-The document is similar in style to the Project 3 template used in 230/235. For reference you can look at http://igm.rit.edu/~acjvks/courses/2017-fall/590-ios-game/html/project-1-proposal.html.
+> The document is similar in style to the Project 3 template used in 230/235. For reference you can look at https://github.com/rit-igm-web/igme-235-shared/blob/main/projects/project-3.md.
 
 ## VI. Documentation
 - You will be expected to maintain documentation for this project, and have it included as part of the project for submission. Ideally it should be someplace in your app, but if you don't want it there, then provide it in the submission Dropbox. 
