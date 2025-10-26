@@ -64,7 +64,8 @@ Example projects:
 - Utilize at least one dart `class` of your own creation
 - by type aware, don't just use `var`.
 - D.R.Y. - Don't Repeat Yourself. Repeated blocks of nearly identical code should be factored out and placed in a separate function.
-- Separation of Concerns. Have separate .dart files for your classes, utility functions, and main code. 
+- Separation of Concerns. Have separate .dart files for your classes, utility functions, and main code.
+  - Learn more and see examples of this here: [Declarative UI Architecture: Data Controls the UI](../reference/state-management/declarative-ui-architecture.md). Another good way to implement this could be by using the Provider Package which we covered in the (10A Notes)[../weekly/10A.md].
 - Use proper variable and function names, do NOT just use a single letter (exceptions for minor local variables inside loops).
 - Well-commented code. Each and every function gets a comment indicating what it does
 - Delete or comment out your `print` statements.
@@ -105,8 +106,10 @@ You may format this in any way that you want, but break each bulleted item below
 The document is similar in style to the Project 3 template used in 230/235. For reference you can look at http://igm.rit.edu/~acjvks/courses/2017-fall/590-ios-game/html/project-1-proposal.html.
 
 ## VI. Documentation
-- You will be expected to maintain documentation for this project, and have it included as part of the project for submission. Ideally it should be someplace in your app, but if you don't want it there, then provide it in the submission Dropbox.
+- You will be expected to maintain documentation for this project, and have it included as part of the project for submission. Ideally it should be someplace in your app, but if you don't want it there, then provide it in the submission Dropbox. 
 - Your documentation should include your proposal, your process for this project, cite any sources, tell me where to find anything special you want me to see, and also explain how you met the requirements.
+
+**If you want a POINTS in your grade for a feature or technology you used in your final grade it needs to be documented! I won't have time at end of semester to browser every line of everyones project! If I missed and it was documented in your documentation I will retroactively adjust your score even after final grades are due by filing a change of grade form.**
 
 ## VII. Video Demonstration
 During final exam week, you will present your project in a brief video demo. Plan to show us:
