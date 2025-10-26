@@ -8,7 +8,7 @@ This guide breaks down the GRADING RUBRIC (which is attached to the MyCourses As
 
 ## Grading Philosophy
 
-Your project is graded on **six categories** (95 points total). Quality of execution and features both matter:
+Your project is graded on **six categories** (95 points total) in which you can score up to 110 if you add advanced features. Quality of execution and features both matter:
 
 **Grade Ranges:**
 - **Below 80:** Missing requirements or major quality issues
