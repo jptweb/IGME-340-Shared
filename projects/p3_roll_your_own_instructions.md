@@ -5,26 +5,15 @@
 # Project 3 - Roll-Your-Own Flutter App
 
 ## I. Overview
-*Using Flutter, create a Game or App*:
+**Using Flutter, create a Game or App**:
 - For this project you are creating a Flutter game or App experience for Mobile platforms, Android or IOS (ideally both).
+  - Example projects:
+    - Flutter Game
+    - Utiliy Application
+    - Enhanced API based application (Enhancing Project 2 or something new).
+      
 - You will be proposing an idea and describing it on a nicely formatted "proposal/about". Additionally you will be submitting documentation for it (so I know how to grade it) and a video presentation that will be played during our final exam period to the class (over zoom for those who want to travel early).
   
-Example projects:
-- Flutter Game
-- Utiliy Application
-- Enhanced API based application (Enhancing Project 2 or something new).
-
-The project will be very open and it will be up to you to decide what technologies/packages to implement, below are some examples:
-- **Flame Engine**
-- GPS / Maps
-- Native Camera
-- Flutter Casual Game Kit
-- **Firebase** 
-- Advanced State Management, ex: **BLoC**, **Riverpod**
-- Responsive Layout
-- Other package not discussed or shown in class.
-
-## II. Goal
 - Your goal is to create a app or game that is easy to use, functional, and aesthetically pleasing.
 
 - Ideally the experience will run in all platforms Flutter can run on, but the bare minimum will be the Android Simulator or IOS Simulator. 
@@ -34,6 +23,16 @@ The project will be very open and it will be up to you to decide what technologi
     - the quality of the experience you create
     - the soundness of your programming.
     - how far you went beyond what we did in class, as described below
+
+- The project will be very open and it will be up to you to decide what technologies/packages to implement, below are some examples:
+  - Flame Engine
+  - GPS / Maps
+  - Native Camera
+  - Flutter Casual Game Kit
+  - Firebase
+  - Advanced State Management, ex: BLoC, Riverpod
+  - Responsive Layout
+  - Other package not discussed or shown in class.
 
 ## III. Requirements
 
