@@ -108,14 +108,20 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
   - Use [**Expanded & Flexible**](../reference/widgets/expanded-flexible.md) widgets for responsive layouts
   - Ensure content fits without overflow on standard phone screens
 
-### Going Beyond:
-- **Responsive layout** - *[Week 14A](../weekly/14A.md) (coming soon) - MediaQuery, LayoutBuilder*
-- **[WebView](../weekly/12A.md) or [URL Launcher](../reference/platform-integration/url-launcher.md)** integration
+### Professional Execution (part of getting to 95-100):
+- Smooth, polished interactions with [InkWell](../reference/widgets/inkwell-gesturedetector.md) for visual feedback
+- Contextual feedback with [SnackBars/ScaffoldMessenger](../reference/notifications/scaffold-messenger.md)
+- **[URL Launcher](../reference/platform-integration/url-launcher.md)** for external links (if your app needs them)
+- Thoughtful use of loading states and empty states
+
+### Advanced Features (for 100+):
+- **Responsive layout** for tablets - *[Week 14A](../weekly/14A.md) (coming soon) - MediaQuery, LayoutBuilder*
+- **[WebView](../weekly/12A.md)** integration with complex interactions
 - Advanced navigation patterns with [GoRouter](../reference/navigation/gorouter.md)
 
 **Related Resources:**
-- [InkWell & GestureDetector](../reference/widgets/inkwell-gesturedetector.md) - Making widgets clickable
-- [ScaffoldMessenger](../reference/notifications/scaffold-messenger.md) - SnackBars for feedback
+- [Basic Navigation](../reference/navigation/basic-navigation.md)
+- [Data Passing Between Pages](../reference/navigation/data-passing.md)
 
 ---
 
@@ -129,14 +135,18 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
   - [SVG Images](../reference/assets/svg-images.md)
 - Beyond default Flutter appearance
 
-### Going Beyond:
-- Polished visual design with [BoxDecoration](../reference/styling/box-decoration.md) (gradients, shadows, borders)
-- **[CachedNetworkImage](../reference/platform-integration/cached-network-image.md)** for network images that are reused across sessions (e.g., user profiles, product catalogs). Not appropriate for random/single-use images or static assets that should be bundled with the app.
+### Professional Execution (part of getting to 95-100):
+- Polished visual design with [BoxDecoration](../reference/styling/box-decoration.md) (gradients, shadows, borders, rounded corners)
+- Consistent visual hierarchy and spacing throughout
+- Thoughtful use of color for meaning (errors, success, warnings)
+- Professional iconography and imagery choices
+
+### Advanced Features (for 100+):
+- **[CachedNetworkImage](../reference/platform-integration/cached-network-image.md)** with smart caching strategies for apps that reuse network images across sessions
 - **Sound effects/music** - *[Week 12B](../weekly/12B.md) (coming soon) - AudioPlayers package*
-- **Animations** - 🌐 [Flutter Animation Tutorial](https://docs.flutter.dev/ui/animations/tutorial) (external documentation)
+- **Custom animations** - 🌐 [Flutter Animation Tutorial](https://docs.flutter.dev/ui/animations/tutorial) (beyond basic implicit animations)
 
 **Styling Resources:**
-- [BoxDecoration](../reference/styling/box-decoration.md) - Borders, shadows, gradients, rounded corners
 - [Themes & ThemeData](../reference/styling/themes.md) - Global app styling
 - [Text Styling & Custom Fonts](../reference/styling/text-fonts.md)
 
@@ -178,34 +188,39 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 
 ---
 
-## Examples of What Counts as "Going Beyond"
+## Examples of What Counts as What
 
-**Strong Examples:**
+**Professional Execution (gets you to 95-100):**
+- BoxDecoration throughout with gradients, shadows, consistent rounded corners
+- InkWell feedback on all interactive elements
+- URL Launcher for external links where appropriate
+- Loading states, empty states, error states all handled gracefully
+- Consistent spacing and visual hierarchy
+- Thoughtful color usage (not just random colors)
+- Clean, well-commented, organized code across multiple files
+
+**Advanced Features (gets you to 100-110):**
 - Implementing Firebase authentication with multiple sign-in methods
 - Building a Flame game with multiple levels and state management
-- Creating a responsive design that works beautifully on both phones and tablets
-- Integrating advanced animation sequences throughout the app
-- Smart caching strategies with CachedNetworkImage for performance optimization
+- Creating responsive design that works on phones AND tablets
 - Provider pattern with multiple ChangeNotifiers managing complex app state
 - WebView integration with two-way communication between Flutter and web content
-- Professional error handling with retry logic and user feedback
+- Professional error handling with retry logic and offline support
+- Custom animations throughout (not just one simple animation)
+- Sound effects/music integrated meaningfully
 
-**Moderate Examples:**
-- Using Provider for basic state management
-- Adding sound effects to key interactions
-- Implementing one custom animation
-- Using GoRouter instead of basic navigation
-- Adding a splash screen with custom branding
-- Basic Firebase integration (just saving/loading data)
-
-**Not "Above and Beyond" (These are expected):**
+**NOT "Going Beyond" (these are baseline expectations):**
 - Having multiple pages (requirement)
 - Using SharedPreferences (requirement)
 - Adding images and a custom font (requirement)
 - Making the UI look better than default Flutter (requirement)
 - Writing commented, organized code (requirement)
+- Using basic navigation (requirement)
 
-**The Difference:** "Beyond" means **either** implementing something we didn't cover in class **or** taking something we did cover and pushing it significantly further with additional complexity, polish, or creative application.
+**The Key Distinction:**
+- **Professional Execution** = Doing required things REALLY WELL (polish, attention to detail)
+- **Advanced Features** = Adding SUBSTANTIAL new functionality beyond requirements
+- Either path can get you to 100. Both together gets you to 110.
 
 ---
 
