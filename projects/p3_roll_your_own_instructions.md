@@ -4,6 +4,8 @@
 
 # Project 3 - Roll-Your-Own Flutter App
 
+> 📋 **How to Use This Document:** This is your official project brief covering scope, deadlines, and submission requirements. For a detailed breakdown of how to excel on each grading category with links to relevant course materials, see the **[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)**.
+
 ## I. Overview
 **Using Flutter, create a Game or App**:
 - For this project you are creating a Flutter game or App experience for Mobile platforms, Android or IOS (ideally both).
@@ -36,37 +38,51 @@
 
 ## III. Requirements
 
-### A. Functional
-- Your game or app should do something useful, and be easy to use.
-- The functionality goes beyond what we have done in similar in-class examples and exercises.
-- Input validation (if applicable)
-- Custom Splash Screen and Icon, Good App Name.
-- Use of Shared_Preferences to save and load data.
-- Should have more than 1 page, at a minimum your app and an about page.
-- No App crashing.
-- Documentation Page, accessible from within your app.
-  
+Your project will be evaluated across seven key categories. Each category is detailed extensively in the **[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)** with specific technical requirements and links to relevant course materials.
 
-### B. Design & Interaction
-- Pleasing graphic design
-- Widgets are well labeled
-- User should be able to figure out how to use the app with minimal instruction (and be sure to provide instruction if necessary!), and user errors are handled gracefully.
-- While it doesn't need to be responsive, it should, at a minimum, look good on a portrait oriented device. 
+### The Seven Evaluation Categories:
 
-### C. Media
-- Images are properly optimized for mobile delivery - e.g. No grossely overside images (ex: 3000x3000).
-- Sound is used to enhance the experience
-- Utilize a custom font.
+1. **Usefulness & Entertainment (10 pts)** - Create something genuinely engaging that people would want to use
 
-### D. Code Conventions
-- Utilize at least one dart `class` of your own creation
-- by type aware, don't just use `var`.
-- D.R.Y. - Don't Repeat Yourself. Repeated blocks of nearly identical code should be factored out and placed in a separate function.
-- Separation of Concerns. Have separate .dart files for your classes, utility functions, and main code.
-  - Learn more and see examples of this here: [Declarative UI Architecture: Data Controls the UI](../reference/state-management/declarative-ui-architecture.md). Another good way to implement this could be by using the Provider Package which we covered in the (10A Notes)[../weekly/10A.md].
-- Use proper variable and function names, do NOT just use a single letter (exceptions for minor local variables inside loops).
-- Well-commented code. Each and every function gets a comment indicating what it does
-- Delete or comment out your `print` statements.
+2. **Error Prevention & Handling (10 pts)** - Build robustly with input validation, graceful error handling, and user-friendly messages
+
+3. **Documentation (10 pts)** - In-app documentation page that explains your work and helps me grade effectively
+
+4. **Code Quality & Organization (10 pts)** - Clean, commented, well-structured code following best practices
+
+5. **Functional Requirements (20 pts)** - Core features including:
+   - Custom splash screen, app icon, and app name
+   - SharedPreferences for data persistence
+   - Multiple pages with appropriate navigation
+   - Functionality that goes beyond class examples
+   - No crashes or debug statements
+
+6. **Interface Quality (20 pts)** - Intuitive, well-labeled interface that works well in portrait orientation with appropriate use of dialogs and responsive layout techniques
+
+7. **Visual Design (20 pts)** - Custom fonts, coordinated colors, appropriate imagery, and polish beyond default Flutter appearance
+
+### Critical Success Factors
+
+**To succeed on this project, you must:**
+- Create functionality that goes beyond what we've done in class examples
+- Use at least one custom Dart `class` of your own creation
+- Organize code into multiple `.dart` files with separation of concerns
+- Write type-safe variables (minimize use of `var`)
+- Apply DRY (Don't Repeat Yourself) principles
+- Comment all functions explaining what they do
+- Remove or comment out all `print` statements
+
+### Going Above and Beyond (95-105+ points)
+
+To reach the highest grades, consider implementing advanced features like:
+- Firebase integration or advanced state management (Provider, Riverpod, BLoC)
+- Flame game engine for game projects
+- GPS/Maps or camera integration
+- Responsive design for tablets
+- Professional animations and polished UI
+- Production-quality error handling and loading states
+
+**See the [Project 3 Expectations Guide](p3_roll_your_own_expectations.md) for detailed examples, technical guidance, and links to relevant course materials for each category.**
 
 ## IV. Milestones
 1. **Proposal:**
