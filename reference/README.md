@@ -45,6 +45,7 @@
 - TabBar & TabBarView *(coming soon - Week 11A)*
 
 ### 🔄 State Management
+- **[Declarative UI Architecture](state-management/declarative-ui-architecture.md)** - "Your data controls the UI" - Flutter's foundational principle
 - [setState Basics](state-management/setstate-basics.md) - Fundamental state updates
 - StatefulWidget Lifecycle *(see [Week 4A notes](../weekly/4A.md))*
 - Provider Pattern *(coming soon - Week 10A)*
@@ -111,6 +112,7 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 ## By Week Coverage
 
 ### Currently Available (Weeks 1-9B)
+- **Declarative UI Architecture (Week 9B)** ✨ NEW!
 - **Basic Navigation (Week 9B)** ✨ NEW!
 - **Named Routes (Week 9B)** ✨ NEW!
 - **Data Passing Between Pages (Week 9B)** ✨ NEW!
