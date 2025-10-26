@@ -261,6 +261,7 @@ setState(() {
   // UI rebuilds automatically with correct total and count
 });
 ```
+**In 10A we will also examine the provider package, and you can actually then remove all setState calls if you are using this!**
 
 ### Problem 2: Scattered Business Logic
 ```dart
