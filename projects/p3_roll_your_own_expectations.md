@@ -8,36 +8,22 @@ This guide breaks down the GRADING RUBRIC (which is attached to the MyCourses As
 
 ## Grading Philosophy
 
-This is a **quality-based rubric** where execution matters as much as features:
+Your project is graded on **six categories** (95 points total). Quality of execution and features both matter:
 
-**Meeting Requirements (80-90 points):**
-- Complete all "Must Have" items in each category
-- Your project works reliably without crashes
-- Code is functional and reasonably organized
-- Goes beyond class examples in at least one way
-- *This is the "I did the assignment" tier*
+**Grade Ranges:**
+- **Below 80:** Missing requirements or major quality issues
+- **80-90 (B range):** All "Must Haves" completed with functional quality
+- **90-95 (A- range):** All "Must Haves" completed with good quality and attention to detail
+- **95-100 (A range):** Professional execution, **OR** good execution + advanced features
+- **100-110 (A+ range):** Professional execution AND multiple advanced features
 
-**Solid Execution (90-95 points):**
-- All requirements met with good quality
-- Clean, organized, documented code
-- Thoughtful design decisions
-- *This is the "I did it well" tier*
+**Two Paths to an A:**
+1. **Polish everything:** Do the must-haves exceptionally well (beautiful UI, clean code, thoughtful UX)
+2. **Add advanced features:** Do the must-haves solidly + implement features from "Going Beyond"
 
-**Professional Quality (95-100 points):**
-- All requirements met with professional execution
-- Polished UI/UX with attention to detail
-- Well-architected, maintainable code
-- **OR** solid execution + 1-2 advanced features from "Going Beyond"
-- *This is the "portfolio-worthy" tier*
+Both paths are equally valid. Choose based on your project and interests!
 
-**Excellence & Innovation (100-105+ points):**
-- Professional quality execution PLUS multiple advanced features
-- See "Going 'Above and Beyond'" section below for examples
-- Production-quality polish and creative solutions
-- Demonstrates mastery beyond course scope
-- *This is the "I went above and beyond" tier*
-
-**The key to a high grade:** Document your work! If you implemented something cool but didn't document it, I might miss it during grading.
+**The key to success:** Document your work! I can only grade what I can see.
 
 ---
 
@@ -158,27 +144,31 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 
 ## Going "Above and Beyond"
 
-**To reach 95-100 points:** Either exceptional execution quality on all requirements, OR solid execution + 1-2 advanced features.
+**To reach 95-100:** Choose ONE path:
+- Path A: Exceptional execution quality on all requirements (professional polish)
+- Path B: Solid execution + 1-2 advanced features from the list below
 
-**To exceed 100 points (up to 105+):** Professional execution quality PLUS multiple advanced features. Consider:
+**To reach 100-110:** Professional execution quality PLUS multiple advanced features from below.
 
-### Advanced State Management (choose one if applicable):
-- **[Provider pattern](../reference/state-management/provider-pattern.md)** - Centralized state management
+### Advanced Features (covered in class - use if they fit your project):
+- **[Provider pattern](../reference/state-management/provider-pattern.md)** - Centralized state management *(Week 10A)*
+- **[Flame game engine](../weekly/11B.md)** - For game projects *(Week 11B-12B)*
+- **Responsive design** for tablets - MediaQuery, LayoutBuilder *(Week 14A)*
+- **[App Lifecycle Management](../weekly/13A.md)** - Proper state handling *(Week 13A)*
+- **Smooth loading states** with [FutureProvider](../weekly/10B.md) *(Week 10B)*
+
+### Advanced Features (not covered - extra learning required):
+- **Riverpod** - 🌐 [Riverpod Official Docs](https://riverpod.dev/) (advanced state management alternative)
 - **Firebase integration** - Real-time database, authentication
-  - *Note: Firebase covered in IGME-330 - [Firebase Guide](https://github.com/rit-igm-web/igme-330-shared/blob/main/notes/firebase-1.md)*
-  - 🌐 [Google Sign-In with Firebase Tutorial](https://medium.com/@dev.lens/flutter-google-sign-in-using-firebase-authentication-step-by-step-ef2ddfb84a2c) (external - advanced)
-- **Riverpod** - 🌐 [Riverpod Official Docs](https://riverpod.dev/) (external - advanced state solution, not covered in class)
+  - *Note: Firebase basics covered in IGME-330 - [Firebase Guide](https://github.com/rit-igm-web/igme-330-shared/blob/main/notes/firebase-1.md)*
+- **GPS/Maps integration** - Location services
+- **Camera access** - Device camera features  
+- **BLoC pattern** - Another advanced state management approach
 
-### Enhanced Features:
-- **[Flame game engine](../weekly/11B.md)** - *Week 11B-12B (coming soon)*
-- **GPS/Maps integration** - Location services *(not covered in detail)*
-- **Camera access** - Device camera features *(not covered in detail)*
-- **Responsive design** for tablets - *[Week 14A](../weekly/14A.md) (coming soon)*
-
-### Production Quality:
-- **[App Lifecycle Management](../weekly/13A.md)** - *Week 13A (coming soon)*
-- Professional error handling patterns
-- Smooth loading states with [FutureProvider](../weekly/10B.md) - *Week 10B (coming soon)*
+### Production Polish (can elevate execution quality):
+- Professional error handling with retry logic and user feedback
+- Advanced animation sequences throughout the app
+- WebView integration with two-way communication
 
 ---
 
