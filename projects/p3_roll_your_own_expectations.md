@@ -2,7 +2,7 @@
 
 > 📋 **Start Here:** This guide shows you exactly how to succeed on Project 3 by breaking down the grading rubric into actionable items with links to relevant course materials. For project logistics, deadlines, and submission requirements, see the **[Project 3 Instructions](p3_roll_your_own_instructions.md)**.
 >
-> **Important:** The **Code Submission (65%)** is graded on six categories below. **Documentation (5%)** and **Video Demo (15%)** are separate MyCourses submissions.
+> **Important:** The **Code Submission (70%)** is graded on six categories below. **Documentation (5%)** and **Video Demo (10%)** are separate MyCourses submissions.
 
 This guide breaks down the GRADING RUBRIC (which is attached to the MyCourses Assignment Dropbox) into actionable items. Not everything listed is required—focus on the categories that matter most for your grade. This is just to help people out but the [INSTRUCTIONS for P3](p3_roll_your_own_instructions.md) are still the source of truth!
 
@@ -76,7 +76,10 @@ Build a robust application:
 - **Appropriate App Name** - *[Week 13B](../weekly/13B.md) (coming soon)*
 - **No debug banner** - Remove the "DEBUG" banner from your app (hint: MaterialApp has a property for this)
 - **[SharedPreferences](../reference/data-persistence/shared-preferences.md)** for data persistence
-- **Multiple pages** (at minimum: your main app pages - no specific "about" page required)
+  - *At minimum: save user preferences, settings, or game state*
+- **Multiple pages/screens** (at minimum: your main app pages - no specific "about" page required)
+  - *Games: Consider menu, game, pause, game-over as separate screens*
+  - *Apps: Multiple functional pages based on your app's purpose*
   - *Note: All project documentation is submitted as a separate PDF, not in-app*
   - *Covered in [Week 9A](../weekly/9A.md) - Stupid Clicker Game*
 - **No crashes**
@@ -130,12 +133,11 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 - **Appropriate imagery and icons**
   - [Images & Assets](../reference/widgets/images-assets.md)
   - [SVG Images](../reference/assets/svg-images.md)
-  - [CachedNetworkImage](../reference/platform-integration/cached-network-image.md) for network images
-  - *Thoughtful caching strategies (beyond basic usage) can demonstrate advanced understanding*
 - Beyond default Flutter appearance
 
 ### Going Beyond:
 - Polished visual design with [BoxDecoration](../reference/styling/box-decoration.md) (gradients, shadows, borders)
+- **[CachedNetworkImage](../reference/platform-integration/cached-network-image.md)** for network images with thoughtful caching strategies
 - **Sound effects/music** - *[Week 12B](../weekly/12B.md) (coming soon) - AudioPlayers package*
 - **Animations** - 🌐 [Flutter Animation Tutorial](https://docs.flutter.dev/ui/animations/tutorial) (external documentation)
 

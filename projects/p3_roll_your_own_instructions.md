@@ -38,7 +38,7 @@
 
 ## III. Final Code Submission Requirements
 
-Your **Final Code Submission (65% of project grade)** will be evaluated across six key categories. Each category is detailed extensively in the **[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)** with specific technical requirements and links to relevant course materials.
+Your **Final Code Submission (70% of project grade)** will be evaluated across six key categories. Each category is detailed extensively in the **[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)** with specific technical requirements and links to relevant course materials.
 
 ### The Six Evaluation Categories (Code Submission):
 
@@ -95,7 +95,7 @@ This project has five separate submissions in MyCourses, each with its own dropb
    - Working draft showing progress (basically free points for submitting work-in-progress)
    - See MyCourses dropbox for due date
 
-3. **Final Code Submission (65%)** - Due final exam week
+3. **Final Code Submission (70%)** - Due final exam week
    - Your completed Flutter project
    - See MyCourses dropbox for due date and submission instructions
 
@@ -103,7 +103,7 @@ This project has five separate submissions in MyCourses, each with its own dropb
    - Separate PDF submission explaining your project and features
    - See Section VII below for detailed requirements
 
-5. **Video Demonstration (15%)** - Due final exam week
+5. **Video Demonstration (10%)** - Due final exam week
    - 3-5 minute video showcasing your work
    - See Section VI below for detailed requirements
 
@@ -142,7 +142,7 @@ During final exam week, you will present your project in a brief video demo.
 
 ### Video Requirements:
 
-⚠️ **This submission is worth 15% of your overall course grade.**
+⚠️ **This submission is worth 10% of your overall course grade.**
 
 - **Length:** No more than **5 minutes** (ideally 3 minutes so we can watch everyone's during the final exam period)
 - **Format:** Record your computer screen or device using a tool such as [OBS](http://obsproject.com)
@@ -187,9 +187,9 @@ Since many people may want to travel for break, I'm conducting our final exam pe
 ### Grading Breakdown:
 - **10%** - Proposal
 - **5%** - Checkpoint/Prototype (essentially free points for submitting progress)
-- **65%** - Final Code Submission
+- **70%** - Final Code Submission
 - **5%** - Documentation
-- **15%** - Video Demonstration
+- **10%** - Video Demonstration
 
 ### Grading Rubrics:
 The detailed grading rubrics for each part of this assignment are attached to the assignments in myCourses:
