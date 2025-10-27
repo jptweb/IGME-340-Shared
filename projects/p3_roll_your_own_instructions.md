@@ -168,15 +168,25 @@ Since many people may want to travel for break, I'm conducting our final exam pe
 
 ### Instructions
 
-1. **Make a copy of the documentation template:** [Click here to copy the Google Doc template](YOUR_GOOGLE_DOC_URL_HERE/copy)
+1. **Download the documentation template:** [p3_documentation_template.md](p3_documentation_template.md)
 
-2. **Fill out ALL sections** - Don't skip anything! Each section is important for grading.
+2. **Copy it to a Google Doc or Word document** - The template is in Markdown format, so copy/paste the content
 
-3. **Be SPECIFIC in Section 8 (Testing Notes)** - Tell me exactly where to find your features: "On the Home screen, tap the blue button..." not just "the app has a cool feature"
+3. **Fill out ALL sections** - Don't skip anything! Each section is important for grading:
+   - Project Information
+   - Must-Have Features Checklist
+   - Professional Execution details
+   - Advanced Features (if applicable)
+   - **MOST IMPORTANT:** Section 8 - Step-by-Step Testing Guide
 
-4. Export your completed Google Doc to a PDF (in the file menu of google docs)
+4. **Be SPECIFIC in your Testing Guide** - Tell me exactly where to find your features:
+   - ✅ Good: "On the Home screen, tap the blue '+' button in the bottom right to see the Add Pet form"
+   - ❌ Bad: "The app has a cool feature"
 
-5. Upload Submit this PDF to the correct dropbox in MyCourses by the due date indicated there. I know its possible to share google docs but this prevents any potential permission issues, and preserves a copy I know works in mycourses.
+5. **Export to PDF** - Use File > Download > PDF in Google Docs (or Save as PDF in Word)
+
+6. **Submit to MyCourses** - Upload your PDF to the "Project 3 - Documentation" dropbox
+   - Filename format: `LastName_FirstName_P3_Documentation.pdf`
 
 **Remember:** If it's not documented, it might not get graded! This is your opportunity to make sure I see all the hard work you put into your project.
 
