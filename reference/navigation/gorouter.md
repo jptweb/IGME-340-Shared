@@ -400,6 +400,14 @@ path: '/details/:id'
 
 ---
 
+## When Covered in Course
+
+- **[Week 10A](../../weekly/10A.md)** - Introduction to GoRouter, replacing Named Routes with URL-style routing, path parameters for passing data between pages, integrating with Provider for state management
+- **Project 2** - Used for multi-page API applications with clean navigation patterns
+- **Project 3** - Optional enhancement for complex navigation hierarchies
+
+---
+
 ## Related Topics
 
 - [Basic Navigation](basic-navigation.md) - Navigator fundamentals

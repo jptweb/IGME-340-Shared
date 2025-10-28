@@ -607,6 +607,15 @@ void update() {
 
 ---
 
+## When Covered in Course
+
+- **[Week 10A](../../weekly/10A.md)** - Introduction to Provider Pattern, ChangeNotifier, context.watch vs context.read, replacing setState and globals with centralized state management
+- **Week 10B** - Advanced Provider patterns including FutureProvider and Consumer widget
+- **Project 2** - Recommended for managing API data and app state
+- **Project 3** - Optional enhancement for complex state management (bonus points)
+
+---
+
 ## Related Topics
 
 - [setState Basics](setstate-basics.md) - Local state management
