@@ -1,6 +1,6 @@
 # Provider Pattern - State Management
 
-**When Covered:** Week 10A  
+**When Covered:** Week 10A, Week 10B  
 **Package:** `provider` (pub.dev)  
 **Prerequisites:** [setState Basics](setstate-basics.md), [Declarative UI Architecture](declarative-ui-architecture.md)
 
@@ -609,8 +609,8 @@ void update() {
 
 ## When Covered in Course
 
-- **[Week 10A](../../weekly/10A.md)** - Introduction to Provider Pattern, ChangeNotifier, context.watch vs context.read, replacing setState and globals with centralized state management
-- **Week 10B** - Advanced Provider patterns including FutureProvider and Consumer widget
+- **[Week 10A](../../weekly/10A.md)** - Introduction to Provider Pattern, ChangeNotifier, context.watch vs context.read, replacing setState and globals with centralized state management (clicker game example)
+- **[Week 10B](../../weekly/10B.md)** - Same Provider concepts applied to async API calls, plus Consumer widget deep dive (JSONPlaceholder API example)
 - **Project 2** - Recommended for managing API data and app state
 - **Project 3** - Optional enhancement for complex state management (bonus points)
 
@@ -621,8 +621,7 @@ void update() {
 - [setState Basics](setstate-basics.md) - Local state management
 - [Declarative UI Architecture](declarative-ui-architecture.md) - Understanding Flutter's UI model
 - [GoRouter](../navigation/gorouter.md) - Navigation with Provider
-- Consumer Widget *(coming Week 10B)* - Targeted rebuilds
-- FutureProvider *(coming Week 10B)* - Async data loading
+- **[Week 10B Class Notes](../../weekly/10B.md)** - Consumer widget patterns and async Provider with API calls
 
 ---
 
