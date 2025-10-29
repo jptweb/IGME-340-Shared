@@ -48,9 +48,7 @@
 - **[Declarative UI Architecture](state-management/declarative-ui-architecture.md)** - "Your data controls the UI" - Flutter's foundational principle
 - [setState Basics](state-management/setstate-basics.md) - Fundamental state updates
 - StatefulWidget Lifecycle *(see [Week 4A notes](../weekly/4A.md))*
-- **[Provider Pattern](state-management/provider-pattern.md)** - Centralized state management, ChangeNotifier, context.watch/read
-- FutureProvider *(coming soon - Week 10B)*
-- Consumer Widget *(coming soon - Week 10B)*
+- **[Provider Pattern](state-management/provider-pattern.md)** - Centralized state management, ChangeNotifier, context.watch/read, Consumer widget (Week 10A-10B)
 
 ### 🌐 External Data & APIs
 - **[Async/Await Fundamentals](network/async-await-fundamentals.md)** - Future, async, await, error handling
@@ -110,9 +108,9 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 
 ## By Week Coverage
 
-### Currently Available (Weeks 1-10A)
+### Currently Available (Weeks 1-10B)
+- **Provider Pattern (Week 10A-10B)** ✨ NEW! - Now includes Consumer widget patterns
 - **GoRouter Package (Week 10A)** ✨ NEW!
-- **Provider Pattern (Week 10A)** ✨ NEW!
 - Declarative UI Architecture (Week 9B)
 - Basic Navigation (Week 9B)
 - Named Routes (Week 9B)
@@ -144,7 +142,6 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 - Code Organization (Week 5B)
 
 ### Coming Soon (In Course Order)
-- **Week 10B:** FutureProvider, Consumer Widget, Advanced State Patterns
 - **Week 11A:** BottomNavigationBar, TabBar/TabBarView, IndexedStack
 - **Week 11B:** Flame Engine, GameWidget, Sprites, Input Handling
 - **Week 12A:** Game Overlays, WebView
@@ -177,4 +174,4 @@ Found an error or have a helpful example? Let me know! This reference grows base
 
 ---
 
-*Last updated: Week 10A | Fall 2025*
+*Last updated: Week 10B | Fall 2025*

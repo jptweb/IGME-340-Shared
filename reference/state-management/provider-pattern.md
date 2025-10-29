@@ -158,12 +158,51 @@ class MyData with ChangeNotifier {
 - Call `notifyListeners()` after **every** data change
 - Private variables with public getters are optional but recommended
 
-### context.watch vs context.read
+### Consumer Widget
+
+The `Consumer` widget is an alternative to `context.watch()` that wraps your widget tree and provides the provider instance.
+
+```dart
+Consumer<CounterProvider>(
+  builder: (context, counter, child) {
+    return Text('Count: ${counter.count}');
+  },
+)
+```
+
+**Parameters:**
+- `context` - BuildContext (as usual)
+- `counter` - Instance of CounterProvider (you can name this whatever you want)
+- `child` - Optional widget that doesn't rebuild (for performance)
+
+**When to Use Consumer:**
+- You want explicit widget wrapping rather than context methods
+- You're rebuilding a small part of the widget tree
+- You prefer clearer syntax over `context.watch<T>()`
+- Personal preference - both approaches are valid!
+
+**Example with child optimization:**
+```dart
+Consumer<GameProvider>(
+  builder: (context, game, child) {
+    return Column(
+      children: [
+        Text('Score: ${game.score}'),  // Rebuilds when score changes
+        child!,  // Never rebuilds!
+      ],
+    );
+  },
+  child: ExpensiveWidget(),  // This widget stays the same
+)
+```
+
+### context.watch vs context.read vs Consumer
 
 | Method | Purpose | When to Use | Rebuilds? |
 |--------|---------|-------------|-----------|
 | `context.watch<T>()` | Get data AND listen for changes | Inside build() method | Yes |
 | `context.read<T>()` | Get data once, no listening | Inside callbacks (onPressed, etc.) | No |
+| `Consumer<T>` | Widget wrapper that listens | Targeted rebuilds, cleaner syntax | Yes |
 
 ```dart
 @override
@@ -175,6 +214,19 @@ Widget build(BuildContext context) {
     // ✅ Use read in callbacks - doesn't rebuild unnecessarily
     onPressed: () => context.read<MyProvider>().updateData(),
     child: Text(data.value),
+  );
+}
+
+// OR use Consumer for same result:
+@override
+Widget build(BuildContext context) {
+  return Consumer<MyProvider>(
+    builder: (context, data, child) {
+      return ElevatedButton(
+        onPressed: () => data.updateData(),
+        child: Text(data.value),
+      );
+    },
   );
 }
 ```
