@@ -78,10 +78,12 @@ Hands-on assignments that build foundational Flutter and Dart skills.
 Three major course projects where you'll apply everything you've learned to create complete applications.
 
 **Project Breakdown:**
-1. **Project 1 (25%)** - Design to Spec
-2. **Project 2 (25%)** - Web Service Application  
-3. **Project 3 (25%)** - Roll Your Own
-**always see syllabus for latest point breakdowns** that is source of truth for grades.
+1. **Project 1** - Design to Spec
+2. **Project 2** - Web Service Application  
+3. **Project 3** - Roll Your Own
+
+**See syllabus for latest point breakdowns**
+
 **What's Inside:**
 - Project specifications and requirements
 - Rubrics and grading criteria
