@@ -165,7 +165,7 @@ By the end of this course, you'll be able to:
 - Choose appropriate technologies for project requirements
 - Debug effectively and read error messages
 - Present and justify technical decisions
-- Deploy apps to Android (and understand iOS differences)
+- Deploy apps to Android (we'll discuss deploying to Mac dmg, web, and iOS too).
 
 ---
 
@@ -240,8 +240,6 @@ By completing this course, you will be able to:
 
 - **MyCourses:** [mycourses.rit.edu](https://mycourses.rit.edu) - Official grades and announcements
 - **Slack Workspace:** *(Link provided in class)* - Student collaboration and questions
-- **Flutter Documentation:** [docs.flutter.dev](https://docs.flutter.dev)
-- **Dart Language Tour:** [dart.dev/guides/language/language-tour](https://dart.dev/guides/language/language-tour)
 - **Instructor Website:** [jptweb.com](https://www.jptweb.com)
 - **Office Hours:** [people.rit.edu/~jxtadm](https://people.rit.edu/~jxtadm/)
 
