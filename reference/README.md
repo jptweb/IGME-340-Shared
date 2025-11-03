@@ -41,8 +41,8 @@
 - **[Named Routes](navigation/named-routes.md)** - Clean routing with string identifiers, route configuration
 - **[Data Passing Between Pages](navigation/data-passing.md)** - Arguments, return values, async navigation
 - **[GoRouter Package](navigation/gorouter.md)** - Modern Navigation 2.0, URL-style routing, path parameters
-- BottomNavigationBar *(coming soon - Week 11A)*
-- TabBar & TabBarView *(coming soon - Week 11A)*
+- **[BottomNavigationBar](navigation/bottomnavigationbar.md)** - Bottom navigation with manual state management, IndexedStack
+- **[TabBar & TabBarView](navigation/tabbar-tabbarview.md)** - Top tabs with DefaultTabController, AutomaticKeepAliveClientMixin
 
 ### 🔄 State Management
 - **[Declarative UI Architecture](state-management/declarative-ui-architecture.md)** - "Your data controls the UI" - Flutter's foundational principle
@@ -108,8 +108,10 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 
 ## By Week Coverage
 
-### Currently Available (Weeks 1-10B)
-- **Provider Pattern (Week 10A-10B)** ✨ NEW! - Now includes Consumer widget patterns
+### Currently Available (Weeks 1-11A)
+- **BottomNavigationBar (Week 11A)** ✨ NEW!
+- **TabBar & TabBarView (Week 11A)** ✨ NEW!
+- **Provider Pattern (Week 10A-10B)** - Now includes Consumer widget patterns
 - **GoRouter Package (Week 10A)** ✨ NEW!
 - Declarative UI Architecture (Week 9B)
 - Basic Navigation (Week 9B)
@@ -142,7 +144,6 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 - Code Organization (Week 5B)
 
 ### Coming Soon (In Course Order)
-- **Week 11A:** BottomNavigationBar, TabBar/TabBarView, IndexedStack
 - **Week 11B:** Flame Engine, GameWidget, Sprites, Input Handling
 - **Week 12A:** Game Overlays, WebView
 - **Week 12B:** AudioPlayers, Game Audio Integration
