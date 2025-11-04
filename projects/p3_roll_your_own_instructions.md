@@ -169,24 +169,25 @@ Since many people may want to travel for break, I'm conducting our final exam pe
 
 ### Instructions
 
-1. **Download the documentation template:** [p3_documentation_template.md](p3_documentation_template.md)
+1. **Make a copy of the documentation template:** Click this link to automatically create your own copy:
+   - **[P3 Documentation Template (Google Doc)](https://docs.google.com/document/d/1YKIwzxLpxgO9H1lsbCcu6r4z4WUJgCe_cSYE5Mprp2s/copy)**
+   - The link will automatically create a copy in your Google Drive
 
-2. **Copy it to a Google Doc or Word document** - The template is in Markdown format, so copy/paste the content
-
-3. **Fill out ALL sections** - Don't skip anything! Each section is important for grading:
+2. **Fill out ALL sections** - Don't skip anything! Each section is important for grading:
    - Project Information
    - Must-Have Features Checklist
    - Professional Execution details
    - Advanced Features (if applicable)
+   - **AI Tool Usage Declaration (Required for everyone)**
    - **MOST IMPORTANT:** Section 8 - Step-by-Step Testing Guide
 
-4. **Be SPECIFIC in your Testing Guide** - Tell me exactly where to find your features:
+3. **Be SPECIFIC in your Testing Guide** - Tell me exactly where to find your features:
    - ✅ Good: "On the Home screen, tap the blue '+' button in the bottom right to see the Add Pet form"
    - ❌ Bad: "The app has a cool feature"
 
-5. **Export to PDF** - Use File > Download > PDF in Google Docs (or Save as PDF in Word)
+4. **Export to PDF** - Use File > Download > PDF in Google Docs
 
-6. **Submit to MyCourses** - Upload your PDF to the "Project 3 - Documentation" dropbox
+5. **Submit to MyCourses** - Upload your PDF to the "Project 3 - Documentation" dropbox
    - Filename format: `LastName_FirstName_P3_Documentation.pdf`
 
 **Remember:** If it's not documented, it might not get graded! This is your opportunity to make sure I see all the hard work you put into your project.
