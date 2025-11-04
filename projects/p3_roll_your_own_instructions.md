@@ -216,6 +216,8 @@ Please review them before you get deep into your project development. For a deta
 
 ## IX. AI Tools & Academic Integrity
 
+> 📋 **Quick Links:** [Documentation Section (VII)](#vii-documentation) | [AI Documentation Template](https://docs.google.com/document/d/1YKIwzxLpxgO9H1lsbCcu6r4z4WUJgCe_cSYE5Mprp2s/copy)
+
 ### Academic Integrity Policy
 
 Using any form of assistance—whether from other people, AI tools, or online sources—without proper disclosure constitutes **academic dishonesty**. This includes:
@@ -254,11 +256,11 @@ This project is your opportunity to practice using AI as a professional tool whi
 
 You may use AI coding assistants (Claude, ChatGPT, GitHub Copilot, Cursor, etc.), BUT you must:
 
-1. **Declare AI usage in your Proposal**
+1. **Declare AI usage in your Proposal** (Section V above)
    - Indicate you plan to use AI tools
    - Briefly mention which tools and for what aspects (e.g., "planning to use Claude for complex state management logic")
 
-2. **Document AI usage in your Final Documentation** using the template provided
+2. **Document AI usage in your Final Documentation** ([Section VII](#vii-documentation) | [Documentation Template](https://docs.google.com/document/d/1YKIwzxLpxgO9H1lsbCcu6r4z4WUJgCe_cSYE5Mprp2s/copy))
    - Include an "AI Collaboration" section covering:
      - Which specific AI tools you used (be specific: "ChatGPT-4", "GitHub Copilot", "Claude Sonnet 3.5", etc.)
      - Which features/components used AI assistance and to what degree
