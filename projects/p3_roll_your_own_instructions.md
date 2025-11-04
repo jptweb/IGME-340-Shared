@@ -133,6 +133,7 @@ You may format this in any way that you want, but break each bulleted item below
   - Gameplay: Discuss what choices the player will be able to make and what kind of control they have to make those choices.  How will the player learn how to play?  
   
 - Other: Anything else that you like to say, like discuss packages you'd like to use, etc.
+- **AI Tool Usage:** Indicate whether you plan to use AI coding assistants (Claude, ChatGPT, GitHub Copilot, Cursor, etc.) for this project. If yes, briefly describe which tools and for what aspects (e.g., "Planning to use Claude for help with complex state management patterns"). See [Section IX](p3_roll_your_own_instructions.md#ix-ai-tools--academic-integrity) for full requirements.
 - About the developer: Give your name/major/minor/year and your skill set/interests.  
 
 > The document is similar in style to the Project 3 template used in 230/235. For reference you can look at https://github.com/rit-igm-web/igme-235-shared/blob/main/projects/project-3.md.
@@ -209,3 +210,95 @@ The detailed grading rubrics for each part of this assignment are attached to th
 - Project 3 - Video Demo
 
 Please review them before you get deep into your project development. For a detailed breakdown of how to excel on the final submission, see the companion document: [Project 3 Expectations Guide](p3_roll_your_own_expectations.md).
+
+---
+
+## IX. AI Tools & Academic Integrity
+
+### Academic Integrity Policy
+
+Using any form of assistance—whether from other people, AI tools, or online sources—without proper disclosure constitutes **academic dishonesty**. This includes:
+
+- Having someone else write code for you
+- Using AI tools (Claude, ChatGPT, GitHub Copilot, Cursor, etc.) to generate code without documenting their use
+- Copying code from classmates, online sources, or previous semesters without attribution
+
+**If you use AI assistance, you MUST disclose and document it as described below.** Undisclosed AI use will be treated as academic dishonesty and may result in:
+- Being asked to explain your code in detail during office hours
+- Being asked to rewrite sections of code in front of me to demonstrate understanding
+- Potential referral to RIT's Academic Integrity process
+
+### The Reality of AI in Professional Development
+
+You've already demonstrated fundamental understanding through Projects 1 and 2. At this point in your education, it's appropriate to learn how professional developers use AI tools—because employers increasingly expect this skill.
+
+**However:** AI is a tool for leverage, not a substitute for understanding. In the professional world, you'll need to:
+- Understand architecture and make design decisions (AI can't do this for you)
+- Collaborate with teams and explain technical choices (AI can't attend your meetings)
+- Debug and maintain code over time (AI-generated code you don't understand becomes a liability)
+- Evaluate when AI suggestions are good vs. problematic
+
+This project is your opportunity to practice using AI as a professional tool while maintaining accountability for your work.
+
+### AI Usage Requirements
+
+**ALL students must indicate whether they used AI assistance or not** in their project documentation.
+
+#### If You Choose NOT to Use AI:
+- Simply indicate "No AI tools used" in your documentation
+- No additional documentation required
+- Standard grading applies
+
+#### If You Choose to Use AI Tools:
+
+You may use AI coding assistants (Claude, ChatGPT, GitHub Copilot, Cursor, etc.), BUT you must:
+
+1. **Declare AI usage in your Proposal**
+   - Indicate you plan to use AI tools
+   - Briefly mention which tools and for what aspects (e.g., "planning to use Claude for complex state management logic")
+
+2. **Document AI usage in your Final Documentation** using the template provided
+   - Include an "AI Collaboration" section covering:
+     - Which specific AI tools you used (be specific: "ChatGPT-4", "GitHub Copilot", "Claude Sonnet 3.5", etc.)
+     - Which features/components used AI assistance and to what degree
+       - Example: "Used Claude to help structure my Provider pattern - it generated initial boilerplate which I then modified for my specific needs"
+       - Example: "Used GitHub Copilot for autocomplete suggestions while writing repetitive widget code"
+     - Specific examples of prompts or approaches that worked well
+     - What required significant manual intervention or didn't work
+     - What you learned about AI's capabilities and limitations for Flutter development
+
+3. **Demonstrate Deep Understanding**
+   - Your code comments must explain WHY, not just WHAT
+   - In documentation, explain architectural decisions (not just "the AI suggested it")
+   - Be prepared to explain any part of your code if asked
+   - Understand how different components interact and why you structured things the way you did
+
+**Important Notes:**
+- Using AI is not a shortcut to better grades or less work
+- The same core requirements apply to everyone
+- The documentation requirement adds work for AI users
+- You must understand and be able to explain ALL code in your project, regardless of who/what wrote it
+- If I suspect undisclosed AI use, you'll be asked to explain your code and potentially rewrite sections to prove understanding
+
+### What "Understanding Your Code" Means
+
+Whether you write code yourself or use AI assistance, you must be able to:
+- Explain what each function does and why it's structured that way
+- Describe how state flows through your application
+- Justify architectural decisions ("I used Provider because...")
+- Debug issues and explain what's happening when things break
+- Modify and extend the code for new requirements
+
+If you can't do these things, you don't understand your code—and that's a problem whether AI wrote it or you copied it from Stack Overflow.
+
+### Why This Approach?
+
+This isn't about making your life harder—it's about preparing you for professional development:
+- **Transparency:** In the workplace, you'll need to document decisions and tools used
+- **Understanding:** You can't maintain or debug code you don't understand
+- **Collaboration:** You'll need to explain technical choices to teammates and stakeholders
+- **Professional skills:** Learning to use AI effectively is valuable; hiding that you used it is not
+
+By requiring disclosure and understanding, I'm teaching you to use AI as a professional tool while maintaining accountability for your work—exactly what employers will expect.
+
+---

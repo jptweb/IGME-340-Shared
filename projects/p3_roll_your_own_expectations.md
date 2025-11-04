@@ -57,6 +57,15 @@ Build a robust application:
 - [**DRY principles**](../reference/patterns/code-organization.md#method-extraction-dry-principle) (no repeated code blocks)
 - Removed debug print statements
 
+**If Using AI Tools (Optional):**
+- Must document AI usage in your submission (see [Project Instructions - Section IX](p3_roll_your_own_instructions.md#ix-ai-tools--academic-integrity))
+- Comments must explain WHY decisions were made, not just WHAT the code does
+- Must demonstrate understanding of all code through documentation
+- Be prepared to explain architectural decisions beyond "the AI suggested it"
+- Code organization should show thoughtful structure, not just AI output
+
+**Remember:** Whether you write code yourself or use AI assistance, you must be able to explain and justify every architectural decision. Using AI without understanding the code is no different than copying from Stack Overflow without understanding—both are problematic.
+
 **Related Resources:**
 - [Code Organization & DRY Principles](../reference/patterns/code-organization.md)
 - [Declarative UI Architecture](../reference/state-management/declarative-ui-architecture.md) - Separation of data and UI
