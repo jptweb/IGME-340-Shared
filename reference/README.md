@@ -59,10 +59,10 @@
 - **[SharedPreferences](data-persistence/shared-preferences.md)** - Persistent key-value storage for settings, preferences, favorites
 
 ### 🎮 Game Development (Flame)
-- Flame Engine Setup *(coming soon - Week 11B)*
-- GameWidget Basics *(coming soon - Week 11B)*
-- Sprite Components *(coming soon - Week 11B)*
-- Game Input Handling *(coming soon - Week 11B)*
+- **[GameWidget & FlameGame Basics](flame/gamewidget-basics.md)** - Game setup, asset loading, game loop (Week 11B) ✨ NEW!
+- **[Sprite Components](flame/sprite-components.md)** - Creating visual game objects, position, rotation (Week 11B) ✨ NEW!
+- **[Input Handling](flame/input-handling.md)** - PanDetector, TapCallbacks, touch controls (Week 11B) ✨ NEW!
+- **[JoystickComponent](flame/joystick-component.md)** - Virtual joystick for mobile games (Week 11B) ✨ NEW!
 - Game Overlays *(coming soon - Week 12A)*
 - Audio with Games *(coming soon - Week 12B)*
 
@@ -108,9 +108,10 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 
 ## By Week Coverage
 
-### Currently Available (Weeks 1-11A)
-- **BottomNavigationBar (Week 11A)** ✨ NEW!
-- **TabBar & TabBarView (Week 11A)** ✨ NEW!
+### Currently Available (Weeks 1-11B)
+- **Flame Game Engine (Week 11B)** ✨ NEW!
+- BottomNavigationBar (Week 11A)
+- TabBar & TabBarView (Week 11A)
 - **Provider Pattern (Week 10A-10B)** - Now includes Consumer widget patterns
 - **GoRouter Package (Week 10A)** ✨ NEW!
 - Declarative UI Architecture (Week 9B)
@@ -144,7 +145,6 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 - Code Organization (Week 5B)
 
 ### Coming Soon (In Course Order)
-- **Week 11B:** Flame Engine, GameWidget, Sprites, Input Handling
 - **Week 12A:** Game Overlays, WebView
 - **Week 12B:** AudioPlayers, Game Audio Integration
 - **Week 13A:** App Lifecycle (WidgetsBindingObserver)
