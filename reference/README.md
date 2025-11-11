@@ -63,7 +63,7 @@
 - **[Sprite Components](flame/sprite-components.md)** - Creating visual game objects, position, rotation (Week 11B) ✨ NEW!
 - **[Input Handling](flame/input-handling.md)** - PanDetector, TapCallbacks, touch controls (Week 11B) ✨ NEW!
 - **[JoystickComponent](flame/joystick-component.md)** - Virtual joystick for mobile games (Week 11B) ✨ NEW!
-- Game Overlays *(coming soon - Week 12A)*
+- **[Flame Overlays](game-development/flame-overlays.md)** - UI layers on game canvas, overlay management (Week 12A) ✨ NEW!
 - Audio with Games *(coming soon - Week 12B)*
 
 ### 📱 Platform Integration
@@ -145,7 +145,7 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 - Code Organization (Week 5B)
 
 ### Coming Soon (In Course Order)
-- **Week 12A:** Game Overlays, WebView
+- **Week 12A:** WebView integration (covered in Flame Overlays reference)
 - **Week 12B:** AudioPlayers, Game Audio Integration
 - **Week 13A:** App Lifecycle (WidgetsBindingObserver)
 - **Week 13B:** Splash Screens, App Icons
@@ -175,4 +175,4 @@ Found an error or have a helpful example? Let me know! This reference grows base
 
 ---
 
-*Last updated: Week 10B | Fall 2025*
+*Last updated: Week 12A | Fall 2025*
