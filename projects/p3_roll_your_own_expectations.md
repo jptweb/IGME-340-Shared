@@ -190,13 +190,9 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 - Advanced animation sequences throughout the app
 - WebView integration with two-way communication
 
----
-
 > 💡 **Remember:** Document which advanced features you implemented! If it's not documented, it might not get credit.
-
 > 📚 **Full Reference Guide:** See [reference/README.md](../reference/README.md) for complete documentation of all topics covered in this course.
 
----
 
 ## Examples of What Counts as What
 
