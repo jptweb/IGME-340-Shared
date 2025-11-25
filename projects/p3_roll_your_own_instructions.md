@@ -59,7 +59,7 @@ Your **Final Code Submission (70% of project grade)** will be evaluated across s
 
 6. **Visual Design (20 pts)** - Custom fonts, coordinated colors, appropriate imagery, and polish beyond default Flutter appearance
 
-> 💡 **Note:** Documentation (5%) is graded separately as its own MyCourses submission (see Section VII).
+> 💡 **Note:** Documentation (10%) is graded separately as its own MyCourses submission (see Section VII).
 
 ### Critical Success Factors
 
