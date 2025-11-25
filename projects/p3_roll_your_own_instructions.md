@@ -88,7 +88,7 @@ To reach the highest grades, consider implementing advanced features like:
 
 This project has five separate submissions in MyCourses, each with its own dropbox:
 
-1. **Proposal (10%)** - Due early in the project timeline
+1. **Proposal (5%)** - Due early in the project timeline
    - See Section V below for detailed requirements
 
 2. **Prototype/Checkpoint (5%)** - Due mid-project
