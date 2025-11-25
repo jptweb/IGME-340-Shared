@@ -105,51 +105,6 @@ This reference guide is designed for **quick lookups** when you're coding. Each 
 - **When Covered in Course** - Links back to weekly notes for context
 - **Common Errors** - Troubleshooting help
 
-## By Week Coverage
-
-### Currently Available (Weeks 1-11B)
-- **Flame Game Engine (Week 11B)** ✨ NEW!
-- BottomNavigationBar (Week 11A)
-- TabBar & TabBarView (Week 11A)
-- **Provider Pattern (Week 10A-10B)** - Now includes Consumer widget patterns
-- **GoRouter Package (Week 10A)** ✨ NEW!
-- Declarative UI Architecture (Week 9B)
-- Basic Navigation (Week 9B)
-- Named Routes (Week 9B)
-- Data Passing Between Pages (Week 9B)
-- SharedPreferences (Week 9A)
-- URL Launcher (Week 9A)
-- CachedNetworkImage (Week 9A)
-- Focus Management (Week 8B)
-- Expanded & Flexible (Week 8B)
-- GridView & GridTile (Week 7B)
-- Async/Await & API Integration (Week 7A)
-- GIPHY API Setup (Week 7A-7B)
-- Stack Widget (Week 5A)
-- SVG Images (Week 5A)
-- ScaffoldMessenger (Week 5A)
-- BoxDecoration (Week 4A)
-- Themes & ColorScheme (Week 3B)
-- Button Types (Week 3B)
-- Layout Widgets (Row/Column) (Week 3A)
-- Container Basics (Week 3A)
-- TextField Basics (Week 6A)
-- DropdownButton (Week 6A)
-- Form Validation (Week 6B)
-- CheckBox Widgets (Week 6B)
-- ListView Basics (Week 6B)
-- SingleChildScrollView (Week 3A)
-- InkWell & GestureDetector (Week 4B)
-- Dialogs & Alerts (Week 4B)
-- Code Organization (Week 5B)
-
-### Coming Soon (In Course Order)
-- **Week 12A:** WebView integration (covered in Flame Overlays reference)
-- **Week 12B:** AudioPlayers, Game Audio Integration
-- **Week 13A:** App Lifecycle (WidgetsBindingObserver)
-- **Week 13B:** Splash Screens, App Icons
-- **Week 14A:** MediaQuery, LayoutBuilder, AspectRatio (Responsive Design)
-
 ---
 
 ## Still Can't Find Something?
@@ -174,4 +129,4 @@ Found an error or have a helpful example? Let me know! This reference grows base
 
 ---
 
-*Last updated: Week 12A | Fall 2025*
+*Last updated: Week 14A | Fall 2025*
