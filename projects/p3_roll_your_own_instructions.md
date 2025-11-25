@@ -197,10 +197,10 @@ Since many people may want to travel for break, I'm conducting our final exam pe
 ## VIII. Grading
 
 ### Grading Breakdown:
-- **10%** - Proposal
+- **5%** - Proposal
 - **5%** - Checkpoint/Prototype (essentially free points for submitting progress)
 - **70%** - Final Code Submission
-- **5%** - Documentation
+- **10%** - Documentation
 - **10%** - Video Demonstration
 
 ### Grading Rubrics:
