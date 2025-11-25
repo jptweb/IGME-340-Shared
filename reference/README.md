@@ -69,7 +69,6 @@
 ### 📱 Platform Integration
 - **[URL Launcher](platform-integration/url-launcher.md)** - Open websites, phone calls, emails, SMS from your app
 - **[CachedNetworkImage](platform-integration/cached-network-image.md)** - Efficient image loading with caching
-- FloatingActionButton *(coming soon - Week 9A)*
 - WebView Flutter *(coming soon - Week 12A)*
 - AudioPlayers Package *(coming soon - Week 12B)*
 - App Lifecycle Management *(coming soon - Week 13A)*
