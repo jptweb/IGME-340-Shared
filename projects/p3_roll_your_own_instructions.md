@@ -99,7 +99,7 @@ This project has five separate submissions in MyCourses, each with its own dropb
    - Your completed Flutter project
    - See MyCourses dropbox for due date and submission instructions
 
-4. **Documentation (5%)** - Due final exam week
+4. **Documentation (10%)** - Due final exam week
    - Separate PDF submission explaining your project and features
    - See Section VII below for detailed requirements
 
