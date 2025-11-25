@@ -69,13 +69,13 @@
 ### 📱 Platform Integration
 - **[URL Launcher](platform-integration/url-launcher.md)** - Open websites, phone calls, emails, SMS from your app
 - **[CachedNetworkImage](platform-integration/cached-network-image.md)** - Efficient image loading with caching
-- WebView Flutter *(coming soon - Week 12A)*
-- AudioPlayers Package *(coming soon - Week 12B)*
+- WebView Flutter - No chapter on this here, but we covered this in [Week 12A Notes](../weekly/12A.md) for the asterioid game.
+- AudioPlayers Package - No chapter on this here, but we covered this in [Week 12B Notes](../weekly/12B.md) for the asterioid game when we added SFX and audio.
 - App Lifecycle Management *(coming soon - Week 13A)*
 
 ### 🚀 Production & Deployment
-- Splash Screens *(coming soon - Week 13B)*
-- App Icons *(coming soon - Week 13B)*
+- Splash Screens *(See [Week 13B Notes](../weekly/13B.md))*
+- App Icons *(See [Week 13B Notes](../weekly/13B.md))*
 
 ### 📐 Responsive Design
 - MediaQuery *(coming soon - Week 14A)*
