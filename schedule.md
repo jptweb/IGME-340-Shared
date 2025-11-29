@@ -268,14 +268,13 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 
 ---
 
-## Week 14: Responsive Design & Break
+## Week 14: Lab Day & Break
 **Nov 25 & 27**
 
-### [Week 14A](weekly/14A.md): Responsive Design
-- **MediaQuery:** Device dimensions, screen size detection, orientation handling
-- **LayoutBuilder:** Building layouts based on parent constraints
-- **AspectRatio Widget:** Maintaining proportions across devices
-- **Adaptive Layouts:** Designing for different screen sizes
+### [Week 14A](weekly/14A.md): Optional Lab Day
+- **Project Work Time:** Project 3 development
+- **Office Hours Style:** Individual help and troubleshooting
+- **Optional Attendance:** Use this time for focused project work
 
 ### Week 14B: Thanksgiving - No Class
 
@@ -286,15 +285,16 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 15: Course Wrap-up
 **Dec 2 & 4**
 
-### [Week 15A](weekly/15A.md): App Stores & Publishing + Lab Time
+### [Week 15A](weekly/15A.md): Responsive Design
+- **MediaQuery:** Device dimensions, screen size detection, orientation handling
+- **LayoutBuilder:** Building layouts based on parent constraints
+- **AspectRatio Widget:** Maintaining proportions across devices
+- **Adaptive Layouts:** Designing for different screen sizes
+
+### [Week 15B](weekly/15B.md): App Stores & Publishing
 - **Publishing Overview:** Google Play Store and Apple App Store processes
 - **Build Configurations:** Release builds, signing, version management
 - **App Store Optimization:** Screenshots, descriptions, keywords
-- **Lab Time:** Project 3 work session, Q&A
-
-### [Week 15B](weekly/15B.md): Last Class - Q&A + Lab Time
-- **Open Q&A:** Final questions, troubleshooting
-- **Project Work Time:** Final polish, testing
 - **Course Reflection:** Key takeaways, next steps in Flutter development
 
 ---
