@@ -285,17 +285,18 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 15: Course Wrap-up
 **Dec 2 & 4**
 
-### [Week 15A](weekly/15A.md): Responsive Design
-- **MediaQuery:** Device dimensions, screen size detection, orientation handling
-- **LayoutBuilder:** Building layouts based on parent constraints
-- **AspectRatio Widget:** Maintaining proportions across devices
-- **Adaptive Layouts:** Designing for different screen sizes
+### [Week 15A](weekly/15A.md): Camera & Image Picker
+- **image_picker Package:** Taking photos, recording video, selecting from gallery
+- **Android Emulator Setup:** Virtual Scene mode, webcam passthrough, walking around the virtual environment
+- **Platform Configuration:** iOS permissions (Info.plist), Android setup
+- **Course Evaluations:** https://rit.smartevals.com/
+- **Lab Time:** Project 3 work session
 
-### [Week 15B](weekly/15B.md): App Stores & Publishing
-- **Publishing Overview:** Google Play Store and Apple App Store processes
-- **Build Configurations:** Release builds, signing, version management
-- **App Store Optimization:** Screenshots, descriptions, keywords
+### [Week 15B](weekly/15B.md): Responsive Design & Publishing Overview
+- **Responsive Design:** MediaQuery.sizeOf(), LayoutBuilder - Flutter's equivalents to CSS media queries
+- **Publishing Overview:** Brief look at Google Play Store and Apple App Store processes
 - **Course Reflection:** Key takeaways, next steps in Flutter development
+- **Lab Time:** Final Project 3 work session, Q&A
 
 ---
 
