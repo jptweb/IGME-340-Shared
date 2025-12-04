@@ -78,9 +78,8 @@
 - App Icons *(See [Week 13B Notes](../weekly/13B.md))*
 
 ### 📐 Responsive Design
-- MediaQuery *(coming soon - Week 14A)*
-- LayoutBuilder *(coming soon - Week 14A)*
-- AspectRatio Widget *(coming soon - Week 14A)*
+- **[MediaQuery & LayoutBuilder](responsive-design/mediaquery-layoutbuilder.md)** - Screen size detection, conditional layouts, InheritedWidget rebuild mechanism
+- AspectRatio Widget *(see [Flutter docs](https://api.flutter.dev/flutter/widgets/AspectRatio-class.html))*
 
 ### 🎯 Common Patterns
 - [Code Organization & DRY Principles](patterns/code-organization.md) - Extract methods, widget extraction, file structure, naming conventions
@@ -129,4 +128,4 @@ Found an error or have a helpful example? Let me know! This reference grows base
 
 ---
 
-*Last updated: Week 14A | Fall 2025*
+*Last updated: Week 15B | Fall 2025*
