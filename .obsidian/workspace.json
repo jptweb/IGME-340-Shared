@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "3052072667c21c56",
+    "type": "split",
+    "children": [
+      {
+        "id": "2d7b4333cc484807",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f0cb77bd5f66405b",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5d566bf66752d36e",
+    "type": "split",
+    "children": [
+      {
+        "id": "13fe2f2d2a3104d4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "4098fe4919c353ee",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "f89d4f6fcac2eca5",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8c270185a80272fd",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "e47f4696c8c92310",
+    "type": "split",
+    "children": [
+      {
+        "id": "8af53468a7541b63",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "474316820e7e698e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "9bc6c86d93e1b7f2",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "839025c8813a5a1b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "efb37a66b8eff09d",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "baf8e7cde74fb0f5",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "f0cb77bd5f66405b",
+  "lastOpenFiles": [
+    "_private/helping_students/pokemon_battle_simulator/README.md",
+    "_private/helping_students/pokemon_battle_simulator/fixes.md",
+    "_private/helping_students/pokemon_battle_simulator/build/app/intermediates/compressed_assets/debug/compressDebugAssets/out/assets/flutter_assets/kernel_blob.bin.jar",
+    "_private/helping_students/pokemon_battle_simulator/build/app/intermediates/cxx/debug/b125l5y3/logs/x86_64/generate_cxx_metadata_956_timing.txt",
+    "_private/helping_students/pokemon_battle_simulator/build/app/intermediates/cxx/debug/b125l5y3/logs/armeabi-v7a/generate_cxx_metadata_956_timing.txt",
+    "_private/helping_students/pokemon_battle_simulator/build/app/intermediates/cxx/debug/b125l5y3/logs/arm64-v8a/generate_cxx_metadata_956_timing.txt",
+    "_private/helping_students/pokemon_battle_simulator/build/app/intermediates/cxx/debug/b125l5y3/logs/x86_64/generate_cxx_metadata_842_timing.txt",
+    "_private/helping_students/pokemon_battle_simulator/build/app/intermediates/cxx/debug/b125l5y3/logs/armeabi-v7a/generate_cxx_metadata_842_timing.txt",
+    "_private/helping_students/pokemon_battle_simulator/build/app/intermediates/cxx/debug/b125l5y3/logs/arm64-v8a/generate_cxx_metadata_842_timing.txt",
+    "_private/helping_students/pokemon_battle_simulator/build/app/intermediates/cxx/debug/b125l5y3/logs/x86_64/generate_cxx_metadata_750_timing.txt",
+    "_private/helping_students/pokemon_battle_simulator/build/app/intermediates/cxx/debug/b125l5y3/logs/armeabi-v7a/generate_cxx_metadata_750_timing.txt",
+    "_private/helping_students/pokemon_battle_simulator/build/app/intermediates/cxx/debug/b125l5y3/logs/arm64-v8a/generate_cxx_metadata_750_timing.txt",
+    "documents/participation-github-classroom.md",
+    "projects/p3_requirements_flexibility_announcement.md",
+    "documents/syllabus.md",
+    "reference/platform-integration/url-launcher.md",
+    "weekly/15B.md",
+    "weekly/15A.md",
+    "Untitled.canvas",
+    "README.md",
+    "weekly/3B.md",
+    "reference/README.md",
+    "reference/styling/box-decoration.md",
+    "reference/styling/colorscheme.md",
+    "projects/p2_web_service_application_proposal.md"
+  ]
+}
