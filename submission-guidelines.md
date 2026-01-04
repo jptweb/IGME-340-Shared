@@ -118,20 +118,21 @@ Make sure you're submitting the **entire project folder**, not just the `lib` di
 
 ## Assignment-Specific Requirements
 
-### Dart Exercises (Homework 1-5)
+### Dart Exercises
+- Assigned in batches (1-3 and 4-6)
 - Create individual `.dart` files as requested
 - Place all files in a single project's `lib` folder
-- Name files clearly (e.g., `basics01.dart`, `basics02.dart`)
 
-### Flutter Projects
+### Labs (Flutter Apps)
 - Submit complete Flutter app project
 - Ensure app runs without errors
 - Include any required assets in proper folders
-
-### Lab Assignments
 - Follow specific lab instructions for file organization
 - Always include screenshots if requested
+
+### Projects
 - Submit source code AND documentation as specified
+- See individual project specs for requirements
 
 ## Getting Help
 
