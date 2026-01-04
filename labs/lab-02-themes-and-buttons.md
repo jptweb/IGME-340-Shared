@@ -1,4 +1,4 @@
-# Flutter Exercise 2 - Buttons, Styles and ThemeData
+# Lab 02: Themes and Buttons
 
 We've explored some basic layout, now let's start with looking at buttons and the Flutter Themeing/Styling system.
 

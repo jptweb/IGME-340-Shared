@@ -1,4 +1,4 @@
-# Lab 02: GIF Finder
+# Lab 04: GIF Finder
 
 > This is our last Homework / Lab! After this all we have left is two LARGE projects so use your time wisely! Generally a 3 credit class you expect to put in 6 to 9 hours of outside class work per week. This time should be spent working on your projects!
 

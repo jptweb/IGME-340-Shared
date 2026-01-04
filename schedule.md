@@ -28,7 +28,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Functions:** Basic syntax, arrow functions, named parameters
 - **Environment Setup:** Flutter installation guidance, VS Code configuration
 
-**Homework:** HW1 (Environment Setup), HW2 (Dart ICE 1-3)
+**Assignments:** [Lab 00](labs/lab-00-environment-setup.md) (Environment Setup), Dart Exercises 1-3
 
 ---
 
@@ -47,7 +47,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Code Organization:** Extract Method, Extract Widget, Extract Local Variable
 - **Best Practices:** Trailing commas, auto-formatting, project management
 
-**Homework:** Dart ICE 4-6 (Functions, Objects, Classes)
+**Assignments:** Dart Exercises 4-6 (Functions, Objects, Classes)
 
 ---
 
@@ -67,7 +67,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Theme System:** ThemeData, ColorScheme.fromSeed (47 color generation), light/dark themes
 - **Global Styling:** App-wide button themes, text themes, accessing themes with Theme.of(context)
 
-**Homework:** Flutter ICE 3A (Layout Basics), Flutter ICE 3B (Buttons & Themes)
+**Assignments:** [Lab 01](labs/lab-01-layout-basics.md) (Layout Basics), [Lab 02](labs/lab-02-themes-and-buttons.md) (Buttons & Themes)
 
 ---
 
@@ -127,7 +127,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **CheckBox Widgets:** Basic checkboxes, CheckboxListTile, tri-state checkboxes
 - **ListView:** Basic ListView, ListView.builder for dynamic content, ListTile widgets
 
-**Homework:** TextFields and Dropdown Lab
+**Assignments:** [Lab 03](labs/lab-03-textfields-dropdownbuttons.md) (TextFields & Dropdowns)
 
 ---
 
@@ -149,7 +149,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Code Standards:** Professional commenting, widget extraction techniques
 
 
-**Homework:** Gif Finder Lab
+**Assignments:** [Lab 04](labs/lab-04-gif-finder.md) (Gif Finder)
 
 ---
 
