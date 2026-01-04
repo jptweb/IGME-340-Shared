@@ -1,21 +1,21 @@
-# IGME-340 Spring 2026 - Complete Course Roadmap
+# IGME-340 Fall 2025 - Complete Course Roadmap
 
 ## Course Overview Summary
-Multi-platform development focused on Flutter/Dart, progressing from foundational skills (Weeks 1-5) to project-based learning (Weeks 6-14). Android-first approach ensuring all students can participate regardless of computer type.
+Multi-platform development focused on Flutter/Dart, progressing from foundational skills (Weeks 1-5) to project-based learning (Weeks 6-15). Android-first approach ensuring all students can participate regardless of computer type.
 
 ### Important Dates
-- 01/20: Last day of Add/Drop period
-- 01/19: Martin Luther King Jr. Day - No Classes
-- 03/08-03/15: Spring Break - No Classes
-- 04/03: Last day to drop with grade of "W"
-- 04/27: Last day of classes
-- 04/28: Reading Day
-- 04/29-05/06: Final Exam Period
+- 09/02: Last day of Add/Drop period
+- 10/13-10/14: Fall Break
+- 11/07: Last day to drop with grade of "W"
+- 11/27-11/28: Thanksgiving Break
+- 12/08: Last day of classes
+- 12/09: Reading Day
+- 12/10-12/17: Final Exam Period
 
 ---
 
 ## Week 1: Course Foundation & Dart Introduction
-**Jan 13 & 15**
+**Aug 26 & 28**
 
 ### [Week 1A](weekly/1A.md) (Tuesday): Course Introduction
 - **Administrative:** Syllabus, grading structure (70% projects, 20% homework/labs, 10% participation)
@@ -33,7 +33,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ---
 
 ## Week 2: Flutter Development Environment
-**Jan 20 & 22**
+**Sep 2 & 4**
 
 ### [Week 2A](weekly/2A.md): VS Code Setup & First Flutter App
 - **Project Creation:** Command Palette, Flutter project templates, path requirements (no spaces!)
@@ -52,7 +52,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ---
 
 ## Week 3: Layout Fundamentals
-**Jan 27 & 29**
+**Sep 9 & 11**
 
 ### [Week 3A](weekly/3A.md): Basic Layout Widgets
 - **Container:** Sizing behavior, positioning, styling basics
@@ -72,7 +72,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ---
 
 ## Week 4: Interactive Elements & Assets
-**Feb 3 & 5**
+**Sep 16 & 18**
 
 ### [Week 4A](weekly/4A.md): State Management & Styling
 - **Project 1 Launch:** Design to Spec (Minecraft theme) introduction
@@ -93,7 +93,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ---
 
 ## Week 5: Advanced UI Components
-**Feb 10 & 12**
+**Sep 23 & 25**
 
 ### [Week 5A](weekly/5A.md): Stack & Communication Widgets
 - **Stack Widget:** Overlaying widgets, positioning with Positioned
@@ -111,7 +111,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ---
 
 ## Week 6: User Input & Forms
-**Feb 17 & 19**
+**Sep 30 & Oct 2**
 
 ### [Week 6A](weekly/6A.md): DropdownList & TextFields
 - **DropdownButton:** DropdownMenuItem, selection handling, dynamic options with .map()
@@ -132,7 +132,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ---
 
 ## Week 7: External Data & Advanced Layouts
-**Feb 24 & 26**
+**Oct 7 & 9**
 
 ### [Week 7A](weekly/7A.md): Asynchronous Programming & HTTP Requests
 - **API Integration:** HTTP package, GET/POST requests, authentication with Bearer tokens
@@ -153,27 +153,22 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 
 ---
 
-## Week 8: Advanced UI & Navigation Prep
-**Mar 3 & 5**
+## Week 8: Advanced UI & Navigation Prep  
+**Oct 14 & 16**
 
-### [Week 8A](weekly/8A.md): Advanced Text Fields & Responsive Design
+### Week 8A: Fall Break - No Class
+
+### [Week 8B](weekly/8B.md): Advanced Text Fields & Responsive Design
 - **Responsive Design:** Expanded widget for dynamic sizing, orientation handling
 - **Focus Management:** FocusNode, FocusManager, programmatic focus control
 - **Text Field Enhancement:** Suffix icons, onTapOutside, onEditingComplete
 - **Keyboard Handling:** Dismissal patterns, handling keyboard overlap
 - **Professional UX:** Focus flow, responsive layouts, keyboard behavior
 
-### [Week 8B](weekly/8B.md): TBD / Lab Time
-- Content TBD for Spring 2026
-
----
-
-## Spring Break (Mar 8-15) - No Classes
-
 ---
 
 ## Week 9: Data Persistence & Navigation Fundamentals
-**Mar 17 & 19**
+**Oct 21 & 23**
 
 ### [Week 9A](weekly/9A.md): Data Storage & External Integration
 - **Data Persistence:** shared_preferences package for local storage
@@ -192,7 +187,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ---
 
 ## Week 10: Advanced Navigation & State Management
-**Mar 24 & 26**
+**Oct 28 & 30**
 
 ### [Week 10A](weekly/10A.md): GoRouter & Provider Pattern
 - **GoRouter Package:** Navigation 2.0, URL-style routing with parameters
@@ -213,7 +208,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ---
 
 ## Week 11: Navigation UI & Game Development Introduction
-**Mar 31 & Apr 2**
+**Nov 4 & 6**
 
 ### [Week 11A](weekly/11A.md): Navigation UI Components
 - **TabBar System:** DefaultTabController, TabBar, TabBarView, Tab widgets
@@ -234,7 +229,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ---
 
 ## Week 12: Game Development & Audio
-**Apr 7 & 9**
+**Nov 11 & 13**
 
 ### [Week 12A](weekly/12A.md): Game UI Integration
 - **Flame Overlays:** UI layers on top of game canvas, overlay management
@@ -255,7 +250,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ---
 
 ## Week 13: Lifecycle & Production Prep
-**Apr 14 & 16**
+**Nov 18 & 20**
 
 ### [Week 13A](weekly/13A.md): Application Lifecycle & Complex Navigation
 - **Application Lifecycle:** WidgetsBindingObserver, AppLifecycleState handling
@@ -273,17 +268,31 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 
 ---
 
-## Week 14: Course Wrap-up
-**Apr 21 & 23**
+## Week 14: Lab Day & Break
+**Nov 25 & 27**
 
-### [Week 14A](weekly/14A.md): Camera & Image Picker
+### [Week 14A](weekly/14A.md): Optional Lab Day
+- **Project Work Time:** Project 3 development
+- **Office Hours Style:** Individual help and troubleshooting
+- **Optional Attendance:** Use this time for focused project work
+
+### Week 14B: Thanksgiving - No Class
+
+**Project 3 Prototype Due**
+
+---
+
+## Week 15: Course Wrap-up
+**Dec 2 & 4**
+
+### [Week 15A](weekly/15A.md): Camera & Image Picker
 - **image_picker Package:** Taking photos, recording video, selecting from gallery
 - **Android Emulator Setup:** Virtual Scene mode, webcam passthrough, walking around the virtual environment
 - **Platform Configuration:** iOS permissions (Info.plist), Android setup
 - **Course Evaluations:** https://rit.smartevals.com/
 - **Lab Time:** Project 3 work session
 
-### [Week 14B](weekly/14B.md): Responsive Design & Publishing Overview
+### [Week 15B](weekly/15B.md): Responsive Design & Publishing Overview
 - **Responsive Design:** MediaQuery.sizeOf(), LayoutBuilder - Flutter's equivalents to CSS media queries
 - **Publishing Overview:** Brief look at Google Play Store and Apple App Store processes
 - **Course Reflection:** Key takeaways, next steps in Flutter development
@@ -291,12 +300,13 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 
 ---
 
-## Finals Week: Apr 29 - May 6
-**Scheduled Time: TBD**
+## Finals Week: Dec 10-17
+**Dec 16 (Tuesday 10:45 AM - 1:15 PM)**
 
 **Project 3 Final Submissions & Presentations**
-- Format details will be announced as the semester progresses
-- Likely a rapid-fire presentation format (possibly via Zoom) where everyone can show off their projects
+- I am currently planning out the format for this. I think i'd like to give everyone a chance to present there topics; but I will likely want to do this on zoom as it is
+so late in the final exam period and I know some people may want to travel as early as possible. So we will likely have to try and do a QUICK rapid fire presentation where
+people can show there projects off!
 
 ---
 
@@ -334,6 +344,6 @@ WebView, Audio Players, Shared Preferences, URL Launcher, Cached Network Image
 ## Project Timeline
 - **Project 1 (Week 4-7):** Design to Spec - Layout and styling focus
 - **Project 2 (Week 8-11):** Web Service Application - API integration and navigation
-- **Project 3 (Week 11-14):** Roll Your Own - Game development or advanced application
+- **Project 3 (Week 11-15):** Roll Your Own - Game development or advanced application
 
-*This roadmap reflects the planned course delivery and covers all major Flutter concepts needed for professional mobile app development.*
+*This roadmap reflects the actual course delivery and covers all major Flutter concepts needed for professional mobile app development.*

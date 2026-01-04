@@ -1,5 +1,5 @@
 # IGME-340 Course Syllabus
-## Multi-platform Media App Development - Spring 2026 (2255)
+## Multi-platform Media App Development - Fall 2025 (2251)
 
 | | |
 |----:|:----|
@@ -14,12 +14,12 @@
 ## Table of Contents
 
 - [IGME-340 Course Syllabus](#igme-340-course-syllabus)
-  - [Multi-platform Media App Development - Spring 2026 (2255)](#multi-platform-media-app-development---spring-2026-2255)
+  - [Multi-platform Media App Development - Fall 2025 (2251)](#multi-platform-media-app-development---fall-2025-2251)
   - [Table of Contents](#table-of-contents)
   - [Syllabus as Course Agreement](#syllabus-as-course-agreement)
   - [Course Catalog Description](#course-catalog-description)
   - [Prerequisites](#prerequisites)
-  - [Important RIT Dates \& Deadlines (Spring 2026)](#important-rit-dates--deadlines-spring-2026)
+  - [Important RIT Dates \& Deadlines (Fall 2025)](#important-rit-dates--deadlines-fall-2025)
     - [Final Exam Week](#final-exam-week)
   - [Required Textbook](#required-textbook)
   - [Learning Management Systems](#learning-management-systems)
@@ -38,8 +38,8 @@
     - [Late Project \& Homework Policy](#late-project--homework-policy)
     - [Policy on Incomplete Grades](#policy-on-incomplete-grades)
   - [Course Elements Explored](#course-elements-explored)
-    - [Projects (70% of Grade)](#projects-70-of-grade)
-    - [Participation - GitHub Classroom (10% of Grade)](#participation---github-classroom-10-of-grade)
+    - [Projects (75% of Grade)](#projects-75-of-grade)
+    - [Weekly Participation \& In Class Activities (5% of Grade)](#weekly-participation--in-class-activities-5-of-grade)
     - [Technical Assessments (Removed)](#technical-assessments-removed)
     - [Labs/Homework (20%)](#labshomework-20)
     - [How This Course Flows](#how-this-course-flows)
@@ -87,22 +87,23 @@ Lastly, this course involves a significant amount of coding in the Dart language
 
 ---
 
-## Important RIT Dates & Deadlines (Spring 2026)
+## Important RIT Dates & Deadlines (Fall 2025)
 
 | Date | Event |
 |:-----|:------|
-| January 12, 2026 (Monday) | Day, evening, and online classes begin |
-| January 19 (Monday) | Martin Luther King Jr. Day - No Classes |
-| January 20 (Tuesday) | Last day of Add/Drop period |
-| March 8-15 | Spring Break - No Classes |
-| April 3 (Friday) | Last day to drop from classes with a grade of "W" |
-| April 27 (Monday) | Last day, evening, and online classes |
-| April 28 (Tuesday) | Reading Day |
-| Apr. 29, 30, May 1, 4, 5, 6 | Exam Period (see section below) |
+| August 25, 2025 (Monday) | Day, evening, and online classes begin |
+| September 2 (Tuesday) | Last day of Add/Drop period |
+| October 13-14 | Fall Break - No Classes |
+| November 7 (Friday) | Last day to drop from classes with a grade of "W" |
+| November 26 | No classes - University closes at 2 p.m. |
+| November 27-28 | Thanksgiving Holiday - University closed |
+| December 8 (Monday) | Last day, evening, and online classes |
+| December 9 (Tuesday) | Reading Day |
+| Dec. 10,11,12,15,16,17 | Exam Period (see section below) |
 
 ### Final Exam Week
 
-During the Final Exam period (Apr. 29, 30, May 1, 4, 5, 6) there will likely be a scheduled activity either in person or on Zoom. We will talk about this in class as the semester progresses. Our scheduled time is **TBD** (will be posted once finalized).
+During the Final Exam period (Dec. 10,11,12,15,16,17) there will likely be a scheduled activity either in person or on zoom. We will talk about this in class as the semester progresses. Our scheduled time is **12/16/2025, Tuesday 10:45AM - 1:15PM**.
 
 ---
 
@@ -210,7 +211,7 @@ I will use mass emails for urgent updates and important changes. While I'll TRY 
 
 Attendance is mandatory. Lectures will start promptly at the beginning of class, and may be followed by an in-class assignment or exercise that you are expected to work on until the end of the meeting (i.e. not leaving early, or doing HW for a different course).
 
-In recent semesters the number of late arrivals has become problematic and disruptive. Excessive late arrivals and absences will affect your ability to complete the GitHub Classroom participation assignments (10% of grade). You may read more about that in the grading section below.
+In recent semesters the number of late arrivals has become problematic and disruptive. Excessive late arrivals and absences will be penalized in the metric "Weekly Participation & In Class Activities 10%". You may read more about that in the grading section below.
 
 ---
 
@@ -232,36 +233,25 @@ Incomplete grades will be given only in the most exceptional circumstances, sole
 
 This course is designed with intentional pacing. The first 4-5 weeks focus on foundational skills through structured homework assignments. Once you have these building blocks, we shift to project-based learning where you'll apply everything in larger, creative applications. This front-loaded approach ensures you have the tools needed before diving into complex projects.
 
-### Projects (70% of Grade)
+### Projects (75% of Grade)
 
 There are 3 major projects to be completed in the semester. One is started at the end of the first half of the semester (and completed at the very end), the other two at or near the end of the semester.
 
-- **Project 1** (22.5%) - Design to Spec
-- **Project 2** (22.5%) - Web Service Application
-- **Project 3** (25%) - Roll Your Own Project
+- **Project 1** (TBD %) - Design to Spec
+- **Project 2** (TBD %) - Web Service Application
+- **Project 3** (TBD %) - Roll Your Own Project
 
 **Project Grading**: Grades for your projects are determined based upon published rubrics that explain exactly how your projects will be assessed.
 
 **Project Submission**: Your projects will be submitted in phases, in some cases you'll start with a proposal, and then a prototype with some functionality and a rough design will be submitted (this will be used for group critiques and feedback), and the final submission of the project will be a few days after the feedback process. They will need to be posted online and linked to from your course "home page" (created earlier in the semester).
 
-### Participation - GitHub Classroom (10% of Grade)
+### Weekly Participation & In Class Activities (5% of Grade)
 
-Throughout the semester, you will submit in-class work via GitHub Classroom. Each class session has its own assignment that you'll complete and submit.
-
-**How it works:**
-- Accept the GitHub Classroom assignment (link posted in MyCourses/Slack)
-- Follow along with in-class demonstrations and exercises
-- Submit your work before the next class session
-- Graded on effort and progress, not perfection
-
-**Requirements:**
-- Complete approximately 90% of in-class assignments to receive full credit
-- Good faith effort is expected; doesn't need to be 100% complete
-- If you miss class, use the weekly notes to catch up and submit
-
-**Bonus Opportunity:** Complete 90% of assignments and earn 10 bonus points that can be applied to any of your 3 projects!
-
-See [Participation - GitHub Classroom](participation-github-classroom.md) for full details on submission methods.
+- In-class creative activities (attendance proxy)
+- Pass/fail basis
+- Mix of:
+  - Framework selection exercise
+  - Periodic Attendance check pass/fail quizzes
 
 ### Technical Assessments (Removed)
 
@@ -272,7 +262,7 @@ See [Participation - GitHub Classroom](participation-github-classroom.md) for fu
 ~~**Final (5%)** - Exam Week (or possibly last class TBD)~~
 - ~~Similar format, cumulative~~
 
-**Note:** Exams were removed in a previous semester per class vote and due to complexity of projects.
+**Note:** Exams were removed per class vote and due to complexity of projects. The weighting of projects did not change drastically (70% to 75%).
 
 ### Labs/Homework (20%)
 
@@ -334,7 +324,7 @@ We'll occasionally work with some of those tools so that you can learn to use th
 
 My goal is to spark your curiosity and excitement about multiplatform development rather than serve as an encyclopedia of information. I bring a unique perspective from years in industry combined with teaching experience, which I hope provides valuable real-world context to our coursework.
 
-I genuinely welcome your feedback throughout the semester; whether it's about speaking volume, organization, pacing, or anything else that affects your learning. Please share concerns with me directly rather than waiting for end-of-semester evaluations if you feel comfortable, as my goal is to continuously improve and deliver the high-quality education you expect at RIT.
+As this is my first semester teaching full-time in IGM, I'm learning alongside you. I genuinely welcome your feedback throughout the semester; whether it's about speaking volume, organization, pacing, or anything else that affects your learning. Please share concerns with me directly rather than waiting for end-of-semester evaluations if you feel comfortable, as my goal is to continuously improve and deliver the high-quality education you expect at RIT.
 
 Given our limited in-person time (2.5 hours/week) and the lab-based nature of this course, we'll use a flipped classroom approach. This means you'll engage with foundational content before class, allowing us to maximize our face-to-face time for hands-on work, problem-solving, and collaborative learning.
 
@@ -405,4 +395,4 @@ If you have a concern related to gender-based discrimination and/or harassment a
 
 ---
 
-*Last updated: Spring 2026*
+*Last updated: Fall 2025*
