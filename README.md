@@ -5,14 +5,16 @@
 
 Welcome to IGME-340! This course explores cross-platform mobile application development using Flutter and Dart. You'll learn to design, prototype, and develop media-rich interactive experiences that deploy to multiple platforms from a single codebase.
 
+**What About MyCourses?**: MyCourses is still the source of truth for this class, I have set up a table of contents below to browse things; but always refer back to MyCourses for up to date information and due dates.
+
 ---
 
-## 📚 Course Materials Organization
+## Course Materials Organization
 
 This repository contains all course materials organized by type and purpose:
 
 ### 📅 [Weekly Class Notes](weekly/)
-Detailed notes from each class session organized chronologically. Start here to follow along with what we covered in class.
+Detailed notes from each class session organized chronologically. Generally you will get to these notes from MyCourses, but you can always browse the notes from github as well.
 
 **Structure:** `Week [#][A/B]` format (e.g., `1A.md`, `1B.md`)
 - **A sessions:** Tuesdays (often introduce new concepts)
@@ -30,35 +32,7 @@ Detailed notes from each class session organized chronologically. Start here to 
 
 ---
 
-### 📖 [Reference Guide](reference/)
-Quick-reference documentation for Flutter widgets, concepts, and patterns. Use this when coding to quickly look up syntax and common use cases.
-
-**Categories:**
-- **Styling & Theming** - BoxDecoration, Themes, Colors, Fonts
-- **Core Widgets** - Container, Row, Column, Stack, Images
-- **Buttons & Interaction** - Button types, GestureDetector, InkWell
-- **Input & Forms** - TextField, DropdownButton, Form validation
-- **Lists & Scrolling** - ListView, GridView, ScrollView
-- **Navigation** - Routing, Dialogs, SnackBars
-- **State Management** - setState, Provider, ChangeNotifier
-- **APIs & Data** - HTTP requests, JSON parsing, async/await
-- **Common Patterns** - Code organization, DRY principles
-
-**What's Inside:**
-- Quick copy-paste examples
-- Properties reference tables
-- Common patterns (without homework solutions)
-- Troubleshooting tips
-- Links to official documentation
-
-**Usage Tip:** Reference pages are *concise lookups* - use them when you know what you're looking for and need quick syntax.
-
-**Relationship to Weekly Notes:**  
-Reference pages link back to weekly notes for context, and weekly notes link to reference for quick lookups. They complement each other!
-
----
-
-### 🔬 [Labs](labs/)
+### 🔬 [Labs](labs/) 
 Hands-on assignments that build foundational Flutter and Dart skills. 
 
 **Current Labs:**
@@ -110,6 +84,24 @@ Course policies, guidelines, and supplementary materials that don't fit in the r
 mycourses (see Syllabus folder in content for that in mycourses)
 
 ---
+### 📖 [Reference Guide](reference/README.md)
+Quick-reference documentation for Flutter widgets, concepts, and patterns. Use this when coding to quickly look up syntax and common use cases.
+
+AI Disclosure: Since Flutter is constantly evolving and there isn't a textbook; I worked to develop this set of resources which aligns well with our course, and has examples similar to the way we do things in class. Although the weekly notes and in class demos were developed by "humans" (mostly myself and Dower Chin, the previous instructor of this course), the reference guide is a mix of my examples and examples developed by AI; and then organized to connect back to our weekly content. If you prefer not to use AI created resources you do NOT have to use this reference guide at all! it was just some icing on the cake I wanted to add last semester; as I realized if you wanted to look something up it wasn't always intuitve to know to look in week 2, or week 7. It was easier to lookup in a guide like this
+
+**What's Inside:**
+- Quick copy-paste examples
+- Properties reference tables
+- Common patterns (without homework solutions)
+- Troubleshooting tips
+- Links to official documentation
+
+**Usage Tip:** Reference pages are *concise lookups* - use them when you know what you're looking for and need quick syntax.
+
+**Relationship to Weekly Notes:**  
+Reference pages link back to weekly notes for context, and weekly notes link to reference for quick lookups. They complement each other!
+
+---
 
 ### 📅 [Schedule](schedule.md)
 Complete week-by-week course schedule showing topics, due dates, and major milestones.
@@ -134,7 +126,7 @@ How to properly submit your work for this course.
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### New to the Course?
 1. Read the Syllabus in mycourses to understand course structure
@@ -157,7 +149,7 @@ How to properly submit your work for this course.
 
 ---
 
-## 💡 Course Philosophy
+## Course Philosophy
 
 **Real-World Readiness**  
 By the end of this course, you'll be able to:
@@ -215,7 +207,7 @@ By the end of this course, you'll be able to:
 
 ---
 
-## 🎓 Course Learning Outcomes
+## Course Learning Outcomes
 
 By completing this course, you will be able to:
 
@@ -289,7 +281,7 @@ Course materials © 2025 John-Paul Takats, RIT School of Interactive Games and M
 - Share knowledge with future students
 
 **Attribution:**
-Some materials adapted from previous IGME-340 instructors. Special shout out to Dower Chin! Credit given where applicable.
+Some materials adapted from previous IGME-340 instructors. Special shout out to Dower Chin! Credit given where applicable. The "reference guide" was developed with AI assitance. Weekly notes (ex: 3a, 5b) were often developed as i'd record myself giving a lecture; and have AI transcript the transcript and make easy to follow steps that we do in class.
 
 ---
 
