@@ -113,9 +113,11 @@ There is no required textbook for this course. All learning materials, including
 
 ## Learning Management Systems
 
-- **MyCourses**: Primary hub for announcements, grades, and course content
-- **GitHub**: Code distribution and version control
-- **Assignment Submission**: [To be finalized by end of Week 1 - either MyCourses or GitHub Classroom]
+- **MyCourses**: Primary hub for announcements, grades, and assignment submission
+- **GitHub**: All course notes, assignment instructions, and reference materials are hosted in a public GitHub repository. This makes content accessible, version-controlled, and easy to update. I will link to these materials from MyCourses.
+- **GitHub Classroom**: Used for [participation assignments](#participation-github-classroom) throughout the semester. You'll receive invite links through MyCourses.
+
+**A note about the GitHub repo:** Since the course materials are version-controlled, you may occasionally see content in the repository that I haven't officially linked from MyCourses yet. Feel free to look ahead, but keep in mind that until I link something from MyCourses, it's not finalized and may change.
 
 ---
 
@@ -267,6 +269,7 @@ There are 3 major projects to be completed in the semester.
 - **Proposal/Plan** - What you intend to build
 - **Prototype** - Early version with basic functionality
 - **Final Submission** - Complete project
+- **Video Walkthrough** (Project 3) - Demo video showing your app in action
 
 **Why multiple deliverables?** This mirrors how projects work in industry - you plan before you code. It also means your grade isn't entirely dependent on the final product. If you struggle with the programming but put effort into the proposal and prototype, those points can help cushion your grade.
 
@@ -274,7 +277,7 @@ There are 3 major projects to be completed in the semester.
 
 **Project Grading**: Grades are determined by published rubrics that explain exactly how your projects will be assessed.
 
-**Project Submission**: Projects will be posted online and linked from your course "home page" (created earlier in the semester). Prototypes are used for group critiques and feedback before the final submission.
+**Project Submission**: Projects are submitted via MyCourses - check each project spec for specific submission instructions.
 
 **Time Commitment - Be Realistic**: This course has relatively few assignments, but 70% of your grade is projects. A 3-credit course typically expects 6-9 hours of work outside the classroom per week. If you're not putting in this time and leaving projects to the last minute, you will likely not succeed.
 
@@ -378,7 +381,7 @@ I genuinely welcome your feedback throughout the semester; whether it's about sp
 
 Given our limited in-person time (2.5 hours/week) and the lab-based nature of this course, we'll use a flipped classroom approach. This means you'll engage with foundational content before class, allowing us to maximize our face-to-face time for hands-on work, problem-solving, and collaborative learning.
 
-I'm committed to making this a valuable experience for all of us—let's learn and grow together this semester.
+I'm committed to making this a valuable experience for all of us. Let's learn and grow together this semester.
 
 ### Student Support Availability
 
