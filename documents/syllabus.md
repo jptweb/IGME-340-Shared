@@ -40,7 +40,6 @@
   - [Course Elements Explored](#course-elements-explored)
     - [Projects (70% of Grade)](#projects-70-of-grade)
     - [Participation - GitHub Classroom (10% of Grade)](#participation---github-classroom-10-of-grade)
-    - [Technical Assessments (Removed)](#technical-assessments-removed)
     - [Labs/Homework (20%)](#labshomework-20)
     - [How This Course Flows](#how-this-course-flows)
   - [Academic Integrity](#academic-integrity)
@@ -81,9 +80,7 @@ Interactive media applications are no longer restricted to personal computers. T
 
 The course is a higher-level programming course, it is expected that you will have familiarity programming in languages such as Java, C# or JavaScript.
 
-If you are unfamiliar with basic programming, you'll be expected to quickly and deeply engage the material in the beginning weeks through our provided references, notes and resources to get where you need to be.
-
-Lastly, this course involves a significant amount of coding in the Dart language, you should also feel confident in your programming skills in whatever other languages you know.
+**About Dart:** We'll use the Dart programming language for Flutter development. Dart has strong similarities to TypeScript and JavaScript (which you used in IGME-330), so the syntax should feel familiar. We'll cover Dart basics in Week 1, but you'll be expected to pick up the language structure mostly on your own through practice and the provided exercises. Office hours are available if you need extra help getting comfortable with Dart.
 
 ---
 
@@ -109,6 +106,8 @@ During the Final Exam period (Apr. 29, 30, May 1, 4, 5, 6) there will likely be 
 ## Required Textbook
 
 There is no required textbook for this course. All learning materials, including lecture presentations, code examples, and external resources, will be provided through our course platforms.
+
+**Reference Guides:** I've created a set of [quick-reference guides](../reference/) for common Flutter/Dart topics. These are designed for fast lookup while coding - think of them as a "cheat sheet" collection rather than tutorial content. The reference guides were created with AI assistance to ensure comprehensive coverage; however, the weekly class notes, code examples, and demos are written by me to ensure they align with how we actually teach the material in class.
 
 ---
 
@@ -157,11 +156,13 @@ To ensure you don't miss important information:
 
 ### Slack Workspace
 
-For peer support, quick questions, and community discussion:
+**Slack is my preferred way to communicate** - I check it more frequently than email.
 
-- Great for troubleshooting and collaboration
+- Great for quick questions, troubleshooting, and collaboration
 - Great for finding out what you missed due to excused absence
 - Be careful though not to share solutions or code as this could constitute academic dishonesty
+
+**If you don't hear back within 24 hours, please send me a reminder.** Messages occasionally get buried - a polite nudge is always welcome!
 
 *[Slack invitation link will be provided in Week 1]*
 
@@ -202,8 +203,10 @@ I will use mass emails for urgent updates and important changes. While I'll TRY 
 
 ### Software
 
-- Development environment setup instructions will be provided in Week 1
 - All required software is free for educational use
+- In Week 1B, we'll set up a development environment on the classroom lab machines together - this gives everyone a working setup they can use during class
+- It's **strongly recommended** you also get Flutter running on your personal machine so you can work outside of class
+- See [Lab 00: Environment Setup](../labs/lab-00-environment-setup.md) for detailed instructions
 
 ### Limited Hardware? You Can Still Succeed
 
@@ -228,7 +231,9 @@ If storage or hardware might be a problem, **let me know in the first few weeks*
 
 Attendance is mandatory. Lectures will start promptly at the beginning of class, and may be followed by an in-class assignment or exercise that you are expected to work on until the end of the meeting (i.e. not leaving early, or doing HW for a different course).
 
-In recent semesters the number of late arrivals has become problematic and disruptive. Excessive late arrivals and absences will affect your ability to complete the GitHub Classroom participation assignments (10% of grade). You may read more about that in the grading section below.
+**If you miss class:** You can still complete the GitHub Classroom participation assignments using the weekly notes to catch up. However, you'll miss out on in-class explanations and troubleshooting help.
+
+**Excessive absences or late arrivals:** I reserve the right to deduct points from your participation grade if this becomes a pattern. In recent semesters, late arrivals have been disruptive - please be on time out of respect for your classmates. See the participation section below for more details.
 
 ---
 
@@ -282,17 +287,6 @@ Throughout the semester, you will submit in-class work via GitHub Classroom. Eac
 
 See [Participation - GitHub Classroom](participation-github-classroom.md) for full details on submission methods.
 
-### Technical Assessments (Removed)
-
-~~**Midterm (5%)** - Week 7/8~~
-- ~~In-class conceptual + small practical~~
-- ~~Architecture decisions, debugging scenarios~~
-
-~~**Final (5%)** - Exam Week (or possibly last class TBD)~~
-- ~~Similar format, cumulative~~
-
-**Note:** Exams were removed in a previous semester per class vote and due to complexity of projects.
-
 ### Labs/Homework (20%)
 
 **NOTE:** Adjusted due to removal of exams; one homework added
@@ -341,9 +335,15 @@ For full details on the policy and your responsibilities within it, please visit
 
 ## Generative AI (e.g., ChatGPT)
 
-Coding solutions must be your own work, which means you cannot use generative AI tools in any manner to write your programs for you. Doing so would count as Cheating above. When learning fundamental skills, you need to ensure that you master the basics. If we doubt authorship, we may ask you to explain the code or re-create aspects of the code in one of our labs – you must show that you have mastered the fundamentals.
+**The key rule: Disclosure is required.** If AI is used to write any code and you don't disclose it, this is a breach of academic integrity policy.
 
-We'll occasionally work with some of those tools so that you can learn to use them effectively. In general, however, before resorting to the use of AI to create content submitted in this class you should communicate with your instructor. If and when you do use AI assistance, you should explicitly acknowledge so and describe how and to what extent AI was utilized in your documentation.
+**Using AI to learn:** You may use AI tools to look up concepts you don't know how to implement - this is similar to searching documentation or Stack Overflow. However, you must always disclose AI usage in your submission, describing how and to what extent it was used.
+
+**Projects 1 & 2:** Focus on demonstrating that YOU understand the fundamentals. AI-generated code without genuine understanding defeats the purpose of these skill-building assignments.
+
+**Project 3:** AI usage is permitted more liberally, as long as it's documented. By this point you should have the fundamentals down and can use AI as a productivity tool.
+
+**Verification:** I reserve the right to ask you to come to office hours and explain advanced concepts that appear in your homework. If you can't explain code you submitted, that's a problem. You must show that you understand what you've turned in.
 
 ---
 
@@ -354,6 +354,8 @@ We'll occasionally work with some of those tools so that you can learn to use th
 My goal is to spark your curiosity and excitement about multiplatform development rather than serve as an encyclopedia of information. I bring a unique perspective from years in industry combined with teaching experience, which I hope provides valuable real-world context to our coursework.
 
 I genuinely welcome your feedback throughout the semester; whether it's about speaking volume, organization, pacing, or anything else that affects your learning. Please share concerns with me directly rather than waiting for end-of-semester evaluations if you feel comfortable, as my goal is to continuously improve and deliver the high-quality education you expect at RIT.
+
+**A note on feedback:** If something isn't working for you, please tell me - via Slack, email, office hours, or even an anonymous message if you prefer. I can't fix what I don't know about. Unlike a restaurant that can rebrand, public review sites are tied to my name permanently and don't give me a way to respond or follow up. I'm just asking for the courtesy of being able to hear your concerns and improve - reaching out directly makes that possible.
 
 Given our limited in-person time (2.5 hours/week) and the lab-based nature of this course, we'll use a flipped classroom approach. This means you'll engage with foundational content before class, allowing us to maximize our face-to-face time for hands-on work, problem-solving, and collaborative learning.
 
