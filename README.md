@@ -25,7 +25,7 @@ Flutter/Dart for cross-platform mobile development. Design, prototype, and build
 
 ## What's What
 
-**[Weekly Notes](weekly/)** - What we did in class. Format: `{week}{day}.md` (e.g., 3A.md = Week 3 Tuesday, 3B.md = Week 3 Thursday).
+**[Weekly Notes](weekly/)** - What we did in class. Format: `{week}{day}.md` (e.g., 3A.md = Week 3 Monday, 3B.md = Week 3 Wednesday).
 
 **[Labs](labs/)** - Flutter app-building assignments. Numbered sequentially (lab-01 through lab-04).
 

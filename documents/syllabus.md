@@ -7,7 +7,7 @@
 | **Office:** | GOL-2527 |
 | **Email:** | jxtadm@rit.edu |
 | **Office Hours:** | Latest office hour info: [https://people.rit.edu/~jxtadm/](https://people.rit.edu/~jxtadm/) You may also book virtual Zoom hours there. |
-| **Logistics:** | Meets in: GOL 2435. Tue & Thu 11:00 AM - 12:15 PM. |
+| **Logistics:** | Meets in: GOL 2570. Mon & Wed 3:00 PM - 4:15 PM. |
 
 ---
 

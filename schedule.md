@@ -15,15 +15,15 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ---
 
 ## Week 1: Course Foundation & Dart Introduction
-**Jan 13 & 15**
+**Jan 12 & 14**
 
-### [Week 1A](weekly/1A.md) (Tuesday): Course Introduction
+### [Week 1A](weekly/1A.md) (Monday): Course Introduction
 - **Administrative:** Syllabus, grading structure (70% projects, 20% homework/labs, 10% participation)
 - **Platform Overview:** Multiplatform development concepts, why Flutter (46% adoption rate)
 - **Dart Basics:** Variables, data types (int, double, String, bool), string interpolation
 - **Tools:** DartPad introduction for immediate practice
 
-### [Week 1B](weekly/1B.md) (Thursday): Dart Fundamentals 
+### [Week 1B](weekly/1B.md) (Wednesday): Dart Fundamentals 
 - **Collections:** Lists (arrays), Maps (dictionaries), basic operations
 - **Functions:** Basic syntax, arrow functions, named parameters
 - **Environment Setup:** Flutter installation guidance, VS Code configuration
