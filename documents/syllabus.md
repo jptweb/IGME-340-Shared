@@ -64,7 +64,7 @@ This syllabus serves as a contract between instructor and students. By remaining
 - Course communication expectations
 - Academic integrity standards
 
-**Syllabus Modifications**: While this document represents the planned structure of the course, I reserve the right to make adjustments as needed to enhance learning outcomes or address unforeseen circumstances. Any changes will be communicated via official RIT email.
+**Syllabus Modifications**: While this document represents the planned structure of the course, I reserve the right to make adjustments as needed to enhance learning outcomes or address unforeseen circumstances. Any changes will be communicated via official RIT email. This syllabus and all course materials are maintained in GitHub, so you can view the full revision history and see exactly what changed and when.
 
 ---
 
@@ -257,15 +257,36 @@ This course is designed with intentional pacing. The first 4-5 weeks focus on fo
 
 ### Projects (70% of Grade)
 
-There are 3 major projects to be completed in the semester. One is started at the end of the first half of the semester (and completed at the very end), the other two at or near the end of the semester.
+There are 3 major projects to be completed in the semester.
 
 - **Project 1** (22.5%) - Design to Spec
 - **Project 2** (22.5%) - Web Service Application
 - **Project 3** (25%) - Roll Your Own Project
 
-**Project Grading**: Grades for your projects are determined based upon published rubrics that explain exactly how your projects will be assessed.
+**Project Deliverables**: Projects 2 and 3 have multiple deliverables, not just a final submission:
+- **Proposal/Plan** - What you intend to build
+- **Prototype** - Early version with basic functionality
+- **Final Submission** - Complete project
 
-**Project Submission**: Your projects will be submitted in phases, in some cases you'll start with a proposal, and then a prototype with some functionality and a rough design will be submitted (this will be used for group critiques and feedback), and the final submission of the project will be a few days after the feedback process. They will need to be posted online and linked to from your course "home page" (created earlier in the semester).
+**Why multiple deliverables?** This mirrors how projects work in industry - you plan before you code. It also means your grade isn't entirely dependent on the final product. If you struggle with the programming but put effort into the proposal and prototype, those points can help cushion your grade.
+
+**Don't skip deliverables!** Each one is worth points. Students have been surprised to lose points on prototypes they didn't submit - check MyCourses calendar for all due dates.
+
+**Project Grading**: Grades are determined by published rubrics that explain exactly how your projects will be assessed.
+
+**Project Submission**: Projects will be posted online and linked from your course "home page" (created earlier in the semester). Prototypes are used for group critiques and feedback before the final submission.
+
+**Time Commitment - Be Realistic**: This course has relatively few assignments, but 70% of your grade is projects. A 3-credit course typically expects 6-9 hours of work outside the classroom per week. If you're not putting in this time and leaving projects to the last minute, you will likely not succeed.
+
+For reference, here's what students reported spending on Project 3 (Fall 2025):
+
+| Metric | Hours |
+|--------|-------|
+| Lowest reported | 19 hours |
+| Highest reported | 45-50 hours |
+| Average | ~28 hours |
+
+Projects are not something you can cram the night before. Plan accordingly.
 
 ### Participation - GitHub Classroom (10% of Grade)
 
@@ -289,16 +310,14 @@ See [Participation - GitHub Classroom](participation-github-classroom.md) for fu
 
 ### Labs/Homework (20%)
 
-**NOTE:** Adjusted due to removal of exams; one homework added
-
 Approximately 5-6 structured assignments designed to build foundational skills in Dart and Flutter. These assignments are **strategically front-loaded** in the first half of the semester to prepare you for project work.
 
 **What to Expect:**
 
-- **Time commitment**: 1-2 hours per assignment
 - **Focus areas**: Dart fundamentals, Flutter widgets, layouts, and basic state management
-- **Submission**: Due before the next class meeting (typically 2-3 days)
+- **Submission**: Due dates vary - check MyCourses calendar
 - **Grading**: Full credit for good-faith completion and effort
+- **Time**: Varies by experience level - start early so you have time to ask questions if stuck
 
 **Schedule Note**: Most homework occurs in Weeks 1-6, with minimal assignments during heavy project periods. This intentional pacing ensures you build skills early without competing priorities later in the semester.
 
