@@ -115,7 +115,7 @@ There is no required textbook for this course. All learning materials, including
 
 - **MyCourses**: Primary hub for announcements, grades, and assignment submission
 - **GitHub**: All course notes, assignment instructions, and reference materials are hosted in a public GitHub repository. This makes content accessible, version-controlled, and easy to update. I will link to these materials from MyCourses.
-- **GitHub Classroom**: Used for [participation assignments](#participation-github-classroom) throughout the semester. You'll receive invite links through MyCourses.
+- **GitHub Classroom**: Used for [participation assignments](#participation---github-classroom-10-of-grade) throughout the semester. You'll receive invite links through MyCourses.
 
 **A note about the GitHub repo:** Since the course materials are version-controlled, you may occasionally see content in the repository that I haven't officially linked from MyCourses yet. Feel free to look ahead, but keep in mind that until I link something from MyCourses, it's not finalized and may change.
 
@@ -215,10 +215,11 @@ I will use mass emails for urgent updates and important changes. While I'll TRY 
 **If your computer can't run Android Studio** (too slow, not enough storage, etc.), you have options:
 
 1. **Classroom Lab Machines**: GOL 2570 has machines with Android Studio. We'll set up Flutter on these in Week 1B - it persists all semester.
-2. **Chrome Fallback**: For the first few weeks, you can develop targeting Chrome instead of Android. This works on slower machines.
-3. **Virtual Machine** (emergency option): I can set you up on rles.rit.edu if needed - has storage space but is slow and can't run Android Studio.
+2. **GCCIS Open Labs**: Other GCCIS lab machines also have Android Studio. You may need to install the Flutter VS Code extension and SDK when using a different machine (still verifying this), but once you get the hang of it, the setup takes about 10 minutes.
+3. **Chrome Fallback**: For the first few weeks, you can develop targeting Chrome instead of Android. This works on slower machines.
+4. **Virtual Machine** (emergency option): I can set you up on rles.rit.edu if needed - has storage space but is slow and can't run Android Studio.
 
-**The key:** You don't need to buy a new computer, but you DO need to plan around limitations and use the lab when needed.
+**The key:** You don't need to buy a new computer, but you DO need to plan around limitations. A lot of work can be done on limited hardware using Chrome as a target, but you'll need to test on an Android emulator periodically to ensure full credit. Later in the semester, we cover features that are more unique to phones (camera, sensors, etc.) that don't work in a browser.
 
 ### Tell Me Early About Hardware Issues
 
@@ -241,7 +242,20 @@ Attendance is mandatory. Lectures will start promptly at the beginning of class,
 
 ## Grading & Assessment
 
-*IGM generally assigns 'flat' grades A,B,C as opposed to B-, C+ etc. Although other RIT departments may assign in-between grades; I am now in IGM and plan on adhering to this department practice. In rare circumstances I reserve the right to assign + or - grades. Doing extra credit, showing up for office hours and excellent participation may help sway the decision.
+| Grade | Percentage |
+|-------|------------|
+| A     | 93+        |
+| A-    | 90-92      |
+| B+    | 87-89      |
+| B     | 83-86      |
+| B-    | 80-82      |
+| C+    | 77-79      |
+| C     | 73-76      |
+| C-    | 70-72      |
+| D     | 60-69      |
+| F     | < 60       |
+
+Grades will be rounded up at .5 or higher (e.g., 89.5 becomes 90, but 89.4 stays 89).
 
 ### Late Project & Homework Policy
 
