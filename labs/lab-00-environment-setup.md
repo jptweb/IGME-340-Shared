@@ -24,52 +24,140 @@ Rather than providing our own step-by-step instructions:
 
 ## Setup Instructions
 
-### Step 1: Install Flutter
+Flutter's documentation has evolved - there are now multiple paths to get set up. We recommend the **VS Code method** as it's the simplest.
 
-Follow the official guide for your operating system:
+### Option A: VS Code Method (Recommended)
 
-- **Windows:** https://docs.flutter.dev/get-started/install/windows
-- **macOS:** https://docs.flutter.dev/get-started/install/macos
-- **Linux:** https://docs.flutter.dev/get-started/install/linux
+VS Code can install the Flutter SDK for you automatically. **Follow the official guide** - it's always up to date:
 
-**Important:** Follow ALL steps including:
+**Official Guide:** https://docs.flutter.dev/install/with-vs-code
 
-- Downloading Flutter SDK
-- Updating your PATH
-- Running `flutter doctor`
-- Installing Android Studio (for Android SDK)
-- Accepting Android licenses
+Here's the gist (but use the official guide for the full details):
 
-### Step 2: Install VS Code
+1. Install VS Code: https://code.visualstudio.com/
+2. Install the Flutter extension from the Extensions marketplace
+3. Command Palette (`Ctrl/Cmd + Shift + P`) → "Flutter: New Project"
+4. When prompted, select **"Download SDK"**
+5. **CRITICAL: Choose a path with NO SPACES!** (see warning section below)
+6. Click "Clone Flutter" → wait → click "Add SDK to PATH"
+7. Restart VS Code
 
-- Download VS Code: https://code.visualstudio.com/
-- Install the Flutter extension from the Extensions marketplace
-- The Flutter extension will also install the Dart extension automatically
+> **PATH Warning:** The "Add SDK to PATH" button works about 75% of the time. If it doesn't work for you, you'll need to manually add Flutter to your PATH - the official guide covers this.
 
-### Step 3: Verify Installation
+**After Flutter SDK is installed, set up Android:**
+- Guide: https://docs.flutter.dev/platform-integration/android/setup
+- You need Android Studio for the Android SDK and emulator
+- Run `flutter doctor --android-licenses` to accept licenses
 
-Open a terminal/command prompt and run:
+### Option B: Manual Installation
 
-```bash
-flutter doctor
-```
+If you prefer more control, you can install Flutter manually:
+- https://docs.flutter.dev/install/manual
 
-This command checks your environment and displays a report of the status of your Flutter installation.
+### Verify Your Installation
+
+Test `flutter doctor` in **two places** - sometimes PATH works in one but not the other:
+
+**1. Inside VS Code's terminal:**
+- Open VS Code
+- Terminal → New Terminal (or `` Ctrl/Cmd + ` ``)
+- Run: `flutter doctor`
+
+**2. In a regular terminal/command prompt:**
+- Open Terminal (Mac) or Command Prompt/PowerShell (Windows) - NOT inside VS Code
+- Run: `flutter doctor`
+
+If it works in VS Code but not in the regular terminal, your PATH isn't set up system-wide. This is fixable but annoying - see the official docs on updating your PATH, or just use VS Code's terminal for now.
 
 **Goal:** Get check marks for:
 
 - Flutter
-- Android toolchain
+- Android toolchain (or at least Chrome for now)
 - VS Code
 - Connected device (or you'll use an emulator)
 
-**Note:** You can ignore issues with:
+**You can ignore issues with:**
 
-- Chrome (we're focusing on mobile)
 - Visual Studio (Windows desktop development)
 - Xcode (unless you're on Mac and want iOS development)
 
-### Step 4: While You Wait (Optional)
+### Chrome is Your Friend (Early On)
+
+**Good news:** For the first few weeks, you can run Flutter apps in Chrome instead of the Android emulator:
+- If Android is giving you trouble, you can still follow along in class
+- Chrome runs faster on slower machines
+- You can keep working while troubleshooting Android setup
+
+**Web setup guide:** https://docs.flutter.dev/platform-integration/web/setup
+
+**However:** You will eventually need to test on Android for projects. The sooner you get it working, the better. Worst case: develop with Chrome on your machine and come into the lab to test on Android before submitting.
+
+---
+
+## THE #1 SETUP KILLER: Spaces in Paths
+
+**This causes more problems than anything else.** Flutter does NOT handle spaces in file paths well.
+
+### Bad Paths (WILL cause problems):
+```
+C:\Users\John Smith\flutter          ❌ (space in username)
+C:\Program Files\flutter             ❌ (space in "Program Files")
+/Users/Jane Doe/Developer/flutter    ❌ (space in username)
+```
+
+### Good Paths:
+```
+C:\flutter                           ✓
+C:\dev\flutter                       ✓
+C:\Users\jsmith\flutter              ✓ (no space in short username)
+/Users/jdoe/development/flutter      ✓
+```
+
+### If Your Username Has a Space:
+- Install Flutter somewhere else like `C:\flutter` or `C:\dev\flutter`
+- Do NOT install in your user folder if it has spaces
+- This applies to Flutter SDK location AND your project folders
+
+---
+
+## Storage Requirements
+
+**You need at least 20GB of free space** on your computer for Flutter development.
+
+### Why So Much?
+- Flutter SDK: ~2-3GB
+- Android Studio + SDK: ~5-8GB
+- A single Flutter project can grow to **4GB+** after building (before `flutter clean`)
+- Multiple projects = storage adds up fast
+
+### If You Have a Small Drive (e.g., 256GB MacBook)
+
+Flutter will technically run, but you'll likely run out of space during the semester. **This is manageable if you plan ahead:**
+
+1. Run `flutter clean` on projects you're not actively working on
+2. Use the classroom lab machines for development
+3. Delete old projects when you're done with them
+
+### Virtual Machine Option (Emergency Backup)
+
+If storage is a serious constraint, I can set you up on a virtual machine at **rles.rit.edu**:
+- Has ample hard drive space
+- Can run Flutter with Chrome target
+- **Cannot run Android Studio** (too slow)
+- You'd develop on the VM, then come to lab to test on Android before submitting
+
+This is slow and not ideal - it's an emergency option, not a primary solution.
+
+### The Important Part
+
+**Let me know early if storage might be an issue.** In Fall, only 2 out of 30 students had this problem - it's not common, but it can really mess you up if you don't realize it until a deadline.
+
+- **Tell me early** → I can help you plan, set up the VM, be flexible with extensions
+- **Tell me the day before a project is due** → Not a valid reason for an extension at that point
+
+You don't need to buy a new computer. You just need to plan around limited storage and use the lab when needed. But that requires knowing about it ahead of time!
+
+### While You Wait (Optional)
 
 Flutter downloads can be large! While waiting or if you get stuck:
 
@@ -153,7 +241,33 @@ Create **setup_notes.txt** containing:
 
 3. **Get help:**
    - Post in Slack
-   - We'll have troubleshooting time in Week 2
+   - We'll cover setup and troubleshooting in class 1B
+
+---
+
+## Lab Machine Option
+
+**You can succeed in this class even if your personal machine can't run Android Studio!**
+
+### The Classroom Lab Machines
+- Our classroom (GOL 2570) has lab machines with Android Studio available
+- Open lab hours are also available (check GCCIS website)
+- We'll walk through setting up Flutter on lab machines in class 1B
+
+### How Lab Machines Work
+- Lab machines "reset" after you log out
+- **BUT:** If we install Flutter in the correct location, it persists all semester
+- We'll show you exactly where to install so your setup stays
+
+### Your Options (Best to "Works")
+
+| Scenario | What To Do |
+|----------|------------|
+| **Best:** Full setup on your machine | Develop anywhere, test on Android emulator |
+| **Good:** Chrome-only on your machine | Develop at home, test on Android in lab periodically |
+| **Works:** Lab machines only | Do your development work in the classroom/open lab |
+
+**Either way:** Everyone should set up the lab machines in class 1B. It's good practice, and you'll have a backup if your personal machine has issues later.
 
 ---
 
@@ -186,14 +300,24 @@ Create **setup_notes.txt** containing:
 
 ### You DO Need:
 
-- Flutter SDK installed and in your PATH
-- VS Code with Flutter extension
-- Android SDK (via Android Studio)
+- VS Code with Flutter extension installed
+- Flutter SDK (VS Code can install this for you!)
+- Android SDK via Android Studio (or at least Chrome working for now)
 - To run `flutter doctor` at least once
 
 ---
 
 ## Getting Help
+
+### This is YOUR Responsibility
+
+**Environment setup is a critical job skill.** On co-ops and jobs, you'll need to set up development environments - often with less guidance than you're getting here. Use this as practice!
+
+**That said, I'm here to help - but you must reach out:**
+- Office hours are available (check syllabus)
+- Post in Slack - I check it regularly
+- I've had students not get this working until mid-semester and fail
+- **If you don't ask for help, I can't help you**
 
 ### Before Asking for Help:
 

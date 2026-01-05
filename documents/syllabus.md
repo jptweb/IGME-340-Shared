@@ -195,6 +195,7 @@ I will use mass emails for urgent updates and important changes. While I'll TRY 
 ### Hardware
 
 - **Computer**: Windows or Mac capable of running Flutter development tools
+- **Storage**: You need **at least 20GB free** - Flutter SDK, Android Studio, and projects add up quickly. A single Flutter project can grow to 4GB+ before cleaning.
 - **Platform Note**: While Flutter supports both iOS and Android development, iOS apps require a Mac for building and testing. To ensure all students can fully participate regardless of their computer, **this course will focus primarily on Android development**, which works on both Windows and Mac.
 - **Mobile Device** (Optional): Android device for testing on real hardware
 - **Developer Licenses** (Not Required): No paid developer accounts needed
@@ -203,6 +204,23 @@ I will use mass emails for urgent updates and important changes. While I'll TRY 
 
 - Development environment setup instructions will be provided in Week 1
 - All required software is free for educational use
+
+### Limited Hardware? You Can Still Succeed
+
+**If your computer can't run Android Studio** (too slow, not enough storage, etc.), you have options:
+
+1. **Classroom Lab Machines**: GOL 2570 has machines with Android Studio. We'll set up Flutter on these in Week 1B - it persists all semester.
+2. **Chrome Fallback**: For the first few weeks, you can develop targeting Chrome instead of Android. This works on slower machines.
+3. **Virtual Machine** (emergency option): I can set you up on rles.rit.edu if needed - has storage space but is slow and can't run Android Studio.
+
+**The key:** You don't need to buy a new computer, but you DO need to plan around limitations and use the lab when needed.
+
+### Tell Me Early About Hardware Issues
+
+If storage or hardware might be a problem, **let me know in the first few weeks**:
+- I can help you set up alternatives
+- I'll be flexible with extensions if you communicate early
+- Waiting until the day before a project is due is NOT a valid reason for an extension - that was within your control to address earlier
 
 ---
 
