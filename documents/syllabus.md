@@ -246,7 +246,7 @@ There are 3 major projects to be completed in the semester. One is started at th
 
 ### Participation - GitHub Classroom (10% of Grade)
 
-Throughout the semester, you will submit in-class work via GitHub Classroom. Each class session has its own assignment that you'll complete and submit.
+Throughout the semester, you will submit in-class work via GitHub Classroom. Each class session (starting Week 2) has its own assignment that you'll complete and submit.
 
 **How it works:**
 - Accept the GitHub Classroom assignment (link posted in MyCourses/Slack)
@@ -255,11 +255,12 @@ Throughout the semester, you will submit in-class work via GitHub Classroom. Eac
 - Graded on effort and progress, not perfection
 
 **Requirements:**
-- Complete approximately 90% of in-class assignments to receive full credit
+- **20 total repos** throughout the semester
+- **Complete 17 of 20** to receive full credit (3 drops allowed)
 - Good faith effort is expected; doesn't need to be 100% complete
 - If you miss class, use the weekly notes to catch up and submit
 
-**Bonus Opportunity:** Complete 90% of assignments and earn 10 bonus points that can be applied to any of your 3 projects!
+**Bonus Opportunity:** Complete ALL 20 participation assignments and earn **5 bonus points** that can be applied to any of your 3 projects!
 
 See [Participation - GitHub Classroom](participation-github-classroom.md) for full details on submission methods.
 
