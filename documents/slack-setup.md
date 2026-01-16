@@ -82,8 +82,8 @@ When replying to someone's post, click **"Reply in thread"** instead of posting 
 ### Customize Notifications
 Don't want constant pings? Go to **Preferences → Notifications** and adjust what triggers alerts. You can mute channels, set quiet hours, or only get notified for direct mentions.
 
-### Desktop/Mobile Apps
-While the browser works fine, the desktop and mobile apps offer a better experience. Download at [slack.com/downloads](https://slack.com/downloads).
+### Desktop vs Mobile
+The website works great on desktop - no need to install anything. If you want Slack on your phone (useful for notifications when you're away from your computer), grab the mobile app at [slack.com/downloads](https://slack.com/downloads). There's also a desktop app if you prefer that.
 
 ---
 
