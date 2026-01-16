@@ -2,6 +2,10 @@
 
 ## Quick Navigation
 
+### 🛠️ Setup & Installation
+- **[Flutter on Lab Machines](setup/flutter-lab-machines.md)** - Complete installation guide for RIT lab machines (GOL 2570, etc.)
+- Personal Machine Setup *(see [Lab 00](../labs/lab-00-environment-setup.md))*
+
 ### 🎨 Styling & Theming
 - [BoxDecoration](styling/box-decoration.md) - Borders, shadows, gradients, rounded corners
 - [Themes & ThemeData](styling/themes.md) - Global app styling and color systems
@@ -128,4 +132,4 @@ Found an error or have a helpful example? Let me know! This reference grows base
 
 ---
 
-*Last updated: Week 15B | Fall 2025*
+*Last updated: Week 1B | Spring 2026*
