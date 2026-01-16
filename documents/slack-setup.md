@@ -89,4 +89,4 @@ The website works great on desktop - no need to install anything. If you want Sl
 
 ## Questions?
 
-Once you're in Slack, please use it! Post questions in **#340-general** rather than emailing - that way others can benefit from the answers too.
+Once you're in Slack, please use it! Post questions in **#340-general** rather than emailing - that way others can benefit from the answers too. If it's something you'd rather not ask publicly, feel free to DM me directly on Slack.
