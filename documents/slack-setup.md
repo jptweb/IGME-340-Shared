@@ -89,5 +89,4 @@ The website works great on desktop - no need to install anything. If you want Sl
 
 ## Questions?
 
-- **Slack:** Post in #340-general
-- **Email:** jxtadm@rit.edu (subject: IGME-340 - Slack Question)
+Once you're in Slack, please use it! Post questions in **#340-general** rather than emailing - that way others can benefit from the answers too.
