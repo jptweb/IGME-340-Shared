@@ -147,9 +147,13 @@ Now let you get to do some work. Complete the following tasks:
 
 1. Create a new `List` of `Treasure`, and add 5 treasure items to it, then loop through the list and report each item's status. 
 
-1. Use Cascading/Chaining to create a new __Player__ and add a new item to the __treasures__ list. At the end of the chain call the __status__ method to output the results.	For the new treasure item, output the entire list. 
+1. **Cascade Notation Practice** - Dart has a special syntax called the **cascade operator** (`..`) that lets you perform multiple operations on the same object in a single statement.
 
-    ** HINT: You will need to alter the Treasure class.
+    Do the following using cascade notation:
+    * Create a new `Player`, call `levelUp()` twice, then call `status()` - all in one statement
+    * Add a new `Treasure` to your treasures list and then output the entire list using `forEach` - all in one statement
+
+    **Resource:** [Dart Cascade Notation](https://dart.dev/language/operators#cascade-notation)
 
 
 
