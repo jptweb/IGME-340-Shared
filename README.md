@@ -9,6 +9,18 @@ Flutter/Dart for cross-platform mobile development. Design, prototype, and build
 
 ---
 
+> **⚠️ Content Freshness Notice**
+>
+> This repository contains materials that I update throughout the semester. Some content may be from previous semesters and not yet revised for the current term.
+>
+> **How to know what's current:**
+> - If it's **linked from MyCourses**, it's active and ready to use
+> - If you're just **browsing the repo**, double-check with MyCourses before relying on dates or instructions
+>
+> **Exception:** The [Reference Guide](reference/README.md) is generally safe to use anytime - it covers Flutter/Dart fundamentals that don't change semester to semester (though I'll be expanding it this term).
+
+---
+
 ## Quick Links
 
 | What | Where |
