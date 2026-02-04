@@ -1,5 +1,18 @@
 # Project 1: Design to Spec
 
+## Helpful References
+- [BoxDecoration](../reference/styling/box-decoration.md) - Gradients, borders, shadows, and background images
+- [Images & Assets](../reference/widgets/images-assets.md) - Loading local images, pubspec.yaml setup
+- [SVG Images](../reference/assets/svg-images.md) - Using the PickAxe SVG with flutter_svg
+- [Dialogs & Alerts](../reference/navigation/dialogs-alerts.md) - Popup dialogs for About and item info
+- [InkWell & GestureDetector](../reference/widgets/inkwell-gesturedetector.md) - Making items clickable
+- [SingleChildScrollView](../reference/widgets/singlechildscrollview.md) - Scrollable text regions
+- [Stack Widget](../reference/widgets/stack-widget.md) - Layering widgets (alternative approach)
+- [Week 4A Notes](../weekly/4A.md) - Image in Container with gradient background (DecorationImage)
+- [Week 4B Notes](../weekly/4B.md) - Dialogs and InkWell
+
+---
+
 ## I. Overview
 Application developers commonly work in a team with others such as Content Strategists, User Experience designers, and Graphic Artists.  For this project, you are being asked to create this application based on a mockup animation.  Your Goal is to use Flutter to make the animation a reality.
 

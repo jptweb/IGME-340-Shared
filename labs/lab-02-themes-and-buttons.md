@@ -1,5 +1,15 @@
 # Lab 02: Themes and Buttons
 
+## Helpful References
+- [Button Types](../reference/widgets/button-types.md) - Button styling, borders, and variants
+- [Themes](../reference/styling/themes.md) - ThemeData and app-wide styling
+- [ColorScheme](../reference/styling/colorscheme.md) - Using theme colors
+- [Text & Fonts](../reference/styling/text-fonts.md) - textTheme and custom fonts
+- [SingleChildScrollView](../reference/widgets/singlechildscrollview.md) - Wrapping scrollable content
+- [Week 3B Notes](../weekly/3B.md) - Buttons and themes covered in class
+
+---
+
 We've explored some basic layout, now let's start with looking at buttons and the Flutter Themeing/Styling system.
 
 Create a new __Flutter Application__ called `themes_and_buttons`. Once the project is created, remove all the starter code in the main.dart and replace with the following:

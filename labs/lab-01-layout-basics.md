@@ -1,5 +1,13 @@
 # Lab 01: Layout Basics
 
+## Helpful References
+- [Container Basics](../reference/widgets/container-basics.md) - Container properties and styling
+- [Layout Widgets](../reference/widgets/layout-widgets.md) - Column, Row, and alignment
+- [SingleChildScrollView](../reference/widgets/singlechildscrollview.md) - Fixing overflow issues
+- [Week 3A Notes](../weekly/3A.md) - Container, Column, Row covered in class
+
+---
+
 Welcome to Flutter, now that we've got to work with Dart, and hopefully you have a grasp of its basics, we can now move onto Flutter.
 
 Creating a __Flutter Application__ is similar to creating a __Dart Console Application__. From the __Command Palette__, search for `Flutter: New Project`.
