@@ -71,7 +71,7 @@ Flutter/Dart for cross-platform mobile development. Design, prototype, and build
 
 Weekly notes and demos were developed by JP Takats and Dower Chin (previous instructor). The reference guide was created with AI assistance to provide quick-lookup resources that align with our teaching approach. You don't have to use the reference guide - it's supplemental.
 
-Found an error? Let me know in class, on Slack, or via email.
+Found an error? Let me know in class, on Slack, or via email. Testing commit from new workflow
 
 ---
 
