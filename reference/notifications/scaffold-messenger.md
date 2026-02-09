@@ -231,7 +231,7 @@ void showBanner() {
 - Important warnings that shouldn't auto-dismiss
 
 ## When Covered in Course
-- **[Week 5A](../../weekly/5A.md)** - Introduction to ScaffoldMessenger, SnackBar, and MaterialBanner
+- **[Week 5B](../../weekly/5B.md)** - Introduction to ScaffoldMessenger, SnackBar, and MaterialBanner
 - **Project 2** - User feedback for API operations and form submissions
 
 ## External Resources
@@ -241,4 +241,4 @@ void showBanner() {
 - [Material Design Snackbars](https://material.io/components/snackbars)
 
 ---
-*Last updated: Week 5A | IGME-340 Reference*
+*Last updated: Week 5B | IGME-340 Reference*
