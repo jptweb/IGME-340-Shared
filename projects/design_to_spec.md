@@ -49,5 +49,16 @@ If you run into trouble and wish to seek help with a specific question that requ
 - It is not necessary to crop the images in exactly the same way as the original images, however, we are providing the original images so that they can match more easily.  
 - You should use the same heading texts that we provided, however you do not need to use the same placeholder text.  Use VS Code or another tool to generate "Lorem Ipsum" text for you to hold the spaces open.  Tip:  In VS Code, just type `loremNN` where NN is a number of words that you want followed by Enter, and it will generate a block of text for you. Likewise, you can use the [Ipsum.com](https://lipsum.com/feed/html) website to generate text.
 
-## IV: Submissions
+## IV: Code Organization Bonus (+5 points)
+As you build out the item cards (planks, sticks, stairs, chests), you'll notice they all look very similar. This is a great opportunity to practice the **DRY principle** (Don't Repeat Yourself).
+
+Instead of copying and pasting the same widget structure four times with only the label and image changed, consider extracting the repeated code into a **reusable helper method** or a **custom Widget class** that accepts parameters like the item name, image path, and description text.
+
+For example, rather than writing separate `plankArea()`, `stickArea()`, `stairsArea()`, and `chestArea()` functions that are nearly identical, you could write a single `itemCard(context, label, imagePath, description)` function and call it four times with different arguments.
+
+We will demonstrate this technique in the **Week 5B** class session. A reference guide on DRY basics will also be provided.
+
+**This is not required** — you can absolutely complete the project by building each card individually. But if you reduce meaningful code duplication through helper methods or reusable widgets, you'll earn up to **5 bonus points**.
+
+## V: Submissions
 - Use the `flutter clean` option in a Terminal winodw before zipping up your project for submission. Upload to the assignment on myCourses (when it is created).
