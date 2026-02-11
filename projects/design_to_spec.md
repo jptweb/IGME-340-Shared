@@ -72,5 +72,8 @@ We demonstrate both techniques in the **Week 5B** class session — including a 
 
 **This is not required** — you can absolutely complete the project by building each card individually. But if you reduce meaningful code duplication through helper methods or reusable widgets, you'll earn up to **5 bonus points**.
 
-## V: Submissions
+## V: Code Comments
+Your code must be commented following the course [Commenting Guide](../commenting_guide.md). This includes a file header block at the top of each file and comment blocks for classes, methods, and any non-obvious logic. Proper commenting is part of your grade on every project.
+
+## VI: Submissions
 - Use the `flutter clean` option in a Terminal winodw before zipping up your project for submission. Upload to the assignment on myCourses (when it is created).
