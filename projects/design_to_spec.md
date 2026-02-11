@@ -36,7 +36,16 @@ Source image files, fonts, palette, and reference images/animations to work with
 
 This is an individual project, and since everyone is doing the EXACT SAME design, you should guard your code carefully so that it is not made available to others.  There is enough ambiguity in the design and the ways that it gets implemented that everyone's project can certainly be unique.
 
-The application, at this time, does not need to be responsive and the target devices will be in portrait mode. The application will be tested in the Android Emulator.
+The application, at this time, does not need to be responsive and the target devices will be in portrait mode. The application will be tested on an **Android Medium Phone** emulator with the following specs:
+
+| Property | Value |
+|----------|-------|
+| Resolution | 1080 x 2400 |
+| Density | 420 dpi |
+| Screen size | 6.4" |
+| API | 36.0 (Android 16) |
+
+As long as your layout fits on this screen without overflow errors, you're good. It does not need to be fluid or adapt to other screen sizes — we'll cover responsive layout techniques later in the course.
 
 QUESTIONS?  It is not uncommon to need to ask questions of the Customer, or design team so that you get the clearest understanding of the spec.  For the purposes of this assignment, the Customer/Design Team  will be your course Instructor and spec clarification questions should be asked in YOUR SECTION'S Slack channel. Be careful not to share your (complete or mostly complete) code to the rest of the class.
 
@@ -52,11 +61,14 @@ If you run into trouble and wish to seek help with a specific question that requ
 ## IV: Code Organization Bonus (+5 points)
 As you build out the item cards (planks, sticks, stairs, chests), you'll notice they all look very similar. This is a great opportunity to practice the **DRY principle** (Don't Repeat Yourself).
 
-Instead of copying and pasting the same widget structure four times with only the label and image changed, consider extracting the repeated code into a **reusable helper method** or a **custom Widget class** that accepts parameters like the item name, image path, and description text.
+Instead of copying and pasting the same widget structure four times with only the label and image changed, consider extracting the repeated code using one of these approaches:
 
-For example, rather than writing separate `plankArea()`, `stickArea()`, `stairsArea()`, and `chestArea()` functions that are nearly identical, you could write a single `itemCard(context, label, imagePath, description)` function and call it four times with different arguments.
+- **Extract Method** — Pull the repeated widget tree into a helper method with parameters (e.g., `buildItemCard(context, label, imagePath, description)`). Quick and easy.
+- **Extract Widget** — Create a separate `StatelessWidget` class with constructor parameters. Even cleaner, and you can move it to its own file.
 
-We will demonstrate this technique in the **Week 5B** class session. A reference guide on DRY basics will also be provided.
+For example, rather than writing separate `plankArea()`, `stickArea()`, `stairsArea()`, and `chestArea()` functions that are nearly identical, you could write a single reusable method or widget and call it four times with different arguments.
+
+We demonstrate both techniques in the **Week 5B** class session — including a trick where VS Code builds the constructor for you automatically.
 
 **This is not required** — you can absolutely complete the project by building each card individually. But if you reduce meaningful code duplication through helper methods or reusable widgets, you'll earn up to **5 bonus points**.
 
