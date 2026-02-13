@@ -259,7 +259,7 @@ Grades will be rounded up at .5 or higher (e.g., 89.5 becomes 90, but 89.4 stays
 
 ### Late Project & Homework Policy
 
-Except in documented extenuating circumstances, assignments completed or turned in after their due date will not be accepted for credit without PRIOR approval. If you are having problems with an assignment or have an emergency that may make you late in submitting your work, contact your instructor as soon as possible as I realize things come up; it is just important we discuss this in advance and not day work is due.
+Assignments completed or turned in after their due date will not be accepted for credit without PRIOR approval. If you need an extension, submit a request using the Slack workflow in **#340-extension-request** before the due date. Extensions are usually granted if you communicate proactively. If you are having an emergency, reach out to me via Slack DM as soon as possible — I realize things come up, it is just important we discuss this in advance and not the day work is due.
 
 ### Policy on Incomplete Grades
 
