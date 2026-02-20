@@ -18,8 +18,9 @@ Application developers commonly work in a team with others such as Content Strat
 
 ## II. Requirements
 You are to recreate this application:
-![App Mockup](images/design_to_spec-demo-2255.gif)
 
+![App Mockup](images/design_to_spec-demo-2255.gif)
+(See the zip starter file for better resolution "end product" screenshots and mp4 video)
 ### The functional requirements are:
 
 * AppBar should have an `About` button that shows a popup with credits.
