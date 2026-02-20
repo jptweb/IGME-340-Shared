@@ -18,7 +18,7 @@ Application developers commonly work in a team with others such as Content Strat
 
 ## II. Requirements
 You are to recreate this application:
-![App Mockup](images/design_to_spec-demo.gif)
+![App Mockup](images/design_to_spec-demo-2255.gif)
 
 ### The functional requirements are:
 
