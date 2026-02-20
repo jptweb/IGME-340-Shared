@@ -20,7 +20,7 @@ Application developers commonly work in a team with others such as Content Strat
 You are to recreate this application:
 
 ![App Mockup](images/design_to_spec-demo-2255.gif)
-(See the zip starter file for better resolution "end product" screenshots and mp4 video)
+(See the [zip starter](https://github.com/lucidchin/IGME-340-Shared/blob/main/projects/support_files/flutter_design_to_spec_assets.zip) file for better resolution "end product" screenshots and mp4 video)
 ### The functional requirements are:
 
 * AppBar should have an `About` button that shows a popup with credits.
