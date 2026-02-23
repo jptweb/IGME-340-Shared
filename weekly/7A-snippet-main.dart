@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
-import 'dart:convert';
 
 void main() {
   runApp(const MainApp());
@@ -26,24 +25,31 @@ class MainPage extends StatefulWidget {
 
 class _MainPageState extends State<MainPage> {
 
+  // TODO: We'll build our async function here in class!
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar:AppBar(title:Text("My Cool App")),
+        appBar: AppBar(title: Text("My Cool App")),
         body: Column(
-          spacing:20,
+          spacing: 20,
           children: [
             ElevatedButton(
-              onPressed:() async {
-                await doTheThing();
+              onPressed: () {
+                // TODO: We'll make this async and call our function
+                print("Button pressed!");
               },
-              child:Text("Get Some Data")
+              child: Text("Get Some Data"),
             ),
-            Expanded(
-              child: Container(color:Colors.blueGrey, ),
-            )
+            Container(
+              height: 300,
+              width: double.infinity,
+              color: Colors.blueGrey,
+              // In class we'll swap this Container for an Expanded widget
+              // and see why that's better than hardcoding a height
+            ),
           ],
         ),
-      );
+    );
   }
 }

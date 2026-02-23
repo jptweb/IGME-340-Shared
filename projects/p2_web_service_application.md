@@ -21,18 +21,26 @@ For this project you are creating a Flutter Application that utilizes a Web serv
 1. Use one of a specified set of APIs or one of your choosing to create a similar experience to [GIF Finder](../reference/network/giphy-api-setup.md) that meets the requirments.
 
 #### Some Preselected Options
-- You may get familiar with and use one of the APIs from this list:
-  - Because APIs change from time to time this is not a guarantee that these APIs will be smooth sailing, but they have been shown to work.
-    - Dog API*: https://dog.ceo/dog-api/
-    - Jikan Unofficial MyAnimeList API*: https://jikan.docs.apiary.io/
-    - The Amiibo API*: http://www.amiiboapi.com
-        - *Starters for the above 3 APIs can be found in the [web-service-app-starters.md](https://github.com/tonethar/IGME-235-Shared/blob/master/tutorial/web-service-app-starters.md)
-    - REST Countries: https://restcountries.eu/
-    - TheMealDB API: https://www.themealdb.com/api.php
-    - There are other API's listed here:
-        - [https://github.com/public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists)
-        - [https://www.freecodecamp.org/news/public-apis-for-developers/](https://www.freecodecamp.org/news/public-apis-for-developers/)
-  - You can make pretty much any experience you like as long as it captures a user request, gets data from the API, and then presents it back in a way that is useful or fun, easy to understand, and fairly well organized. 
+You may get familiar with and use one of the APIs from this list. Because APIs change from time to time this is not a guarantee that these will be smooth sailing, but they have been shown to work.
+
+**Recommended** — These APIs have solid filtering/search options that make it easier to meet the 3-control requirement:
+- TheMealDB API: https://www.themealdb.com/api.php — search by name, filter by category, area, ingredient
+- TheCocktailDB API: https://www.thecocktaildb.com/api.php — search by name, filter by ingredient, category, glass type, alcoholic/non-alcoholic (sister API to TheMealDB, similar structure)
+- Jikan Unofficial MyAnimeList API: https://jikan.docs.apiary.io/ — extensive search and filter parameters
+- REST Countries: https://restcountries.com/ — filter by region, language, currency, etc.
+
+**Workable but limited** — These APIs function fine but have fewer search/filter parameters, which means you'll need to get creative with your controls:
+- Dog API: https://dog.ceo/dog-api/ — primarily breed-based; limited filtering options make it harder to build 3 meaningful controls. You'd need to get creative here.
+
+~~The Amiibo API (amiiboapi.com) was previously on this list but [shut down permanently on December 31, 2025](https://github.com/N3evin/AmiiboAPI/issues/248). RIP. If you're into Nintendo/Amiibo data and find a replacement API, let me know and I may add it.~~
+
+*Note: 235 starters for some of the above APIs can be found in the [web-service-app-starters.md](https://github.com/tonethar/IGME-235-Shared/blob/master/tutorial/web-service-app-starters.md) — these are web-based but useful for understanding the API structure.*
+
+You can make pretty much any experience you like as long as it captures a user request, gets data from the API, and then presents it back in a way that is useful or fun, easy to understand, and fairly well organized.
+
+**Other API directories** — browse these for more ideas:
+- [https://github.com/public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists)
+- [https://www.freecodecamp.org/news/public-apis-for-developers/](https://www.freecodecamp.org/news/public-apis-for-developers/)
         
 #### Choose Your Own API Option
 - This choice is for the more adventurous students who want to try to go beyond the well-trodden paths and look for an alternative API that appeals to them.
