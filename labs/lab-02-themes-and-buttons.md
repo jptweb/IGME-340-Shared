@@ -115,7 +115,7 @@ This code will be the basis for the exercise.
 
 7. Add another `ElevatedButton` below the existing one.
 
-8. In the ThemeData, create a style for all `ElevatedButtons`, do this for both the light and dark theme. Give the theme a `background`, `foreground` color and a `textStyle`. Use colors from the theme's colorScheme.
+8. In the ThemeData, create a style for all `ElevatedButtons`, do this for both the light and dark theme. Give the theme a `background`, `foreground` color and a `textStyle`. Use colors from the colorScheme — but **don't use `Theme.of(context)` here**. Since you're still inside the ThemeData definition, `context` doesn't have access to your theme yet. Instead, use hardcoded colors or create a `ColorScheme` variable above and reference it directly. See [Theme.of(context) pitfall](../reference/styling/theme-of-context-pitfall.md) for details.
 
 9. Wrap the `Column` in a `SingleChildScrollView` Widget.
 
