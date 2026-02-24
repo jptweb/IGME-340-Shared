@@ -31,6 +31,7 @@ Flutter/Dart for cross-platform mobile development. Design, prototype, and build
 | Exercises (Dart fundamentals) | [exercises/](exercises/) |
 | Projects | [projects/](projects/) |
 | Reference Guide | [reference/README.md](reference/README.md) |
+| GitHub Participation Guide | [documents/participation-github-classroom.md](documents/participation-github-classroom.md) |
 | Submission Guidelines | [submission-guidelines.md](submission-guidelines.md) |
 
 ---
