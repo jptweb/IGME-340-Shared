@@ -1,7 +1,9 @@
-# HERE IS THE WE GOT UP TO AT THE END OF 7A. (it was actually working in class i just forgot to press Submit!
-# Challenge: make it display more infomration from the cart BEYOND just the ID (ex the item price)
+/*
+HERE IS THE WE GOT UP TO AT THE END OF 7A. (it was actually working in class i just forgot to press Submit!
+Challenge: make it display more infomration from the cart BEYOND just the ID (ex the item price)
 
-#PS I forgot to cover initState to load stuff on app load i will cover that at start of class 7B
+PS I forgot to cover initState to load stuff on app load i will cover that at start of class 7B
+*/
 
 import 'dart:convert';
 
