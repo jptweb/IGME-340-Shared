@@ -15,10 +15,14 @@ For this project you are creating a Flutter Application that utilizes a Web serv
     - the quality of the experience you create.
     - the soundness of your programming.
 
-## II. API Options
+## II. Choosing an API
 
-### Recommended APIs
-These APIs have solid filtering/search options that make it easier to meet the 3-control requirement:
+You can use **any public API** that interests you — the goal is to build something *you* find engaging. The only real requirements are that the API returns data you can search/filter (to meet the 3-control requirement) and that it's free to access without complex authentication.
+
+If you already have an API in mind, go for it. If you're looking for inspiration, here are some that have worked well in the past:
+
+### Tested & Known to Work
+These APIs have been used by previous students and have solid filtering/search options:
 - **TheMealDB API:** https://www.themealdb.com/api.php — search by name, filter by category, area, ingredient
 - **TheCocktailDB API:** https://www.thecocktaildb.com/api.php — search by name, filter by ingredient, category, glass type, alcoholic/non-alcoholic (sister API to TheMealDB, similar structure)
 - **Jikan Unofficial MyAnimeList API:** https://jikan.docs.apiary.io/ — extensive search and filter parameters
@@ -32,17 +36,17 @@ These APIs function fine but have fewer search/filter parameters, which means yo
 
 *Note: 235 starters for some of the above APIs can be found in the [web-service-app-starters.md](https://github.com/tonethar/IGME-235-Shared/blob/master/tutorial/web-service-app-starters.md) — these are web-based but useful for understanding the API structure.*
 
-You can make pretty much any experience you like as long as it captures a user request, gets data from the API, and then presents it back in a way that is useful or fun, easy to understand, and fairly well organized.
-
-### Choose Your Own API
-This choice is for the more adventurous students who want to go beyond the well-trodden paths and look for an alternative API that appeals to them.
-- You must be able to prove that you can access the API by the proposal deadline (see [Section IV](#iv-proposal) below).
-- You must keep your project to a reasonable scope that is roughly equivalent to the other assignments.
-- Be careful with your own API choice — make sure you don't run into any CORS issues.
-
-**Other API directories** — browse these for more ideas:
+### Finding Your Own API
+You're encouraged to find an API that appeals to you personally — the best projects tend to come from students who are genuinely interested in the data. Browse these directories for ideas:
 - [https://github.com/public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists)
 - [https://www.freecodecamp.org/news/public-apis-for-developers/](https://www.freecodecamp.org/news/public-apis-for-developers/)
+
+**If you choose your own API:**
+- You must be able to prove that you can access it by the proposal deadline (see [Section IV](#iv-proposal) below).
+- Keep your project to a reasonable scope that is roughly equivalent to the other assignments.
+- Be careful with CORS issues.
+
+You can make pretty much any experience you like as long as it captures a user request, gets data from the API, and then presents it back in a way that is useful or fun, easy to understand, and fairly well organized.
 
 ## III. Requirements
 
