@@ -17,7 +17,7 @@ For this project you are creating a Flutter Application that utilizes a Web serv
 
 ## II. Choosing an API
 
-You can use **any public API** that interests you — the goal is to build something *you* find engaging. The only real requirements are that the API returns data you can search/filter (to meet the 3-control requirement) and that it's free to access without complex authentication.
+You can use **any public API** that interests you — the goal is to build something *you* find engaging. The main requirement is that the API returns data you can search/filter (to meet the 3-control requirement). The suggested APIs below are all free with no authentication, but you're welcome to use an API that requires an API key or other authentication — that's actually good real-world practice. Just know that *you* are responsible for getting it set up and working, which is why the proposal requires proof that you've successfully connected to your chosen API.
 
 If you already have an API in mind, go for it. If you're looking for inspiration, here are some that have worked well in the past:
 
@@ -38,8 +38,7 @@ APIs are listed roughly in order of how straightforward they are to work with fo
 - **TheMealDB / TheCocktailDB:** https://www.themealdb.com/api.php / https://www.thecocktaildb.com/api.php — These are sister APIs with the same structure. Search by name, filter by category, area/glass type, ingredient. `Tried & tested` `Incomplete filter responses`
   **Read this before choosing:** The *search* endpoint (`search.php?s=chicken`) returns full data — name, instructions, ingredients, images, everything. But the *filter* endpoints (`filter.php?c=Seafood`) only return three fields: name, thumbnail, and ID. That means if you want to show any real detail (ingredients, instructions, etc.) when filtering by category or area, you'd need to make a *second* request per item using `lookup.php?i={id}` to get the full data. This adds complexity that other APIs on this list don't have. Totally doable, but plan for it.
 
-- **Dog API:** https://dog.ceo/dog-api/ — primarily breed-based with random image endpoints. `Tried & tested` `Limited filtering`
-  You'd need to get creative to hit 3 meaningful controls — the API mostly just returns image URLs organized by breed.
+*Love dogs, sports, weather, or something else not listed here? Find an API for it and prove it works in your proposal. The [Finding Your Own API](#finding-your-own-api) section below has directories to browse.*
 
 *Note: 235 starters for some of the above APIs can be found in the [web-service-app-starters.md](https://github.com/tonethar/IGME-235-Shared/blob/master/tutorial/web-service-app-starters.md) — these are web-based but useful for understanding the API structure.*
 
