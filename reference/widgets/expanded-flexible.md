@@ -366,7 +366,7 @@ Row(
 
 ## When Covered in Course
 - **[Week 3A](../../weekly/3A.md)** - Brief introduction with Row/Column
-- **[Week 8B](../../weekly/8B.md)** - In-depth coverage for responsive design
+- **[Week 8A](../../weekly/8A.md)** - In-depth coverage for responsive design
 - **Project 2** - Essential for responsive search results
 
 ## Related Topics
@@ -380,4 +380,4 @@ Row(
 - [Understanding constraints - Flutter](https://docs.flutter.dev/ui/layout/constraints)
 
 ---
-*Last updated: Week 8B | IGME-340 Reference*
+*Last updated: Week 8A | IGME-340 Reference*

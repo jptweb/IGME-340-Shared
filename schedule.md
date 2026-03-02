@@ -163,8 +163,11 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Keyboard Handling:** Dismissal patterns, handling keyboard overlap
 - **Professional UX:** Focus flow, responsive layouts, keyboard behavior
 
-### [Week 8B](weekly/8B.md): TBD / Lab Time
-- Content TBD for Spring 2026
+### [Week 8B](weekly/8B.md): API Practice & GIF Finder Prep
+- **API Practice:** Using DummyJSON or similar practice API
+- **TextField-Driven Requests:** Injecting user input into API endpoint URLs
+- **End-to-End Flow:** User input → API call → display results
+- Remaining time: Project 2 proposal / lab work
 
 ---
 

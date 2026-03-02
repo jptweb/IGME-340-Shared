@@ -15,8 +15,8 @@
 5. **FloatingActionButton details** - README says "Week 9A", Schedule confirms this ✅
 
 ### ✅ ALREADY CORRECT REFERENCES
-- Expanded & Flexible - Week 8B ✅
-- Focus Management - Week 8B ✅
+- Expanded & Flexible - Week 8A ✅
+- Focus Management - Week 8A ✅
 - CachedNetworkImage - Week 9A ✅
 - SharedPreferences - Week 9A ✅
 - URL Launcher - Week 9A ✅
@@ -79,13 +79,13 @@ These are in README but either too generic or may not need standalone reference 
 ### ✏️ "COMING SOON" TEXT ISSUES
 
 The "Coming Soon" section at bottom is outdated:
-- Says "Week 8: Focus Management, Responsive Design" but 8B is done
+- Says "Week 8: Focus Management, Responsive Design" but 8A is done
 - Should reflect actual upcoming topics based on where course is now
 
 ## RECOMMENDED ACTIONS
 
 ### Priority 1: Fix Current Week References
-Update the "Currently Available" and "Coming Soon" sections to reflect Week 8B completion
+Update the "Currently Available" and "Coming Soon" sections to reflect Week 8A completion
 
 ### Priority 2: Add Missing Major Topics
 Add placeholders for important topics like:

@@ -32,7 +32,7 @@ These APIs have been used by previous students and have solid filtering/search o
 These APIs function fine but have fewer search/filter parameters, which means you'll need to get creative with your controls:
 - **Dog API:** https://dog.ceo/dog-api/ — primarily breed-based; limited filtering options make it harder to build 3 meaningful controls. You'd need to get creative here.
 
-~~The Amiibo API (amiiboapi.com) was previously on this list but [shut down permanently on December 31, 2025](https://github.com/N3evin/AmiiboAPI/issues/248). RIP. If you're into Nintendo/Amiibo data and find a replacement API, let me know and I may add it.~~
+- **AmiiboAPI:** https://www.amiiboapi.org/docs/#amiibo — search by name, filter by type (Figure/Card/Yarn), game series, amiibo series, character. No authentication required. *(Note: This is a new replacement for the old amiiboapi.com which shut down Dec 2025.)*
 
 *Note: 235 starters for some of the above APIs can be found in the [web-service-app-starters.md](https://github.com/tonethar/IGME-235-Shared/blob/master/tutorial/web-service-app-starters.md) — these are web-based but useful for understanding the API structure.*
 

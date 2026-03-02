@@ -319,7 +319,7 @@ InputDecoration(
 
 ## When Covered in Course
 - **[Week 6A](../../weekly/6A.md)** - TextField basics and InputDecoration
-- **[Week 8B](../../weekly/8B.md)** - Focus management and keyboard control
+- **[Week 8A](../../weekly/8A.md)** - Focus management and keyboard control
 - **Week 6B** - Form validation with TextFormField
 - **Project 2** - Search functionality
 

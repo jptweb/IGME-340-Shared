@@ -181,7 +181,7 @@ Container(
 ## When Covered in Course
 - **[Week 3A](../../weekly/3A.md)** - Fixing overflow with scrolling
 - **[Week 5B](../../weekly/5B.md)** - Used in Project 1 for scrollable text
-- **[Week 8B](../../weekly/8B.md)** - Preventing keyboard from covering form fields
+- **[Week 8A](../../weekly/8A.md)** - Preventing keyboard from covering form fields
 
 ## Related Topics
 - [Focus Management](../input-forms/focus-management.md) - Keyboard control in forms (commonly paired with SingleChildScrollView)

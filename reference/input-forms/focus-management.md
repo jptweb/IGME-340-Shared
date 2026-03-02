@@ -346,7 +346,7 @@ See [Week 6A notes](../../weekly/6A.md#android-emulator-keyboard-note) for detai
 
 ## When Covered in Course
 - **[Week 6A](../../weekly/6A.md)** - Introduction to TextEditingController
-- **[Week 8B](../../weekly/8B.md)** - Complete focus management patterns
+- **[Week 8A](../../weekly/8A.md)** - Complete focus management patterns
 - **Project 2** - Essential for search forms
 - **Project 3** - Required for any multi-field forms
 
@@ -362,4 +362,4 @@ See [Week 6A notes](../../weekly/6A.md#android-emulator-keyboard-note) for detai
 - [TextInputAction Enum](https://api.flutter.dev/flutter/services/TextInputAction.html)
 
 ---
-*Last updated: Week 8B | IGME-340 Reference*
+*Last updated: Week 8A | IGME-340 Reference*
