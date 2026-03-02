@@ -153,21 +153,21 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 
 ---
 
-## Week 8: Advanced UI & Navigation Prep
+## Week 8: Responsive Layouts & Advanced TextFields
 **Mar 3 & 5**
 
-### [Week 8A](weekly/8A.md): Advanced Text Fields & Responsive Design
-- **Responsive Design:** Expanded widget for dynamic sizing, orientation handling
-- **Focus Management:** FocusNode, FocusManager, programmatic focus control
-- **Text Field Enhancement:** Suffix icons, onTapOutside, onEditingComplete
-- **Keyboard Handling:** Dismissal patterns, handling keyboard overlap
-- **Professional UX:** Focus flow, responsive layouts, keyboard behavior
+### [Week 8A](weekly/8A.md): Responsive Layouts with Expanded
+- **The Problem:** Hard-coded widths break on different screen sizes and orientations
+- **Expanded Widget:** Automatic remaining-space filling in Rows and Columns
+- **Cross-Axis Sizing:** Using `width: double.infinity` when Expanded only stretches one direction
+- **Lab Time:** Project 2 proposal, lab work
 
-### [Week 8B](weekly/8B.md): API Practice & GIF Finder Prep
-- **API Practice:** Using DummyJSON or similar practice API
-- **TextField-Driven Requests:** Injecting user input into API endpoint URLs
-- **End-to-End Flow:** User input → API call → display results
-- Remaining time: Project 2 proposal / lab work
+### [Week 8B](weekly/8B.md): Advanced TextFields & Connecting Forms to APIs
+- **Focus Management:** FocusNode, FocusManager, programmatic focus control
+- **Text Field Enhancement:** Clear buttons, suffix icons, onTapOutside, onEditingComplete
+- **Keyboard Handling:** Three dismissal patterns, SingleChildScrollView for overlap
+- **TextField → API Bridge:** Connecting form input to a live DummyJSON search request
+- **GIF Finder / Project 2 Prep:** The full pattern: TextField → URL → fetch → parse → display
 
 ---
 
