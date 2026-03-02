@@ -38,19 +38,25 @@ APIs are listed roughly in order of how straightforward they are to work with fo
 - **TheMealDB / TheCocktailDB:** https://www.themealdb.com/api.php / https://www.thecocktaildb.com/api.php — These are sister APIs with the same structure. Search by name, filter by category, area/glass type, ingredient. `Tried & tested` `Incomplete filter responses`
   **Read this before choosing:** The *search* endpoint (`search.php?s=chicken`) returns full data — name, instructions, ingredients, images, everything. But the *filter* endpoints (`filter.php?c=Seafood`) only return three fields: name, thumbnail, and ID. That means if you want to show any real detail (ingredients, instructions, etc.) when filtering by category or area, you'd need to make a *second* request per item using `lookup.php?i={id}` to get the full data. This adds complexity that other APIs on this list don't have. Totally doable, but plan for it.
 
-*Love dogs, sports, weather, or something else not listed here? Find an API for it and prove it works in your proposal. The [Finding Your Own API](#finding-your-own-api) section below has directories to browse.*
+*Love dogs, sports, weather, or something else not listed here? Find an API for it and prove it works in your proposal. The [Finding Your Own API](#finding-your-own-api) section below has directories to browse. (The Dog API at dog.ceo was previously listed here but removed — it only returns image URLs with no search or filtering, making it very difficult to meet the 3-control requirement.)*
 
 *Note: 235 starters for some of the above APIs can be found in the [web-service-app-starters.md](https://github.com/tonethar/IGME-235-Shared/blob/master/tutorial/web-service-app-starters.md) — these are web-based but useful for understanding the API structure.*
 
-### Finding Your Own API
-You're encouraged to find an API that appeals to you personally — the best projects tend to come from students who are genuinely interested in the data. Browse these directories for ideas:
-- [https://github.com/public-api-lists/public-api-lists](https://github.com/public-api-lists/public-api-lists)
-- [https://www.freecodecamp.org/news/public-apis-for-developers/](https://www.freecodecamp.org/news/public-apis-for-developers/)
+### Finding Your Own API (Encouraged!)
+
+The list above is just a handful of APIs we've seen work in past semesters — it's a **very** small sample of what's out there. Some of the best projects come from students who find an API they're genuinely excited about. There are **hundreds** of free public APIs covering just about every topic you can think of:
+
+Animals, Anime, Books, Cryptocurrency, Food & Drink, Games, Geography, Movies & TV, Music, News, Science, Sports, Vehicles, Weather — and a lot more.
+
+**Start here:** [Public API Lists](https://github.com/public-api-lists/public-api-lists) — a massive categorized directory of free APIs. We'll look at this together in class. When browsing, look for APIs where the **Auth** column says `No` or `apiKey` — those will be the easiest to get up and running. Also pay attention to how many endpoints and filter parameters an API offers — you need enough to build 3 meaningful controls.
+
+Other directories to browse:
+- [Free Public APIs for Developers (freeCodeCamp)](https://www.freecodecamp.org/news/public-apis-for-developers/)
 
 **If you choose your own API:**
-- You must be able to prove that you can access it by the proposal deadline (see [Section IV](#iv-proposal) below).
+- You must prove you can access it and get data back by the proposal deadline (see [Section IV](#iv-proposal) below). This is your safety net — if the API turns out to be broken or too limited, you'll find out early.
 - Keep your project to a reasonable scope that is roughly equivalent to the other assignments.
-- Be careful with CORS issues.
+- APIs that require an API key are totally fine (and good practice!) — just be sure you can get the key and connect before submitting your proposal.
 
 You can make pretty much any experience you like as long as it captures a user request, gets data from the API, and then presents it back in a way that is useful or fun, easy to understand, and fairly well organized.
 
