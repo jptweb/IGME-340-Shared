@@ -21,18 +21,25 @@ You can use **any public API** that interests you — the goal is to build somet
 
 If you already have an API in mind, go for it. If you're looking for inspiration, here are some that have worked well in the past:
 
-### Tested & Known to Work
-These APIs have been used by previous students and have solid filtering/search options:
-- **TheMealDB API:** https://www.themealdb.com/api.php — search by name, filter by category, area, ingredient
-- **TheCocktailDB API:** https://www.thecocktaildb.com/api.php — search by name, filter by ingredient, category, glass type, alcoholic/non-alcoholic (sister API to TheMealDB, similar structure)
-- **Jikan Unofficial MyAnimeList API:** https://jikan.docs.apiary.io/ — extensive search and filter parameters
-- **REST Countries:** https://restcountries.com/ — filter by region, language, currency, etc.
+### Suggested APIs
 
-### Workable but Limited
-These APIs function fine but have fewer search/filter parameters, which means you'll need to get creative with your controls:
-- **Dog API:** https://dog.ceo/dog-api/ — primarily breed-based; limited filtering options make it harder to build 3 meaningful controls. You'd need to get creative here.
+APIs are listed roughly in order of how straightforward they are to work with for this project. Tags give you a quick sense of what to expect.
 
-- **AmiiboAPI:** https://www.amiiboapi.org/docs/#amiibo — search by name, filter by type (Figure/Card/Yarn), game series, amiibo series, character. No authentication required. *(Note: This is a new replacement for the old amiiboapi.com which shut down Dec 2025.)*
+- **Jikan (MyAnimeList) API v4:** https://docs.api.jikan.moe/ — search and filter anime/manga by title, type, score, status, rating, genre, and more. Returns full details in a single request. `Tried & tested` `Highly configurable`
+  *(Note: v3 is no longer supported — make sure you're using v4.)*
+
+- **REST Countries:** https://restcountries.com/ — filter by region, language, currency, capital, etc. Full country data returned in every response. `Tried & tested` `Lots of filters`
+
+- **AmiiboAPI:** https://www.amiiboapi.org/docs/#amiibo — search by name, filter by type (Figure/Card/Yarn), game series, amiibo series, character. No auth required. `Looks promising` `Lots of filters`
+  *(New replacement for the old amiiboapi.com which shut down Dec 2025.)*
+
+- **NHTSA Vehicle API:** https://vpic.nhtsa.dot.gov/api/ — decode VINs, search by make/model/year, filter by vehicle type, manufacturer. No auth required. Good exercise in URL building. `Looks promising` `Lots of filters`
+
+- **TheMealDB / TheCocktailDB:** https://www.themealdb.com/api.php / https://www.thecocktaildb.com/api.php — These are sister APIs with the same structure. Search by name, filter by category, area/glass type, ingredient. `Tried & tested` `Incomplete filter responses`
+  **Read this before choosing:** The *search* endpoint (`search.php?s=chicken`) returns full data — name, instructions, ingredients, images, everything. But the *filter* endpoints (`filter.php?c=Seafood`) only return three fields: name, thumbnail, and ID. That means if you want to show any real detail (ingredients, instructions, etc.) when filtering by category or area, you'd need to make a *second* request per item using `lookup.php?i={id}` to get the full data. This adds complexity that other APIs on this list don't have. Totally doable, but plan for it.
+
+- **Dog API:** https://dog.ceo/dog-api/ — primarily breed-based with random image endpoints. `Tried & tested` `Limited filtering`
+  You'd need to get creative to hit 3 meaningful controls — the API mostly just returns image URLs organized by breed.
 
 *Note: 235 starters for some of the above APIs can be found in the [web-service-app-starters.md](https://github.com/tonethar/IGME-235-Shared/blob/master/tutorial/web-service-app-starters.md) — these are web-based but useful for understanding the API structure.*
 
