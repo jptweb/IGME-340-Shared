@@ -33,7 +33,7 @@ Other directories to browse:
 **Tips for picking a good API:**
 - Look for APIs where the **Auth** column says `No` or `apiKey` — those will be the easiest to get up and running. APIs that require an API key are totally fine (and good real-world practice!) — just be sure you can get the key and connect before submitting your proposal.
 - Pay attention to how many **endpoints and filter parameters** an API offers — you need enough to build 3 meaningful controls.
-- You must prove you can access it and get data back by the proposal deadline (see [Section IV](#iv-proposal) below). This is your safety net — if the API turns out to be broken or too limited, you'll find out early enough to switch.
+- **Every** proposal requires a screenshot proving the API is live and returning data (see [Section IV](#iv-proposal) below) — even for APIs on our "worked before" list. This is your safety net — if the API is down or too limited, you'll find out early enough to switch.
 - Keep your project to a reasonable scope that is roughly equivalent to the other assignments.
 
 ### APIs That Have Worked Before
@@ -108,20 +108,19 @@ The proposal ensures you've thoughtfully planned your application before diving 
 
 Your proposal document must include:
 
-### 1. API Selection & Justification (Required)
+### 1. API Selection & Proof of Connection (Required)
 - **API Name & Documentation Link** (ex: https://developers.giphy.com/docs/)
-- **API Choice Category**: Specify one of:
-  - Pre-approved API from [Section II](#ii-api-options) above
-  - Custom API (requires API viability proof)
 
-**For Custom APIs Only:** You must demonstrate that your chosen API is accessible and returns usable data. I'm willing to offer some guidance here as well if you come to office hours or contact me not last minute.
+**All APIs — including ones from the "worked before" list — require a screenshot proving the API is live and returning data.** APIs go up and down all the time, and we don't want you building a whole project around one that stops working. This takes just a few minutes and protects you.
 
-Include **ONE** of the following:
-- Screenshot of successful API call in Hoppscotch/Postman/browser showing JSON response
-- OR Screenshot of successful API call in DartPad showing parsed data
-- OR Code snippet with comments explaining how you'll access the API
+**Include a screenshot** of a successful API call showing JSON response data. The easiest way:
+1. Open [Hoppscotch](https://hoppscotch.io/) (free, no install needed)
+2. Paste in one of your API's endpoints
+3. Hit Send and screenshot the response
 
-*This doesn't need to be in your Flutter app yet — just proof the API is accessible and returns data you can work with, but you're welcome to do it in Flutter too.*
+That's it. This doesn't need to be in your Flutter app yet — just proof the API is live, accessible, and returns data you can work with. You're welcome to use Postman, your browser, DartPad, or even Flutter if you prefer.
+
+If you're using an API not on the "worked before" list, or one that requires an API key, I'm happy to offer guidance — just come to office hours or reach out before the last minute.
 
 ### 2. Application Purpose (Required)
 In 2-3 sentences, describe:
