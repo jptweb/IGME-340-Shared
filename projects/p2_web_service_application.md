@@ -17,13 +17,28 @@ For this project you are creating a Flutter Application that utilizes a Web serv
 
 ## II. Choosing an API
 
-You can use **any public API** that interests you — the goal is to build something *you* find engaging. The main requirement is that the API returns data you can search/filter (to meet the 3-control requirement). The suggested APIs below are all free with no authentication, but you're welcome to use an API that requires an API key or other authentication — that's actually good real-world practice. Just know that *you* are responsible for getting it set up and working, which is why the proposal requires proof that you've successfully connected to your chosen API.
+You can use **any public API** that interests you — the goal is to build something *you* find engaging. The main requirement is that the API returns data you can search/filter (to meet the 3-control requirement). You can make pretty much any experience you like as long as it captures a user request, gets data from the API, and then presents it back in a way that is useful or fun, easy to understand, and fairly well organized.
 
-If you already have an API in mind, go for it. If you're looking for inspiration, here are some that have worked well in the past:
+### Find an API You're Excited About
 
-### Suggested APIs
+There are **hundreds** of free public APIs out there covering just about every topic you can think of:
 
-APIs are listed roughly in order of how straightforward they are to work with for this project. Tags give you a quick sense of what to expect.
+Animals, Anime, Books, Cryptocurrency, Food & Drink, Games, Geography, Movies & TV, Music, News, Science, Sports, Vehicles, Weather — and a lot more.
+
+**Start here:** [Public API Lists](https://github.com/public-api-lists/public-api-lists) — a massive categorized directory of free APIs. We'll look at this together in class.
+
+Other directories to browse:
+- [Free Public APIs for Developers (freeCodeCamp)](https://www.freecodecamp.org/news/public-apis-for-developers/)
+
+**Tips for picking a good API:**
+- Look for APIs where the **Auth** column says `No` or `apiKey` — those will be the easiest to get up and running. APIs that require an API key are totally fine (and good real-world practice!) — just be sure you can get the key and connect before submitting your proposal.
+- Pay attention to how many **endpoints and filter parameters** an API offers — you need enough to build 3 meaningful controls.
+- You must prove you can access it and get data back by the proposal deadline (see [Section IV](#iv-proposal) below). This is your safety net — if the API turns out to be broken or too limited, you'll find out early enough to switch.
+- Keep your project to a reasonable scope that is roughly equivalent to the other assignments.
+
+### APIs That Have Worked Before
+
+The list below is a small handful of APIs that have been used in past semesters or that we've reviewed and think would work well. **You are not limited to this list** — it's just here as a starting point if you want something you know will work. Tags give you a quick sense of what to expect.
 
 - **Jikan (MyAnimeList) API v4:** https://docs.api.jikan.moe/ — search and filter anime/manga by title, type, score, status, rating, genre, and more. Returns full details in a single request. `Tried & tested` `Highly configurable`
   *(Note: v3 is no longer supported — make sure you're using v4.)*
@@ -38,27 +53,9 @@ APIs are listed roughly in order of how straightforward they are to work with fo
 - **TheMealDB / TheCocktailDB:** https://www.themealdb.com/api.php / https://www.thecocktaildb.com/api.php — These are sister APIs with the same structure. Search by name, filter by category, area/glass type, ingredient. `Tried & tested` `Incomplete filter responses`
   **Read this before choosing:** The *search* endpoint (`search.php?s=chicken`) returns full data — name, instructions, ingredients, images, everything. But the *filter* endpoints (`filter.php?c=Seafood`) only return three fields: name, thumbnail, and ID. That means if you want to show any real detail (ingredients, instructions, etc.) when filtering by category or area, you'd need to make a *second* request per item using `lookup.php?i={id}` to get the full data. This adds complexity that other APIs on this list don't have. Totally doable, but plan for it.
 
-*Love dogs, sports, weather, or something else not listed here? Find an API for it and prove it works in your proposal. The [Finding Your Own API](#finding-your-own-api) section below has directories to browse. (The Dog API at dog.ceo was previously listed here but removed — it only returns image URLs with no search or filtering, making it very difficult to meet the 3-control requirement.)*
+*(The Dog API at dog.ceo was previously listed here but removed — it only returns image URLs with no search or filtering, making it very difficult to meet the 3-control requirement.)*
 
 *Note: 235 starters for some of the above APIs can be found in the [web-service-app-starters.md](https://github.com/tonethar/IGME-235-Shared/blob/master/tutorial/web-service-app-starters.md) — these are web-based but useful for understanding the API structure.*
-
-### Finding Your Own API (Encouraged!)
-
-The list above is just a handful of APIs we've seen work in past semesters — it's a **very** small sample of what's out there. Some of the best projects come from students who find an API they're genuinely excited about. There are **hundreds** of free public APIs covering just about every topic you can think of:
-
-Animals, Anime, Books, Cryptocurrency, Food & Drink, Games, Geography, Movies & TV, Music, News, Science, Sports, Vehicles, Weather — and a lot more.
-
-**Start here:** [Public API Lists](https://github.com/public-api-lists/public-api-lists) — a massive categorized directory of free APIs. We'll look at this together in class. When browsing, look for APIs where the **Auth** column says `No` or `apiKey` — those will be the easiest to get up and running. Also pay attention to how many endpoints and filter parameters an API offers — you need enough to build 3 meaningful controls.
-
-Other directories to browse:
-- [Free Public APIs for Developers (freeCodeCamp)](https://www.freecodecamp.org/news/public-apis-for-developers/)
-
-**If you choose your own API:**
-- You must prove you can access it and get data back by the proposal deadline (see [Section IV](#iv-proposal) below). This is your safety net — if the API turns out to be broken or too limited, you'll find out early.
-- Keep your project to a reasonable scope that is roughly equivalent to the other assignments.
-- APIs that require an API key are totally fine (and good practice!) — just be sure you can get the key and connect before submitting your proposal.
-
-You can make pretty much any experience you like as long as it captures a user request, gets data from the API, and then presents it back in a way that is useful or fun, easy to understand, and fairly well organized.
 
 ## III. Requirements
 
