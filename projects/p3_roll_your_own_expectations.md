@@ -182,8 +182,19 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 - **Firebase integration** - Real-time database, authentication
   - *Note: Firebase basics covered in IGME-330 - [Firebase Guide](https://github.com/rit-igm-web/igme-330-shared/blob/main/notes/firebase-1.md)*
 - **GPS/Maps integration** - Location services
-- **Camera access** - Device camera features  
+- **Camera access** - Device camera features
 - **BLoC pattern** - Another advanced state management approach
+
+### UX Polish Extras *(added March 4, 2026)*
+
+You don't need a "killer app" to reach 100+. A simpler app with **lots of professional polish** can get there too. These are small but meaningful UX touches that real-world apps implement - the kind of details users expect but rarely notice until they're missing:
+
+- **Clear (X) buttons** on TextFields - let users quickly clear input with a suffixIcon ([Week 8B](../weekly/8B.md#i-clear-buttons))
+- **Focus node next-field navigation** - pressing the keyboard's enter/next button jumps to the next field instead of doing nothing ([Week 8B](../weekly/8B.md#ii-focus-nodes))
+- **Tap-outside keyboard dismissal** - tapping outside a TextField dismisses the keyboard, standard iOS/Android behavior ([Week 8B](../weekly/8B.md#iii-keyboard-dismissal))
+- **SingleChildScrollView on forms** - prevents the keyboard from covering input fields ([Week 8B](../weekly/8B.md#iv-singlechildscrollview))
+
+*More items may be added here as the semester progresses.* If you implement UX polish extras, **document them in your submission** so I know to look for them. A quick list in your documentation like "I added clear buttons, focus management, and keyboard dismissal" is all you need.
 
 ### Production Polish (can elevate execution quality):
 - Professional error handling with retry logic and user feedback

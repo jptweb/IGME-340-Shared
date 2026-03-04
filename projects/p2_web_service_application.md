@@ -82,16 +82,30 @@ The list below is a small handful of APIs that have been used in past semesters 
 - Pleasing graphic design:
   - Show me the cool things you can do in Flutter.
   - The interface does not closely resemble the GIPHY homework's UI
-- Widgets are well labeled and follow interface conventions, for example:
+- **Well-labeled controls:** Every input should have a clear label or hint text so users know exactly what to type or select. Don't make users guess what a field expects.
+- **Use the right control type for the job:** If a filter has a fixed set of options (e.g., Pokemon types, meal categories, content ratings), use a **DropdownButton** — not a TextField where the user has to type a value and hope it matches exactly. TextFields are great for open-ended search terms, but dropdowns prevent typos and make your app much easier to use. *(This was a common issue in past semesters — don't lose points over it!)*
+- Widgets follow interface conventions, for example:
   - radio buttons are for mutually exclusive options, checkboxes are for when you want to let the user choose *multiple* options.
 - Users should be able to figure out how to use the app with minimal instruction:
   - be sure to provide instruction and hints if necessary
-- User errors must be handled gracefully:
-  - for example, if the user forgets to type in a search term before clicking the Search button, the app should tell the user something like "Please enter a search term first"
+- **Basic input validation is expected:**
+  - Don't let users submit empty searches — show a message like "Please enter a search term first"
+  - If a field requires specific input, validate it before making the API call
+  - Display user-friendly error messages (not crashes or silent failures)
 - Users must know what *state* the app is in at all times:
   - for example, when they click the search button, there should some indication that a search is happening:
     - text that says "Searching for 'Tacos' near you" and so on
     - a "spinner" or other "indeterminate progress" animation
+
+#### Bonus: Form Polish (up to +5 points) *(added March 4, 2026)*
+
+Want a few extra points? Implement professional form behaviors that real-world apps use. These small touches show attention to detail and can either push you past 100 or make up for a rough spot elsewhere. See [Week 8B](../weekly/8B.md) for how to implement these:
+
+- **Clear (X) buttons** on TextFields so users can quickly reset input
+- **Focus node management** — pressing the keyboard's next/enter button jumps to the next field
+- **Tap-outside keyboard dismissal** — tapping outside a TextField closes the keyboard (standard iOS/Android behavior)
+
+**To receive bonus points, you must document what you implemented** in your submission documentation (see [Section VI](#vi-documentation) below) so I know to look for it.
 
 ### C. Code Conventions
 - D.R.Y. - Don't Repeat Yourself. Repeated blocks of nearly identical code must be factored out and placed in a separate function.
@@ -189,7 +203,28 @@ This helps me provide early guidance if needed.
 | **Final Submission** | Complete, polished application meeting all requirements | See MyCourses |
 
 ## VI. Documentation
-Include an About Dialog or page with Documentation where you document your process, cite any sources, tell me where to find anything special you want me to see, and also explain how you met the requirements.
+
+Your documentation has **two parts**: an in-app About dialog/page and a submission document.
+
+### In-App About Dialog or Page (Required)
+Include an About dialog or page inside your app. This is what a real app would have — keep it app-focused:
+- App name and brief description
+- Developer name
+- Data source / API credit and link
+- Any other credits or attributions (fonts, images, packages, etc.)
+
+### Submission Document (Required) *(updated March 4, 2026)*
+Submit a **short PDF** (1-2 pages) alongside your project ZIP in the MyCourses dropbox. This is what I read while grading — it helps me find everything and give you full credit. Use this structure:
+
+1. **How to Use Your App** — Brief walkthrough: what to search, what the controls do, anything I should try
+2. **How You Met the Requirements** — Quick notes on your 3+ controls, shared_preferences, etc.
+3. **What's Special** — Anything beyond the basics you want me to notice (bonus polish, creative features, extra effort)
+4. **AI Tools Used** — If applicable: what tools, what for (see [Academic Integrity note](#iv-proposal))
+5. **Known Issues** — Anything that doesn't quite work or that you'd fix with more time (honesty here is appreciated and won't hurt your grade — it shows self-awareness)
+
+**File naming:** `LastName_FirstName_P2Doc.pdf`
+
+This replaces the old "document everything in the About page" approach — your About page stays clean and app-like, and I get a document that's easy to read while grading.
 
 ## VII. Grading
 The grading rubric for this project is visible in myCourses. You should look it over carefully. Find it by going to the "Assignments" section and clicking through to the "Project 2 Final Submission" dropbox.
@@ -197,7 +232,9 @@ The grading rubric for this project is visible in myCourses. You should look it 
 Reminder — 'A'-level work means doing college-level work that goes beyond what we did in class. (You should be able to see this reflected in the online Rubric). Meeting only the base requirements will most likely only earn you a B.
 
 ## VIII. Submission
-- Perform a `flutter clean`, ZIP and post the completed project and documentation page to the MyCourses dropbox. Be sure to check the Submission Guidelines for more details!
+- Perform a `flutter clean`, ZIP your project folder, and upload to the MyCourses dropbox
+- Upload your **submission document PDF** (`LastName_FirstName_P2Doc.pdf`) to the same dropbox
+- Be sure to check the Submission Guidelines for more details!
 
 > **Need Help?**
 > Don't forget I added extensive documentation in the references area about how to [connect to Giphy](../reference/network/giphy-api-setup.md). Much of the code you need may end up being similar in nature to this; but the way you interact and build it will be different. In a sense we are providing you with much of the ingredients; but you need to creatively assemble and build the meal.
