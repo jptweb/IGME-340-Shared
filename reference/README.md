@@ -63,19 +63,14 @@
 - **[SharedPreferences](data-persistence/shared-preferences.md)** - Persistent key-value storage for settings, preferences, favorites
 
 ### 🎮 Game Development (Flame)
-- **[GameWidget & FlameGame Basics](flame/gamewidget-basics.md)** - Game setup, asset loading, game loop (Week 11B) ✨ NEW!
-- **[Sprite Components](flame/sprite-components.md)** - Creating visual game objects, position, rotation (Week 11B) ✨ NEW!
-- **[Input Handling](flame/input-handling.md)** - PanDetector, TapCallbacks, touch controls (Week 11B) ✨ NEW!
-- **[JoystickComponent](flame/joystick-component.md)** - Virtual joystick for mobile games (Week 11B) ✨ NEW!
-- **[Flame Overlays](game-development/flame-overlays.md)** - UI layers on game canvas, overlay management (Week 12A) ✨ NEW!
-- Audio with Games *(coming soon - Week 12B)*
+- **[GameWidget & FlameGame Basics](flame/gamewidget-basics.md)** - Game setup, asset loading, game loop (Week 11B)- **[Sprite Components](flame/sprite-components.md)** - Creating visual game objects, position, rotation (Week 11B)- **[Input Handling](flame/input-handling.md)** - PanDetector, TapCallbacks, touch controls (Week 11B)- **[JoystickComponent](flame/joystick-component.md)** - Virtual joystick for mobile games (Week 11B)- **[Flame Overlays](game-development/flame-overlays.md)** - UI layers on game canvas, overlay management (Week 12A)- Audio with Games - No separate chapter, but covered in [Week 12B Notes](../weekly/12B.md) alongside SFX and audio
 
 ### 📱 Platform Integration
 - **[URL Launcher](platform-integration/url-launcher.md)** - Open websites, phone calls, emails, SMS from your app
 - **[CachedNetworkImage](platform-integration/cached-network-image.md)** - Efficient image loading with caching
 - WebView Flutter - No chapter on this here, but we covered this in [Week 12A Notes](../weekly/12A.md) for the asterioid game.
 - AudioPlayers Package - No chapter on this here, but we covered this in [Week 12B Notes](../weekly/12B.md) for the asterioid game when we added SFX and audio.
-- App Lifecycle Management *(coming soon - Week 13A)*
+- App Lifecycle Management *(see [Week 13A Notes](../weekly/13A.md))*
 
 ### 🚀 Production & Deployment
 - Splash Screens *(See [Week 13B Notes](../weekly/13B.md))*
