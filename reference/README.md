@@ -63,7 +63,12 @@
 - **[SharedPreferences](data-persistence/shared-preferences.md)** - Persistent key-value storage for settings, preferences, favorites
 
 ### 🎮 Game Development (Flame)
-- **[GameWidget & FlameGame Basics](flame/gamewidget-basics.md)** - Game setup, asset loading, game loop (Week 11B)- **[Sprite Components](flame/sprite-components.md)** - Creating visual game objects, position, rotation (Week 11B)- **[Input Handling](flame/input-handling.md)** - PanDetector, TapCallbacks, touch controls (Week 11B)- **[JoystickComponent](flame/joystick-component.md)** - Virtual joystick for mobile games (Week 11B)- **[Flame Overlays](game-development/flame-overlays.md)** - UI layers on game canvas, overlay management (Week 12A)- Audio with Games - No separate chapter, but covered in [Week 12B Notes](../weekly/12B.md) alongside SFX and audio
+- **[GameWidget & FlameGame Basics](flame/gamewidget-basics.md)** - Game setup, asset loading, game loop (Week 11B)
+- **[Sprite Components](flame/sprite-components.md)** - Creating visual game objects, position, rotation (Week 11B)
+- **[Input Handling](flame/input-handling.md)** - PanDetector, TapCallbacks, touch controls (Week 11B)
+- **[JoystickComponent](flame/joystick-component.md)** - Virtual joystick for mobile games (Week 11B)
+- **[Flame Overlays](game-development/flame-overlays.md)** - UI layers on game canvas, overlay management (Week 12A)
+- Audio with Games - No separate chapter, but covered in [Week 12B Notes](../weekly/12B.md) alongside SFX and audio
 
 ### 📱 Platform Integration
 - **[URL Launcher](platform-integration/url-launcher.md)** - Open websites, phone calls, emails, SMS from your app
