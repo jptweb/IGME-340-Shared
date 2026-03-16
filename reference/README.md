@@ -87,7 +87,7 @@
 
 ### 🎯 Common Patterns
 - [Code Organization & DRY Principles](patterns/code-organization.md) - Extract methods, widget extraction, file structure, naming conventions
-- Professional Commenting *(see [Week 7B notes](../weekly/7B.md))*
+- [Professional Commenting](../commenting_guide.md) - Code commenting standards and examples
 
 ### 🐛 Debugging & Tools
 - Widget Inspector *(see [Week 7B notes](../weekly/7B.md))*
