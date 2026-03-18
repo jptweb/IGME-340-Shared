@@ -2,8 +2,14 @@
 
 ## Quick Navigation
 
-### 🛠️ Setup & Installation
+### 🛠️ Setup & Workflow
 - **[Flutter on Lab Machines](setup/flutter-lab-machines.md)** - Complete installation guide for RIT lab machines (GOL 2570, etc.)
+- **[VS Code & Flutter Workflow](setup/vs-code-flutter-workflow.md)** - All-in-one daily workflow reference:
+  - [VS Code Shortcuts](setup/vs-code-flutter-workflow.md#vs-code-shortcuts) - Essential keyboard shortcuts and widget snippets
+  - [Trailing Commas & Formatting](setup/vs-code-flutter-workflow.md#trailing-commas--auto-formatting) - The trailing comma trick + Dart 3.8+ formatter fix
+  - [Debugging](setup/vs-code-flutter-workflow.md#debugging) - Breakpoints, hot reload vs restart, print debugging
+  - [Project Cleanup & Submission](setup/vs-code-flutter-workflow.md#project-cleanup--submission) - flutter clean, flutter pub get, submission checklist
+  - [Common Issues](setup/vs-code-flutter-workflow.md#common-issues--solutions) - Quick fixes for frequent problems
 - Personal Machine Setup *(see [Lab 00](../labs/lab-00-environment-setup.md))*
 
 ### 🎨 Styling & Theming
@@ -90,9 +96,9 @@
 - [Professional Commenting](../commenting_guide.md) - Code commenting standards and examples
 
 ### 🐛 Debugging & Tools
+- **[VS Code & Flutter Workflow](setup/vs-code-flutter-workflow.md)** - Shortcuts, formatting, debugging, flutter clean *(all in one page)*
 - Widget Inspector *(see [Week 7B notes](../weekly/7B.md))*
-- Debugging Techniques *(see [Week 2B notes](../weekly/2B.md))*
-- flutter clean & Submission *(see [Week 2A notes](../weekly/2A.md))*
+- [Submission Guidelines](../submission-guidelines.md) - flutter clean, folder structure, MyCourses upload
 
 ---
 
