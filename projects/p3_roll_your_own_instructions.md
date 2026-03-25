@@ -19,7 +19,7 @@
   2. **Prototype/Checkpoint** — A work-in-progress showing your progress
   3. **Final Code Submission** — Your completed Flutter project
   4. **Documentation** — A PDF explaining your project so I know what to look for while grading
-  5. **Video Presentation** — A 3-5 minute demo that will be played during our final exam period (over Zoom for those who want to travel early)
+  5. **Video Presentation** — A 3-5 minute demo of your project
   
 - Your goal is to create a app or game that is easy to use, functional, and aesthetically pleasing.
 
@@ -28,10 +28,12 @@
 - You will be evaluated on:
     - your creativity
     - the quality of the experience you create
-    - the soundness of your programming.
+    - the soundness of your programming
     - how far you went beyond what we did in class, as described below
 
-- The project will be very open and it will be up to you to decide what technologies/packages to implement, below are some examples:
+## II. Technologies & Packages
+
+The project will be very open and it will be up to you to decide what technologies and packages to implement. Below are some examples:
   - Flame Engine
   - GPS / Maps
   - Native Camera
@@ -39,15 +41,7 @@
   - Firebase
   - Advanced State Management, ex: BLoC, Riverpod
   - Responsive Layout
-  - Other package not discussed or shown in class.
-
-## II. Expectations Guide
-
-For a detailed breakdown of how you'll be evaluated — with specific technical requirements, examples of what earns top marks, and links to relevant course materials — see the companion document:
-
-**[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)**
-
-That guide covers each grading category in depth so you know exactly what to aim for. The sections below summarize the key requirements.
+  - Other package not discussed or shown in class
 
 ## III. Final Code Submission Requirements
 
@@ -178,7 +172,7 @@ During final exam week, you will present your project in a brief video demo.
 - **Audio:** Ideally include a voice-over explanation. If you prefer not to do voice-over, you can upload a separate text description to the dropbox.
 
 ### Final Exam Viewing:
-Since many people may want to travel for break, I'm conducting our final exam period virtually this year on Zoom. We'll watch all the videos together as a class during that time.
+We may watch the videos together as a class during the final exam period — details TBD and will be announced later in the semester.
 
 
 ## VII. Documentation
