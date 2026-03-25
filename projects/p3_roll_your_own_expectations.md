@@ -207,6 +207,8 @@ You don't need a "killer app" to reach 100+. A simpler app with **lots of profes
 
 ## Examples of What Counts as What
 
+These are examples — you don't need all of them. A few done well is better than many done poorly.
+
 **Professional Execution (gets you to 95-100):**
 - BoxDecoration throughout with gradients, shadows, consistent rounded corners
 - InkWell feedback on all interactive elements
