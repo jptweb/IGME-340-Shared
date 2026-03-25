@@ -12,7 +12,7 @@
   - Example projects:
     - Flutter Game
     - Utiliy Application
-    - Enhanced API based application (Enhancing Project 2 or something new).
+    - Enhanced API-based application (building substantially on Project 2 or a new API app). If enhancing Project 2, your P3 grade is based only on what's new — the original P2 work is your starting point, not your submission. You must clearly document what features and improvements were added for P3.
       
 - You will be proposing an idea and describing it on a nicely formatted "proposal/about". Additionally you will be submitting documentation for it (so I know how to grade it) and a video presentation that will be played during our final exam period to the class (over zoom for those who want to travel early).
   
