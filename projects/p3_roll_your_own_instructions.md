@@ -11,10 +11,15 @@
 - For this project you are creating a Flutter game or App experience for Mobile platforms, Android or IOS (ideally both).
   - Example projects:
     - Flutter Game
-    - Utiliy Application
-    - Enhanced API-based application (building substantially on Project 2 or a new API app). If enhancing Project 2, your P3 grade is based only on what's new — the original P2 work is your starting point, not your submission. You must clearly document what features and improvements were added for P3.
-      
-- You will be proposing an idea and describing it on a nicely formatted "proposal/about". Additionally you will be submitting documentation for it (so I know how to grade it) and a video presentation that will be played during our final exam period to the class (over zoom for those who want to travel early).
+    - Utility Application
+    - Enhanced API-based Application
+
+- **You will submit the following deliverables:**
+  1. **Proposal** — A nicely formatted pitch describing your idea
+  2. **Prototype/Checkpoint** — A work-in-progress showing your progress
+  3. **Final Code Submission** — Your completed Flutter project
+  4. **Documentation** — A PDF explaining your project so I know what to look for while grading
+  5. **Video Presentation** — A 3-5 minute demo that will be played during our final exam period (over Zoom for those who want to travel early)
   
 - Your goal is to create a app or game that is easy to use, functional, and aesthetically pleasing.
 
@@ -35,6 +40,14 @@
   - Advanced State Management, ex: BLoC, Riverpod
   - Responsive Layout
   - Other package not discussed or shown in class.
+
+## II. Expectations Guide
+
+For a detailed breakdown of how you'll be evaluated — with specific technical requirements, examples of what earns top marks, and links to relevant course materials — see the companion document:
+
+**[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)**
+
+That guide covers each grading category in depth so you know exactly what to aim for. The sections below summarize the key requirements.
 
 ## III. Final Code Submission Requirements
 
@@ -84,14 +97,21 @@ To reach the highest grades, consider implementing advanced features like:
 
 **See the [Project 3 Expectations Guide](p3_roll_your_own_expectations.md) for detailed examples, technical guidance, and links to relevant course materials for each category.**
 
+### A Note on Enhanced API-based Applications
+
+If you choose the "Enhanced API-based Application" option, you may build substantially on your Project 2 or create an entirely new API-driven app. If you are enhancing your Project 2:
+- Your P3 grade is based **only on what's new** — the original P2 work is your starting point, not your submission
+- You must clearly document what features and improvements were added for P3 in your documentation (Section VII)
+- The new work should be substantial enough to stand on its own as a full project
+
 ## IV. Milestones & Deliverables
 
 This project has five separate submissions in MyCourses, each with its own dropbox:
 
-1. **Proposal (5%)** - Due early in the project timeline
+1. **Proposal (7.5%)** - Due early in the project timeline
    - See Section V below for detailed requirements
 
-2. **Prototype/Checkpoint (5%)** - Due mid-project
+2. **Prototype/Checkpoint (2.5%)** - Due mid-project
    - Working draft showing progress (basically free points for submitting work-in-progress)
    - See MyCourses dropbox for due date
 
@@ -111,7 +131,7 @@ This project has five separate submissions in MyCourses, each with its own dropb
 
 ## V. Proposal
 
-⚠️ **This submission is worth 10% of your overall course grade.**
+⚠️ **This submission is worth 7.5% of your overall course grade.**
 
 We would like you to write a brief project treatment for your Project 3 Proposal:
 
@@ -163,7 +183,7 @@ Since many people may want to travel for break, I'm conducting our final exam pe
 
 ## VII. Documentation
 
-⚠️ **This submission is worth 5% of your overall course grade.**
+⚠️ **This submission is worth 10% of your overall course grade.**
 
 **WHY THIS MATTERS:** Your documentation tells me what to look for while grading. I will **NOT** have time to analyze everyone's code from top to bottom searching for features. **To get credit for the work you did, you MUST describe it in your documentation.** If you implemented something cool but didn't document it, I might miss it and you won't receive credit.
 
@@ -197,8 +217,8 @@ Since many people may want to travel for break, I'm conducting our final exam pe
 ## VIII. Grading
 
 ### Grading Breakdown:
-- **5%** - Proposal
-- **5%** - Checkpoint/Prototype (essentially free points for submitting progress)
+- **7.5%** - Proposal
+- **2.5%** - Checkpoint/Prototype (essentially free points for submitting progress)
 - **70%** - Final Code Submission
 - **10%** - Documentation
 - **10%** - Video Demonstration
