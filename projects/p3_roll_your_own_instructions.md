@@ -20,10 +20,10 @@
   3. **Final Code Submission** — Your completed Flutter project
   4. **Documentation** — A PDF explaining your project so I know what to look for while grading
   5. **Video Presentation** — A 3-5 minute demo of your project
-  
+
 - Your goal is to create a app or game that is easy to use, functional, and aesthetically pleasing.
 
-- Ideally the experience will run in all platforms Flutter can run on, but the bare minimum will be the Android Simulator or IOS Simulator. 
+- Ideally the experience will run in all platforms Flutter can run on, but the bare minimum will be the Android Simulator or IOS Simulator.
 
 - You will be evaluated on:
     - your creativity
@@ -31,9 +31,7 @@
     - the soundness of your programming
     - how far you went beyond what we did in class, as described below
 
-## II. Technologies & Packages
-
-The project will be very open and it will be up to you to decide what technologies and packages to implement. Below are some examples:
+- The project will be very open and it will be up to you to decide what technologies/packages to implement, below are some examples:
   - Flame Engine
   - GPS / Maps
   - Native Camera
@@ -42,6 +40,10 @@ The project will be very open and it will be up to you to decide what technologi
   - Advanced State Management, ex: BLoC, Riverpod
   - Responsive Layout
   - Other package not discussed or shown in class
+
+## II. Examples from Previous Semesters
+
+Check out some [Project 3 demos from previous semesters](../documents/p3-demos/p3-demos-showcase.md) to get a sense of what students have built — games, utility apps, and more.
 
 ## III. Final Code Submission Requirements
 
