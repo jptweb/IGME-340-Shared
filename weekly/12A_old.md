@@ -9,7 +9,7 @@
   - Completed previous Flame lesson (sprite movement & joystick)
   - Understanding of Flutter widgets
   - Basic Dart knowledge
-- **What You'll Build:** A game with collision detection between asteroids and multiple overlay screens including title screen, HUD, pause menu, info page with web view, and settings with sliders
+- **What You'll Build:** A game with multiple overlay screens including title screen, HUD, pause menu, info page with web view, and settings with sliders
 
 **Note for Instructors:** Time estimates and teaching moments are included throughout to help with pacing and emphasis.
 
@@ -63,8 +63,7 @@ flutter:
 
 **What You Should See:**
 - Purple background (`Color.fromARGB(249, 120, 86, 233)`)
-- 10 same-sized asteroids bouncing around the screen at random speeds
-- Asteroids bounce off walls but pass right through each other
+- 10 asteroids bouncing around the screen at random speeds
 - Fullscreen mode prompt on first launch (swipe down to exit)
 
 **Starter Code Structure:**
@@ -135,20 +134,17 @@ class OverlayTutorial extends FlameGame with TapCallbacks {
 ### `asteroid.dart` - Asteroid sprite component
 
 ```dart
-class Asteroid extends SpriteComponent with HasGameRef {
+class Asteroid extends SpriteComponent with HasGameReference {
   late Vector2 velocity;
-
-  static const double asteroidSize = 50.0;
 
   @override
   Future<void> onLoad() async {
     sprite = Sprite(game.images.fromCache('asteroid.png'));
     anchor = Anchor.center;
-    position = Vector2(
-      Random().nextDouble() * gameRef.size.x,
-      Random().nextDouble() * gameRef.size.y,
-    );
-    size = Vector2(asteroidSize, asteroidSize);
+    position = Vector2(Random().nextDouble() * game.size.x,
+        Random().nextDouble() * game.size.y);
+    double rndSize = Random().nextInt(100).toDouble() + 25;
+    size = Vector2(rndSize, rndSize);
     velocity =
         Vector2(Random().nextDouble() * 200, Random().nextDouble() * 200);
   }
@@ -157,10 +153,10 @@ class Asteroid extends SpriteComponent with HasGameRef {
   void update(double dt) {
     super.update(dt);
     position += velocity * dt;
-    if (position.y < 0 || position.y > gameRef.size.y) {
+    if (position.y < 0 || position.y > game.size.y) {
       velocity = Vector2(velocity.x, -velocity.y);
     }
-    if (position.x < 0 || position.x > gameRef.size.x) {
+    if (position.x < 0 || position.x > game.size.x) {
       velocity = Vector2(-velocity.x, velocity.y);
     }
   }
@@ -168,8 +164,7 @@ class Asteroid extends SpriteComponent with HasGameRef {
 ```
 
 **What it does:**
-- All asteroids are the same size (50px) - uniform so collisions make sense
-- Random position and velocity on creation
+- Random position, size (25-125 pixels), and velocity on creation
 - Updates position every frame
 - Bounces off screen edges
 
@@ -177,160 +172,9 @@ class Asteroid extends SpriteComponent with HasGameRef {
 
 ---
 
-## Adding Collision Detection
-
-Before we dive into overlays, let's make these asteroids interact with each other. Right now they pass through each other like ghosts - let's fix that.
-
-Flame has a built-in collision detection system. It works in three parts:
-1. **The game** needs to know collision detection is happening (`HasCollisionDetection` mixin)
-2. **Each component** needs a hitbox shape (like a `CircleHitbox`)
-3. **Each component** needs to respond to collisions (`CollisionCallbacks` mixin)
-
-### STEP 1: Enable Collision Detection on the Game
-
-**Action:** Add the `HasCollisionDetection` mixin to the game class
-
-**Code Change in game.dart:**
-
-**Add import:**
-```dart
-import 'package:flame/collisions.dart';
-```
-
-**Update class declaration:**
-
-**OLD:**
-```dart
-class OverlayTutorial extends FlameGame with TapCallbacks {
-```
-
-**NEW:**
-```dart
-class OverlayTutorial extends FlameGame with TapCallbacks, HasCollisionDetection {
-```
-
-**What This Does:**
-- `HasCollisionDetection` tells Flame to check for collisions between components every frame
-- Without this, hitboxes exist but Flame never checks if they overlap
-- This is like flipping the "on" switch for the collision system
-
----
-
-### STEP 2: Add Hitboxes and Collision Response to Asteroids
-
-**Action:** Give each asteroid a circular hitbox and tell it what to do when hit
-
-**Code Changes in asteroid.dart:**
-
-**Add import:**
-```dart
-import 'package:flame/collisions.dart';
-```
-
-**Update class declaration - add two mixins:**
-
-**OLD:**
-```dart
-class Asteroid extends SpriteComponent with HasGameRef {
-```
-
-**NEW:**
-```dart
-class Asteroid extends SpriteComponent with HasGameRef, CollisionCallbacks {
-```
-
-**Add hitbox at the end of `onLoad`:**
-```dart
-@override
-Future<void> onLoad() async {
-  sprite = Sprite(game.images.fromCache('asteroid.png'));
-  anchor = Anchor.center;
-  position = Vector2(
-    Random().nextDouble() * gameRef.size.x,
-    Random().nextDouble() * gameRef.size.y,
-  );
-  size = Vector2(asteroidSize, asteroidSize);
-  velocity =
-      Vector2(Random().nextDouble() * 200, Random().nextDouble() * 200);
-
-  // Add a circular hitbox for collision detection
-  add(CircleHitbox());
-}
-```
-
-**Add the collision response method after `update`:**
-```dart
-@override
-void onCollisionStart(Set<Vector2> points, PositionComponent other) {
-  super.onCollisionStart(points, other);
-
-  if (other is Asteroid) {
-    // Get the direction from this asteroid to the other
-    final normal = (other.position - position).normalized();
-
-    // Calculate relative velocity
-    final relativeVelocity = velocity - other.velocity;
-
-    // How much velocity is along the collision axis
-    final impulse = relativeVelocity.dot(normal);
-
-    // Only bounce if asteroids are moving toward each other
-    if (impulse > 0) {
-      velocity -= normal * impulse;
-      other.velocity += normal * impulse;
-    }
-  }
-}
-```
-
-**Understanding the Collision Math:**
-
-This is **elastic collision** - the asteroids exchange energy realistically, like billiard balls. Here's what each line does:
-
-```dart
-final normal = (other.position - position).normalized();
-```
-- Gets the **direction** from this asteroid to the one it hit
-- `.normalized()` makes it a unit vector (length of 1) - just direction, no magnitude
-- Think of it as pointing from the center of one asteroid toward the center of the other
-
-```dart
-final relativeVelocity = velocity - other.velocity;
-```
-- How fast are these two asteroids moving **relative to each other**?
-- If both are moving right at the same speed, relative velocity is zero (no collision force)
-
-```dart
-final impulse = relativeVelocity.dot(normal);
-```
-- `.dot()` is the **dot product** - it measures how much the relative velocity is along the collision direction
-- Head-on collision = high impulse. Glancing blow = low impulse
-- This is the key number that determines how much velocity to transfer
-
-```dart
-if (impulse > 0) {
-  velocity -= normal * impulse;
-  other.velocity += normal * impulse;
-}
-```
-- **`impulse > 0`** means they're moving toward each other (prevents double-bouncing)
-- Subtract impulse from this asteroid's velocity along the collision axis
-- Add the same impulse to the other asteroid
-- Energy is conserved - what one loses, the other gains
-
-**The `if (impulse > 0)` guard is important!** Without it, asteroids can get stuck in a loop where they keep re-triggering the collision callback and jittering in place.
-
-**Why Same-Size Asteroids?**
-Since all asteroids have the same mass, the math simplifies - we don't need mass ratios. In a real physics engine with different-sized objects, you'd weight the impulse by each object's mass.
-
-**Test It:**
-Run the app. You should see asteroids bouncing off each other realistically - head-on collisions swap speeds, glancing blows deflect at angles. Much more interesting to watch!
-
----
-
 ## PART 1: Title Overlay (Basic Overlay Pattern)
 
-### STEP 3: Create Overlay Files
+### STEP 1: Create Overlay Files
 
 **Action:** Create 5 new files for our overlays
 
@@ -345,7 +189,7 @@ Run the app. You should see asteroids bouncing off each other realistically - he
 
 ---
 
-### STEP 4: Build the Title Overlay Widget
+### STEP 2: Build the Title Overlay Widget
 
 **Action:** Create a centered container with title and buttons
 
@@ -354,9 +198,7 @@ Run the app. You should see asteroids bouncing off each other realistically - he
 import 'package:flutter/material.dart';
 
 class OverlayTitle extends StatelessWidget {
-  final game;  // Accept any game type (generic)
-
-  OverlayTitle({super.key, required this.game});  // Remove const
+  const OverlayTitle({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -381,16 +223,14 @@ class OverlayTitle extends StatelessWidget {
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                game.paused = false;
-                game.overlays.remove('title');
-                game.overlays.add('main');
+                // TODO: Start game
               },
               child: const Text("Start Game"),
             ),
             const SizedBox(height: 20),
             ElevatedButton(
               onPressed: () {
-                game.overlays.add('settings');
+                // TODO: Settings
               },
               child: const Text("Settings"),
             ),
@@ -406,16 +246,15 @@ class OverlayTitle extends StatelessWidget {
 - Simple StatelessWidget - just a UI container
 - 350x400 box with rounded corners
 - Centered on screen
-- Start Game button unpauses game, removes title, shows HUD
-- Settings button opens settings overlay
+- Two buttons (not functional yet)
 
 ---
 
-### STEP 5: Register Overlay in Main and Show on Startup
+### STEP 3: Register Overlay in Main
 
-**Action:** Add overlay to the game's overlay builder map and start with it visible
+**Action:** Add overlay to the game's overlay builder map
 
-**Code Changes in main.dart:**
+**Code Addition in main.dart:**
 
 **Add import:**
 ```dart
@@ -425,15 +264,16 @@ import 'overlay_title.dart';
 **Modify GameWidget in main.dart:**
 ```dart
 GameWidget(
-  game: OverlayTutorial(context)..paused = true,
+  game: OverlayTutorial(context),
   overlayBuilderMap: {
     'title': (context, game) {
-      return OverlayTitle(game: game);
+      return OverlayTitle();
     },
   },
-  initialActiveOverlays: const ['title'],
 )
 ```
+
+**Note:** Don't forget that `OverlayTutorial(context)` needs the context parameter!
 
 **Understanding overlayBuilderMap:**
 
@@ -486,7 +326,128 @@ overlayBuilderMap: {
 
 Both systems need to know what's available before they can navigate/display!
 
+---
+
+### STEP 4: Show Overlay on Startup
+
+**Action:** Make the title overlay appear when the game starts
+
+**Code Addition in main.dart (GameWidget):**
+```dart
+GameWidget(
+  game: OverlayTutorial(context),
+  overlayBuilderMap: {
+    'title': (context, game) {
+      return OverlayTitle();
+    },
+  },
+  initialActiveOverlays: const ['title'],
+)
+```
+
+**What You Should See:**
+- Game runs with purple background and asteroids
+- Title overlay appears on top
+- Asteroids are still moving in the background
+
+**Success!** The overlay now sits above the game itself - asteroids are moving behind it.
+
+---
+
+### STEP 5: Pause the Game on Startup
+
+**Action:** Start the game in a paused state using a cascade operator
+
+**Code Change in main.dart:**
+```dart
+GameWidget(
+  game: OverlayTutorial(context)..paused = true,  // Cascade to pause immediately
+  overlayBuilderMap: {
+    'title': (context, game) {
+      return OverlayTitle();
+    },
+  },
+  initialActiveOverlays: const ['title'],
+)
+```
+
+**What You Should See:**
+- Title overlay visible
+- Asteroids are frozen (not moving)
+
+**Key Point:** The cascade operator (`..`) lets you call methods/set properties on an object immediately after construction.
+
+---
+
+### STEP 6: Pass Game Reference to Overlay
+
+**Action:** Modify overlay to receive game instance so buttons can control the game
+
+**Code Changes in overlay_title.dart:**
+
+**Update class:**
+```dart
+import 'package:flutter/material.dart';
+import 'game.dart';  // Import to access OverlayTutorial type
+
+class OverlayTitle extends StatelessWidget {
+  final game;  // Accept any game type (generic)
+
+  OverlayTitle({super.key, required this.game});  // Remove const
+
+  // ... rest of build method stays the same
+}
+```
+
+**Update main.dart overlay builder:**
+```dart
+overlayBuilderMap: {
+  'title': (context, game) {
+    return OverlayTitle(game: game);  // Pass game instance
+  },
+},
+```
+
+**Important Notes:**
+- We import `game.dart` (not `main.dart`) because that's where the `OverlayTutorial` class lives
+- **Removed `const`** from constructor because `final game` without a type can't be const
+- The untyped `final game` keeps it flexible - accepts any game type
+
+**Alternative - If you want const back:**
+You could type it explicitly as `final OverlayTutorial game` and keep `const`, but then you'd need to cast in main.dart:
+```dart
+'title': (context, game) {
+  return OverlayTitle(game: game as OverlayTutorial);  // Cast required
+}
+```
+
+**For now, we'll keep it simple with untyped `final game` and no const.**
+
+---
+
+### STEP 7: Make Start Button Work
+
+**Action:** Start game button should unpause game and remove title overlay
+
+**Code Change in overlay_title.dart (Start Game button):**
+```dart
+ElevatedButton(
+  onPressed: () {
+    game.paused = false;  // Unpause the game
+    game.overlays.remove('title');  // Remove this overlay
+  },
+  child: const Text("Start Game"),
+),
+```
+
+**What You Should See:**
+- Click "Start Game"
+- Title overlay disappears
+- Asteroids start moving
+
 **Understanding game.overlays (Overlay Management):**
+
+This is how you **control which overlays are visible** at runtime. Let's break down the overlay manager:
 
 ```dart
 game.paused = false;              // Unpause the game
@@ -518,18 +479,18 @@ game.overlays.remove('title');    // Hide the title overlay
 **Example Flow:**
 ```dart
 // Initially: initialActiveOverlays: ['title']
-// Active set = {'title'} -> Title is visible
+// Active set = {'title'} → Title is visible
 
 // User clicks "Start Game":
 game.overlays.remove('title');
-// Active set = {} -> Nothing visible
+// Active set = {} → Nothing visible
 
 game.overlays.add('main');
-// Active set = {'main'} -> Main HUD is visible
+// Active set = {'main'} → Main HUD is visible
 
 // Multiple overlays can be active:
 game.overlays.add('pause');
-// Active set = {'main', 'pause'} -> Both visible!
+// Active set = {'main', 'pause'} → Both visible!
 ```
 
 **Important Notes:**
@@ -538,11 +499,14 @@ game.overlays.add('pause');
 - Multiple overlays can be active simultaneously (they stack on top of each other)
 - Order matters: overlays added later appear on top
 
-**The cascade operator (`..`)** in `OverlayTutorial(context)..paused = true` lets you call methods/set properties on an object immediately after construction.
+**Common Pattern:**
+```dart
+// Hide current overlay, show next one:
+game.overlays.remove('title');
+game.overlays.add('main');
+```
 
-**What You Should See:**
-- Title overlay visible, asteroids frozen behind it
-- Click "Start Game" - title disappears, asteroids start moving and bouncing off each other
+**Test it:** Click Start Game - the overlay should disappear and asteroids should start moving.
 
 ---
 
@@ -550,7 +514,7 @@ game.overlays.add('pause');
 
 **Concept:** This overlay stays visible during gameplay to show score and control buttons. Unlike the title, it doesn't block the whole screen.
 
-### STEP 6: Create Main Overlay
+### STEP 8: Create Main Overlay as a Widget Function
 
 **Action:** Build a top-aligned transparent bar with score and buttons
 
@@ -579,22 +543,19 @@ Widget mainOverlay(BuildContext context, game) {
           ),
           IconButton(
             onPressed: () {
-              game.paused = true;
-              game.overlays.add('pause');
+              // TODO: Pause
             },
             icon: Icon(Icons.pause),
           ),
           IconButton(
             onPressed: () {
-              game.paused = true;
-              game.overlays.add('settings');
+              // TODO: Settings
             },
             icon: Icon(Icons.settings),
           ),
           IconButton(
             onPressed: () {
-              game.paused = true;
-              game.overlays.add('info');
+              // TODO: Info
             },
             icon: Icon(Icons.info),
           ),
@@ -617,7 +578,9 @@ Widget mainOverlay(BuildContext context, game) {
 
 ---
 
-### STEP 7: Register Main Overlay
+### STEP 9: Register and Auto-Show Main Overlay
+
+**Action:** Add main overlay to the map and show it when Start is clicked
 
 **Code Changes in main.dart:**
 
@@ -638,18 +601,30 @@ overlayBuilderMap: {
 },
 ```
 
+**Update overlay_title.dart Start button:**
+```dart
+ElevatedButton(
+  onPressed: () {
+    game.paused = false;
+    game.overlays.remove('title');
+    game.overlays.add('main');  // Show HUD
+  },
+  child: const Text("Start Game"),
+),
+```
+
 **What You Should See:**
 - Click Start Game
 - Title disappears
 - Semi-transparent orange bar appears at top
 - "Score: 0" on left, three icon buttons on right
-- Asteroids visible through the transparent bar and bouncing off each other
+- Asteroids visible through the transparent bar
 
 ---
 
 ## PART 3: Pause Overlay
 
-### STEP 8: Create Pause Overlay
+### STEP 10: Create Pause Overlay (Similar to Title)
 
 **Action:** Build another centered container for pausing
 
@@ -690,7 +665,7 @@ Widget pauseOverlay(BuildContext context, game) {
           const SizedBox(height: 20),
           ElevatedButton(
             onPressed: () {
-              game.overlays.add('settings');
+              // TODO: Settings (will add later)
             },
             child: const Text("Settings"),
           ),
@@ -717,9 +692,28 @@ import 'overlay_pause.dart';
 
 **Add to overlayBuilderMap:**
 ```dart
-'pause': (context, game) {
-  return pauseOverlay(context, game);
+overlayBuilderMap: {
+  'title': (context, game) {
+    return OverlayTitle(game: game);
+  },
+  'main': (context, game) {
+    return mainOverlay(context, game);
+  },
+  'pause': (context, game) {
+    return pauseOverlay(context, game);
+  },
 },
+```
+
+**Connect pause button in overlay_main.dart:**
+```dart
+IconButton(
+  onPressed: () {
+    game.paused = true;
+    game.overlays.add('pause');
+  },
+  icon: Icon(Icons.pause),
+),
 ```
 
 **What You Should See:**
@@ -734,7 +728,7 @@ import 'overlay_pause.dart';
 
 **Time Note:** This section involves adding a package and may take 5-7 minutes
 
-### STEP 9: Add WebView Package
+### STEP 11: Add WebView Package
 
 **Action:** Install the webview_flutter package
 
@@ -775,7 +769,7 @@ The `..` cascade operator lets us call methods immediately after creating the co
 
 ---
 
-### STEP 10: Create Info Overlay with Embedded HTML
+### STEP 12: Create Info Overlay with Embedded HTML
 
 **Action:** Build a stateless widget with a WebView showing HTML content
 
@@ -903,11 +897,42 @@ return Material(
 - `Color.fromARGB(48, 245, 154, 50)` - VERY TRANSPARENT orange (alpha = 48) - **can clearly see game through it**
 - Lower alpha = more transparent (0 = invisible, 255 = opaque)
 
+**What happens if Material has a solid color?**
+Try changing the Material color from `Colors.transparent` to `Colors.red`:
+- Your entire screen turns red (Material fills the whole screen)
+- The game is completely hidden behind the red Material
+- Only your Container floats on top of the solid red background
+
+**Visual Structure:**
+```dart
+Material(color: Colors.transparent)      // Full-screen invisible layer (game visible around UI)
+  └─ Center                              // Position your visible UI
+      └─ Container(
+           color: Color.fromARGB(220, 244, 243, 164)  // Semi-transparent - can see game faintly through it
+         )
+```
+
+**Comparison:**
+
+**overlay_info.dart** (this file):
+- Material: `Colors.transparent` (lets game show around the Container)
+- Container: `Color.fromARGB(220, 244, 243, 164)` (semi-transparent yellow - can see game faintly through the box)
+- **Has Material because it uses ElevatedButton** which requires Material Design
+
+**overlay_main.dart** (the HUD):
+- NO Material widget (IconButton is more lenient and works without it)
+- Container: `Color.fromARGB(48, 245, 154, 50)` (very transparent orange - CAN clearly see game through the bar)
+
+**Key Concepts:**
+- **WebViewController** - Initialized with `.loadHtmlString()` to load HTML content
+- **Expanded widget** - WebView takes available space, button stays at bottom
+- **Embedded HTML** - Can also load from URL with `.loadRequest()` or external file
+
 **Bottom Line:** When using Material Design widgets (like ElevatedButton), wrap your overlay in `Material(color: Colors.transparent, ...)`. This makes the Material background invisible while your Container can be opaque or semi-transparent depending on your needs.
 
 ---
 
-### STEP 11: Register and Connect Info Overlay
+### STEP 13: Register and Connect Info Overlay
 
 **Register in main.dart:**
 
@@ -918,8 +943,19 @@ import 'overlay_info.dart';
 
 **Add to overlayBuilderMap:**
 ```dart
-'info': (context, game) {
-  return InfoOverlay(game: game as OverlayTutorial);  // Cast required!
+overlayBuilderMap: {
+  'title': (context, game) {
+    return OverlayTitle(game: game);
+  },
+  'main': (context, game) {
+    return mainOverlay(context, game);
+  },
+  'pause': (context, game) {
+    return pauseOverlay(context, game);
+  },
+  'info': (context, game) {
+    return InfoOverlay(game: game as OverlayTutorial);  // Cast required!
+  },
 },
 ```
 
@@ -931,18 +967,30 @@ import 'overlay_info.dart';
 
 **Remember:** In the title overlay, we didn't need the cast because we used generic `final game` (Approach 1).
 
+**Connect info button in overlay_main.dart:**
+```dart
+IconButton(
+  onPressed: () {
+    game.paused = true;
+    game.overlays.add('info');
+  },
+  icon: Icon(Icons.info),
+),
+```
+
 **What You Should See:**
 - Click info button
 - Yellow container appears with HTML content rendered
 - Scrollable if content is long
 - Click Close - overlay disappears, game resumes
 
-**WebView Limitation:**
+**⚠️ IMPORTANT - WebView Limitation:**
 **WebView does NOT work on Chrome/Web builds!** You'll get an error about platform implementation. This is expected - WebView only works on mobile (Android/iOS) and desktop (Windows/macOS/Linux).
 
 **For testing:**
 - Use Android/iOS emulator or physical device
 - OR temporarily disable the info button when testing in Chrome
+- Explain to students: WebView = native platform feature, not available in web builds
 
 ---
 
@@ -980,15 +1028,17 @@ id "com.android.application" version "8.1.1" apply false
 (Or use version 8.2.1 for newer Flutter)
 
 #### Best Solution: Start Fresh
-If you encounter multiple build errors, **create a new Flutter project** and copy your 3 starter files.
+If you encounter multiple build errors, **create a new Flutter project** and copy your 3 starter files. See `.claude.md` for steps.
 
 **In-Class Backup:** Have students use **Chrome** if they hit build issues - web builds skip all Gradle problems!
+
+**Note:** This is a common issue when Flutter updates. Worst case: create a fresh Flutter project and copy your files over (see `.claude.md` for steps).
 
 ---
 
 ## PART 5: Settings Overlay with Sliders
 
-### STEP 12: Create Settings Overlay with Slider Controls
+### STEP 14: Create Settings Overlay with Slider Controls
 
 **Action:** Build a settings screen with sliders for volume controls
 
@@ -1092,18 +1142,60 @@ Widget settingsOverlay(BuildContext context, game) {
 
 ---
 
-### STEP 13: Register Settings Overlay
+### STEP 15: Register and Connect Settings Overlay
 
 **Register in main.dart:**
 ```dart
 import 'overlay_settings.dart';
+
+overlayBuilderMap: {
+  'title': (context, game) {
+    return OverlayTitle(game: game);
+  },
+  'main': (context, game) {
+    return mainOverlay(context, game);
+  },
+  'pause': (context, game) {
+    return pauseOverlay(context, game);
+  },
+  'info': (context, game) {
+    return InfoOverlay(game: game as OverlayTutorial);  // Cast required!
+  },
+  'settings': (context, game) {
+    return settingsOverlay(context, game);
+  },
+},
 ```
 
-**Add to overlayBuilderMap:**
+**Connect settings button in overlay_main.dart:**
 ```dart
-'settings': (context, game) {
-  return settingsOverlay(context, game);
-},
+IconButton(
+  onPressed: () {
+    game.paused = true;
+    game.overlays.add('settings');
+  },
+  icon: Icon(Icons.settings),
+),
+```
+
+**Connect settings button in overlay_pause.dart:**
+```dart
+ElevatedButton(
+  onPressed: () {
+    game.overlays.add('settings');
+  },
+  child: const Text("Settings"),
+),
+```
+
+**Connect settings button in overlay_title.dart:**
+```dart
+ElevatedButton(
+  onPressed: () {
+    game.overlays.add('settings');
+  },
+  child: const Text("Settings"),
+),
 ```
 
 **What You Should See:**
@@ -1112,14 +1204,13 @@ import 'overlay_settings.dart';
 - Two sliders (currently non-functional - values are hardcoded)
 - Close button returns to game
 
-**Note:** The sliders don't actually do anything yet. Next class will connect them to a Provider for state management.
+**Note:** The sliders don't actually do anything yet. Next week's class will connect them to a Provider for state management.
 
 ---
 
 ## Summary
 
 ### What You've Built:
-- ✅ Collision detection between asteroids (elastic bouncing)
 - ✅ Title screen overlay (stateless widget)
 - ✅ Persistent HUD overlay (score + controls)
 - ✅ Pause menu overlay
@@ -1127,13 +1218,6 @@ import 'overlay_settings.dart';
 - ✅ Settings overlay with sliders
 
 ### Key Concepts Covered:
-
-**Collision Detection:**
-- `HasCollisionDetection` on the game class - enables the system
-- `CollisionCallbacks` on components - lets them respond to collisions
-- `CircleHitbox()` - defines the collision shape
-- `onCollisionStart` - runs once when two hitboxes first overlap
-- Elastic collision math transfers velocity between equal-mass objects
 
 **Overlay System:**
 - `overlayBuilderMap` - Register overlays with string keys
@@ -1152,10 +1236,23 @@ import 'overlay_settings.dart';
 
 **Two Typing Approaches for Game Reference:**
 
+We intentionally demonstrated two ways to handle the game reference:
+
 | Approach | Example | Pros | Cons | When to Use |
 |----------|---------|------|------|-------------|
 | **Generic typing** | `final game;` (Title overlay) | Simple, flexible, less code in main.dart | No type safety, no autocomplete, can't use `const` constructor | Quick prototypes, simple overlays |
 | **Strict typing** | `final OverlayTutorial game;` (Info overlay) | Type safety, autocomplete works, catches errors | Requires casting in main.dart (`as OverlayTutorial`) | Production code, complex overlays |
+
+**In main.dart:**
+```dart
+// Approach 1 (Generic) - No cast needed
+'title': (context, game) => OverlayTitle(game: game),
+
+// Approach 2 (Strict) - Cast required
+'info': (context, game) => InfoOverlay(game: game as OverlayTutorial),
+```
+
+**Best Practice:** Use strict typing (Approach 2) in production code for better maintainability.
 
 **Common Widgets Used:**
 - `Align` - Position overlays on screen
@@ -1185,8 +1282,6 @@ Values are hardcoded. Next class will add Provider to make them functional.
 
 | Problem | Solution |
 |---------|----------|
-| Asteroids pass through each other | Check `HasCollisionDetection` on game class, `CollisionCallbacks` on Asteroid |
-| Asteroids get stuck/jitter | Make sure the `if (impulse > 0)` guard is in `onCollisionStart` |
 | Overlay doesn't appear | Check overlayBuilderMap has correct key, verify add() is called |
 | Can't click through overlay | Overlays block input by default - this is intended behavior |
 | Gradle version error | Update `settings.gradle` to use version 8.2.1 |
@@ -1198,6 +1293,6 @@ Values are hardcoded. Next class will add Provider to make them functional.
 - Add Provider for state management to make sliders functional
 - Make sliders actually control volume values
 - Update score dynamically
-- Add audio (background music and sound effects)
+- Add more game interactions
 
 ---
