@@ -25,6 +25,7 @@ Future<void> fetchData() async {
 - [JSON Parsing](#json-parsing)
 - [API Authentication](#api-authentication)
 - [Error Handling](#error-handling)
+- [CORS (Web Only)](#cors-cross-origin-resource-sharing--web-only)
 
 ---
 
@@ -417,6 +418,66 @@ Future<void> fetchWithTimeout() async {
 ---
 
 
+## CORS (Cross-Origin Resource Sharing) — Web Only
+
+If you're running your Flutter app in **Chrome** (web mode), you may see API calls fail with errors like:
+
+```
+ClientException: Failed to fetch
+```
+
+...even though your code is correct and works perfectly on Android. This is a **CORS** issue.
+
+### What is CORS?
+
+CORS is a browser security feature. When a web page at `localhost:xxxxx` tries to fetch data from `https://some-api.com`, the browser checks whether `some-api.com` explicitly allows requests from other origins. If the API doesn't include the right headers in its response, the browser **blocks the request entirely**.
+
+**Android and iOS don't have this restriction** — they make HTTP requests natively, not through a browser. So the same code works fine on mobile but fails on Chrome.
+
+### Which APIs Have This Problem?
+
+It depends on the API provider:
+
+| API | Works on Chrome? | Why |
+|-----|-----------------|-----|
+| DummyJSON (`dummyjson.com`) | Yes | Designed for testing, CORS enabled |
+| Giphy API | Yes | CORS enabled for public endpoints |
+| Healthcare.gov API | No | Government API, no CORS headers |
+| Many other real-world APIs | Varies | Check by testing in Chrome |
+
+**How to test:** Make your API call in Chrome. If you get `Failed to fetch` but the same URL works when you paste it directly in the browser address bar, it's a CORS issue.
+
+### Workarounds
+
+**Option 1: Run on Android (recommended)**
+The simplest fix — and how your app will actually be used. Android doesn't have CORS restrictions.
+
+**Option 2: Use a CORS proxy (for development only)**
+Prefix your URL with a proxy service that adds the missing CORS headers:
+
+```dart
+// Before (fails on Chrome if API doesn't support CORS)
+String url = 'https://www.healthcare.gov/api/glossary.json';
+
+// After (works on Chrome via proxy)
+String url = 'https://corsproxy.io/?https://www.healthcare.gov/api/glossary.json';
+```
+
+This is fine for class projects and development. Don't use it in production apps — it adds a dependency on a third-party service and adds latency.
+
+**Option 3: Use a different API**
+If you're choosing an API for Project 2, test it on Chrome first. If it doesn't work, you can either use the CORS proxy approach or pick a different API that supports CORS.
+
+### Why Does This Happen with initState?
+
+When you trigger an API call from a button press (`onPressed`), the app is fully loaded and running. When you call it from `initState()`, it fires immediately on startup. On Chrome, this can fail because:
+1. The web context isn't fully ready yet
+2. CORS restrictions apply to all fetch requests from the browser
+
+If your `initState` API call fails on Chrome but works from a button, try running on Android first — if it works there, it's CORS, not your code.
+
+---
+
 ## Common Issues & Solutions
 
 | Problem | Solution |
@@ -424,7 +485,7 @@ Future<void> fetchWithTimeout() async {
 | "type 'String' is not a subtype of 'Uri'" | Use `Uri.parse(url)` not just the string |
 | JSON decode errors | Verify response with breakpoint, check structure |
 | Status 401/403 | Check authentication token is included correctly |
-| CORS errors (web only) | API must allow web requests, or use proxy |
+| `ClientException: Failed to fetch` on Chrome | CORS issue — see [CORS section above](#cors-cross-origin-resource-sharing--web-only). Run on Android or use a CORS proxy |
 | Response body empty | Check status code first, log full response |
 | Can't access nested data | Use debug console to inspect full JSON structure |
 
@@ -442,4 +503,4 @@ Future<void> fetchWithTimeout() async {
 - [Hopscotch API Testing Tool](https://hoppscotch.io/)
 
 ---
-*Last updated: Week 7A | IGME-340 Reference*
+*Last updated: Week 11 — Added CORS section | IGME-340 Reference*
