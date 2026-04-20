@@ -182,7 +182,7 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 - **Firebase integration** - Real-time database, authentication
   - *Note: Firebase basics covered in IGME-330 - [Firebase Guide](https://github.com/rit-igm-web/igme-330-shared/blob/main/notes/firebase-1.md)*
 - **GPS/Maps integration** - Location services
-- **Camera access** - Device camera features
+- **[Camera access](../weekly/14A.md)** - Device camera features
 - **BLoC pattern** - Another advanced state management approach
 
 ### UX Polish Extras *(added March 4, 2026)*
