@@ -75,9 +75,9 @@ Build a robust application:
 ## 4. Functional Requirements (20 pts)
 
 ### Must Have:
-- **Custom Splash Screen** - *[Week 13B](../weekly/13B.md) (coming soon)*
-- **Custom App Icon** - *[Week 13B](../weekly/13B.md) (coming soon)*
-- **Appropriate App Name** - *[Week 13B](../weekly/13B.md) (coming soon)*
+- **Custom Splash Screen** - *[Week 13B](../weekly/13B.md)*
+- **Custom App Icon** - *[Week 13B](../weekly/13B.md)*
+- **Appropriate App Name** - *[Week 13B](../weekly/13B.md)*
 - **No debug banner** - Remove the "DEBUG" banner from your app (hint: MaterialApp has a property for this)
 - **[SharedPreferences](../reference/data-persistence/shared-preferences.md)** for data persistence
   - *At minimum: save user preferences, settings, or game state*
@@ -89,8 +89,8 @@ Build a robust application:
 - **No crashes**
 
 ### Choose ONE navigation method:
-- **[BottomNavigationBar](../weekly/11A.md)** - *Week 11A (coming soon)*, OR
-- **[TabBar](../weekly/11A.md)** - *Week 11A (coming soon)*, OR
+- **[BottomNavigationBar](../reference/navigation/bottomnavigationbar.md)** - *[Week 11A](../weekly/11A.md)*, OR
+- **[TabBar](../reference/navigation/tabbar-tabbarview.md)** - *[Week 11A](../weekly/11A.md)*, OR
 - **[Named routing](../reference/navigation/named-routes.md)** - Clean string-based navigation
 
 **Navigation Resources:**
@@ -125,7 +125,7 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 - Thoughtful use of loading states and empty states
 
 ### Advanced Features (for 100+):
-- **Responsive layout** for tablets - *[Week 14A](../weekly/14A.md) (coming soon) - MediaQuery, LayoutBuilder*
+- **Responsive layout** for tablets - [MediaQuery & LayoutBuilder](../reference/responsive-design/mediaquery-layoutbuilder.md) *([Week 14A](../weekly/14A.md))*
 - **[WebView](../weekly/12A.md)** integration with complex interactions
 - Advanced navigation patterns with [GoRouter](../reference/navigation/gorouter.md)
 
@@ -153,7 +153,7 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 - Professional iconography and imagery choices
 
 ### Advanced Features (for 100+):
-- **Sound effects/music** - *[Week 12B](../weekly/12B.md) (coming soon) - AudioPlayers package*
+- **Sound effects/music** - *[Week 12B](../weekly/12B.md) - AudioPlayers package*
 - **Custom animations** - 🌐 [Flutter Animation Tutorial](https://docs.flutter.dev/ui/animations/tutorial) (beyond basic implicit animations)
 
 **Styling Resources:**
@@ -173,7 +173,7 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 ### Advanced Features (covered in class - use if they fit your project):
 - **[Provider pattern](../reference/state-management/provider-pattern.md)** - Centralized state management *(Week 10A)*
 - **[Flame game engine](../weekly/11B.md)** - For game projects *(Week 11B-12B)*
-- **Responsive design** for tablets - MediaQuery, LayoutBuilder *(Week 14A)*
+- **Responsive design** for tablets - [MediaQuery & LayoutBuilder](../reference/responsive-design/mediaquery-layoutbuilder.md) *(Week 14A)*
 - **[App Lifecycle Management](../weekly/13A.md)** - Proper state handling *(Week 13A)*
 - **Smooth loading states** with [FutureProvider](../weekly/10B.md) *(Week 10B)*
 
