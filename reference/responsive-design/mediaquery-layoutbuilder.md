@@ -300,7 +300,7 @@ LayoutBuilder(
 ## When Covered in Course
 
 - **[Week 7B](../../weekly/7B.md)** - GridView with orientation (first responsive pattern)
-- **[Week 15B](../../weekly/15B.md)** - MediaQuery and LayoutBuilder in-depth
+- **[Week 14B](../../weekly/14B.md)** - MediaQuery and LayoutBuilder in-depth
 
 ## Related Topics
 
@@ -314,4 +314,4 @@ LayoutBuilder(
 - [LayoutBuilder class](https://api.flutter.dev/flutter/widgets/LayoutBuilder-class.html)
 
 ---
-*Last updated: Week 15B | IGME-340 Reference*
+*Last updated: Week 14B | IGME-340 Reference*

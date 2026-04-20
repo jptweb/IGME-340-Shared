@@ -9,7 +9,9 @@ class MainApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(home: ResponsiveDemo());
+    return const MaterialApp(
+      home: ResponsiveDemo()
+    );
   }
 }
 
@@ -18,21 +20,20 @@ class ResponsiveDemo extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Get the screen width using MediaQuery
-    final width = MediaQuery.sizeOf(context).width;
-
+    // TODO: Make this responsive!
+    // Show MobileLayout when narrow < 600 , TabletLayout when wide > 600
+    // **Hints:**
+    // - Ternary: `condition ? exprIfTrue : exprIfFalse`
+    // - Or wrap in a Column and use Collection If (like 14A)
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Width: ${width.toStringAsFixed(0)}px'),
-      ),
-      // Ternary operator - the right choice for single-widget properties like body:
-      // Collection If is for children: [] lists (like in 15A's camera example)
-      body: width < 600
-          ? const MobileLayout()
-          : const TabletLayout(),
-    );
+        body: Center(
+          child: MobileLayout(),
+        ),
+      );
   }
 }
+
+
 
 class MobileLayout extends StatelessWidget {
   const MobileLayout({super.key});

@@ -74,7 +74,7 @@ These are in README but either too generic or may not need standalone reference 
 2. **"Debugging Techniques"** - Already covered in Week 2B notes
 3. **"Performance Tips"** - Not a specific week topic in schedule
 4. **"flutter clean & Submission"** - Already in Week 2A notes, doesn't need reference page
-5. **"Build & Release"** - Mentioned in Week 15A but may not need full reference page
+5. **"Build & Release"** - Mentioned in Week 14A but may not need full reference page
 
 ### ✏️ "COMING SOON" TEXT ISSUES
 
