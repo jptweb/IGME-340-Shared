@@ -16,7 +16,7 @@ An **optional** in-person presentation slot during our scheduled final exam peri
 
 ## The Bonus
 
-Show up and present and you earn **5 bonus points** that can be applied to **any one project** of your choice (Project 1, 2, or 3).
+Show up and present and you earn **3 bonus points** that can be applied to **any one project** of your choice (Project 1, 2, or 3).
 
 Your app does not need to be finished. It just needs to be in a state you can demonstrate and talk through.
 
