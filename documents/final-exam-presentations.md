@@ -14,6 +14,16 @@ An **optional** in-person presentation slot during our scheduled final exam peri
 
 ---
 
+## Heads-Up Form (Please Fill Out by Tue 4/28)
+
+If you're thinking about coming, please fill out this short form so I can plan — especially if you'd like me to run your code on my machine or play your video in the room:
+
+**[Final Exam Slot RSVP](https://docs.google.com/forms/d/e/1FAIpQLSfXILN5x5uLH_PixloRdrr3jc9dIyCKHQDaCY3eaQrXX1nAWQ/viewform)**
+
+You can still show up without filling it out — but a heads-up makes things smoother.
+
+---
+
 ## The Bonus
 
 Show up and present and you earn **3 bonus points** that can be applied to **any one project** of your choice (Project 1, 2, or 3).
@@ -27,8 +37,8 @@ Your app does not need to be finished. It just needs to be in a state you can de
 You're responsible for getting your app onto a screen the room can see. Three options:
 
 1. **Bring your laptop.** Plug into the projector and run your app live (emulator, web build, or connected device).
-2. **Send the app ahead of time.** Email me your source code or GitHub repo link **at least 24 hours before** April 29 so I can build and run it on my machine.
-3. **Show your project video.** If your Project 3 video is already done, you can play that instead - same bonus.
+2. **Submit code via the Project 3 dropbox.** Drop your code there at least 24 hours before April 29 so I can build it on my machine. You can submit an in-progress version for the demo and resubmit your finished version by Sun 5/3 — I won't start grading until after that. (You can also email me a GitHub repo link if you prefer.)
+3. **Show your project video.** Submit the URL via the heads-up form, or send it to me via Slack or email before class. If your video isn't quite done, that's fine - just send the latest version.
 
 ---
 
