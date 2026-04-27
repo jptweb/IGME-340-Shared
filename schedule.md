@@ -277,7 +277,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ---
 
 ## Week 14: Course Wrap-up
-**Apr 21 & 23**
+**Apr 20 & 22**
 
 ### [Week 14A](weekly/14A.md): Camera & Image Picker
 - **image_picker Package:** Taking photos, recording video, selecting from gallery
