@@ -10,9 +10,16 @@ Starting in Week 2, each class session has a GitHub Classroom assignment where y
 
 ## The Numbers
 
-- **20 total repos** throughout the semester
-- **Complete 17 of 20** to receive full participation credit (3 drops allowed)
-- **Bonus:** Complete ALL 20 and earn **5 bonus points** toward any project
+> **Note:** The exact number of participation assignments can shift slightly
+> from semester to semester depending on snow days, schedule changes, and how
+> the calendar falls. The **ratio** stays the same: you can drop a small
+> handful (about 15%), and completing every delivered assignment earns a bonus.
+
+For Spring 2026 specifically:
+
+- **17 total repos** across the semester
+- **Drop the lowest 3** to receive full participation credit (so 14 of 17 = full credit)
+- **Bonus:** Complete all 17 and earn **5 bonus points** toward any project
 
 ---
 
@@ -77,9 +84,9 @@ git push origin main
 
 | Completed | Result |
 |-----------|--------|
-| 17-19 of 20 | Full credit (100% of participation grade) |
-| 20 of 20 | Full credit + **5 bonus points** to any project |
-| Less than 17 | Proportional credit |
+| All but 3 (or fewer missed) | Full credit (100% of participation grade) |
+| All delivered | Full credit + **5 bonus points** to any project |
+| More than 3 missed | Proportional credit |
 
 **What counts as "complete":**
 - Good effort and progress

@@ -316,14 +316,17 @@ Throughout the semester, you will submit in-class work via GitHub Classroom. Eac
 - Graded on effort and progress, not perfection
 
 **Requirements:**
-- **20 total repos** throughout the semester
-- **Complete 17 of 20** to receive full credit (3 drops allowed)
+- Roughly 17 participation repos across the semester (final count varies slightly depending on snow days and schedule shifts)
+- Drop the lowest 3 to receive full credit
 - Good faith effort is expected; doesn't need to be 100% complete
 - If you miss class, use the weekly notes to catch up and submit
 
-**Bonus Opportunity:** Complete ALL 20 participation assignments and earn **5 bonus points** that can be applied to any of your 3 projects!
+**Bonus Opportunity:** Complete every delivered participation repo and earn **5 bonus points** that can be applied to any of your 3 projects!
 
-See [Participation - GitHub Classroom](participation-github-classroom.md) for full details on submission methods.
+> 📖 **Full instructions, submission methods, and grading table:**
+> **[→ Participation - GitHub Classroom (full guide)](participation-github-classroom.md)**
+>
+> Read this before Week 2. It covers how to accept assignments, two ways to submit (the 30-second `main.dart` copy method and the full project method), and exactly what counts as "complete."
 
 ### Labs/Homework (20%)
 
