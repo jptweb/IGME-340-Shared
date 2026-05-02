@@ -1,9 +1,8 @@
 # IGME-340 Fall 2026 (2261) — Complete Course Roadmap [DRAFT]
 
-> **DRAFT — not for students yet.** Currently lives in `00-Course-Overview/`
-> rather than `IGME-340-Shared/` so it doesn't sync to the public student
-> repo. When ready, move to `IGME-340-Shared/schedule.md` (replacing the
-> Spring 2026 file) or rename in place.
+> **DRAFT — Fall 2026 schedule, work in progress.** Living next to the current
+> `schedule.md` (Spring 2026) so it's findable. When Fall 2026 starts, this
+> becomes the canonical schedule and the Spring file is archived.
 
 ## Course Overview Summary
 Multi-platform development focused on Flutter/Dart, progressing from foundational skills (Weeks 1-5) to project-based learning (Weeks 6-15). Android-first approach ensuring all students can participate regardless of computer type. Tue/Thu schedule.
@@ -32,31 +31,31 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 1: Course Foundation & Dart Introduction
 **Aug 25 & 27**
 
-### [Week 1A](../IGME-340-Shared/weekly/1A.md) (Tuesday): Course Introduction
+### [Week 1A](weekly/1A.md) (Tuesday): Course Introduction
 - **Administrative:** Syllabus, grading structure (70% projects, 20% homework/labs, 10% participation)
 - **Platform Overview:** Multiplatform development concepts, why Flutter
 - **Dart Basics:** Variables, data types (int, double, String, bool), string interpolation
 - **Tools:** DartPad introduction for immediate practice
 
-### [Week 1B](../IGME-340-Shared/weekly/1B.md) (Thursday): Dart Fundamentals
+### [Week 1B](weekly/1B.md) (Thursday): Dart Fundamentals
 - **Collections:** Lists (arrays), Maps (dictionaries), basic operations
 - **Functions:** Basic syntax, arrow functions, named parameters
 - **Environment Setup:** Flutter installation guidance, VS Code configuration
 
-**Assignments:** [Lab 00](../IGME-340-Shared/labs/lab-00-environment-setup.md) (Environment Setup), Dart Exercises 1-3
+**Assignments:** [Lab 00](labs/lab-00-environment-setup.md) (Environment Setup), Dart Exercises 1-3
 
 ---
 
 ## Week 2: Flutter Development Environment
 **Sep 1 & 3**
 
-### [Week 2A](../IGME-340-Shared/weekly/2A.md): VS Code Setup & First Flutter App
+### [Week 2A](weekly/2A.md): VS Code Setup & First Flutter App
 - **Project Creation:** Command Palette, Flutter project templates, path requirements (no spaces!)
 - **Development Cycle:** Running apps, device selection (emulator/Chrome), hot reload/restart
 - **Architecture:** Widget tree introduction, StatelessWidget vs StatefulWidget, BuildContext
 - **Core Widgets:** MaterialApp, Scaffold, AppBar, basic structure
 
-### [Week 2B](../IGME-340-Shared/weekly/2B.md): Development Tools & Debugging
+### [Week 2B](weekly/2B.md): Development Tools & Debugging
 - **VS Code Features:** Widget manipulation shortcuts (Cmd/Ctrl + Period), code extraction methods
 - **Debugging:** Breakpoints, debug console, Chrome DevTools integration
 - **Code Organization:** Extract Method, Extract Widget, Extract Local Variable
@@ -69,34 +68,34 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 3: Layout Fundamentals
 **Sep 8 & 10**
 
-### [Week 3A](../IGME-340-Shared/weekly/3A.md): Basic Layout Widgets
+### [Week 3A](weekly/3A.md): Basic Layout Widgets
 - **Container:** Sizing behavior, positioning, styling basics
 - **Layout Widgets:** Column, Row, spacing property
 - **Alignment:** MainAxisAlignment, CrossAxisAlignment
 - **Overflow Handling:** SingleChildScrollView for scrollable content
 - **Widget Shortcuts:** Using Cmd/Ctrl + Period for quick widget wrapping
 
-### [Week 3B](../IGME-340-Shared/weekly/3B.md): Buttons & Theme System
+### [Week 3B](weekly/3B.md): Buttons & Theme System
 - **Button Types:** ElevatedButton, OutlinedButton, TextButton, IconButton
 - **Styling:** Inline styles with styleFrom(), custom icons and text
 - **Theme System:** ThemeData, ColorScheme.fromSeed, light/dark themes
 - **Global Styling:** App-wide button themes, text themes, accessing themes with Theme.of(context)
 
-**Assignments:** [Lab 01](../IGME-340-Shared/labs/lab-01-layout-basics.md) (Layout Basics), [Lab 02](../IGME-340-Shared/labs/lab-02-themes-and-buttons.md) (Buttons & Themes)
+**Assignments:** [Lab 01](labs/lab-01-layout-basics.md) (Layout Basics), [Lab 02](labs/lab-02-themes-and-buttons.md) (Buttons & Themes)
 
 ---
 
 ## Week 4: Interactive Elements & Assets
 **Sep 15 & 17**
 
-### [Week 4A](../IGME-340-Shared/weekly/4A.md): State Management & Styling
+### [Week 4A](weekly/4A.md): State Management & Styling
 - **Project 1 Launch:** Design to Spec (Minecraft theme) introduction
 - **State Management:** setState() fundamentals, button callbacks, UI rebuilding
 - **AppBar Customization:** Background colors, elevation, leading/action widgets
 - **Advanced Styling:** BoxDecoration (borders, shadows, backgrounds), Color.fromARGB()
 - **Images:** Local assets (pubspec.yaml configuration), Network images, AssetImage vs NetworkImage
 
-### [Week 4B](../IGME-340-Shared/weekly/4B.md): Custom Fonts & Dialogs
+### [Week 4B](weekly/4B.md): Custom Fonts & Dialogs
 - **Font Installation:** Manual font setup, assets folder structure, pubspec.yaml font declarations
 - **Google Fonts:** Package limitations, compatibility issues with certain fonts
 - **Clickable Widgets:** InkWell (with ripple effects), GestureDetector, Material wrapper
@@ -110,13 +109,13 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 5: Advanced UI Components
 **Sep 22 & 24**
 
-### [Week 5A](../IGME-340-Shared/weekly/5A.md): Stack & Communication Widgets
+### [Week 5A](weekly/5A.md): Stack & Communication Widgets
 - **Stack Widget:** Overlaying widgets, positioning with Positioned
 - **SVG Images:** flutter_svg package, vector graphics handling
 - **ScaffoldMessenger:** SnackBar, MaterialBanner with cascade notation (..)
 - **Communication Patterns:** Showing temporary messages, user feedback
 
-### [Week 5B](../IGME-340-Shared/weekly/5B.md): Project 1 Support & Code Organization
+### [Week 5B](weekly/5B.md): Project 1 Support & Code Organization
 - **Project 1 Support:** Focus shifted to helping with current project needs
 - **Code Organization:** Extract Method for reducing repetition (DRY principle)
 - **GestureDetector:** Implementing clickable containers for Project 1
@@ -128,42 +127,42 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 6: User Input & Forms
 **Sep 29 & Oct 1**
 
-### [Week 6A](../IGME-340-Shared/weekly/6A.md): DropdownList & TextFields
+### [Week 6A](weekly/6A.md): DropdownList & TextFields
 - **DropdownButton:** DropdownMenuItem, selection handling, dynamic options with .map()
 - **TextField Basics:** onSubmitted callbacks, capturing user input
 - **Input Styling:** InputDecoration (borders, labels, padding, fill colors)
 - **Keyboard Types:** TextInputType (numeric, datetime, email) for appropriate contexts
 - **TextEditingController:** Better text field management, initialization and cleanup
 
-### [Week 6B](../IGME-340-Shared/weekly/6B.md): Form Validation & Advanced Input
+### [Week 6B](weekly/6B.md): Form Validation & Advanced Input
 - **Form Management:** Global keys, form validation patterns, validator functions
 - **TextFormField:** Validation with validator property, auto-validation modes
 - **Validation Packages:** email_validator from pub.dev
 - **CheckBox Widgets:** Basic checkboxes, CheckboxListTile, tri-state checkboxes
 - **ListView:** Basic ListView, ListView.builder for dynamic content, ListTile widgets
 
-**Assignments:** [Lab 03](../IGME-340-Shared/labs/lab-03-textfields-dropdownbuttons.md) (TextFields & Dropdowns)
+**Assignments:** [Lab 03](labs/lab-03-textfields-dropdownbuttons.md) (TextFields & Dropdowns)
 
 ---
 
 ## Week 7: External Data & Advanced Layouts
 **Oct 6 & 8**
 
-### [Week 7A](../IGME-340-Shared/weekly/7A.md): Asynchronous Programming & HTTP Requests
+### [Week 7A](weekly/7A.md): Asynchronous Programming & HTTP Requests
 - **API Integration:** HTTP package, GET/POST requests, authentication with Bearer tokens
 - **Async Programming:** Future, async/await, error handling with try-catch
 - **JSON Handling:** Parsing API responses with jsonDecode()
 - **ListView.Builder:** Dynamically generating lists from API data
 - **State Management:** Using setState() to update UI after async operations
 
-### [Week 7B](../IGME-340-Shared/weekly/7B.md): GridView & Giphy API Integration
+### [Week 7B](weekly/7B.md): GridView & Giphy API Integration
 - **Giphy API:** Real API integration, authentication with API keys, nested JSON responses
 - **GridView:** GridView.count, GridView.builder, SliverGridDelegate
 - **GridTile:** Structured grid items with headers/footers
 - **Widget Inspector:** Visual debugging tools, widget tree navigation
 - **Code Standards:** Professional commenting, widget extraction techniques
 
-**Assignments:** [Lab 04](../IGME-340-Shared/labs/lab-04-gif-finder.md) (Gif Finder)
+**Assignments:** [Lab 04](labs/lab-04-gif-finder.md) (Gif Finder)
 
 ---
 
@@ -172,7 +171,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 
 ### Week 8A (Tuesday): 🔴 No class — October Break (Oct 12-13)
 
-### [Week 8B](../IGME-340-Shared/weekly/8B.md) (Thursday): Expanded + Advanced TextFields & Connecting Forms to APIs
+### [Week 8B](weekly/8B.md) (Thursday): Expanded + Advanced TextFields & Connecting Forms to APIs
 Combined session — Expanded layouts (canonical Spring 8A content) folded into 8B since October Break removes 8A. Use the 2255_8b override / a Fall-specific guide if pace differs from Spring.
 
 - **Expanded Widget:** Automatic remaining-space filling in Rows and Columns; cross-axis sizing with `width: double.infinity` (compressed segment, ~15-20 min)
@@ -187,12 +186,12 @@ Combined session — Expanded layouts (canonical Spring 8A content) folded into 
 ## Week 9: Data Persistence & Navigation Fundamentals
 **Oct 20 & 22**
 
-### [Week 9A](../IGME-340-Shared/weekly/9A.md): Data Storage & External Integration
+### [Week 9A](weekly/9A.md): Data Storage & External Integration
 - **Data Persistence:** shared_preferences package for local storage
 - **External Apps:** url_launcher for opening web browsers
 - **Image Caching:** CachedNetworkImage for efficient image loading
 
-### [Week 9B](../IGME-340-Shared/weekly/9B.md): Page Navigation Fundamentals
+### [Week 9B](weekly/9B.md): Page Navigation Fundamentals
 - **Navigation Stack:** Understanding push/pop behavior, Navigator methods
 - **MaterialPageRoute:** Basic page navigation with full widget references
 - **Named Routes:** String-based navigation, route definitions in MaterialApp
@@ -206,14 +205,14 @@ Combined session — Expanded layouts (canonical Spring 8A content) folded into 
 ## Week 10: Advanced Navigation & State Management
 **Oct 27 & 29**
 
-### [Week 10A](../IGME-340-Shared/weekly/10A.md): GoRouter & Provider Pattern
+### [Week 10A](weekly/10A.md): GoRouter & Provider Pattern
 - **GoRouter Package:** Navigation 2.0, URL-style routing with parameters
 - **Provider Pattern:** ChangeNotifier, ChangeNotifierProvider, global state management
 - **Context Methods:** context.watch() vs context.read(), automatic UI updates
 - **State Architecture:** Eliminating setState, centralized data management
 - **notifyListeners():** Triggering UI rebuilds across multiple pages
 
-### [Week 10B](../IGME-340-Shared/weekly/10B.md): Provider from Scratch — Wizard Directory
+### [Week 10B](weekly/10B.md): Provider from Scratch — Wizard Directory
 - **FutureProvider patterns:** Provider wrapper for async operations, API integration
 - **Custom Providers:** Creating ChangeNotifier classes for business logic
 - **Consumer Widget:** Alternative syntax for accessing provider data
@@ -227,14 +226,14 @@ Combined session — Expanded layouts (canonical Spring 8A content) folded into 
 ## Week 11: Navigation UI & Game Development Introduction
 **Nov 3 & 5**
 
-### [Week 11A](../IGME-340-Shared/weekly/11A.md): Navigation UI Components
+### [Week 11A](weekly/11A.md): Navigation UI Components
 - **TabBar System:** DefaultTabController, TabBar, TabBarView, Tab widgets
 - **BottomNavigationBar:** BottomNavigationBarItem, multiple page management
 - **State Preservation:** IndexedStack vs direct widget switching
 - **AutomaticKeepAliveClientMixin:** State maintenance for TabBar pages
 - **Navigation State:** Managing currentIndex, onTap handlers
 
-### [Week 11B](../IGME-340-Shared/weekly/11B.md): Flame Game Engine Basics
+### [Week 11B](weekly/11B.md): Flame Game Engine Basics
 - **Project 3 Overview:** Roll Your Own Application requirements
 - **Flame Setup:** GameWidget, FlameGame base class, game lifecycle
 - **Sprite Components:** Loading and displaying game sprites
@@ -248,14 +247,14 @@ Combined session — Expanded layouts (canonical Spring 8A content) folded into 
 ## Week 12: Game Development & Audio
 **Nov 10 & 12**
 
-### [Week 12A](../IGME-340-Shared/weekly/12A.md): Game UI Integration
+### [Week 12A](weekly/12A.md): Game UI Integration
 - **Flame Overlays:** UI layers on top of game canvas, overlay management
 - **Flutter Integration:** Combining game widgets with Material design
 - **WebView Integration:** webview_flutter package, HTML content in games
 - **Game Controls:** Pause/resume functionality, game state management
 - **Transparent UI:** Material backgrounds, overlay positioning
 
-### [Week 12B](../IGME-340-Shared/weekly/12B.md): Provider with Games & Audio
+### [Week 12B](weekly/12B.md): Provider with Games & Audio
 - **GameWidget.controlled:** Required pattern for Provider integration
 - **Game State Management:** ChangeNotifier with Flame games
 - **Audio System:** audioplayers package, background music vs sound effects
@@ -269,7 +268,7 @@ Combined session — Expanded layouts (canonical Spring 8A content) folded into 
 ## Week 13: Lifecycle & Production Prep
 **Nov 17 & 19**
 
-### [Week 13A](../IGME-340-Shared/weekly/13A.md): Application Lifecycle & Complex Navigation
+### [Week 13A](weekly/13A.md): Application Lifecycle & Complex Navigation
 - **Application Lifecycle:** WidgetsBindingObserver, AppLifecycleState handling
 - **Resource Management:** Pausing games/audio when app backgrounded
 - **Game Navigation:** Flame games within BottomNavigationBar structure
@@ -277,7 +276,7 @@ Combined session — Expanded layouts (canonical Spring 8A content) folded into 
 - **IndexedStack:** Preventing game widget disposal when switching tabs
 - **Professional Patterns:** Lifecycle state handling, memory leak prevention
 
-### [Week 13B](../IGME-340-Shared/weekly/13B.md): Splash Screens & App Icons
+### [Week 13B](weekly/13B.md): Splash Screens & App Icons
 - **Splash Screens:** flutter_native_splash package, app startup experience
 - **Custom Icons:** flutter_launcher_icons package, app icon generation
 - **Platform Requirements:** Icon sizes, adaptive icons for Android
@@ -288,7 +287,7 @@ Combined session — Expanded layouts (canonical Spring 8A content) folded into 
 ## Week 14: Camera + Thanksgiving
 **Nov 24 & Nov 26 (🔴)**
 
-### [Week 14A](../IGME-340-Shared/weekly/14A.md) (Tuesday): Camera & Image Picker
+### [Week 14A](weekly/14A.md) (Tuesday): Camera & Image Picker
 **No longer optional** — class is full enough to use the slot, and there's no GitHub Classroom participation overhead by this point.
 - **image_picker Package:** Taking photos, recording video, selecting from gallery
 - **Android Emulator Setup:** Virtual Scene mode, webcam passthrough, walking around the virtual environment
@@ -305,12 +304,12 @@ Combined session — Expanded layouts (canonical Spring 8A content) folded into 
 
 > **File-naming note:** Calendar slot 15A teaches `14B.md` content (Responsive + Publishing); calendar slot 15B teaches `15A.md` content (Polish Packages). Files keep canonical names — MyCourses shows lesson titles like "14B - Responsive..." inside the Week 15 module. See `semester-comparison.md` Weeks 14-15 Detail.
 
-### Week 15A (Tuesday) — teaching [`14B.md`](../IGME-340-Shared/weekly/14B.md) content: Responsive Design & Publishing Overview
+### Week 15A (Tuesday) — teaching [`14B.md`](weekly/14B.md) content: Responsive Design & Publishing Overview
 - **Responsive Design:** MediaQuery.sizeOf(), LayoutBuilder — Flutter's equivalents to CSS media queries
 - **Publishing Overview:** Brief look at Google Play Store and Apple App Store processes; quick `flutter build web` deploy demo
 - **Lab Time:** Project 3 work session, Q&A
 
-### Week 15B (Thursday) — teaching [`15A.md`](../IGME-340-Shared/weekly/15A.md) content: Final Class — Polish Packages + Wrap-up
+### Week 15B (Thursday) — teaching [`15A.md`](weekly/15A.md) content: Final Class — Polish Packages + Wrap-up
 - **Look how far you've come:** brief retrospective
 - **Polish-package tour (drop-in, no architecture changes):** flutter_animate, skeletonizer, lottie, confetti, share_plus
 - **Sample app:** [github.com/jptweb/flutter-polish-sample-app](https://github.com/jptweb/flutter-polish-sample-app) — clone and steal whatever fits Project 3
