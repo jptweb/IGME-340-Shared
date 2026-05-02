@@ -22,6 +22,16 @@ Rather than providing our own step-by-step instructions:
 
 ---
 
+## Video Walkthrough (Optional but Helpful)
+
+If you'd like to see the VS Code install flow before tackling it yourself, watch the in-class walkthrough:
+
+**[Flutter/Android Studio Installation Video](https://rit.zoom.us/rec/share/2tWwgzLXa6K0GoC5oepJK7WMSTiAtcFA2GsZn7KDwBfft24cv97DAjQBksONHCRg.RtLP4wUAPsH02U7u)** (~40 minutes)
+
+> **Heads up:** This was recorded on the RIT lab machines (Windows, installing to `D:\Profiles\YOUR_USERNAME\`). On your personal machine the **VS Code flow is the same**, but pick your own no-spaces install path (e.g., `C:\dev\flutter` on Windows, `~/development/flutter` on Mac) instead of `D:\Profiles`.
+
+---
+
 ## Setup Instructions
 
 Flutter's documentation has evolved - there are now multiple paths to get set up. We recommend the **VS Code method** as it's the simplest.
