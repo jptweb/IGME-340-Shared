@@ -105,9 +105,25 @@ During the Final Exam period (Apr. 29, 30, May 1, 4, 5, 6) there will likely be 
 
 ## Required Textbook
 
-There is no required textbook for this course. All learning materials, including lecture presentations, code examples, and external resources, will be provided through our course platforms.
+There is no required textbook for this course — and that's intentional. The course is built around two complementary, **free, and comprehensive** resources that together cover everything you need:
 
-**Reference Guides:** I've created a set of [quick-reference guides](../reference/) for common Flutter/Dart topics. These are designed for fast lookup while coding - think of them as a "cheat sheet" collection rather than tutorial content. The reference guides were created with AI assistance to ensure comprehensive coverage; however, the weekly class notes, code examples, and demos are written by me to ensure they align with how we actually teach the material in class.
+### Reference Guides — Our "Textbook"
+
+The [Reference Guide collection](../reference/README.md) is the closest thing this course has to a textbook. It's organized **by topic** (widgets, state management, navigation, networking, Flame game development, etc.) so you can look something up exactly the way you'd flip to a chapter in a real textbook. The README at that link is the table of contents.
+
+**Why this matters more than you might think:** Flutter and Dart move fast, and search results online frequently surface outdated patterns, deprecated APIs, or approaches that conflict with how we do things in this course. The reference guides are pinned to **current best practices and the conventions we use in class** — so when you copy a pattern from there, you can trust it matches what was taught.
+
+The reference guides pulled from official Flutter documentation and pub.dev package documentation, with some AI assistance to keep coverage broad and formatting consistent. They're maintained alongside the course.
+
+### Weekly Class Notes — Our Tutorials
+
+The [weekly class notes](../weekly/) (1A through 15A/B) are the **chronological tutorial flow** — code-along walkthroughs of what we did each class session. Use these to follow the arc of the semester or revisit a specific lesson's content. These notes were developed by RIT instructors (including collaborators who taught earlier versions of this course) and refined by me each semester to match how the material actually lands in class.
+
+### When to use which
+
+- **Coding right now and forgot how `Provider.of` works?** → Reference Guide (look it up by topic)
+- **Reviewing what we covered in Week 9B?** → Weekly notes (chronological)
+- **Online tutorial conflicts with our reference guide?** → Trust the reference guide; it matches what we teach
 
 ---
 
