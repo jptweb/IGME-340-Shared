@@ -53,12 +53,3 @@ You're responsible for getting your app onto a screen the room can see. Three op
 ## Reminder
 
 This bonus does **not** change Project 3 deliverables or the due date. Your final submission (app + documentation + video) is still due **Sunday, May 3** via MyCourses, whether or not you present on April 29.
-
-
-Who presented 2026 04 29
-
-Saavan Tandon DONE
-
-Sadia DONE 
-
-Kevin DONE
