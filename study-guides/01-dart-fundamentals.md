@@ -10,6 +10,8 @@ Dart is the programming language Flutter is built on. You're going to write a lo
 
 This guide covers what's different between JS and Dart, gets you comfortable with the syntax you'll need for Week 1, and sets you up to attempt the Dart exercises before class. Nothing here requires installing anything — you'll use [DartPad](https://dartpad.dev), Dart's in-browser editor.
 
+[Watch: Dart Fundamentals Overview](https://www.youtube.com/watch?v=yBSVWE4WC0I)
+
 ---
 
 ## I. JavaScript → Dart at a Glance
