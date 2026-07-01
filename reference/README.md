@@ -138,4 +138,3 @@ Found an error or have a helpful example? Let me know! This reference grows base
 
 ---
 
-*Last updated: Week 1B | Spring 2026*
