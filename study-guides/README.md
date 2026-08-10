@@ -11,4 +11,19 @@ Pre-class reading modules tied to the six major phase shifts in the course. Each
 | [05 — Navigation and State](05-navigation-and-state.md)   | Week 9B–10A    | One screen → many screens; GoRouter + Provider          |
 | [06 — Into the Game Engine](06-game-engine.md)            | Week 11B       | Widget apps → Flame game loop; different rules          |
 
-Each guide includes reference guide links and a "Check Yourself" section. If you can answer those questions before class, you're ready.
+Each guide includes reference guide links and a **Check Yourself** section.
+
+## How study guides are graded
+
+The study guides are worth **5% of your grade**, through six short quizzes in MyCourses.
+
+- **Multiple choice, auto-graded.** One quiz per guide.
+- **Retake until you get 100%.** The point is that you end up knowing the material, not that I catch you on a first attempt.
+- **Small stake by design.** 5% across six quizzes. Missing one isn't a crisis; skipping all six is.
+- **Some questions ask you to run code.** "Paste this into DartPad and tell me what it prints." Keep a tab open.
+
+**Deadlines: the night before we start that unit.** The quiz is there so you arrive with the mental model already loaded, which lets class time go to the interesting parts instead of fundamentals. A quiz you take after the class has already happened doesn't do that for you.
+
+The **Check Yourself** list inside each guide is *not* the quiz and isn't submitted. It's a readiness check. Work through it and the quiz is straightforward.
+
+Separately, the **[Dart Exercises](../exercises/dart-01.md)** are graded hands-on practice in the Labs & Exercises category. The guide explains, the quiz checks you understood, the exercises make you type it.

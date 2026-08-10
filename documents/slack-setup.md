@@ -10,7 +10,7 @@ If you used Slack in IGME-235 or another course, this will be familiar - just a 
 
 ## Join the IGME-340 Workspace
 
-**Direct Link:** https://rit-igme-340-2255.slack.com/
+**Direct Link:** *posted in MyCourses and announced in class during Week 1.*
 
 If that doesn't work, go to [rit.enterprise.slack.com](https://rit.enterprise.slack.com), search for **IGME-340**, and request to join.
 
@@ -90,3 +90,6 @@ The website works great on desktop - no need to install anything. If you want Sl
 ## Questions?
 
 Once you're in Slack, please use it! Post questions in **#340-general** rather than emailing - that way others can benefit from the answers too. If it's something you'd rather not ask publicly, feel free to DM me directly on Slack.
+
+
+> **Instructor TODO (2026-08-09):** create the Fall 2026 workspace and replace the direct-link line above. The Spring 2026 URL (`rit-igme-340-2255`) was removed so students don't join a dead workspace.

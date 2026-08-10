@@ -15,11 +15,13 @@ Starting in Week 2, each class session has a GitHub Classroom assignment where y
 > the calendar falls. The **ratio** stays the same: you can drop a small
 > handful (about 15%), and completing every delivered assignment earns a bonus.
 
-For Spring 2026 specifically:
+For Fall 2026:
 
-- **17 total repos** across the semester
-- **Drop the lowest 3** to receive full participation credit (so 14 of 17 = full credit)
-- **Bonus:** Complete all 17 and earn **5 bonus points** toward any project
+- **Total repo count:** confirmed early in the semester once the schedule settles
+- **Drop the lowest few** (roughly 15%) to receive full participation credit
+- **Bonus:** complete every delivered repo and earn **5 bonus points** toward any project
+
+> *Exact numbers will be posted in MyCourses and announced in class in the first two weeks.*
 
 ---
 

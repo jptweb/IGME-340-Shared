@@ -1,31 +1,175 @@
-# Dart ICE 2 - Lists
+# Dart Exercise 2 - Lists
 
-In Dartpad, create a __New Pad__ and replace everything in the editor with the following code:
+**Time:** about 15 minutes for the core tasks
+**Where:** [DartPad](https://dartpad.dev)
+**Covered in:** [Week 1B](../weekly/1B.md)
+
+> **Read first:** [Study Guide 01, Section III: Lists](../study-guides/01-dart-fundamentals.md#lists). It has a table of Dart list methods next to their JavaScript equivalents. This page is just the tasks.
+
+> **Graded.** The **Core** sections of all six exercises are submitted **together as one bundle**. Graded on completion: did you do it, and does it run. **Check MyCourses for the due date.** **Stretch** is optional and never graded.
+
+Read [Study Guide 01](../study-guides/01-dart-fundamentals.md) first. It has the explanations; these are the reps.
+
+**Label your work** with `// Task 1`, `// Task 2` comments above each answer. It takes five seconds, it's how I find things when grading, and it means you get feedback faster.
+
+---
+
+## Setup
+
+New Pad in DartPad:
 
 ```dart
 void main() {
-    
+  // your code goes here
 }
 ```
 
-## Perform the following tasks: ##
+---
 
-1. Create a new `fixed size` array called `myList1` with five 0's inside, hint, use `var` for the data type. Then change item 2 to `1`, and print it.
+# Core
 
-1. Create a loosely typed `growable` list called `myList2`. Add one of every data type into the list (String, number, double, boolean), and print it.
+## 1. Make a typed list
 
-1. Insert `IGME` into myList2 in the second array position, and print it.
+```dart
+List<String> party = ['Mario', 'Luigi'];
+```
 
-1. Create a new list called `myList3` that contains `['item1', 'item2', 'item3']`, then add it all into myList2 and print it.
+`List<String>` means only strings go in it. That angle-bracket type is the part that matters.
 
-1. Create a new list called `myList4` that contains `[123.4, 'item 6', false]` and insert it into the very beginning of myList2 and print it.
+**Tasks:**
 
-1. Create a new `growable String` array called `myList5`, and add a few items to it and print it.
+1. Create a `List<String>` with two names in it, and print it.
+2. Print the first item using its index.
+3. Print how many items are in it.
 
-1. Remove the `3rd` item from `myList5`, and print the result.
+---
 
-1. Remove the `last` item from `myList5`, and print the result.
+## 2. Add and insert
 
-1. Remove items `2 to 5` in `myList2`, and print the result.
+```dart
+party.add('Peach');        // goes on the end
+party.insert(1, 'Toad');   // goes at position 1, shifts the rest right
+```
 
-Save the resulting file as dart_ice_02.dartfor submission.
+**Tasks:**
+
+1. Add one name to the end of your list and print the result.
+2. Insert a name at position 1 and print the result.
+
+---
+
+## 3. Remove
+
+Two different removals, and the difference catches people out:
+
+```dart
+party.remove('Toad');   // removes by VALUE
+party.removeAt(0);      // removes by INDEX
+```
+
+**Tasks:**
+
+1. Remove one item **by value** and print the result.
+2. Remove one item **by index** and print the result.
+
+---
+
+## 4. Loop through it
+
+```dart
+for (final member in party) {
+  print(member);
+}
+```
+
+**Task:** print every item in your list one per line, using a `for-in` loop.
+
+**Why this one matters:** this is the loop you'll actually use in Flutter. The others are mostly for the exercises.
+
+---
+
+## 5. A list of numbers
+
+```dart
+List<int> scores = [10, 20, 30];
+```
+
+**Tasks:**
+
+1. Create a `List<int>` with at least three numbers.
+2. Print its `first` and `last`.
+3. Print whether it `isEmpty`.
+
+---
+
+## Why lists matter in Flutter
+
+When a Flutter widget holds several things, it takes a **`List<Widget>`**:
+
+```dart
+Column(
+  children: [
+    Text('One'),
+    Text('Two'),
+  ],
+)
+```
+
+Same square brackets, same commas, same `List<T>` you just used. The only difference is what's inside.
+
+---
+
+## Submitting
+
+Copy your code out of DartPad and save it as a `.dart` file. All six get submitted together as one bundle, so hang onto this until you've done the rest. Due date is in MyCourses.
+
+- [ ] Every Core task has code that runs
+- [ ] File runs without errors
+- [ ] Named `dart_ice_02.dart`
+
+---
+
+# Stretch (optional, never graded)
+
+## S1. Combining lists
+
+```dart
+party.addAll(['Yoshi', 'Daisy']);           // append another list
+final combined = [...party, ...otherList];  // spread operator, like JS
+```
+
+Try both.
+
+## S2. Transforming
+
+```dart
+print(scores.reversed.toList());
+print(scores.where((s) => s > 15).toList());
+```
+
+`where` is Dart's `filter`. Try `map` too, and see what `.toList()` is doing at the end.
+
+## S3. Fixed-length lists
+
+```dart
+final fixed = List<int>.filled(5, 0);   // [0, 0, 0, 0, 0]
+fixed[2] = 1;
+```
+
+You can change items but not add or remove. Try `.add()` on it and read the error.
+
+You'll rarely want this, but it comes up in older code.
+
+---
+
+## Resources
+
+- [Study Guide 01: Lists](../study-guides/01-dart-fundamentals.md#lists)
+- [Dart Lists](https://dart.dev/language/collections#lists)
+- [List class API](https://api.dart.dev/stable/dart-core/List-class.html)
+
+---
+
+| <-- Previous | Exercises | Next -->
+| --- | --- | ---
+| [**Dart 1: Variables**](dart-01.md) | [**All Exercises**](../exercises/) | [**Dart 3: Maps**](dart-03-Maps.md)

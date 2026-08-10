@@ -1,7 +1,7 @@
 # IGME-340: Multi-platform Media App Development
 
 **RIT School of Interactive Games and Media**
-**Spring 2026 | Instructor: John-Paul Takats**
+**Fall 2026 | Instructor: John-Paul Takats**
 
 Flutter/Dart for cross-platform mobile development. Design, prototype, and build media-rich interactive apps.
 

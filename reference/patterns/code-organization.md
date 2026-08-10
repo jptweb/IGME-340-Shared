@@ -463,7 +463,7 @@ static const double _buttonHeight = 56.0;  // Material Design button height
 - Used throughout course for clean code practices
 
 ## Related Topics
-- [Widget Extraction](../weekly/2B.md#code-organization-techniques) - Detailed extraction walkthrough
+- [Widget Extraction](../../weekly/2B.md#iii-shortcuts) - Detailed extraction walkthrough
 - Project 1 - Practical application of DRY principles
 - [Professional Commenting](../../commenting_guide.md) - Documentation standards
 

@@ -57,7 +57,7 @@ x = "hello";          // ❌ error — var locked to int on first assignment
 final y = "hello";    // set once, cannot be reassigned
 // y = "world";       // ❌ error
 
-const PI = 3.14159;   // compile-time constant — value must be known before running
+const pi = 3.14159;   // compile-time constant — value must be known before running
 ```
 
 **The practical difference between `final` and `const`:**
@@ -299,19 +299,31 @@ class Goomba extends Monster {
 
 ## VI. Check Yourself
 
-Try to answer these before class. If you can't, re-read the relevant section — or bring the question to Week 1A.
+**This guide has two graded pieces attached to it.**
 
-1. What's the difference between `final` and `const`? When would you use each?
+- **The sg01 quiz** in MyCourses, due **Fri Aug 28**. Multiple choice, auto-graded, and **you can retake it until you get 100%**. It's a small slice of your grade and it's designed to be passable, not to catch you out. A few questions ask you to paste a snippet into DartPad, run it, and report what printed, so keep a tab open.
+- **The [Dart Exercises](../exercises/dart-01.md)**, Core sections, bundled and due **Wed Sep 9**. Hands-on DartPad work, graded on completion.
 
-2. You declare `var x = 42;`. Can you later do `x = "hello"`? Why or why not?
+The division of labor: this guide explains, the quiz checks you understood it, the exercises make you type it.
 
-3. How do you declare a growable list of Strings? How do you add one item? How do you insert an item at position 2?
+The list below is **not** the quiz and isn't submitted. It's a readiness check. Work through it first and the quiz is straightforward.
 
-4. Write a function called `describe` that takes a named `String` parameter called `item` and a named `int` parameter called `count` (default: `1`). It should print `"item: N"`. Then call it two ways: once with just `item`, once with both.
+1. What's the difference between `final` and `const`, and when would you reach for each?
+   *[var, final, and const](#var-final-and-const)*
 
-5. You have a `Map<String, dynamic>` with a key `"score"` set to `100`. How do you read that value? How do you add a new key `"level"` with value `1`?
+2. You write `var x = 42;` then try `x = "hello";`. Dart rejects it. Why? What would you write instead if `x` genuinely needed to hold either type?
+   *[var, final, and const](#var-final-and-const)*
 
-6. You have a `Monster` class with `String name` and `int hp` fields. Write the shortest possible constructor for it using Dart's shorthand. Then write a second version using named parameters with default values.
+3. You look up a key that isn't in a Map. What comes back, and why is the type written `int?` instead of `int`?
+   *[Null Safety](#null-safety), [Maps](#maps)*
+
+4. Flutter uses named parameters almost everywhere. Given that `Container` accepts dozens of properties and you usually set three or four, why is that better than positional?
+   *[Named Parameters](#named-parameters--read-this-carefully)*
+
+5. You add a new required field to a parent class, and the error appears in the *child's* constructor. Why?
+   *[Inheritance](#inheritance)*
+
+Questions 4 and 5 are the two that bite people hardest. If those are the blank ones, you're in normal company. Bring them to Week 1B or Slack.
 
 ---
 
@@ -329,12 +341,16 @@ void main() {
 
 If you see output on the right, you're ready.
 
-**What's due Week 2:**
-- **Exercises 1–3** (Variables/Loops, Lists, Maps) — uses the material from Sections II, III above
-- **Exercises 4–6** (Functions, Classes, Inheritance) — uses Sections IV, V above
-- **Lab 00** (Flutter + VS Code install) — separate from Dart; instructions are in the lab itself
+**What's coming up:**
+- **Lab 00** (Flutter + VS Code install) — **due before Week 2A**, because that's the first hands-on Flutter class. Separate from Dart; instructions are in the lab itself.
+- **Exercises 1–3** (Variables/Types/Null, Lists, Maps) — uses Sections II and III above
+- **Exercises 4–6** (Functions, Classes, Inheritance) — uses Sections IV and V above
 
-Week 1A in class will walk through all of this live. This guide is the preview so the demo feels like reinforcement, not first exposure.
+**How this guide relates to class.** We are *not* touring the whole language in class. Week 1A is course setup plus a first taste of Dart, and Week 1B covers only the four pieces Flutter leans on constantly: string interpolation, named and `required` parameters, null safety, and `const` versus `final`.
+
+Everything else in this guide (loops, collections, classes, inheritance) is yours to work through here and in the exercises. It's all fair game on assignments, and you'll use it constantly. This guide is the primary source for it, not a preview of a lecture.
+
+If something here doesn't land, bring it to class or Slack. That's a better use of class time than watching me retype syntax you already know from 235.
 
 ---
 

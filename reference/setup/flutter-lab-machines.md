@@ -1,6 +1,6 @@
 # Flutter Installation on RIT Lab Machines
 
-This guide covers installing Flutter on the lab machines in Golisano (GOL 2570, 2445, and similar). These instructions are specific to the RIT lab environment.
+This guide covers installing Flutter on the lab machines in Golisano (GOL 2435, 2570, 2445, and similar). These instructions are specific to the RIT lab environment.
 
 ## Video Walkthrough
 

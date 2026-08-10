@@ -2,7 +2,11 @@
 
 ## Overview
 
-This is the most important assignment of the semester! Without a working development environment, you cannot complete any of the coursework. Setup can be challenging, so we've given you the weekend plus Monday. Document your process - even failures are valuable learning experiences!
+Setting up Flutter is fiddly, and it goes wrong for a lot of people the first time. That's expected, so this lab is graded on **documenting your process**, not on having a flawless setup by the deadline.
+
+**What that means practically:** get as far as you can, write down where you got stuck, and submit that. A detailed "here's the error I hit and what I tried" is a full-credit submission. Even failures are useful, both to you and to me.
+
+**You are not blocked in the meantime.** Weeks 1A and 1B need nothing installed at all (DartPad runs in a browser), and from Week 2A onward you can target Chrome instead of an Android emulator if the emulator is fighting you. So take the time you need, and tell me early if you're stuck rather than quietly falling behind.
 
 ## Learning Objectives
 
@@ -260,7 +264,7 @@ Create **setup_notes.txt** containing:
 **You can succeed in this class even if your personal machine can't run Android Studio!**
 
 ### The Classroom Lab Machines
-- Our classroom (GOL 2570) has lab machines with Android Studio available
+- Our classroom (GOL 2435) has lab machines with Android Studio available
 - Open lab hours are also available (check GCCIS website)
 - We'll walk through setting up Flutter on lab machines in class 1B
 

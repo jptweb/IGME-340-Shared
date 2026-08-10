@@ -20,7 +20,7 @@ A sampling of Project 3 submissions from previous semesters. These aren't refine
 
 ---
 
-## Spring 2025 (2251) / Fall 2025 (2255)
+## Fall 2025 (2251) / Spring 2026 (2255)
 
 <img src="2255-p3-demo_bofree-games.gif" width="300">
 

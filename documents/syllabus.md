@@ -1,5 +1,5 @@
 # IGME-340 Course Syllabus
-## Multi-platform Media App Development - Spring 2026 (2255)
+## Multi-platform Media App Development - Fall 2026 (2261)
 
 | | |
 |----:|:----|
@@ -7,21 +7,22 @@
 | **Office:** | GOL-2527 |
 | **Email:** | jxtadm@rit.edu |
 | **Office Hours:** | Latest office hour info: [https://people.rit.edu/~jxtadm/](https://people.rit.edu/~jxtadm/) You may also book virtual Zoom hours there. |
-| **Logistics:** | Meets in: GOL 2570. Mon & Wed 3:00 PM - 4:15 PM. |
+| **Logistics:** | Section 01 (CRN 14694). Meets in **GOL 2435**, **Tue & Thu 11:00 AM - 12:15 PM**. |
 
 ---
 
 ## Table of Contents
 
 - [IGME-340 Course Syllabus](#igme-340-course-syllabus)
-  - [Multi-platform Media App Development - Spring 2026 (2255)](#multi-platform-media-app-development---spring-2026-2255)
+  - [Multi-platform Media App Development - Fall 2026 (2261)](#multi-platform-media-app-development---fall-2026-2261)
   - [Table of Contents](#table-of-contents)
   - [Syllabus as Course Agreement](#syllabus-as-course-agreement)
   - [Course Catalog Description](#course-catalog-description)
   - [Prerequisites](#prerequisites)
-  - [Important RIT Dates \& Deadlines (Spring 2026)](#important-rit-dates--deadlines-spring-2026)
+  - [Important RIT Dates \& Deadlines (Fall 2026)](#important-rit-dates--deadlines-fall-2026)
     - [Final Exam Week](#final-exam-week)
   - [Required Textbook](#required-textbook)
+    - [Study Guides — Our Pre-Reading](#study-guides--our-pre-reading)
   - [Learning Management Systems](#learning-management-systems)
   - [Communication](#communication)
     - [MyCourses](#mycourses)
@@ -38,9 +39,10 @@
     - [Late Project \& Homework Policy](#late-project--homework-policy)
     - [Policy on Incomplete Grades](#policy-on-incomplete-grades)
   - [Course Elements Explored](#course-elements-explored)
-    - [Projects (70% of Grade)](#projects-70-of-grade)
+    - [Projects (65% of Grade)](#projects-65-of-grade)
+    - [Labs \& Exercises (20% of Grade)](#labs--exercises-20-of-grade)
     - [Participation - GitHub Classroom (10% of Grade)](#participation---github-classroom-10-of-grade)
-    - [Labs/Homework (20%)](#labshomework-20)
+    - [Study Guide Quizzes (5% of Grade)](#study-guide-quizzes-5-of-grade)
     - [How This Course Flows](#how-this-course-flows)
   - [Academic Integrity](#academic-integrity)
   - [Generative AI (e.g., ChatGPT)](#generative-ai-eg-chatgpt)
@@ -80,26 +82,29 @@ Interactive media applications are no longer restricted to personal computers. T
 
 The course is a higher-level programming course, it is expected that you will have familiarity programming in languages such as Java, C# or JavaScript.
 
-**About Dart:** We'll use the Dart programming language for Flutter development. Dart has strong similarities to TypeScript and JavaScript (which you used in IGME-330), so the syntax should feel familiar. We'll cover Dart basics in Week 1, but you'll be expected to pick up the language structure mostly on your own through practice and the provided exercises. Office hours are available if you need extra help getting comfortable with Dart.
+**About Dart:** We'll use the Dart programming language for Flutter development. Dart has strong similarities to TypeScript and JavaScript (which you used in IGME-330), so the syntax should feel familiar. Week 1 covers the handful of Dart features that Flutter leans on constantly, and the rest of the language is yours to pick up through [Study Guide 01](../study-guides/01-dart-fundamentals.md), its video, and the Dart exercises. Office hours are available if you need extra help getting comfortable with Dart.
 
 ---
 
-## Important RIT Dates & Deadlines (Spring 2026)
+## Important RIT Dates & Deadlines (Fall 2026)
 
 | Date | Event |
 |:-----|:------|
-| January 12, 2026 (Monday) | Day, evening, and online classes begin |
-| January 19 (Monday) | Martin Luther King Jr. Day - No Classes |
-| January 20 (Tuesday) | Last day of Add/Drop period |
-| March 8-15 | Spring Break - No Classes |
-| April 3 (Friday) | Last day to drop from classes with a grade of "W" |
-| April 27 (Monday) | Last day, evening, and online classes |
-| April 28 (Tuesday) | Reading Day |
-| Apr. 29, 30, May 1, 4, 5, 6 | Exam Period (see section below) |
+| August 24, 2026 (Monday) | Day, evening, and online classes begin |
+| *TBD* | Last day of Add/Drop period |
+| September 7 (Monday) | Labor Day - No Classes |
+| October 12-13 (Mon-Tue) | October Break - No Classes |
+| *TBD* | Last day to drop from classes with a grade of "W" |
+| November 25-27 (Wed-Fri) | Thanksgiving Break - No Classes |
+| December 7 (Monday) | Last day of classes |
+| December 8 (Tuesday) | Reading Day |
+| Dec. 9, 10, 11, 14, 15, 16 | Exam Period (see section below) |
+
+**Classes we lose to breaks:** this section meets Tue/Thu, so we lose **two** sessions: **Tuesday Oct 13** (October Break) and **Thursday Nov 26** (Thanksgiving). Our last class is **Thursday Dec 3**.
 
 ### Final Exam Week
 
-During the Final Exam period (Apr. 29, 30, May 1, 4, 5, 6) there will likely be a scheduled activity either in person or on Zoom. We will talk about this in class as the semester progresses. Our scheduled time is **TBD** (will be posted once finalized).
+During the Final Exam period (Dec. 9, 10, 11, 14, 15, 16) there will likely be a scheduled activity either in person or on Zoom. Project 3 is due during this period. We will talk about this in class as the semester progresses. Our scheduled time is **TBD** (will be posted once finalized).
 
 ---
 
@@ -119,10 +124,17 @@ The reference guides pulled from official Flutter documentation and pub.dev pack
 
 The [weekly class notes](../weekly/) (1A through 15A/B) are the **chronological tutorial flow** — code-along walkthroughs of what we did each class session. Use these to follow the arc of the semester or revisit a specific lesson's content. These notes were developed by RIT instructors (including collaborators who taught earlier versions of this course) and refined by me each semester to match how the material actually lands in class.
 
+### Study Guides — Our Pre-Reading
+
+The [study guides](../study-guides/README.md) are six short modules, each covering a point in the semester where the way you write code changes noticeably: Dart to Flutter, static layouts to stateful ones, local data to web APIs, and so on. Each has a companion video and a short quiz worth a small slice of your grade.
+
+Read these *before* the class they're tied to. They exist so class time can go to the interesting parts rather than the fundamentals.
+
 ### When to use which
 
 - **Coding right now and forgot how `Provider.of` works?** → Reference Guide (look it up by topic)
 - **Reviewing what we covered in Week 9B?** → Weekly notes (chronological)
+- **About to start a new phase of the course?** → Study guide (read before class)
 - **Online tutorial conflicts with our reference guide?** → Trust the reference guide; it matches what we teach
 
 ---
@@ -230,7 +242,7 @@ I will use mass emails for urgent updates and important changes. While I'll TRY 
 
 **If your computer can't run Android Studio** (too slow, not enough storage, etc.), you have options:
 
-1. **Classroom Lab Machines**: GOL 2570 has machines with Android Studio. We'll set up Flutter on these in Week 1B - it persists all semester.
+1. **Classroom Lab Machines**: GOL 2435 has machines with Android Studio. We'll get Flutter working on these early in the semester - it persists all semester.
 2. **GCCIS Open Labs**: Other GCCIS lab machines also have Android Studio. You may need to install the Flutter VS Code extension and SDK when using a different machine (still verifying this), but once you get the hang of it, the setup takes about 10 minutes.
 3. **Chrome Fallback**: For the first few weeks, you can develop targeting Chrome instead of Android. This works on slower machines.
 4. **Virtual Machine** (emergency option): I can set you up on rles.rit.edu if needed - has storage space but is slow and can't run Android Studio.
@@ -257,6 +269,19 @@ Attendance is mandatory. Lectures will start promptly at the beginning of class,
 ---
 
 ## Grading & Assessment
+
+### How your grade breaks down
+
+| Category | Weight |
+|:---|:---|
+| **Projects** (3 total) | **65%** |
+| **Labs & Exercises** | **20%** |
+| **Participation** (GitHub Classroom) | **10%** |
+| **Study Guide Quizzes** | **5%** |
+
+Each category is detailed in [Course Elements Explored](#course-elements-explored) below.
+
+### Letter grades
 
 | Grade | Percentage |
 |-------|------------|
@@ -287,17 +312,19 @@ Incomplete grades will be given only in the most exceptional circumstances, sole
 
 This course is designed with intentional pacing. The first 4-5 weeks focus on foundational skills through structured homework assignments. Once you have these building blocks, we shift to project-based learning where you'll apply everything in larger, creative applications. This front-loaded approach ensures you have the tools needed before diving into complex projects.
 
-### Projects (70% of Grade)
+### Projects (65% of Grade)
 
 There are 3 major projects to be completed in the semester.
 
-- **Project 1** (22.5%) - Design to Spec
-- **Project 2** (22.5%) - Web Service Application
+- **Project 1** (20%) - Design to Spec
+- **Project 2** (20%) - Web Service Application
 - **Project 3** (25%) - Roll Your Own Project
+
+**About Project 2:** you'll build on the GIF Finder app we construct together in Lab 04, extending it with additional functionality. If you'd rather work with a different web API, that option is open too. The full spec comes out when the project is assigned.
 
 **Project Deliverables**: Projects 2 and 3 have multiple deliverables, not just a final submission:
 - **Proposal/Plan** - What you intend to build
-- **Prototype** - Early version with basic functionality
+- **Prototype** - Early version with basic functionality *(Project 3 only; for Project 2, Lab 04 serves this role)*
 - **Final Submission** - Complete project
 - **Video Walkthrough** (Project 3) - Demo video showing your app in action
 
@@ -344,9 +371,13 @@ Throughout the semester, you will submit in-class work via GitHub Classroom. Eac
 >
 > Read this before Week 2. It covers how to accept assignments, two ways to submit (the 30-second `main.dart` copy method and the full project method), and exactly what counts as "complete."
 
-### Labs/Homework (20%)
+### Labs & Exercises (20% of Grade)
 
-Approximately 5-6 structured assignments designed to build foundational skills in Dart and Flutter. These assignments are **strategically front-loaded** in the first half of the semester to prepare you for project work.
+Two kinds of work share this category, and both are **strategically front-loaded** into the first half of the semester to prepare you for project work.
+
+**Labs 00-04** are Flutter builds. Lab 00 is environment setup; Labs 01-04 build real app features (layouts, themes and buttons, text fields and dropdowns, and finally the guided GIF Finder that feeds directly into Project 2).
+
+**Dart Exercises 1-6** are short hands-on DartPad reps that pair with Study Guide 01. Each has a **Core** section, which is what gets submitted, and an optional **Stretch** section that is never graded. All six Core sections are submitted together as a single bundle.
 
 **What to Expect:**
 
@@ -355,20 +386,43 @@ Approximately 5-6 structured assignments designed to build foundational skills i
 - **Grading**: Full credit for good-faith completion and effort
 - **Time**: Varies by experience level - start early so you have time to ask questions if stuck
 
-**Schedule Note**: Most homework occurs in Weeks 1-6, with minimal assignments during heavy project periods. This intentional pacing ensures you build skills early without competing priorities later in the semester.
+**Schedule Note**: Most of this work occurs in Weeks 1-6, with minimal assignments during heavy project periods. This intentional pacing ensures you build skills early without competing priorities later in the semester.
 
 *These assignments directly support upcoming projects - they're skill-builders, not busywork.*
+
+### Study Guide Quizzes (5% of Grade)
+
+**New this semester.** Six short reading modules, each tied to a point in the course where the programming model changes noticeably. Each one has a companion video and a short quiz.
+
+**How it works:**
+
+- Read the [study guide](../study-guides/README.md) and watch its video
+- Take the quiz in MyCourses: multiple choice, auto-graded, and **you can retake it until you get 100%**
+- Some questions ask you to run a snippet in DartPad and report what it printed, so keep a tab open
+
+**Deadlines are the night before we start that unit.** That's deliberate. The point is that you walk into class with the mental model already loaded, so we can spend class time on the interesting parts instead of fundamentals. A quiz taken after the class has happened doesn't do that for you.
+
+**Why this is a small percentage:** it's meant to be a nudge, not a hurdle. Retakes are unlimited and the questions follow the reading directly. Missing one won't hurt you. Skipping all six will.
+
+| Guide | Topic | Read before |
+|:---|:---|:---|
+| 01 | Dart Fundamentals | Week 1 (this one is the Dart material itself) |
+| 02 | Dart to Flutter | Week 2A |
+| 03 | Static to Stateful | Week 4A |
+| 04 | External Data | Week 7A |
+| 05 | Navigation and State | Week 9B |
+| 06 | Into the Game Engine | Week 11B |
 
 ### How This Course Flows
 
 - **Weeks 1-5**: Skill Building Phase
-  - Regular homework assignments
+  - Dart exercises, early labs, and the first study guides
   - Learning Dart & Flutter fundamentals
   - Building your toolkit
 
-- **Weeks 6-14**: Project Phase
+- **Weeks 6-15**: Project Phase
   - Apply your skills to real projects
-  - Minimal homework (only bridge assignments)
+  - Minimal homework (only bridge assignments and the remaining study guides)
   - Focus on creative problem-solving
 
 ---
@@ -481,4 +535,4 @@ If you have a concern related to gender-based discrimination and/or harassment a
 
 ---
 
-*Last updated: Spring 2026*
+*Last updated: Fall 2026 (2261). Rolled over 2026-08-09; add/drop and 'W' deadlines still marked TBD pending the registrar calendar.*

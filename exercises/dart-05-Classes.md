@@ -1,160 +1,192 @@
-# Dart ICE 5 - Objects and Constructors
+# Dart Exercise 5 - Classes and Constructors
 
-Dart is an object-oriented language, and the use of objects is important to making more manageable programs. Dart has similar object mechanics to other languages like C#.
-In this exercise we will explore them and have you work on mastering some of the concepts.
+**Time:** about 20 minutes for the core tasks
+**Where:** [DartPad](https://dartpad.dev)
+**Covered in:** [Week 1B](../weekly/1B.md)
 
-In Dartpad, create a New Pad and replace everything in the editor with the following code:
+> **Read first:** [Study Guide 01, Section V: Classes](../study-guides/01-dart-fundamentals.md#v-classes). The **Constructor Shorthand** part shows the same class written three ways, which is the thing to understand here.
 
-```dart
-/// our list of monsters
-List<dynamic> monsters = []; 
+**Why it matters:** every Flutter widget is a class, and every widget you use is a constructor call with named parameters. `Text('Hello')` is a constructor. This exercise is that pattern without the Flutter on top.
 
-///
-/// Our Base Monster class
-///
-class Monster {
-  String? name;
-  int? hp;
-  int? speed;
-  int? score;
-}
+> **Graded.** The **Core** sections of all six exercises are submitted **together as one bundle**. Graded on completion: did you do it, and does it run. **Check MyCourses for the due date.** **Stretch** is optional and never graded.
 
-void main() {
+Read [Study Guide 01](../study-guides/01-dart-fundamentals.md) first. It has the explanations; these are the reps.
 
-}
-```
+**Label your work** with `// Task 1`, `// Task 2` comments above each answer. It takes five seconds, it's how I find things when grading, and it means you get feedback faster.
+
 ---
-## The Basics
-An object can simply be a store for variables, almost like a Map. But it can do so much more. Let's take a look at the `Monster` class, it has a series of fields. What's important here is they all have `?` after the data type, which allows the fields to be null. If you remove them, the compiler will complain. Alternatively, you can avoid the `?` by giving each field a default value:
-```dart
-class Monster {
-  String name = "";
-  int hp = 0;
-  int speed = 0;
-  int score = 0;
-}
-```
-To use our object, we can simply make our `main` look like the following:
-```dart
-void main() {
-  Monster myGoomba = Monster();
-  print(myGoomba);
-}
-```
-If you run the program now you will notice the printing of the object does not show anything other than `Instance of Monster`. So unlike a Map, you can't just print an object.
-Let's now add a method into our object, make the class look like this now:
-```dart
-class Monster {
-  String name = "";
-  int hp = 0;
-  int speed = 0;
-  int score = 0;
 
-  /// class method
-  void status() {
-    print("name: $name, hp: $hp, speed: $speed, score: $score");
-  }
-}
-```
-in the `main`, change the print to call our `status` method:
+## Setup
+
+New Pad in DartPad. Classes go **outside** `main()`:
+
 ```dart
+// your class goes up here
+
 void main() {
-  Monster myGoomba = Monster();
-  myGoomba.status();
+  // create instances and call methods here
 }
 ```
-now our output shows data, which is are the default values.
-```
-name: , hp: 0, speed: 0, score: 0
-```
+
 ---
-## Constructors
-If you've done any object-oriented programming, you'll know that all objects must have some kind of construtor which sets up the object for use. Dart, by default, under-the-hood does this without you needing to specify one. There are a number of ways to make a constructor, so let's take a look at some.  Change the `Monster` class to look like the following:
-```dart
-class Monster {
-  String name = "";
-  int hp = 0;
-  int speed = 0;
-  int score = 0;
 
-  /// constructor
-  Monster(String name, int hp, int speed, int score) {
-    this.name = name;
-    this.hp = hp;
-    this.speed = speed;
-    this.score = score;
-  }
+# Core
 
-  /// class method
-  void status() {
-    print("name: $name, hp: $hp, speed: $speed, score: $score");
-  }
-}
-```
-Adding this constructor you will notice we now have an error in our `main`, we can no longer just create our `Monster` without parameters. So now we must alter creation of the `myGoomba` object.
-```dart
-Monster myGoomba = Monster('John', 50, 20, 200);
-```
-Running the program will produce the following result:
-```
-name: John, hp: 50, speed: 20, score: 200
-```
-Let's make the constructor a little better. VSCode is probably complaining about using __initialize formals__. So let's just do that. Alter the constructor to look like this:
-```dart
-  Monster(this.name, this.hp, this.speed, this.score);
-```
-VSCode stops complaining and our constructor looks much simplier now. Running the program produces the same results.
+## 1. A class with fields
 
-The last change we will make to our constructor is to allow the use of __named parameters__. Alter the `Monster` class to look like the following:
 ```dart
-class Monster {
+class Player {
   String name;
   int hp;
-  int speed;
-  int score;
 
-  /// constructor
-  Monster({this.name = "", this.hp = 0, this.speed = 0, this.score = 0});
-
-  /// class method
-  void status() {
-    print("name: $name, hp: $hp, speed: $speed, score: $score");
-  }
+  Player({required this.name, this.hp = 100});
 }
 ```
-Notice the main differences? __We no longer set the default values in the field declarations and moved them into the constructor.__ Dart won't let us keep the defaults in the declaration, give it a try, you'll notice VSCode will issue an error saying your parameter cannot be null.
-Now you can change `myGoomba` creation to the following:
-```dart
-  Monster myGoomba = Monster(hp: 50, name: 'John', score: 200, speed: 20);
-```
+
+Two things worth noticing:
+
+- **`this.name` in the constructor is shorthand.** Dart assigns the parameter to the field for you. No `this.name = name;` line needed.
+- **The curly braces make them named parameters**, same as last exercise. This is the Flutter-style constructor.
+
+**Tasks:**
+
+1. Write a class with at least two fields, using the shorthand named-parameter constructor.
+2. Create an instance and print one of its fields.
+
+Note there's **no `new` keyword** in Dart. Just `Player(name: 'Mario')`.
 
 ---
-## Exercise ##
-Now let you get to do some work. Complete the following tasks:
 
-1. Create a `Player` class, and do the following:
-    * Add fields for `name`, `lives`, `score`, `xp`and `speed`
-    * create a constructor and use named parameters. 
-    * create a method called `status`, which outputs the object fields.
-    * create another method called `levelUp` which adds 100 to `xp`, increases `speed` by 10, and adds 500 to `score`. The method should also call the `status` method.
+## 2. Defaults and required
 
-1. Use your `Player` class and create a player called `Mario` and give him some data. Call the `status` function and then level him up 10x (hint, use a loop).
+In the example above, `name` is required and `hp` defaults to 100.
 
-1. Create a `Treasure` class and do the following:
-    * Add fields for `name`, `value`, `rarity`, and `type`. Use default values.
-    * create a constructor __without__ using named parameters. 
-    * create a method called `status`, which outputs the object fields.
+**Tasks:**
 
-1. Create a new `List` of `Treasure`, and add 5 treasure items to it, then loop through the list and report each item's status. 
+1. Create an instance passing **only** the required field. Print the field that used its default.
+2. Create a second instance passing **all** fields.
 
-1. **Cascade Notation Practice** - Dart has a special syntax called the **cascade operator** (`..`) that lets you perform multiple operations on the same object in a single statement.
+---
 
-    Do the following using cascade notation:
-    * Create a new `Player`, call `levelUp()` twice, then call `status()` - all in one statement
-    * Add a new `Treasure` to your treasures list and then output the entire list using `forEach` - all in one statement
+## 3. A method
 
-    **Resource:** [Dart Cascade Notation](https://dart.dev/language/operators#cascade-notation)
+```dart
+void damage(int amount) {
+  hp -= amount;
+}
+```
 
+Methods go inside the class, and can read and change the object's own fields.
 
+**Tasks:**
 
-Save the resulting file as `dart_ice_05.dart`for submission.
+1. Add a method that changes one of your fields.
+2. Call it, then print the field to confirm it changed.
+
+---
+
+## 4. A getter
+
+A getter is a computed value that reads like a field.
+
+```dart
+bool get isAlive => hp > 0;
+```
+
+Called without parentheses: `player.isAlive`, not `player.isAlive()`.
+
+**Tasks:**
+
+1. Add a getter that returns something computed from your fields.
+2. Print it.
+
+---
+
+## 5. `toString`
+
+By default, printing an object gives you something useless like `Instance of 'Player'`.
+
+```dart
+@override
+String toString() => 'Player($name, hp: $hp)';
+```
+
+**Tasks:**
+
+1. Print your object **before** adding `toString`. Note what you get.
+2. Add a `toString` override and print it again.
+
+The `@override` annotation tells Dart you're deliberately replacing an inherited method. You'll see it constantly in Flutter, on every `build` method you write.
+
+---
+
+## Submitting
+
+Copy your code out of DartPad and save it as a `.dart` file. All six get submitted together as one bundle, so hang onto this until you've done the rest. Due date is in MyCourses.
+
+- [ ] Every Core task has code that runs
+- [ ] File runs without errors
+- [ ] Named `dart_ice_05.dart`
+
+---
+
+# Stretch (optional, never graded)
+
+## S1. Named constructors
+
+A class can have more than one constructor if you name the extras:
+
+```dart
+class Player {
+  String name;
+  int hp;
+  final String team;
+
+  Player({required this.name, this.hp = 100, this.team = 'red'});
+
+  Player.guest() : name = 'Guest', hp = 50, team = 'none';
+}
+
+final g = Player.guest();
+```
+
+That `:` before the body is an **initializer list**, which is how you assign `final` fields.
+
+Flutter uses this pattern a lot. `Colors.blue` and `EdgeInsets.all(8)` are related ideas.
+
+## S2. `final` fields
+
+Change one of your fields to `final`. Now it can only be set in the constructor, never after.
+
+Try changing it from a method and read the error.
+
+Most Flutter widgets have **all** their fields `final`, because widgets are immutable. That's worth sitting with for a second.
+
+## S3. A list of objects
+
+```dart
+final roster = [
+  Player(name: 'Mario'),
+  Player(name: 'Luigi', hp: 80),
+];
+
+for (final p in roster) {
+  print(p);
+}
+```
+
+A `List<Player>`. Next week you'll write `List<Widget>`, and it's the same idea.
+
+---
+
+## Resources
+
+- [Study Guide 01: Classes](../study-guides/01-dart-fundamentals.md#v-classes)
+- [Dart Classes](https://dart.dev/language/classes)
+- [Constructors](https://dart.dev/language/constructors)
+
+---
+
+| <-- Previous | Exercises | Next -->
+| --- | --- | ---
+| [**Dart 4: Functions**](dart-04-Functions.md) | [**All Exercises**](../exercises/) | [**Dart 6: Inheritance**](dart-06-Class_inheritance.md)

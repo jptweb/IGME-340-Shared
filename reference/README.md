@@ -3,7 +3,7 @@
 ## Quick Navigation
 
 ### 🛠️ Setup & Workflow
-- **[Flutter on Lab Machines](setup/flutter-lab-machines.md)** - Complete installation guide for RIT lab machines (GOL 2570, etc.)
+- **[Flutter on Lab Machines](setup/flutter-lab-machines.md)** - Complete installation guide for RIT lab machines (GOL 2435, etc.)
 - **[VS Code & Flutter Workflow](setup/vs-code-flutter-workflow.md)** - All-in-one daily workflow reference:
   - [VS Code Shortcuts](setup/vs-code-flutter-workflow.md#vs-code-shortcuts) - Essential keyboard shortcuts and widget snippets
   - [Trailing Commas & Formatting](setup/vs-code-flutter-workflow.md#trailing-commas--auto-formatting) - The trailing comma trick + Dart 3.8+ formatter fix
