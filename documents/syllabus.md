@@ -41,7 +41,7 @@
   - [Course Elements Explored](#course-elements-explored)
     - [Projects (65% of Grade)](#projects-65-of-grade)
     - [Labs \& Exercises (20% of Grade)](#labs--exercises-20-of-grade)
-    - [Participation - GitHub Classroom (10% of Grade)](#participation---github-classroom-10-of-grade)
+    - [Participation (10% of Grade)](#participation-10-of-grade)
     - [Study Guide Quizzes (5% of Grade)](#study-guide-quizzes-5-of-grade)
     - [How This Course Flows](#how-this-course-flows)
   - [Academic Integrity](#academic-integrity)
@@ -143,7 +143,7 @@ Read these *before* the class they're tied to. They exist so class time can go t
 
 - **MyCourses**: Primary hub for announcements, grades, and assignment submission
 - **GitHub**: All course notes, assignment instructions, and reference materials are hosted in a public GitHub repository. This makes content accessible, version-controlled, and easy to update. I will link to these materials from MyCourses.
-- **GitHub Classroom**: Used for [participation assignments](#participation---github-classroom-10-of-grade) throughout the semester. You'll receive invite links through MyCourses.
+- **GitHub**: Used for [participation assignments](#participation-10-of-grade) throughout the semester. Repos are handed out through Classroom 50, which runs on top of GitHub. You'll receive invite links through MyCourses.
 
 **A note about the GitHub repo:** Since the course materials are version-controlled, you may occasionally see content in the repository that I haven't officially linked from MyCourses yet. Feel free to look ahead, but keep in mind that until I link something from MyCourses, it's not finalized and may change.
 
@@ -262,7 +262,7 @@ If storage or hardware might be a problem, **let me know in the first few weeks*
 
 Attendance is mandatory. Lectures will start promptly at the beginning of class, and may be followed by an in-class assignment or exercise that you are expected to work on until the end of the meeting (i.e. not leaving early, or doing HW for a different course).
 
-**If you miss class:** You can still complete the GitHub Classroom participation assignments using the weekly notes to catch up. However, you'll miss out on in-class explanations and troubleshooting help.
+**If you miss class:** You can still complete the participation assignments using the weekly notes to catch up. However, you'll miss out on in-class explanations and troubleshooting help.
 
 **Excessive absences or late arrivals:** I reserve the right to deduct points from your participation grade if this becomes a pattern. In recent semesters, late arrivals have been disruptive - please be on time out of respect for your classmates. See the participation section below for more details.
 
@@ -276,7 +276,7 @@ Attendance is mandatory. Lectures will start promptly at the beginning of class,
 |:---|:---|
 | **Projects** (3 total) | **65%** |
 | **Labs & Exercises** | **20%** |
-| **Participation** (GitHub Classroom) | **10%** |
+| **Participation** | **10%** |
 | **Study Guide Quizzes** | **5%** |
 
 Each category is detailed in [Course Elements Explored](#course-elements-explored) below.
@@ -348,28 +348,28 @@ For reference, here's what students reported spending on Project 3 (Fall 2025):
 
 Projects are not something you can cram the night before. Plan accordingly.
 
-### Participation - GitHub Classroom (10% of Grade)
+### Participation (10% of Grade)
 
-Throughout the semester, you will submit in-class work via GitHub Classroom. Each class session (starting Week 2) has its own assignment that you'll complete and submit.
+Throughout the semester, you will submit in-class work to your own GitHub repo. Each class session (starting Week 2) has its own repo that you'll complete and submit. Repos are distributed through **Classroom 50**, which runs on top of GitHub.
 
 **How it works:**
-- Accept the GitHub Classroom assignment (link posted in MyCourses/Slack)
+- Accept the assignment from the link posted in MyCourses/Slack
 - Follow along with in-class demonstrations and exercises
 - Submit your work before the next class session
 - Graded on effort and progress, not perfection
 
 **Requirements:**
-- Roughly 17 participation repos across the semester (final count varies slightly depending on snow days and schedule shifts)
-- Drop the lowest 3 to receive full credit
+- The repo count is confirmed early in the semester, once the schedule settles
+- Drop the lowest few (roughly 15%) to receive full credit
 - Good faith effort is expected; doesn't need to be 100% complete
 - If you miss class, use the weekly notes to catch up and submit
 
 **Bonus Opportunity:** Complete every delivered participation repo and earn **5 bonus points** that can be applied to any of your 3 projects!
 
 > 📖 **Full instructions, submission methods, and grading table:**
-> **[→ Participation - GitHub Classroom (full guide)](participation-github-classroom.md)**
+> **[→ Participation Repos (full guide)](participation.md)**
 >
-> Read this before Week 2. It covers how to accept assignments, two ways to submit (the 30-second `main.dart` copy method and the full project method), and exactly what counts as "complete."
+> Read this before Week 2. It covers Classroom 50, two ways to submit (clone and push, or edit the file on GitHub.com in thirty seconds), and exactly what counts as "complete."
 
 ### Labs & Exercises (20% of Grade)
 

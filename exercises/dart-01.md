@@ -222,4 +222,4 @@ Print how many seconds have passed since January 1, 1970, using the `DateTime` l
 
 | <-- Previous | Exercises | Next -->
 | --- | --- | ---
-|   | [**All Exercises**](../exercises/) | [**Dart 2: Lists**](dart-02-Lists.md)
+|   | [**All Exercises**](README.md) | [**Dart 2: Lists**](dart-02-Lists.md)

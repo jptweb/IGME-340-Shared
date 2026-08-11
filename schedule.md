@@ -41,7 +41,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Functions:** Basic syntax, arrow functions, named parameters
 - **Environment Setup:** Flutter installation guidance, VS Code configuration
 
-**Assignments:** **sg01 quiz** (Dart Fundamentals) due Fri Aug 28 · Slack setup due Thu Aug 27 · [Lab 00](labs/lab-00-environment-setup.md) due Sun Sep 6 (low-pressure) · [Dart Exercises 1-6](exercises/dart-01.md) due Wed Sep 9
+**Assignments:** **sg01 quiz** (Dart Fundamentals) due Fri Aug 28 · Slack setup due Thu Aug 27 · [Lab 00](labs/lab-00-environment-setup.md) due Sun Sep 6 (low-pressure) · [Dart Exercises](exercises/README.md) due Wed Sep 9
 
 ---
 
@@ -60,7 +60,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Code Organization:** Extract Method, Extract Widget, Extract Local Variable
 - **Best Practices:** Trailing commas, auto-formatting, project management
 
-**Assignments:** **sg02 quiz** (Dart to Flutter) due Mon Aug 31, night before 2A · [Lab 00](labs/lab-00-environment-setup.md) due Sun Sep 6 · [Dart Exercises 1-6](exercises/dart-01.md) due Wed Sep 9
+**Assignments:** **sg02 quiz** (Dart to Flutter) due Mon Aug 31, night before 2A · [Lab 00](labs/lab-00-environment-setup.md) due Sun Sep 6 · [Dart Exercises](exercises/README.md) due Wed Sep 9
 
 ---
 
@@ -148,6 +148,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 **Oct 6 & 8**
 
 ### [Week 7A](weekly/7A.md): Asynchronous Programming & HTTP Requests
+- **Warm-up (optional, ungraded):** [dart-03: Maps](exercises/dart-03-Maps.md) and [dart-07: Async](exercises/dart-07-Async.md), held back from the Week 1 bundle for exactly this week
 - **API Integration:** HTTP package, GET/POST requests, authentication with Bearer tokens
 - **Async Programming:** Future, async/await, error handling with try-catch
 - **JSON Handling:** Parsing API responses with jsonDecode()
@@ -287,7 +288,7 @@ Combined session — Expanded layouts (canonical Spring 8A content) folded into 
 **Nov 24 & Nov 26 (🔴)**
 
 ### [Week 14A](weekly/14A.md) (Tuesday): Camera & Image Picker
-**No longer optional** — class is full enough to use the slot, and there's no GitHub Classroom participation overhead by this point.
+**No longer optional** — class is full enough to use the slot, and there's no participation overhead by this point.
 - **image_picker Package:** Taking photos, recording video, selecting from gallery
 - **Android Emulator Setup:** Virtual Scene mode, webcam passthrough, walking around the virtual environment
 - **Platform Configuration:** iOS permissions (Info.plist), Android setup

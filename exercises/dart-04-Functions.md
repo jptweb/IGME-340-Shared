@@ -201,4 +201,4 @@ ElevatedButton(
 
 | <-- Previous | Exercises | Next -->
 | --- | --- | ---
-| [**Dart 3: Maps**](dart-03-Maps.md) | [**All Exercises**](../exercises/) | [**Dart 5: Classes**](dart-05-Classes.md)
+| [**Dart 2: Lists**](dart-02-Lists.md) | [**All Exercises**](README.md) | [**Dart 5: Classes**](dart-05-Classes.md)

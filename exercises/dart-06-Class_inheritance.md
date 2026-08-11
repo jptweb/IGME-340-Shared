@@ -182,4 +182,4 @@ Now print both a parent and a child instance. The child gets a sensible label wi
 
 | <-- Previous | Exercises | Next -->
 | --- | --- | ---
-| [**Dart 5: Classes**](dart-05-Classes.md) | [**All Exercises**](../exercises/) | [**Dart 7: Async**](dart-07-Async.md)
+| [**Dart 5: Classes**](dart-05-Classes.md) | [**All Exercises**](README.md) | [**Dart 7: Async**](dart-07-Async.md)

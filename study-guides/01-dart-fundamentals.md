@@ -154,7 +154,7 @@ print(player.keys);          // (name, score, level)
 print(player.values);        // (Mario, 10000, 1)
 ```
 
-> 🎯 **Pattern to know:** `List<Map<String, dynamic>>` — a list of maps. This is exactly what comes back from an API call. The dart-03 exercise builds toward this. Get comfortable with it now and the async/API weeks will feel natural.
+> 🎯 **Pattern to know:** `List<Map<String, dynamic>>`, a list of maps. This is exactly what comes back from an API call. The [dart-03 exercise](../exercises/dart-03-Maps.md) builds toward it, and it's held until Week 7 so you meet it alongside the API material rather than in the abstract. Read this section now anyway; it'll make Week 7 feel like a review.
 
 ```dart
 List<Map<String, dynamic>> players = [
@@ -302,7 +302,7 @@ class Goomba extends Monster {
 **This guide has two graded pieces attached to it.**
 
 - **The sg01 quiz** in MyCourses, due **Fri Aug 28**. Multiple choice, auto-graded, and **you can retake it until you get 100%**. It's a small slice of your grade and it's designed to be passable, not to catch you out. A few questions ask you to paste a snippet into DartPad, run it, and report what printed, so keep a tab open.
-- **The [Dart Exercises](../exercises/dart-01.md)**, Core sections, bundled and due **Wed Sep 9**. Hands-on DartPad work, graded on completion.
+- **The [Dart Exercises](../exercises/README.md)**, Core sections, bundled and due **Wed Sep 9**. Hands-on DartPad work, graded on completion.
 
 The division of labor: this guide explains, the quiz checks you understood it, the exercises make you type it.
 

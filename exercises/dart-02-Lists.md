@@ -172,4 +172,4 @@ You'll rarely want this, but it comes up in older code.
 
 | <-- Previous | Exercises | Next -->
 | --- | --- | ---
-| [**Dart 1: Variables**](dart-01.md) | [**All Exercises**](../exercises/) | [**Dart 3: Maps**](dart-03-Maps.md)
+| [**Dart 1: Variables**](dart-01.md) | [**All Exercises**](README.md) | [**Dart 4: Functions**](dart-04-Functions.md)

@@ -26,4 +26,4 @@ The study guides are worth **5% of your grade**, through six short quizzes in My
 
 The **Check Yourself** list inside each guide is *not* the quiz and isn't submitted. It's a readiness check. Work through it and the quiz is straightforward.
 
-Separately, the **[Dart Exercises](../exercises/dart-01.md)** are graded hands-on practice in the Labs & Exercises category. The guide explains, the quiz checks you understood, the exercises make you type it.
+Separately, the **[Dart Exercises](../exercises/README.md)** are graded hands-on practice in the Labs & Exercises category. The guide explains, the quiz checks you understood, the exercises make you type it.

@@ -28,21 +28,21 @@ Flutter/Dart for cross-platform mobile development. Design, prototype, and build
 | Schedule & Topics | [schedule.md](schedule.md) |
 | Weekly Class Notes | [weekly/](weekly/) |
 | Labs (Flutter apps) | [labs/](labs/) |
-| Exercises (Dart fundamentals) | [exercises/](exercises/) |
+| Exercises (Dart fundamentals) | [exercises/README.md](exercises/README.md) |
 | Projects | [projects/](projects/) |
 | Reference Guide | [reference/README.md](reference/README.md) |
-| GitHub Participation Guide | [documents/participation-github-classroom.md](documents/participation-github-classroom.md) |
+| Participation Repos Guide | [documents/participation.md](documents/participation.md) |
 | Submission Guidelines | [submission-guidelines.md](submission-guidelines.md) |
 
 ---
 
 ## What's What
 
-**[Weekly Notes](weekly/)** - What we did in class. Format: `{week}{day}.md` (e.g., 3A.md = Week 3 Monday, 3B.md = Week 3 Wednesday).
+**[Weekly Notes](weekly/)** - What we did in class. Format: `{week}{day}.md` (e.g., 3A.md = Week 3 Tuesday, 3B.md = Week 3 Thursday).
 
 **[Labs](labs/)** - Flutter app-building assignments. Numbered sequentially (lab-01 through lab-04).
 
-**[Exercises](exercises/)** - Dart language fundamentals. Assigned in batches (dart-01 through dart-07).
+**[Exercises](exercises/README.md)** - Dart language fundamentals in DartPad. Six short exercises submitted as one bundle early in the semester. Start at the [exercises overview](exercises/README.md).
 
 **[Projects](projects/)** - Three major projects: Design to Spec, Web Service App, Roll Your Own.
 

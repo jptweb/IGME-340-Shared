@@ -189,4 +189,4 @@ A `List<Player>`. Next week you'll write `List<Widget>`, and it's the same idea.
 
 | <-- Previous | Exercises | Next -->
 | --- | --- | ---
-| [**Dart 4: Functions**](dart-04-Functions.md) | [**All Exercises**](../exercises/) | [**Dart 6: Inheritance**](dart-06-Class_inheritance.md)
+| [**Dart 4: Functions**](dart-04-Functions.md) | [**All Exercises**](README.md) | [**Dart 6: Inheritance**](dart-06-Class_inheritance.md)

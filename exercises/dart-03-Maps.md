@@ -2,11 +2,11 @@
 
 **Time:** about 15 minutes for the core tasks
 **Where:** [DartPad](https://dartpad.dev)
-**Covered in:** [Week 1B](../weekly/1B.md)
+**Comes back in:** [Week 7A](../weekly/7A.md), with the API material
+
+> **Not part of the graded bundle, and not due now.** This one is held until Week 7, paired with [dart-07: Async](dart-07-Async.md), because a Map only gets interesting once an API hands you one. Do it then. If you want it early, nothing stops you, but it is never graded on its own.
 
 > **Read first:** [Study Guide 01, Section III: Maps](../study-guides/01-dart-fundamentals.md#maps). Pay attention to the `List<Map<String, dynamic>>` callout near the end, because that shape is exactly what a web API hands you in Project 2.
-
-> **Graded.** The **Core** sections of all six exercises are submitted **together as one bundle**. Graded on completion: did you do it, and does it run. **Check MyCourses for the due date.** **Stretch** is optional and never graded.
 
 Read [Study Guide 01](../study-guides/01-dart-fundamentals.md) first. It has the explanations; these are the reps.
 
@@ -114,11 +114,9 @@ for (final key in stats.keys) {
 
 ## Submitting
 
-Copy your code out of DartPad and save it as a `.dart` file. All six get submitted together as one bundle, so hang onto this until you've done the rest. Due date is in MyCourses.
+Nothing to submit. This exercise is not part of the graded bundle, so there's no dropbox and no due date for it.
 
-- [ ] Every Core task has code that runs
-- [ ] File runs without errors
-- [ ] Named `dart_ice_03.dart`
+Still copy your code out of DartPad and keep it somewhere. Week 7 goes faster if you can look back at what you wrote.
 
 ---
 
@@ -177,4 +175,4 @@ That `as Map` cast is Dart making you prove you know what's in there. Nested JSO
 
 | <-- Previous | Exercises | Next -->
 | --- | --- | ---
-| [**Dart 2: Lists**](dart-02-Lists.md) | [**All Exercises**](../exercises/) | [**Dart 4: Functions**](dart-04-Functions.md)
+| [**All Exercises**](README.md) | [**All Exercises**](README.md) | [**Dart 7: Async**](dart-07-Async.md)

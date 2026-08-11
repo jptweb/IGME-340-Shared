@@ -1,6 +1,6 @@
 # Welcome to 12A - Get Started While People Roll In
 
-## 1. Accept the GitHub Classroom Assignment
+## 1. Accept the Participation Assignment
 Find the Classroom link in **myCourses → Week 12**.
 
 > **One repo for 12A, 12B, and 13A.** We'll keep building on the same project across all three classes.
