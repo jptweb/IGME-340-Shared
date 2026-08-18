@@ -54,4 +54,4 @@ Week 11B is game setup, sprites, and basic input. Week 12A adds overlays (Flutte
 
 ---
 
-*IGME-340 — Study Guide 6 of 7*
+*IGME-340 — Study Guide 6 of 6*

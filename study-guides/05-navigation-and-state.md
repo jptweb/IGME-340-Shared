@@ -68,4 +68,4 @@ Week 9A introduces SharedPreferences (persistent key-value storage) and url_laun
 
 ---
 
-*IGME-340 — Study Guide 5 of 7*
+*IGME-340 — Study Guide 5 of 6*

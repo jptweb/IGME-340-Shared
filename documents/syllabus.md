@@ -397,12 +397,12 @@ Two kinds of work share this category, and both are **strategically front-loaded
 **How it works:**
 
 - Read the [study guide](../study-guides/README.md) and watch its video
-- Take the quiz in MyCourses: multiple choice, auto-graded, and **you can retake it until you get 100%**
+- Take the quiz in MyCourses: multiple choice, auto-graded, and **you get 3 attempts, with your highest score counting**
 - Some questions ask you to run a snippet in DartPad and report what it printed, so keep a tab open
 
 **Deadlines are the night before we start that unit.** That's deliberate. The point is that you walk into class with the mental model already loaded, so we can spend class time on the interesting parts instead of fundamentals. A quiz taken after the class has happened doesn't do that for you.
 
-**Why this is a small percentage:** it's meant to be a nudge, not a hurdle. Retakes are unlimited and the questions follow the reading directly. Missing one won't hurt you. Skipping all six will.
+**Why this is a small percentage:** it's meant to be a nudge, not a hurdle. You get three tries, your best one counts, and the questions follow the reading directly. Missing one won't hurt you. Skipping all six will.
 
 | Guide | Topic | Read before |
 |:---|:---|:---|

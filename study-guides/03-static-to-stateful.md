@@ -49,4 +49,4 @@ Week 4 also covers images and `AppBar` customization — you'll use `setState()`
 
 ---
 
-*IGME-340 — Study Guide 3 of 7*
+*IGME-340 — Study Guide 3 of 6*

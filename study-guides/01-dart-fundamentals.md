@@ -10,7 +10,9 @@ Dart is the programming language Flutter is built on. You're going to write a lo
 
 This guide covers what's different between JS and Dart, gets you comfortable with the syntax you'll need for Week 1, and sets you up to attempt the Dart exercises before class. Nothing here requires installing anything — you'll use [DartPad](https://dartpad.dev), Dart's in-browser editor.
 
-[Watch: Dart Fundamentals Overview](https://www.youtube.com/watch?v=yBSVWE4WC0I)
+[Watch: Dart Fundamentals Overview](https://www.youtube.com/watch?v=FE0_pCRIxKU)
+
+**Watch at least through the 8:00 mark.** That's the slide portion, and it covers everything Week 1B assumes you already have. After that is a short DartPad walkthrough. It's useful and worth your time, but if you're running short, the first 8 minutes are the priority.
 
 ---
 
@@ -301,7 +303,7 @@ class Goomba extends Monster {
 
 **This guide has two graded pieces attached to it.**
 
-- **The sg01 quiz** in MyCourses, due **Fri Aug 28**. Multiple choice, auto-graded, and **you can retake it until you get 100%**. It's a small slice of your grade and it's designed to be passable, not to catch you out. A few questions ask you to paste a snippet into DartPad, run it, and report what printed, so keep a tab open.
+- **The sg01 quiz** in MyCourses, due **Fri Aug 28**. Multiple choice, auto-graded, and **you get 3 attempts, with your highest score counting**. It's a small slice of your grade and it's designed to be passable, not to catch you out. A few questions ask you to paste a snippet into DartPad, run it, and report what printed, so keep a tab open.
 - **The [Dart Exercises](../exercises/README.md)**, Core sections, bundled and due **Wed Sep 9**. Hands-on DartPad work, graded on completion.
 
 The division of labor: this guide explains, the quiz checks you understood it, the exercises make you type it.
@@ -354,6 +356,7 @@ If something here doesn't land, bring it to class or Slack. That's a better use 
 
 ---
 
-*IGME-340 — Study Guide 1 of 7*
+*IGME-340 — Study Guide 1 of 6*
 
-<!-- Video companion: "Dart for JavaScript Developers" — ~20-25 min — script TBD -->
+<!-- Video companion: sg01 Dart Fundamentals. Script at presentations/study-guides/sg01/.
+     Slide portion runs to ~8:00, DartPad walkthrough after that. -->

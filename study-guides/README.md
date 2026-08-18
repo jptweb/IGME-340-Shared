@@ -18,7 +18,7 @@ Each guide includes reference guide links and a **Check Yourself** section.
 The study guides are worth **5% of your grade**, through six short quizzes in MyCourses.
 
 - **Multiple choice, auto-graded.** One quiz per guide.
-- **Retake until you get 100%.** The point is that you end up knowing the material, not that I catch you on a first attempt.
+- **Three attempts, and your highest score counts.** The point is that you end up knowing the material, not that I catch you on a first attempt.
 - **Small stake by design.** 5% across six quizzes. Missing one isn't a crisis; skipping all six is.
 - **Some questions ask you to run code.** "Paste this into DartPad and tell me what it prints." Keep a tab open.
 

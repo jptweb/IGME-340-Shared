@@ -58,4 +58,4 @@ Week 7A you'll write your first HTTP request and display the result. Week 7B int
 
 ---
 
-*IGME-340 — Study Guide 4 of 7*
+*IGME-340 — Study Guide 4 of 6*

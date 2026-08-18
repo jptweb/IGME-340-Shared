@@ -139,4 +139,4 @@ Week 2 you'll get Flutter running on your machine and build your first real app 
 
 ---
 
-*IGME-340 — Study Guide 2 of 7*
+*IGME-340 — Study Guide 2 of 6*
