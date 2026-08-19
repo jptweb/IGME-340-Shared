@@ -41,7 +41,9 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Functions:** Basic syntax, arrow functions, named parameters
 - **Environment Setup:** Flutter installation guidance, VS Code configuration
 
-**Assignments:** **sg01 quiz** (Dart Fundamentals) due Fri Aug 28 · Slack setup due Thu Aug 27 · [Lab 00](labs/lab-00-environment-setup.md) due Sun Sep 6 (low-pressure) · [Dart Exercises](exercises/README.md) due Wed Sep 9
+**Assignments:** **sg01 quiz** (Dart Fundamentals) due Fri Aug 28 · [Lab 00](labs/lab-00-environment-setup.md) due Sun Sep 6 (low-pressure) · [Dart Exercises](exercises/README.md) due Wed Sep 9
+
+**Also this week:** [get into Slack](documents/slack-setup.md). Not graded, but it is the fastest way to reach me and where extension requests go.
 
 ---
 

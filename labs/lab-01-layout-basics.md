@@ -10,7 +10,7 @@
 
 Welcome to Flutter, now that we've got to work with Dart, and hopefully you have a grasp of its basics, we can now move onto Flutter.
 
-Creating a __Flutter Application__ is similar to creating a __Dart Console Application__. From the __Command Palette__, search for `Flutter: New Project`.
+Up to now you have been writing Dart in DartPad. This is your first real Flutter project. From the __Command Palette__, search for `Flutter: New Project`.
 
 Create a new __Flutter Application__ called `flutter_basics`. Once the project is created, remove all the starter code in the main.dart and replace with the following:
 
@@ -29,21 +29,16 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primarySwatch: Colors.blue,
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.blue),
       ),
       home: const MyHomePage(),
     );
   }
 }
 
-class MyHomePage extends StatefulWidget {
+class MyHomePage extends StatelessWidget {
   const MyHomePage({super.key});
 
-  @override
-  State<MyHomePage> createState() => _MyHomePageState();
-}
-
-class _MyHomePageState extends State<MyHomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -60,9 +55,37 @@ class _MyHomePageState extends State<MyHomePage> {
 This code will be the basis for the exercise.
 
 ---
+## Before You Start: Align, and the two things called "alignment"
+
+Steps 2 and 3 use the `Align` widget. In class we mostly used `Container`'s `alignment` property, which looks similar and is not the same thing. Worth thirty seconds now so step 3 makes sense.
+
+- **`Container(alignment: ...)`** positions the container's **child inside the container**. The container itself does not move.
+- **`Align`** is a widget you wrap **around** something to position **it inside its parent's space**.
+
+Both take the same `Alignment` values, and those values are just coordinates:
+
+```dart
+Alignment(-1, -1)  // top left
+Alignment( 0,  0)  // dead center, same as Alignment.center
+Alignment( 1,  1)  // bottom right
+```
+
+`x` runs left to right and `y` runs top to bottom, both from -1 to 1. Every named constant is shorthand for a pair: `Alignment.topCenter` is `Alignment(0, -1)`, `Alignment.centerRight` is `Alignment(1, 0)`.
+
+That is why step 3 says to play around. You can pass any pair you want, including `Alignment(0.3, -0.6)`, so the named constants are a convenience rather than the whole list of options.
+
+```dart
+Align(
+  alignment: Alignment.center,
+  child: Container(...),
+)
+```
+
+---
+
 ## Exercise:
 
-1. Modify the `Container` and give it a `height` and `width` of `200` pixels. Run the app.
+1. Modify the `Container` and give it a `height` and `width` of `200` pixels, plus a `color` so you can actually see it. A `Container` with a size but no color renders nothing, so a blank screen here means you skipped the color, not that you broke something. Run the app.
    
 2. Wrap the `Container` in an `Align` Widget and position the `Container` in the center.   
 
@@ -107,5 +130,5 @@ This code will be the basis for the exercise.
 
 [Comprehensive Guide on submitting your flutter projects to mycourses](../submission-guidelines.md)
 
-Attribution: This HW was origanlly developed by Dower Chin. I copied the repo to make subtle changes but want to give proper credit!
+Attribution: This HW was originally developed by Dower Chin. I copied the repo to make subtle changes but want to give proper credit!
 

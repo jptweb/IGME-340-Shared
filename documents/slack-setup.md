@@ -2,7 +2,7 @@
 
 ## Overview
 
-We use Slack for course communication, quick questions, and announcements. **Introducing yourself on Slack counts toward your participation grade.**
+We use Slack for course communication, quick questions, and announcements. It is not a graded assignment, but it is where I answer things fastest, so get in early.
 
 If you used Slack in IGME-235 or another course, this will be familiar - just a few quick steps to join our workspace.
 
@@ -10,9 +10,15 @@ If you used Slack in IGME-235 or another course, this will be familiar - just a 
 
 ## Join the IGME-340 Workspace
 
-**Direct Link:** *posted in MyCourses and announced in class during Week 1.*
+**Fastest way in:** [Open #340-general](https://rit.enterprise.slack.com/messages/C0BRBNUPLFN)
 
-If that doesn't work, go to [rit.enterprise.slack.com](https://rit.enterprise.slack.com), search for **IGME-340**, and request to join.
+That link usually drops you straight into the channel. If you are not signed in yet it will ask you to log in first, then take you there.
+
+**Workspace URL:** [rit-igme-340-2261.slack.com](https://rit-igme-340-2261.slack.com/)
+
+Useful if you want to add the workspace in the Slack desktop or mobile app, which asks for a workspace URL rather than a channel link.
+
+**If neither works,** go to [rit.enterprise.slack.com](https://rit.enterprise.slack.com), search for **IGME-340**, and request to join.
 
 ### RIT Enterprise Slack Login
 
@@ -31,16 +37,25 @@ This is different from a personal Slack account - your RIT login works across al
 
 | Channel | Purpose |
 |---------|---------|
-| **#340-general** | Course discussions, questions, introductions |
+| **[#340-general](https://rit.enterprise.slack.com/messages/C0BRBNUPLFN)** | Course discussions, questions, introductions |
 | **#340-random** | Off-topic, memes, non-course chat |
+| **[#340-extension-request](https://rit.enterprise.slack.com/messages/C0BR963K2S2)** | Where you request a deadline extension. See below. |
 
 More channels may be added as needed throughout the semester.
 
+### Requesting an extension
+
+Late work is not accepted without prior approval, and **the request has to come in before the due date.** There is a workflow built for this so you do not have to figure out what to write.
+
+Go to **[#340-extension-request](https://rit.enterprise.slack.com/messages/C0BR963K2S2)** and the workflow is right there in the channel. You can also find it by searching Slack for **Prof Takats Extension Request**.
+
+Extensions are usually granted if you communicate proactively. If something is genuinely going wrong, [send me a DM](https://rit.enterprise.slack.com/user/@U01BMF3D7T5) as early as you can. I realize things come up. It just needs to be a conversation before the deadline, not after.
+
 ---
 
-## Action Items (Graded)
+## Two Things To Do Once You Are In
 
-Complete these to receive credit for Slack participation:
+Neither is graded. Both make the semester easier.
 
 ### 1. Introduce Yourself
 
@@ -89,7 +104,5 @@ The website works great on desktop - no need to install anything. If you want Sl
 
 ## Questions?
 
-Once you're in Slack, please use it! Post questions in **#340-general** rather than emailing - that way others can benefit from the answers too. If it's something you'd rather not ask publicly, feel free to DM me directly on Slack.
+Once you're in Slack, please use it! Post questions in **[#340-general](https://rit.enterprise.slack.com/messages/C0BRBNUPLFN)** rather than emailing - that way others can benefit from the answers too. If it's something you'd rather not ask publicly, [DM me directly](https://rit.enterprise.slack.com/user/@U01BMF3D7T5).
 
-
-> **Instructor TODO (2026-08-09):** create the Fall 2026 workspace and replace the direct-link line above. The Spring 2026 URL (`rit-igme-340-2255`) was removed so students don't join a dead workspace.

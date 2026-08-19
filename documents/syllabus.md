@@ -194,7 +194,9 @@ To ensure you don't miss important information:
 
 **If you don't hear back within 24 hours, please send me a reminder.** Messages occasionally get buried - a polite nudge is always welcome!
 
-*[Slack invitation link will be provided in Week 1]*
+**[Join the workspace: #340-general](https://rit.enterprise.slack.com/messages/C0BRBNUPLFN)** · workspace URL `rit-igme-340-2261.slack.com` · **[DM me](https://rit.enterprise.slack.com/user/@U01BMF3D7T5)**
+
+Full walkthrough, including SSO login and how the extension-request workflow works: **[Getting Into Slack](slack-setup.md)**. Joining is not a graded assignment this semester, but it is where I answer things fastest.
 
 ### Email Communication
 
@@ -304,7 +306,7 @@ Assignments completed or turned in after their due date will not be accepted for
 
 There are three ways to reach the request form. Use whichever is fastest:
 
-- Go to the **#340-extension-request** channel in Slack. The workflow is embedded right in the channel, so you can start it there.
+- Go to the **[#340-extension-request](https://rit.enterprise.slack.com/messages/C0BR963K2S2)** channel in Slack. The workflow is embedded right in the channel, so you can start it there.
 - Search Slack for the workflow by name: **Prof Takats Extension Request**
 - Use the **Need help? Ask early** module on the MyCourses course homepage, which links straight to the channel
 
