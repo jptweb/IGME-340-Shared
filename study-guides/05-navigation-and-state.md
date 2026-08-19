@@ -2,6 +2,11 @@
 
 **Read before:** Week 9B–10A (Navigator → GoRouter, local state → Provider)
 
+> **This guide is still a draft.** It will be filled out and finalized before the week it's
+> assigned, so don't study from it yet. **Study Guides 01 and 02 are finished** and are the
+> ones to read now. If you found this by browsing the repo ahead, that's fine, just know it
+> will change.
+
 ---
 
 ## What's Changing
