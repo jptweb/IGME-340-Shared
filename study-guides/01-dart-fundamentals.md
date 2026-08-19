@@ -12,8 +12,6 @@ This guide covers what's different between JS and Dart, gets you comfortable wit
 
 [Watch: Dart Fundamentals Overview](https://www.youtube.com/watch?v=FE0_pCRIxKU)
 
-**Watch at least through the 8:00 mark.** That's the slide portion, and it covers everything Week 1B assumes you already have. After that is a short DartPad walkthrough. It's useful and worth your time, but if you're running short, the first 8 minutes are the priority.
-
 ---
 
 ## I. JavaScript → Dart at a Glance

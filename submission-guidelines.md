@@ -119,9 +119,11 @@ Make sure you're submitting the **entire project folder**, not just the `lib` di
 ## Assignment-Specific Requirements
 
 ### Dart Exercises
-- Assigned in batches (1-3 and 4-6)
-- Create individual `.dart` files as requested
-- Place all files in a single project's `lib` folder
+- One bundled submission: the Core sections of dart-01, 02, 04, 05, and 06. There is no 03 in the bundle.
+- These are written in DartPad, so the Flutter steps above do not apply. No `flutter clean`, no project folder.
+- Copy each exercise out of DartPad and save it as its own file: `dart_ice_01.dart`, `dart_ice_02.dart`, `dart_ice_04.dart`, `dart_ice_05.dart`, `dart_ice_06.dart`
+- Attach all five to the dropbox, or zip them as `lastname_firstname-dart-exercises.zip`
+- Full instructions are in the [exercises README](exercises/README.md)
 
 ### Labs (Flutter Apps)
 - Submit complete Flutter app project
