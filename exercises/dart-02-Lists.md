@@ -6,7 +6,7 @@
 
 > **Read first:** [Study Guide 01, Section III: Lists](../study-guides/01-dart-fundamentals.md#lists). It has a table of Dart list methods next to their JavaScript equivalents. This page is just the tasks.
 
-> **Graded.** The **Core** sections of all six exercises are submitted **together as one bundle**. Graded on completion: did you do it, and does it run. **Check MyCourses for the due date.** **Stretch** is optional and never graded.
+> **Graded.** The **Core** sections of the five graded exercises (01, 02, 04, 05, 06) are submitted **together as one bundle**. Graded on completion: did you do it, and does it run. **Check MyCourses for the due date.** **Stretch** is optional and never graded.
 
 Read [Study Guide 01](../study-guides/01-dart-fundamentals.md) first. It has the explanations; these are the reps.
 
@@ -121,7 +121,7 @@ Same square brackets, same commas, same `List<T>` you just used. The only differ
 
 ## Submitting
 
-Copy your code out of DartPad and save it as a `.dart` file. All six get submitted together as one bundle, so hang onto this until you've done the rest. Due date is in MyCourses.
+Copy your code out of DartPad and save it as a `.dart` file. All five get submitted together as one bundle, so hang onto this until you've done the rest. Due date is in MyCourses.
 
 - [ ] Every Core task has code that runs
 - [ ] File runs without errors
