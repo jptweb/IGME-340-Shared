@@ -28,13 +28,15 @@ This is different from web development (where you have HTML elements styled by C
 
 The video for this guide walks through building a minimal Flutter app from scratch in VS Code. Follow along if you want, or just watch. Either way, the goal is to see the widget tree take shape before class.
 
-**Heads up, this one works differently from the others.** It runs about 16 minutes of live coding instead of slides, and it is the only study guide video built that way. Study Guide 1 is the better model for the ones that follow: shorter, narrated slides, concept first.
+**Heads up, this one works differently from the others.** It runs about 24 minutes and it is mostly live coding rather than slides, which makes it the longest of the set and the only one built that way. Study Guide 1 is the better model for the ones that follow: shorter, narrated slides, concept first.
 
 It is a build-along because watching an app come together from an empty file is something a diagram cannot really give you. Having it on video also means you can come back to it later, or catch up if your setup was fighting you during class. It is not a re-recording of a class session.
 
+> **No Flutter install yet? Use DartPad instead.** Lab 00 is not due until Sep 6, so you are not expected to have a working environment for this guide. Go to [DartPad](https://dartpad.dev), click **Create**, and pick the **Flutter snippet** template. Everything below works there in your browser. The video does exactly this for its first few minutes before switching over to VS Code.
+
 ### Step 1 — The starting point
 
-Start a new Flutter project, open `main.dart`, and replace everything with this:
+Start a new Flutter project (or a DartPad Flutter snippet), open `main.dart`, and replace everything with this:
 
 ```dart
 import 'package:flutter/material.dart';
@@ -61,6 +63,18 @@ class MyApp extends StatelessWidget {
 ```
 
 Hot reload. You've got a screen with an app bar and centered text. Notice the tree: `MaterialApp` → `Scaffold` → `Center` → `Text`. Each widget wraps the next.
+
+### The `const` error you will probably hit
+
+If you started from a fresh `flutter create` project rather than pasting the code above, your `main.dart` almost certainly says `return const MaterialApp(`. The moment you add something that cannot be `const`, which includes the `Container` in Step 2, you get this:
+
+> The constructor being called isn't a const constructor.
+
+`const` is a promise that nothing inside will ever change. A `Container` cannot make that promise, so nothing above it can be `const` either.
+
+**The fix is to delete the `const` in front of `MaterialApp`.** In VS Code you can also put your cursor on the underlined code and press **Cmd+.** on Mac or **Ctrl+.** on Windows, which opens the quick fix menu and offers to remove it for you. That same menu is where "Wrap with Center" and "Wrap with Padding" live, so it is worth learning early.
+
+Why `const` exists at all, and when you want it back, is a Study Guide 3 conversation. For now, deleting it is the right move.
 
 ### Step 2 — Swap in a Container
 
