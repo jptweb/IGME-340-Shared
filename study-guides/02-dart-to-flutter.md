@@ -24,7 +24,13 @@ This is different from web development (where you have HTML elements styled by C
 
 ## See It First: Hello Flutter in VS Code
 
-The video for this guide walks through building a minimal Flutter app from scratch in VS Code. Follow along if you want — or just watch. Either way, the goal is to see the widget tree take shape before class.
+[Watch: Dart to Flutter](https://www.youtube.com/watch?v=B2JPEkpTm3o)
+
+The video for this guide walks through building a minimal Flutter app from scratch in VS Code. Follow along if you want, or just watch. Either way, the goal is to see the widget tree take shape before class.
+
+**Heads up, this one works differently from the others.** It runs about 16 minutes of live coding instead of slides, and it is the only study guide video built that way. Study Guide 1 is the better model for the ones that follow: shorter, narrated slides, concept first.
+
+It is a build-along because watching an app come together from an empty file is something a diagram cannot really give you. Having it on video also means you can come back to it later, or catch up if your setup was fighting you during class. It is not a re-recording of a class session.
 
 ### Step 1 — The starting point
 

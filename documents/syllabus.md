@@ -41,7 +41,7 @@
   - [Course Elements Explored](#course-elements-explored)
     - [Projects (65% of Grade)](#projects-65-of-grade)
     - [Labs \& Exercises (20% of Grade)](#labs--exercises-20-of-grade)
-    - [Participation (10% of Grade)](#participation-10-of-grade)
+    - [GitHub Participation (10% of Grade)](#github-participation-10-of-grade)
     - [Study Guide Quizzes (5% of Grade)](#study-guide-quizzes-5-of-grade)
     - [How This Course Flows](#how-this-course-flows)
   - [Academic Integrity](#academic-integrity)
@@ -143,7 +143,7 @@ Read these *before* the class they're tied to. They exist so class time can go t
 
 - **MyCourses**: Primary hub for announcements, grades, and assignment submission
 - **GitHub**: All course notes, assignment instructions, and reference materials are hosted in a public GitHub repository. This makes content accessible, version-controlled, and easy to update. I will link to these materials from MyCourses.
-- **GitHub**: Used for [participation assignments](#participation-10-of-grade) throughout the semester. Repos are handed out through Classroom 50, which runs on top of GitHub. You'll receive invite links through MyCourses.
+- **GitHub**: Used for [GitHub participation assignments](#github-participation-10-of-grade) throughout the semester. Repos are handed out through Classroom 50, which runs on top of GitHub. You'll receive invite links through MyCourses.
 
 **A note about the GitHub repo:** Since the course materials are version-controlled, you may occasionally see content in the repository that I haven't officially linked from MyCourses yet. Feel free to look ahead, but keep in mind that until I link something from MyCourses, it's not finalized and may change.
 
@@ -276,7 +276,7 @@ Attendance is mandatory. Lectures will start promptly at the beginning of class,
 |:---|:---|
 | **Projects** (3 total) | **65%** |
 | **Labs & Exercises** | **20%** |
-| **Participation** | **10%** |
+| **GitHub Participation** | **10%** |
 | **Study Guide Quizzes** | **5%** |
 
 Each category is detailed in [Course Elements Explored](#course-elements-explored) below.
@@ -300,7 +300,15 @@ Grades will be rounded up at .5 or higher (e.g., 89.5 becomes 90, but 89.4 stays
 
 ### Late Project & Homework Policy
 
-Assignments completed or turned in after their due date will not be accepted for credit without PRIOR approval. If you need an extension, submit a request using the Slack workflow in **#340-extension-request** before the due date. Extensions are usually granted if you communicate proactively. If you are having an emergency, reach out to me via Slack DM as soon as possible — I realize things come up, it is just important we discuss this in advance and not the day work is due.
+Assignments completed or turned in after their due date will not be accepted for credit without PRIOR approval. **If you need an extension, request it before the due date.** Extensions are usually granted if you communicate proactively.
+
+There are three ways to reach the request form. Use whichever is fastest:
+
+- Go to the **#340-extension-request** channel in Slack. The workflow is embedded right in the channel, so you can start it there.
+- Search Slack for the workflow by name: **Prof Takats Extension Request**
+- Use the **Need help? Ask early** module on the MyCourses course homepage, which links straight to the channel
+
+If you are having an emergency, reach out to me via Slack DM as soon as possible. I realize things come up. It is just important that we discuss it in advance, and not on the day the work is due.
 
 ### Policy on Incomplete Grades
 
@@ -348,7 +356,7 @@ For reference, here's what students reported spending on Project 3 (Fall 2025):
 
 Projects are not something you can cram the night before. Plan accordingly.
 
-### Participation (10% of Grade)
+### GitHub Participation (10% of Grade)
 
 Throughout the semester, you will submit in-class work to your own GitHub repo. Each class session (starting Week 2) has its own repo that you'll complete and submit. Repos are distributed through **Classroom 50**, which runs on top of GitHub.
 
@@ -377,7 +385,7 @@ Two kinds of work share this category, and both are **strategically front-loaded
 
 **Labs 00-04** are Flutter builds. Lab 00 is environment setup; Labs 01-04 build real app features (layouts, themes and buttons, text fields and dropdowns, and finally the guided GIF Finder that feeds directly into Project 2).
 
-**Dart Exercises 1-6** are short hands-on DartPad reps that pair with Study Guide 01. Each has a **Core** section, which is what gets submitted, and an optional **Stretch** section that is never graded. All six Core sections are submitted together as a single bundle.
+**Dart Exercises** are short hands-on DartPad reps that pair with Study Guide 01. Each has a **Core** section, which is what gets submitted, and an optional **Stretch** section that is never graded. Five of them (01, 02, 04, 05, and 06) have their Core sections submitted together as a single bundle. Maps and Async are held until Week 7, when we start pulling data from web APIs, and are not graded.
 
 **What to Expect:**
 
