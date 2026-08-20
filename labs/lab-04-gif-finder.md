@@ -84,6 +84,18 @@ See the [GIPHY API Setup Reference](../reference/network/giphy-api-setup.md) for
 EDIT 10/20/25 I realize #7 could have been problematic since we didn't cover URL opening. I am open to making that a bonus for those who figured it out.
 
 
+## Comment Your Code
+
+Three rules, and they apply to every lab and project this semester:
+
+- A header block at the top of every `.dart` file: what it does, your name, the date
+- One line above every function saying what it does
+- One line on anything non-obvious saying **why**
+
+Labs are graded lightly on this. You'll get feedback rather than deductions, so use them to
+build the habit before it starts costing you points on the projects. See the
+[Commenting Guide](../commenting_guide.md) for examples.
+
 ---
 
 ### Bonus points

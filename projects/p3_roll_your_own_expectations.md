@@ -50,7 +50,13 @@ Build a robust application:
 ## 3. Code Quality & Organization (15 pts)
 
 **Required:**
-- Code comments (see [Commenting Guide](../commenting_guide.md))
+- Code comments. The three required rules, at the highest bar of the semester:
+  - A header block at the top of every `.dart` file: what it does, your name, the date
+  - One line above every function saying what it does
+  - Comments that explain **why** you made a decision, not just what the code does
+
+  This is the standard for everyone on P3, not only students using AI tools. See the
+  [Commenting Guide](../commenting_guide.md) for examples.
 - [**Organized into multiple .dart files**](../reference/patterns/code-organization.md#file-organization)
 - [**Custom classes**](../reference/patterns/code-organization.md#extracting-to-custom-classes) (at least one)
 - Type-aware variables (not just `var`) - see [Week 2B notes](../weekly/2B.md#type-safety)

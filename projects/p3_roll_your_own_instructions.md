@@ -78,7 +78,7 @@ Your **Final Code Submission (70% of project grade)** will be evaluated across s
 - Organize code into multiple `.dart` files with separation of concerns
 - Write type-safe variables (minimize use of `var`)
 - Apply DRY (Don't Repeat Yourself) principles
-- Comment all functions explaining what they do
+- Comment all functions explaining what they do, and explain **why** on anything non-obvious. See the [Commenting Guide](../commenting_guide.md)
 - Remove or comment out all `print` statements
 
 ### Going Above and Beyond (95-105+ points)

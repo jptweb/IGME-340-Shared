@@ -112,7 +112,13 @@ Want a few extra points? Implement professional form behaviors that real-world a
 - Take advantage of separating your widgets out into their own classes to make managing the Widget tree easier.
 - Don't be afraid to create separate .dart files for specific functionality.
 - Variable and function names must follow a standard, ex, CONSTANTS, Classes, normalVariables. Make sure variables are easy to understand.
-- Well-commented code. Each and every function gets a comment indicating what it does.
+- Well-commented code. Each and every function gets a comment indicating what it does. The three required rules:
+  - A header block at the top of every `.dart` file: what it does, your name, the date
+  - One line above every function saying what it does
+  - One line on anything non-obvious saying **why**
+
+  Project 1 was graded leniently on this. **Project 2 is not.** Functions without comments cost
+  you points on the rubric. See the [Commenting Guide](../commenting_guide.md) for examples.
 
 ## IV. Proposal
 

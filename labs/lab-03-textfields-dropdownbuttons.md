@@ -23,6 +23,18 @@ You are to recreate a similar application to below:
 
 This project is more creative, feel free to change the contents of the mockup to whatever you want, but the funtionality needs to remain.
 
+## Comment Your Code
+
+Three rules, and they apply to every lab and project this semester:
+
+- A header block at the top of every `.dart` file: what it does, your name, the date
+- One line above every function saying what it does
+- One line on anything non-obvious saying **why**
+
+Labs are graded lightly on this. You'll get feedback rather than deductions, so use them to
+build the habit before it starts costing you points on the projects. See the
+[Commenting Guide](../commenting_guide.md) for examples.
+
 ---
 ### Bonus points
 There are a few complex operations that can be performed with text fields and user interaction, I will award extra credit for doing the following:

@@ -83,6 +83,18 @@ Align(
 
 ---
 
+## Comment Your Code
+
+Three rules, and they apply to every lab and project this semester:
+
+- A header block at the top of every `.dart` file: what it does, your name, the date
+- One line above every function saying what it does
+- One line on anything non-obvious saying **why**
+
+Labs are graded lightly on this. You'll get feedback rather than deductions, so use them to
+build the habit before it starts costing you points on the projects. See the
+[Commenting Guide](../commenting_guide.md) for examples.
+
 ## Exercise:
 
 1. Modify the `Container` and give it a `height` and `width` of `200` pixels, plus a `color` so you can actually see it. A `Container` with a size but no color renders nothing, so a blank screen here means you skipped the color, not that you broke something. Run the app.

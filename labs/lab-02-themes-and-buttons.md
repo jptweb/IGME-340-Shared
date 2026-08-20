@@ -87,6 +87,18 @@ class _MyHomePageState extends State<MyHomePage> {
 This code will be the basis for the exercise.
 
 ---
+## Comment Your Code
+
+Three rules, and they apply to every lab and project this semester:
+
+- A header block at the top of every `.dart` file: what it does, your name, the date
+- One line above every function saying what it does
+- One line on anything non-obvious saying **why**
+
+Labs are graded lightly on this. You'll get feedback rather than deductions, so use them to
+build the habit before it starts costing you points on the projects. See the
+[Commenting Guide](../commenting_guide.md) for examples.
+
 ## Exercise:
 
 1. Add a `themeMode` attribute to your MaterialApp and set it to `light`.

@@ -74,7 +74,20 @@ We demonstrate both techniques in the **Week 5B** class session — including a 
 **This is not required** — you can absolutely complete the project by building each card individually. But if you reduce meaningful code duplication through helper methods or reusable widgets, you'll earn up to **5 bonus points**.
 
 ## V: Code Comments
-Your code must be commented following the course [Commenting Guide](../commenting_guide.md). This includes a file header block at the top of each file and comment blocks for classes, methods, and any non-obvious logic. Proper commenting is part of your grade on every project.
+
+Three rules, required on every project this semester:
+
+- A header block at the top of every `.dart` file: what it does, your name, the date
+- One line above every function saying what it does
+- One line on anything non-obvious saying **why**
+
+This is graded as part of Code Quality. **Project 1 is graded leniently here:** you only lose
+points if there are no comments in your code at all. A light pass costs you nothing on this
+project. That leniency does not carry forward. Project 2 expects a comment on every function,
+and Project 3 expects comments that explain your reasoning, so use P1 to build the habit.
+
+See the [Commenting Guide](../commenting_guide.md) for examples and the full breakdown of how
+the bar rises across the semester.
 
 ## VI: Submissions
 - Use the `flutter clean` option in a Terminal winodw before zipping up your project for submission. Upload to the assignment on myCourses (when it is created).
