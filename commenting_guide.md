@@ -115,7 +115,7 @@ You can add detail with tags: parameters, return types, author, and other metada
 /**
  * This is a my function that does a + b and returns c.
  *
- * @author Dower Chin
+ * @author John-Paul Takats
  * @version 1.0.0
  * @param a - first integer
  * @param b - second integer
@@ -136,9 +136,9 @@ import 'package:flutter/material.dart';
 /// This block is what would be expected at the very top of your program or file
 /// and describes what this file/program is for.
 /// 
-/// @auther: Dower Chin
+/// @author: John-Paul Takats
 /// @version: 1.0.0
-/// @since: 2021-09-20
+/// @since: 2026-08-24
 /// 
 /// todo:
 /// Expand upon the base program to demonstrate the use of comments.
