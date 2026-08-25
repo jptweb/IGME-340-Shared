@@ -346,7 +346,7 @@ There are 3 major projects to be completed in the semester.
 
 **Project Submission**: Projects are submitted via MyCourses - check each project spec for specific submission instructions.
 
-**Time Commitment - Be Realistic**: This course has relatively few assignments, but 70% of your grade is projects. A 3-credit course typically expects 6-9 hours of work outside the classroom per week. If you're not putting in this time and leaving projects to the last minute, you will likely not succeed.
+**Time Commitment - Be Realistic**: This course has relatively few assignments, but 65% of your grade is projects. A 3-credit course typically expects 6-9 hours of work outside the classroom per week. If you're not putting in this time and leaving projects to the last minute, you will likely not succeed.
 
 For reference, here's what students reported spending on Project 3 (Fall 2025):
 

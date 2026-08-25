@@ -31,15 +31,17 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 **Aug 25 & 27**
 
 ### [Week 1A](weekly/1A.md) (Tuesday): Course Introduction
-- **Administrative:** Syllabus, grading structure (70% projects, 20% homework/labs, 10% participation)
+- **Administrative:** Syllabus, grading structure (65% projects, 20% labs & exercises, 10% participation, 5% study guide quizzes)
 - **Platform Overview:** Multiplatform development concepts, why Flutter
 - **Dart Basics:** Variables, data types (int, double, String, bool), string interpolation
 - **Tools:** DartPad introduction for immediate practice
 
-### [Week 1B](weekly/1B.md) (Thursday): Dart Fundamentals
-- **Collections:** Lists (arrays), Maps (dictionaries), basic operations
-- **Functions:** Basic syntax, arrow functions, named parameters
-- **Environment Setup:** Flutter installation guidance, VS Code configuration
+### [Week 1B](weekly/1B.md) (Thursday): The Four Dart Things That Matter
+- **String interpolation:** `$` for a variable, `${}` for an expression
+- **Named and required parameters:** the big one, since every widget constructor uses them
+- **Null safety:** what `?` means, and the red squiggles it explains
+- **`const` vs `final`:** why the linter keeps asking for `const`
+- **Setup required:** none. Still DartPad, still nothing to install.
 
 **Assignments:** **sg01 quiz** (Dart Fundamentals) due Fri Aug 28 · [Lab 00](labs/lab-00-environment-setup.md) due Sun Sep 6 (low-pressure) · [Dart Exercises](exercises/README.md) due Wed Sep 9
 
