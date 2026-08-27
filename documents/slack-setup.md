@@ -16,7 +16,9 @@ That link usually drops you straight into the channel. If you are not signed in 
 
 **Workspace URL:** [rit-igme-340-2261.slack.com](https://rit-igme-340-2261.slack.com/)
 
-Useful if you want to add the workspace in the Slack desktop or mobile app, which asks for a workspace URL rather than a channel link.
+Useful if you want to add the workspace in the Slack **desktop** app, which asks for a workspace URL rather than a channel link.
+
+**On a phone, use `rit-community` instead**, not the URL above. The mobile app needs the RIT-wide workspace to hand you off to RIT login. See Desktop vs Mobile below.
 
 **If neither works,** go to [rit.enterprise.slack.com](https://rit.enterprise.slack.com), search for **IGME-340**, and request to join.
 
@@ -98,7 +100,20 @@ When replying to someone's post, click **"Reply in thread"** instead of posting 
 Don't want constant pings? Go to **Preferences → Notifications** and adjust what triggers alerts. You can mute channels, set quiet hours, or only get notified for direct mentions.
 
 ### Desktop vs Mobile
-The website works great on desktop - no need to install anything. If you want Slack on your phone (useful for notifications when you're away from your computer), grab the mobile app at [slack.com/downloads](https://slack.com/downloads). There's also a desktop app if you prefer that.
+The website works great on desktop - no need to install anything. There's a desktop app too if you prefer that.
+
+The phone app is worth having for notifications when you're away from your computer, but **signing in on a phone is not obvious and the Google button will not get you in.** Use the workspace URL path:
+
+1. Install Slack from the App Store or Google Play and open it
+2. Choose **Sign in with workspace URL**. On iOS it's hiding under "Having trouble?" on the email screen
+3. Enter `rit-community` as the workspace URL
+4. Tap **Sign In with RIT**, then use your normal RIT username and password
+
+`rit-community` is the workspace that hands the app off to RIT authentication. Once you're through it, you're signed in to every RIT workspace you belong to, this course included.
+
+**Already have Slack on your phone** for another RIT workspace? Swipe right for the channels menu, tap the workspace icon at the top left, then **Add a workspace → Sign in to another workspace**, and pick up from step 2.
+
+RIT's official version of these steps is [in the ITS knowledge base](https://help.rit.edu/sp?id=kb_article&table=kb_knowledge&sysparm_article=KB0043536).
 
 ---
 
