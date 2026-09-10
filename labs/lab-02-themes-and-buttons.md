@@ -143,4 +143,3 @@ build the habit before it starts costing you points on the projects. See the
 
 [Comprehensive Guide on submitting your flutter projects to mycourses](../submission-guidelines.md)
 
-Attribution: This HW was origanlly developed by Dower Chin. I copied the repo to make subtle changes but want to give proper credit!
