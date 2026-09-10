@@ -137,11 +137,9 @@ build the habit before it starts costing you points on the projects. See the
 
 12. At the top of the `Column`, Create an `ElevatedButton` with an icon. Create and use an inline style to customize it as you like, but also alter the `border` of this button.
 
-13. Alter the default font of the theme to `Courier`.
-
-14. Add an `onPressed` event for each of your buttons, you can use either an external function or an anonymous function. Output some text to the console.
+13. Add an `onPressed` event for each of your buttons, you can use either an external function or an anonymous function. Output some text to the console.
    
-15. Perform a `flutter clean`, zip up your app and submit to the Assignment dropbox. Your app should be pretty small after running these commands! I may make a submission guide / video if I can find time BUT if you  have questions please let me know
+14. Perform a `flutter clean`, zip up your app and submit to the Assignment dropbox. Your app should be pretty small after running these commands! I may make a submission guide / video if I can find time BUT if you  have questions please let me know
 
 [Comprehensive Guide on submitting your flutter projects to mycourses](../submission-guidelines.md)
 
