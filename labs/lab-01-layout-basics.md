@@ -113,7 +113,9 @@ build the habit before it starts costing you points on the projects. See the
 
       ![](images/flutter_basics-01.png)    
 
-6. Change the flow of the containers to the bottom.
+6. Move the containers to the bottom of the screen. Keep the `Column` (don't switch it to a `Row` or wrap it in `Align`) and use the Column's `mainAxisAlignment` property. The containers should stay in the same order, just sitting at the bottom.
+
+   Why not `Align`? A `Column` stretches to the full height of the screen by default, so there's no room for `Align` to move it and you won't see any change. The empty space is *inside* the Column, below your containers. `mainAxisAlignment` controls where the children sit within that space.
    
 7. Save your work in a new dart file, call it `basics01.dart`.
 
