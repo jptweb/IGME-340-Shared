@@ -140,8 +140,8 @@ SvgPicture.asset(
 // Problem: SVG has internal styles that override Flutter colors
 // Solution: Use online tools to clean SVG files
 
-// Option 1: Strip CSS from SVG file (recommended)
-// Use: https://www.iloveimg.com/resize-image
+// Option 1: Move the CSS inline (recommended)
+// Use: https://internettoolbox.it/tools/svg-inliner/
 
 // Option 2: Force color override
 SvgPicture.asset(
@@ -169,7 +169,7 @@ SvgPicture.asset('assets/images/icon.svg')
 
 | Problem | Solution |
 |---------|----------|
-| SVG renders as black | Use iLoveIMG.com to clean CSS, or apply ColorFilter |
+| SVG renders as black | Run it through the SVG Inliner, or apply ColorFilter |
 | Asset not found error | Check pubspec.yaml indentation and exact path |
 | SVG not updating after change | Stop and restart app (hot reload may not work) |
 | Network SVG not loading | Check internet connection, add error handling |
@@ -183,7 +183,7 @@ SvgPicture.asset('assets/images/icon.svg')
 ## Useful SVG Resources
 - [Heroicons](https://heroicons.com) - Free SVG icon set
 - [Feather Icons](https://feathericons.com) - Minimalist icon set  
-- [SVG Cleaner Tool](https://www.iloveimg.com/resize-image) - Fix rendering issues
+- [SVG Inliner](https://internettoolbox.it/tools/svg-inliner/) - Fix black SVGs
 - [flutter_svg Package](https://pub.dev/packages/flutter_svg) - Official package page
 
 ---
