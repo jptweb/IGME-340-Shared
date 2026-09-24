@@ -3,7 +3,7 @@
 ## Quick Reference
 
 ### DRY (Don't Repeat Yourself)
-If you're copying and pasting code more than twice, extract it into a reusable component:
+If you're about to paste the same widget code a second time, extract it into a reusable piece instead:
 
 ```dart
 // ❌ BAD - Repetitive code
@@ -52,8 +52,8 @@ Widget _buildColorBox(String text, Color color) {
 ## Extraction Methods in VS Code
 
 ### Using VS Code's Extract Features
-1. **Select the widget** you want to extract
-2. **Press `Cmd/Ctrl + .`** (period) to open the action menu
+1. **Put your cursor on the widget's name** (on `Row`, not inside its parentheses), or select the whole widget
+2. **Press `Cmd/Ctrl + .`** (period) to open the action menu. Right-click → **Refactor** shows the same options.
 3. Choose from three options:
    - **Extract Method** - Creates a method in the same class
    - **Extract Local Variable** - Creates a variable in build method
@@ -61,13 +61,13 @@ Widget _buildColorBox(String text, Color color) {
 
 ### When to Use Each Extraction Type
 
-| Extraction Type | When to Use | Example Use Case |
-|-----------------|-------------|------------------|
-| **Extract Method** | Repeated UI patterns within one screen | Multiple similar containers, cards, or list items |
-| **Extract Local Variable** | Single complex widget used once | Long widget tree that clutters build method |
-| **Extract Widget** | Reusable component across multiple screens | Custom buttons, cards, or input fields |
+| Extraction Type | What You Get | When to Use |
+|-----------------|--------------|-------------|
+| **Extract Widget** | A new widget class | Any reusable piece of UI, even if it's only used on one screen. Usually the best choice. |
+| **Extract Method** | A method in the same class | A quick tidy-up of one screen |
+| **Extract Local Variable** | A variable inside `build` | Rarely what you want |
 
-## Extract Method Pattern (Most Common)
+## Extract Method Pattern
 
 ### Basic Pattern
 ```dart
@@ -111,6 +111,8 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 }
 ```
+
+**About the return type:** VS Code names the return type after the widget you extracted, so extracting a `Row` gives you `Row buildRow()`. The examples on this page use `Widget` instead. Either one works. `Widget` just means you can change what the method returns later (say, wrap the `Row` in a `Padding`) without also changing the first line.
 
 ### With Parameters (Project 1 Example)
 ```dart
@@ -168,29 +170,146 @@ Column(
 
 ## Extract Widget Pattern
 
+### Why Bother With a Widget?
+At first Extract Method looks easier, because there's no constructor to deal with. But an extracted widget is a real widget, so you use it the same way you use `Container` or `Text`, with labeled arguments:
+
+```dart
+// Extract Method: positional arguments, and the order matters
+buildItemBox(context, title, content, imageUrl, lorem),
+
+// Extract Widget: named arguments, reads like any other Flutter widget
+ItemBox(title: title, content: content, imageUrl: imageUrl, lorem: lorem),
+```
+
+- You can see what each value is, and the order doesn't matter
+- No `context` to pass in. A widget gets its own in its `build` method
+- It can move to its own file (click the class name → Refactor → **Move to file**, and the import is added for you)
+- Flutter's own [performance guide](https://docs.flutter.dev/perf/best-practices) recommends widgets over helper methods for reusable UI
+
+### The Trick: Make Variables First, Then Extract
+The constructor is the part that usually scares people off, and **you don't have to write it.** When you extract, VS Code looks for variables used inside the widget and turns each one into a constructor parameter.
+
+It only does this for *variables*. A value typed directly inside the widget (a string, a URL, a color) gets copied into the new class as-is and stays hardcoded. So before extracting, pull the parts that change into variables in `build`, right above the widget:
+
+```dart
+String title = "My Title";
+String content = "My Full Content";
+String imageUrl = "https://placehold.co/50x50/EEE/31343C.png";
+// lorem is already a variable from earlier in build
+
+Row(
+  children: [
+    InkWell(
+      onTap: () {
+        showDialog(
+          context: context,
+          builder: (context) {
+            return AlertDialog(title: Text(title), content: Text(content));
+          },
+        );
+      },
+      child: Image.network(imageUrl),
+    ),
+    SizedBox(
+      height: 50,
+      width: 300,
+      child: SingleChildScrollView(child: Text(lorem)),
+    ),
+  ],
+),
+```
+
+Now put your cursor on `Row`, press `Cmd/Ctrl + .`, and choose **Extract Widget**. VS Code writes this for you:
+
+```dart
+class ItemBox extends StatelessWidget {
+  const ItemBox({
+    super.key,
+    required this.title,
+    required this.content,
+    required this.imageUrl,
+    required this.lorem,
+  });
+
+  final String title;
+  final String content;
+  final String imageUrl;
+  final String lorem;
+
+  @override
+  Widget build(BuildContext context) {
+    return Row(
+      // ... the same Row, now using title, content, imageUrl, and lorem
+    );
+  }
+}
+```
+
+and replaces the original `Row` with a call to it:
+
+```dart
+ItemBox(title: title, content: content, imageUrl: imageUrl, lorem: lorem),
+```
+
+`required this.title` means "you have to pass a `title`, and it gets stored in the `title` field." It's the same named-parameter constructor from the [Dart classes section of Study Guide 01](../../study-guides/01-dart-fundamentals.md#constructor-shorthand). VS Code just typed it for you.
+
+From here, delete the temporary variables and call `ItemBox` as many times as you need, passing different values each time:
+
+```dart
+ItemBox(title: "Item 1", content: "...", imageUrl: "...", lorem: lorem),
+ItemBox(title: "Item 2", content: "...", imageUrl: "...", lorem: lorem),
+```
+
+**A few things to know:**
+- VS Code suggests the name `NewWidget`. Rename it to something that says what it is.
+- Don't name it after a Flutter widget (`Card`, `Title`, `Banner`). Yours will quietly replace Flutter's in that file.
+- Extract Method picks up variables too, but as positional parameters: `Row buildRow(BuildContext context, String title, String content, String imageUrl, String lorem)`. Same trick, less readable call.
+
+### Where to Cut
+There isn't one right answer for *how much* to extract, and it's worth a second of thought before you pick the widget to extract.
+
+Say each item sits in a `Container` whose size and color change from item to item. If you extract the whole `Container`, you end up adding `width`, `height`, and `color` parameters to your widget, which just rebuilds settings `Container` already has. Cut one level deeper instead. Leave the `Container` in `build`, where you can set its properties directly, and extract only the part inside it that repeats:
+
+```dart
+// Cut too high: re-creating Container's settings as your own parameters
+ItemBox(width: 300, height: 80, color: Colors.amber, title: "Item 1", imageUrl: "..."),
+
+// Cut lower: Container stays in build, only the repeated inside is extracted
+Container(
+  width: 300,
+  height: 80,
+  color: Colors.amber,
+  child: ItemContent(title: "Item 1", imageUrl: "..."),
+),
+```
+
+If you notice you're adding a parameter for every property of the outer widget, you probably cut too high.
+
 ### When to Create a Custom Widget
 Create a custom widget when:
+- You'd otherwise copy and paste the same widget tree, even on one screen
 - You need the same component in multiple files
 - The component has its own state
 - The component is complex enough to deserve its own file
-- You want to improve testability
 
 ### Custom Widget Example
+A widget you write by hand looks the same as one VS Code generates. This one has two optional parameters, so they're not `required`:
+
 ```dart
 // In a new file: custom_button.dart
 class CustomButton extends StatelessWidget {
-  final String label;
-  final VoidCallback onPressed;
-  final Color? color;
-  final IconData? icon;
-
   const CustomButton({
-    Key? key,
+    super.key,
     required this.label,
     required this.onPressed,
     this.color,
     this.icon,
-  }) : super(key: key);
+  });
+
+  final String label;
+  final VoidCallback onPressed;
+  final Color? color;
+  final IconData? icon;
 
   @override
   Widget build(BuildContext context) {
@@ -291,9 +410,9 @@ user_profile_card.dart
 final userName = 'John';
 int itemCount = 0;
 
-// Constants use camelCase or SCREAMING_SNAKE_CASE
+// Constants use lowerCamelCase too
 const defaultPadding = 16.0;
-const API_KEY = 'abc123';  // Some prefer this for true constants
+const apiKey = 'abc123';  // not API_KEY: the Flutter linter flags ALL_CAPS names
 
 // Private variables start with underscore
 String _password = '';
@@ -446,10 +565,10 @@ static const double _buttonHeight = 56.0;  // Material Design button height
 ## VS Code Tips
 
 ### Shortcuts for Organization
-- `Cmd/Ctrl + .` - Quick actions menu
-- `Alt/Shift + F` - Format document
+- `Cmd/Ctrl + .` - Quick actions menu (cursor on the widget's name)
+- `Shift + Option/Alt + F` - Format document
 - `F2` - Rename symbol everywhere
-- `Cmd/Ctrl + Shift + R` - Refactor menu
+- Right-click → **Refactor** - The extract options, plus Move to file
 
 ### Extensions for Better Organization
 - **Dart** - Essential, provides all extraction features
@@ -459,13 +578,13 @@ static const double _buttonHeight = 56.0;  // Material Design button height
 
 ## When Covered in Course
 - **[Week 2B](../../weekly/2B.md)** - Widget extraction techniques
-- **[Week 5B](../../weekly/5B.md)** - Extract Method for Project 1
+- **[Week 5B](../../weekly/5B.md#iii-item-box-demo--extract-method--extract-widget)** - Extract Method and Extract Widget on an item box, for Project 1
 - Used throughout course for clean code practices
 
 ## Related Topics
-- [Widget Extraction](../../weekly/2B.md#iii-shortcuts) - Detailed extraction walkthrough
+- [Widget Extraction](../../weekly/2B.md#extract-widget) - The three extract options
 - Project 1 - Practical application of DRY principles
 - [Professional Commenting](../../commenting_guide.md) - Documentation standards
 
 ---
-*Last updated: Week 5 | IGME-340 Reference*
+*Last updated: Week 5, Fall 2026 | IGME-340 Reference*
