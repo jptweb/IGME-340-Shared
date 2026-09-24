@@ -251,7 +251,7 @@ and replaces the original `Row` with a call to it:
 ItemBox(title: title, content: content, imageUrl: imageUrl, lorem: lorem),
 ```
 
-`required this.title` means "you have to pass a `title`, and it gets stored in the `title` field." It's the same named-parameter constructor from the [Dart classes section of Study Guide 01](../../study-guides/01-dart-fundamentals.md#constructor-shorthand). VS Code just typed it for you.
+`required this.title` means "you have to pass a `title`, and it gets stored in the `title` field." You've written this before: it's the same constructor as `Player({required this.name, this.hp = 100})` in [Dart Exercise 5](../../exercises/dart-05-Classes.md#1-a-class-with-fields). The fields are `final` because widgets don't change once they're built (that exercise's [stretch S2](../../exercises/dart-05-Classes.md#s2-final-fields) touches on this). VS Code just typed it all for you. For a refresher on the shorthand, see [Study Guide 01](../../study-guides/01-dart-fundamentals.md#constructor-shorthand).
 
 From here, delete the temporary variables and call `ItemBox` as many times as you need, passing different values each time:
 
@@ -583,6 +583,7 @@ static const double _buttonHeight = 56.0;  // Material Design button height
 
 ## Related Topics
 - [Widget Extraction](../../weekly/2B.md#extract-widget) - The three extract options
+- [Dart Exercise 5: Classes and Constructors](../../exercises/dart-05-Classes.md) - The constructor pattern Extract Widget writes for you
 - Project 1 - Practical application of DRY principles
 - [Professional Commenting](../../commenting_guide.md) - Documentation standards
 
