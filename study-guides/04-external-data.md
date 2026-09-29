@@ -14,7 +14,7 @@ This is the hardest conceptual shift in the whole course. It trips up more stude
 
 ## Watch This First
 
-[Watch: External Data](https://www.youtube.com/watch?v=VIDEO_ID)
+[Watch: External Data](https://www.youtube.com/watch?v=Qm5qyTVgzTM)
 
 This is the main thing for this guide. It's narrated slides built around one picture, ordering a coffee, and that picture carries the whole unit. The notes below cover the same ground if you'd rather read it, and the reference guides at the bottom go deeper than either.
 
