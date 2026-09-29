@@ -6,14 +6,14 @@ Pre-class reading modules tied to the six major phase shifts in the course. Each
 | --------------------------------------------------------- | -------------- | ------------------------------------------------------- | ------ |
 | [01 — Dart Fundamentals](01-dart-fundamentals.md)         | Before Week 1A | No Dart experience → enough to attempt the exercises    | ✅ Ready |
 | [02 — Dart to Flutter](02-dart-to-flutter.md)             | Week 2A        | Language-only → widget tree; everything-is-a-widget     | ✅ Ready |
-| [03 — Static to Stateful](03-static-to-stateful.md)       | Week 4A        | Layouts that sit there → layouts that respond; setState | 📝 Draft |
-| [04 — External Data](04-external-data.md)                 | Week 7A        | App-contained data → APIs and async; Futures/await      | 📝 Draft |
+| [03 — Static to Stateful](03-static-to-stateful.md)       | Week 4A        | Layouts that sit there → layouts that respond; setState | ✅ Ready |
+| [04 — External Data](04-external-data.md)                 | Week 7A        | App-contained data → APIs and async; Futures/await      | ✅ Ready |
 | [05 — Navigation and State](05-navigation-and-state.md)   | Week 9B–10A    | One screen → many screens; GoRouter + Provider          | 📝 Draft |
 | [06 — Into the Game Engine](06-game-engine.md)            | Week 11B       | Widget apps → Flame game loop; different rules          | 📝 Draft |
 
 Each guide includes reference guide links and a **Check Yourself** section.
 
-**About the drafts.** Guides 01 and 02 are finished. The rest are still being written and get
+**About the drafts.** Guides 01 through 04 are finished. The rest are still being written and get
 finalized before the week they're assigned, so don't study ahead from them yet. They're public
 because this whole repo is, not because they're ready. Nothing you need before a deadline will
 be in draft form when that deadline arrives.
