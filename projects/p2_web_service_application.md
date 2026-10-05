@@ -99,7 +99,7 @@ The list below is a small handful of APIs that have been used in past semesters 
 
 #### Bonus: Form Polish (up to +5 points) *(added March 4, 2026)*
 
-Want a few extra points? Implement professional form behaviors that real-world apps use. These small touches show attention to detail and can either push you past 100 or make up for a rough spot elsewhere. See [Week 8B](../weekly/8B.md) for how to implement these:
+Want a few extra points? Implement professional form behaviors that real-world apps use. These small touches show attention to detail and can either push you past 100 or make up for a rough spot elsewhere. See [Week 7A](../weekly/7A.md) for how to implement these:
 
 - **Clear (X) buttons** on TextFields so users can quickly reset input
 - **Focus node management** — pressing the keyboard's next/enter button jumps to the next field

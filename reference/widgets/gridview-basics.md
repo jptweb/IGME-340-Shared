@@ -332,7 +332,7 @@ physics: BouncingScrollPhysics()
 ---
 
 ## When Covered in Course
-- **[Week 7B](../../weekly/7B.md)** - GridView.builder with Giphy API
+- **[Week 8B](../../weekly/8B.md)** - GridView.builder with Giphy API
 - **Lab 02** - Gif Finder using dynamic GridView
 
 ## External Resources

@@ -299,7 +299,7 @@ LayoutBuilder(
 
 ## When Covered in Course
 
-- **[Week 7B](../../weekly/7B.md)** - GridView with orientation (first responsive pattern)
+- **[Week 8B](../../weekly/8B.md)** - GridView with orientation (first responsive pattern)
 - **[Week 14B](../../weekly/14B.md)** - MediaQuery and LayoutBuilder in-depth
 
 ## Related Topics

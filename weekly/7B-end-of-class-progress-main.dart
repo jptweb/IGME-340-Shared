@@ -1,4 +1,4 @@
-// HERE IS THE WE GOT UP TO AT THE END OF 7A. (it was actually working in class i just forgot to press Submit!
+// HERE IS THE WE GOT UP TO AT THE END OF 7B. (it was actually working in class i just forgot to press Submit!
 // Challenge: make it display more infomration from the cart BEYOND just the ID (ex the item price)
                                               
 import 'package:flutter/material.dart';

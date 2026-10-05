@@ -419,7 +419,7 @@ Two kinds of work share this category, and both are **strategically front-loaded
 | 01 | Dart Fundamentals | Week 1 (this one is the Dart material itself) |
 | 02 | Dart to Flutter | Week 2A |
 | 03 | Static to Stateful | Week 4A |
-| 04 | External Data | Week 7A |
+| 04 | External Data | Week 7B |
 | 05 | Navigation and State | Week 9B |
 | 06 | Into the Game Engine | Week 11B |
 

@@ -23,6 +23,8 @@ You are to recreate a similar application to below:
 
 This project is more creative, feel free to change the contents of the mockup to whatever you want, but the funtionality needs to remain.
 
+> **Where this is taught:** dropdowns, keyboard types, labels, icons, and controllers are [Week 6A](../weekly/6A.md). The clear buttons are [Week 7A](../weekly/7A.md), along with everything you need for the first two bonus items below (moving to the next field, and keeping the keyboard off the form). Form validation is [Week 6B](../weekly/6B.md).
+
 ## Comment Your Code
 
 Three rules, and they apply to every lab and project this semester:

@@ -2,7 +2,7 @@
 
 **Time:** about 15 minutes for the core tasks
 **Where:** [DartPad](https://dartpad.dev)
-**Comes back in:** [Week 7A](../weekly/7A.md), with the API material
+**Comes back in:** [Week 7B](../weekly/7B.md), with the API material
 
 > **Not part of the graded bundle, and not due now.** This one is held until Week 7, paired with [dart-07: Async](dart-07-Async.md), because a Map only gets interesting once an API hands you one. Do it then. If you want it early, nothing stops you, but it is never graded on its own.
 

@@ -195,10 +195,10 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 
 You don't need a "killer app" to reach 100+. A simpler app with **lots of professional polish** can get there too. These are small but meaningful UX touches that real-world apps implement - the kind of details users expect but rarely notice until they're missing:
 
-- **Clear (X) buttons** on TextFields - let users quickly clear input with a suffixIcon ([Week 8B](../weekly/8B.md#i-clear-buttons))
-- **Focus node next-field navigation** - pressing the keyboard's enter/next button jumps to the next field instead of doing nothing ([Week 8B](../weekly/8B.md#ii-focus-nodes))
-- **Tap-outside keyboard dismissal** - tapping outside a TextField dismisses the keyboard, standard iOS/Android behavior ([Week 8B](../weekly/8B.md#iii-keyboard-dismissal))
-- **SingleChildScrollView on forms** - prevents the keyboard from covering input fields ([Week 8B](../weekly/8B.md#iv-singlechildscrollview))
+- **Clear (X) buttons** on TextFields - let users quickly clear input with a suffixIcon ([Week 7A](../weekly/7A.md#part-1-adding-clear-buttons-to-textfields))
+- **Focus node next-field navigation** - pressing the keyboard's enter/next button jumps to the next field instead of doing nothing ([Week 7A](../weekly/7A.md#part-2-focus-nodes---taking-control-of-navigation))
+- **Tap-outside keyboard dismissal** - tapping outside a TextField dismisses the keyboard, standard iOS/Android behavior ([Week 7A](../weekly/7A.md#part-3-dismissing-the-keyboard))
+- **SingleChildScrollView on forms** - prevents the keyboard from covering input fields ([Week 7A](../weekly/7A.md#part-4-preventing-keyboard-from-covering-fields))
 
 *More items may be added here as the semester progresses.* If you implement UX polish extras, **document them in your submission** so I know to look for them. A quick list in your documentation like "I added clear buttons, focus management, and keyboard dismissal" is all you need.
 

@@ -309,7 +309,7 @@ if (response.statusCode == 200) {
 - Navigate the decoded JSON to extract what you need
 
 **Where to Learn More:**
-- See **[Week 7A Notes](../../weekly/7A.md)** for detailed async/await patterns
+- See **[Week 7B Notes](../../weekly/7B.md)** for detailed async/await patterns
 - See **[HTTP & API Integration Reference](http-api-integration.md)** for error handling strategies
 - We built a complete example together in class - refer to your class demo code!
 
@@ -349,8 +349,8 @@ if (response.statusCode == 200) {
 ---
 
 ## When Covered in Course
-- **[Week 7A](../../weekly/7A.md)** - HTTP requests and API authentication patterns
-- **[Week 7B](../../weekly/7B.md)** - GIPHY API integration walkthrough
+- **[Week 7B](../../weekly/7B.md)** - HTTP requests and API authentication patterns
+- **[Week 8B](../../weekly/8B.md)** - GIPHY API integration walkthrough
 - **[Lab 04 - GIF Finder](../../labs/lab-04-gif-finder.md)** - Building complete GIPHY search app
 
 ## Related Resources

@@ -162,7 +162,7 @@ Column(
 
 ### When NOT to Use
 - For lists of similar items → Use `ListView` instead (Week 6B)
-- For grids → Use `GridView` instead (Week 7B)
+- For grids → Use `GridView` instead (Week 8B)
 - For single widgets that fit on screen → Not needed
 
 ## Debugging Tip
@@ -181,7 +181,7 @@ Container(
 ## When Covered in Course
 - **[Week 3A](../../weekly/3A.md)** - Fixing overflow with scrolling
 - **[Week 5B](../../weekly/5B.md)** - Used in Project 1 for scrollable text
-- **[Week 8B](../../weekly/8B.md)** - Preventing keyboard from covering form fields
+- **[Week 7A](../../weekly/7A.md)** - Preventing keyboard from covering form fields
 
 ## Related Topics
 - [Focus Management](../input-forms/focus-management.md) - Keyboard control in forms (commonly paired with SingleChildScrollView)

@@ -1,6 +1,6 @@
 # Phase 3 — External Data
 
-**Read before:** Week 7A (HTTP requests and async/await)
+**Read before:** Week 7B (HTTP requests and async/await)
 
 ---
 
@@ -114,7 +114,7 @@ Not needed for the quiz. Worth reading before class, and again when you're stuck
 2. **[HTTP & API Integration](../reference/network/http-api-integration.md)**: making requests, handling responses, parsing JSON
 3. **[ListView Basics](../reference/widgets/listview-basics.md)**: you'll display the fetched data in a list
 
-Also useful when you get to Week 7B:
+Also useful when you get to Week 8B:
 
 - **[GridView Basics](../reference/widgets/gridview-basics.md)**: for the GifFinder lab, results display in a grid
 
@@ -138,7 +138,7 @@ Weeks 7–8 are when the GifFinder lab comes together. Unlike the earlier labs, 
 
 ## What's Coming in Weeks 7–8
 
-Week 7A you'll write your first HTTP request, display the result, and handle what happens when a request fails. Week 7B introduces GridView and the Giphy API, which is where the GifFinder lab kicks off. Week 8 covers responsive layouts and more complex form-to-API connections. By the end of Week 8 you'll have the skills to build most common consumer app data flows.
+Week 7B you'll write your first HTTP request, display the result, and handle what happens when a request fails. Week 8B introduces GridView and the Giphy API, which is where the GifFinder lab comes together. In the lab itself you'll connect a search field to a live API. By the end of Week 8 you'll have the skills to build most common consumer app data flows.
 
 ---
 

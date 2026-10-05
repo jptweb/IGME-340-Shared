@@ -19,11 +19,12 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 
 ### Key Differences from Spring 2026 (2255)
 1. **Tue/Thu schedule** instead of Mon/Wed → all dates shift, content unchanged through Week 13.
-2. **8A is cancelled** (October Break, Tue Oct 13) — same canonical pattern as Fall 2025. 8B absorbs Expanded layout content alongside Advanced TextFields.
+2. **8A is cancelled** (October Break, Tue Oct 13), same as Fall 2025. 8A was the Expanded session; in the Fall, Expanded comes up briefly in 7B, and the [Expanded reference](reference/widgets/expanded-flexible.md) covers the rest.
 3. **14B is cancelled** (Thanksgiving, Thu Nov 26) — content slides forward (see Weeks 14-15).
 4. **15B exists** (no MLK-equivalent loss) → Fall 2026 has a real wrap-up class that Spring 2026 didn't.
 5. **14A is no longer optional** (Fall 2025 made it optional pre-Thanksgiving; not repeating that — class is full enough to use the slot).
 6. **End-of-semester file mapping:** student notes use canonical content names. Calendar slot 15A teaches `14B.md` (Responsive + Publishing), 15B teaches `15A.md` (Polish Packages — final class). MyCourses shows lesson titles like "14B - Responsive..." inside the Week 15 module. See `semester-comparison.md` for the breakout table.
+7. **Weeks 7 and 8 were reordered (Oct 2026).** Advanced TextFields used to come last (8B), after Lab 03 was due, even though Lab 03 needs it. It now comes first (7A), then external data (7B), then Giphy and GridView (8B).
 
 ---
 
@@ -148,18 +149,35 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 
 ---
 
-## Week 7: External Data & Advanced Layouts
+## Week 7: Better Forms, Then External Data
 **Oct 6 & 8**
 
-### [Week 7A](weekly/7A.md): Asynchronous Programming & HTTP Requests
-- **Warm-up (optional, ungraded):** [dart-03: Maps](exercises/dart-03-Maps.md) and [dart-07: Async](exercises/dart-07-Async.md), held back from the Week 1 bundle for exactly this week
+### [Week 7A](weekly/7A.md) (Tuesday): Advanced TextFields & Focus
+- **Clear Buttons:** An `IconButton` in `suffixIcon` that calls `controller.clear()`
+- **Focus Management:** FocusNode, `requestFocus()`, and `onEditingComplete` to fix the Next-button bug that clear buttons cause
+- **Keyboard Handling:** Three ways to dismiss the keyboard (on Submit, `onTapOutside`, app-wide `GestureDetector`), plus SingleChildScrollView so it can't cover your fields
+- **Icon Placement:** `icon` vs `prefixIcon` vs `prefix`
+- **Lab time:** [Lab 03](labs/lab-03-textfields-dropdownbuttons.md). Its clear buttons and all three bonus items come from today.
+
+### [Week 7B](weekly/7B.md) (Thursday): Asynchronous Programming & HTTP Requests
+- **Warm-up (optional, ungraded):** [dart-03: Maps](exercises/dart-03-Maps.md) and [dart-07: Async](exercises/dart-07-Async.md), held back from the Week 1 bundle for exactly this unit
+- **API Testing:** Hoppscotch, before writing any code
 - **API Integration:** HTTP package, GET/POST requests, authentication with Bearer tokens
 - **Async Programming:** Future, async/await, error handling with try-catch
 - **JSON Handling:** Parsing API responses with jsonDecode()
 - **ListView.Builder:** Dynamically generating lists from API data
 - **State Management:** Using setState() to update UI after async operations
 
-### [Week 7B](weekly/7B.md): GridView & Giphy API Integration
+**Assignments:** [Lab 04](labs/lab-04-gif-finder.md) (Gif Finder) is introduced
+
+---
+
+## Week 8: October Break + Giphy & GridView
+**Oct 13 (🔴 break) & Oct 15**
+
+### Week 8A (Tuesday): 🔴 No class, October Break (Oct 12-13)
+
+### [Week 8B](weekly/8B.md) (Thursday): GridView & Giphy API Integration
 - **Giphy API:** Real API integration, authentication with API keys, nested JSON responses
 - **GridView:** GridView.count, GridView.builder, SliverGridDelegate
 - **GridTile:** Structured grid items with headers/footers
@@ -167,23 +185,6 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Code Standards:** Professional commenting, widget extraction techniques
 
 **Assignments:** [Lab 04](labs/lab-04-gif-finder.md) (Gif Finder)
-
----
-
-## Week 8: October Break + Combined 8A/8B Class
-**Oct 13 (🔴 break) & Oct 15**
-
-### Week 8A (Tuesday): 🔴 No class — October Break (Oct 12-13)
-
-### [Week 8B](weekly/8B.md) (Thursday): Expanded + Advanced TextFields & Connecting Forms to APIs
-Combined session — Expanded layouts (canonical Spring 8A content) folded into 8B since October Break removes 8A. Use the 2255_8b override / a Fall-specific guide if pace differs from Spring.
-
-- **Expanded Widget:** Automatic remaining-space filling in Rows and Columns; cross-axis sizing with `width: double.infinity` (compressed segment, ~15-20 min)
-- **Focus Management:** FocusNode, FocusManager, programmatic focus control
-- **Text Field Enhancement:** Clear buttons, suffix icons, onTapOutside, onEditingComplete
-- **Keyboard Handling:** Three dismissal patterns, SingleChildScrollView for overlap
-- **TextField → API Bridge:** Connecting form input to a live DummyJSON search request
-- **GIF Finder / Project 2 Prep:** The full pattern: TextField → URL → fetch → parse → display
 
 ---
 
@@ -374,9 +375,9 @@ WebView, Audio Players, Shared Preferences, URL Launcher, Cached Network Image, 
 > Cross-check against [`00-Course-Overview/Fall-2026-Build-Log.md`](../00-Course-Overview/Fall-2026-Build-Log.md), which is the live "what's left" list. This section is schedule-specific.
 
 - [x] ~~Confirm Fall 2026 grade structure~~ **RESOLVED 2026-08-09:** Projects 65 (P1 20 / P2 20 / P3 25), Labs & Exercises 20, Participation 10, Study Guide Quizzes 5. See `00-Course-Overview/assignments.md`.
-- [ ] Decide whether 8B's combined Expanded + Advanced TextFields content needs a 2261-specific guide or if existing `2255_8b.md` serves
+- [x] ~~Decide whether 8B's combined Expanded + Advanced TextFields content needs a 2261-specific guide~~ **Superseded 2026-10-05:** Advanced TextFields moved to 7A (guide built from `2255_8b.md`), external data to 7B, Giphy/GridView to 8B. See the build log's "Session swap" checklist.
 - [ ] Decide whether to create stub teaching guides for 14A (newly non-optional), 15A (now teaching `14B.md`), 15B (now teaching `15A.md`) — see CLAUDE.md slim template
 - [ ] Confirm Lab 04 (GIF Finder) rework lands before Fall — see `00-Course-Overview/fall-2026-fixes.md`
 - [ ] Sub-question still open from May 2026: do we want to swap to Responsive-before-Camera ordering? Current draft keeps Camera first; revisit before publishing this schedule
 
-*Fall 2026 (term 2261). Promoted to the live `schedule.md` on 2026-08-09; the Spring 2026 version moved to `archives/spring-2026/schedule.md`. Last updated: 2026-08-09.*
+*Fall 2026 (term 2261). Promoted to the live `schedule.md` on 2026-08-09; the Spring 2026 version moved to `archives/spring-2026/schedule.md`. Last updated: 2026-10-05 (Weeks 7-8 reordered).*

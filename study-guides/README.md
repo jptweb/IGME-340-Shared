@@ -7,7 +7,7 @@ Pre-class reading modules tied to the six major phase shifts in the course. Each
 | [01 — Dart Fundamentals](01-dart-fundamentals.md)         | Before Week 1A | No Dart experience → enough to attempt the exercises    | ✅ Ready |
 | [02 — Dart to Flutter](02-dart-to-flutter.md)             | Week 2A        | Language-only → widget tree; everything-is-a-widget     | ✅ Ready |
 | [03 — Static to Stateful](03-static-to-stateful.md)       | Week 4A        | Layouts that sit there → layouts that respond; setState | ✅ Ready |
-| [04 — External Data](04-external-data.md)                 | Week 7A        | App-contained data → APIs and async; Futures/await      | ✅ Ready |
+| [04 — External Data](04-external-data.md)                 | Week 7B        | App-contained data → APIs and async; Futures/await      | ✅ Ready |
 | [05 — Navigation and State](05-navigation-and-state.md)   | Week 9B–10A    | One screen → many screens; GoRouter + Provider          | 📝 Draft |
 | [06 — Into the Game Engine](06-game-engine.md)            | Week 11B       | Widget apps → Flame game loop; different rules          | 📝 Draft |
 

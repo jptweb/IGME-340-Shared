@@ -97,7 +97,7 @@
 
 ### 🐛 Debugging & Tools
 - **[VS Code & Flutter Workflow](setup/vs-code-flutter-workflow.md)** - Shortcuts, formatting, debugging, flutter clean *(all in one page)*
-- Widget Inspector *(see [Week 7B notes](../weekly/7B.md))*
+- Widget Inspector *(see [Week 8B notes](../weekly/8B.md))*
 - [Submission Guidelines](../submission-guidelines.md) - flutter clean, folder structure, MyCourses upload
 
 ---
