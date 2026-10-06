@@ -19,7 +19,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 
 ### Key Differences from Spring 2026 (2255)
 1. **Tue/Thu schedule** instead of Mon/Wed → all dates shift, content unchanged through Week 13.
-2. **8A is cancelled** (October Break, Tue Oct 13), same as Fall 2025. 8A was the Expanded session; in the Fall, a short Expanded segment closes out 7A, it comes up again in 7B, and the [Expanded reference](reference/widgets/expanded-flexible.md) covers the rest.
+2. **8A is cancelled** (October Break, Tue Oct 13), same as Fall 2025. Nothing is lost: Expanded is taught at the end of 7A in every semester, and the [Expanded reference](reference/widgets/expanded-flexible.md) covers the rest.
 3. **14B is cancelled** (Thanksgiving, Thu Nov 26) — content slides forward (see Weeks 14-15).
 4. **15B exists** (no MLK-equivalent loss) → Fall 2026 has a real wrap-up class that Spring 2026 didn't.
 5. **14A is no longer optional** (Fall 2025 made it optional pre-Thanksgiving; not repeating that — class is full enough to use the slot).
@@ -157,7 +157,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Focus Management:** FocusNode, `requestFocus()`, and `onEditingComplete` to fix the Next-button bug that clear buttons cause
 - **Keyboard Handling:** Three ways to dismiss the keyboard (on Submit, `onTapOutside`, app-wide `GestureDetector`), plus SingleChildScrollView so it can't cover your fields
 - **Icon Placement:** `icon` vs `prefixIcon` vs `prefix`
-- **Quick Expanded:** Filling leftover space in a Row, and the TextField-in-a-Row crash it fixes (the short version of 8A, which October Break cancels)
+- **Quick Expanded:** Filling leftover space in a Row, and the TextField-in-a-Row crash it fixes
 - **Lab time:** [Lab 03](labs/lab-03-textfields-dropdownbuttons.md). Its clear buttons and all three bonus items come from today.
 
 ### [Week 7B](weekly/7B.md) (Thursday): Asynchronous Programming & HTTP Requests

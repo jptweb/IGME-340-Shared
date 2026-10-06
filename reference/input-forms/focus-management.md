@@ -362,4 +362,4 @@ See [Week 6A notes](../../weekly/6A.md#android-emulator-keyboard-note) for detai
 - [TextInputAction Enum](https://api.flutter.dev/flutter/services/TextInputAction.html)
 
 ---
-*Last updated: Week 8A | IGME-340 Reference*
+*Last updated: Week 7A | IGME-340 Reference*
