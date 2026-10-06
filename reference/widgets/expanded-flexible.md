@@ -366,7 +366,8 @@ Row(
 
 ## When Covered in Course
 - **[Week 3A](../../weekly/3A.md)** - Brief introduction with Row/Column
-- **[Week 7B](../../weekly/7B.md)** - First look: swapping a fixed-height Container for Expanded. In Fall semesters this is the main coverage, since 8A falls on October Break
+- **[Week 7A](../../weekly/7A.md)** - Quick version: a guessed width that overflows, the Expanded fix, and wrapping a TextField in a Row. In Fall semesters this replaces 8A, which falls on October Break
+- **[Week 7B](../../weekly/7B.md)** - Vertical Expanded: swapping a fixed-height Container for Expanded so a ListView fills the screen
 - **[Week 8A](../../weekly/8A.md)** - In-depth coverage for responsive design (Spring semesters)
 - **Project 2** - Essential for responsive search results
 
