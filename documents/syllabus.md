@@ -330,11 +330,13 @@ There are 3 major projects to be completed in the semester.
 - **Project 2** (20%) - Web Service Application
 - **Project 3** (25%) - Roll Your Own Project
 
-**About Project 2:** you'll build on the GIF Finder app we construct together in Lab 04, extending it with additional functionality. If you'd rather work with a different web API, that option is open too. The full spec comes out when the project is assigned.
+**About Project 2:** you'll build an app around a web API you choose, using the same pattern Lab 04 walks you through step by step with GIF Finder. The full spec comes out when the project is assigned.
+
+> **Update (October 2026):** This paragraph used to say Project 2 would build on your Lab 04 GIF Finder, with a different API as an option. I flipped that around. Lab 04 now hands you the GIF Finder search code and explains every line of it, which takes a lot of the load off. So Project 2 is where you take that same pattern and apply it to an API you pick. If you'd really rather extend your GIF Finder instead, talk to me first.
 
 **Project Deliverables**: Projects 2 and 3 have multiple deliverables, not just a final submission:
 - **Proposal/Plan** - What you intend to build
-- **Prototype** - Early version with basic functionality *(Project 3 only; for Project 2, Lab 04 serves this role)*
+- **Prototype** - Early version with basic functionality
 - **Final Submission** - Complete project
 - **Video Walkthrough** (Project 3) - Demo video showing your app in action
 
@@ -385,7 +387,7 @@ Throughout the semester, you will submit in-class work to your own GitHub repo. 
 
 Two kinds of work share this category, and both are **strategically front-loaded** into the first half of the semester to prepare you for project work.
 
-**Labs 00-04** are Flutter builds. Lab 00 is environment setup; Labs 01-04 build real app features (layouts, themes and buttons, text fields and dropdowns, and finally the guided GIF Finder that feeds directly into Project 2).
+**Labs 00-04** are Flutter builds. Lab 00 is environment setup; Labs 01-04 build real app features (layouts, themes and buttons, text fields and dropdowns, and finally the guided GIF Finder, which teaches the same pattern you'll use in Project 2).
 
 **Dart Exercises** are short hands-on DartPad reps that pair with Study Guide 01. Each has a **Core** section, which is what gets submitted, and an optional **Stretch** section that is never graded. Five of them (01, 02, 04, 05, and 06) have their Core sections submitted together as a single bundle. Maps and Async are held until Week 7, when we start pulling data from web APIs, and are not graded.
 
@@ -545,4 +547,4 @@ If you have a concern related to gender-based discrimination and/or harassment a
 
 ---
 
-*Last updated: Fall 2026 (2261). Rolled over 2026-08-09; add/drop and 'W' deadlines still marked TBD pending the registrar calendar.*
+*Last updated: Fall 2026 (2261). Rolled over 2026-08-09; Project 2 description updated 2026-10-07; add/drop and 'W' deadlines still marked TBD pending the registrar calendar.*

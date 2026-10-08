@@ -4,6 +4,8 @@
 
 # Project 2 - Web Service Application
 
+> **Draft.** This is Project 2 as it stands right now. We'll kick it off properly in class on Thursday, Oct 15, and a few details may still shift before then. Due dates will be in MyCourses. Until then, the most useful thing you can do is browse APIs (Section II) and finish Lab 04, since its search function is the pattern this whole project uses.
+
 ## I. Overview
 
 For this project you are creating a Flutter Application that utilizes a Web service.
@@ -36,6 +38,18 @@ Other directories to browse:
 - **Every** proposal requires a screenshot proving the API is live and returning data (see [Section IV](#iv-proposal) below) — even for APIs on our "worked before" list. This is your safety net — if the API is down or too limited, you'll find out early enough to switch.
 - Keep your project to a reasonable scope that is roughly equivalent to the other assignments.
 
+### Read This If You're Thinking About Pokémon
+
+Every semester a bunch of you pick [PokeAPI](https://pokeapi.co/). I get it, everyone loves Pokémon. But PokeAPI is a *lookup* API, not a *search* API, and that makes this project a lot harder than it looks.
+
+- **No searching by partial name.** You can ask for one exact Pokémon by name or number (`/pokemon/pikachu`). Ask for `/pokemon/pika` and you get a 404, not a list of matches.
+- **No filters in the URL.** The only query parameters are `limit` and `offset`. There's no way to ask for "fire types from Generation 1" in one request.
+- **Lists are bare.** List endpoints like `/pokemon?limit=20` or `/type/fire` only give you a name and a URL for each Pokémon. To show a sprite or stats, you make one more request per Pokémon. Past students have ended up firing off over a thousand requests at once.
+
+None of that makes it impossible. It means your controls end up filtering on the device instead of in the API, which is real extra work on top of the project. Compare that to something like AmiiboAPI below, where `?name=mar` finds every amiibo with "mar" in the name and you can stack filters in a single URL.
+
+If you still want Pokémon, that's allowed. Come talk to me before you turn in your proposal so we can plan how your three controls will actually work.
+
 ### APIs That Have Worked Before
 
 The list below is a small handful of APIs that have been used in past semesters or that we've reviewed and think would work well. **You are not limited to this list** — it's just here as a starting point if you want something you know will work. Tags give you a quick sense of what to expect.
@@ -60,30 +74,31 @@ The list below is a small handful of APIs that have been used in past semesters 
 ## III. Requirements
 
 ### A. Functional
-1. Use one of the APIs above (or one of your choosing) to create an experience similar to [GIF Finder](../reference/network/giphy-api-setup.md) that meets the requirements below.
+1. Use one of the APIs above (or one of your choosing) to create an experience similar to [GIF Finder](../labs/lab-04-gif-finder.md) that meets the requirements below. Lab 04 walks through the whole search function step by step, and your Project 2 search function should have the same shape: build the URL from your controls, send the request, check the status, catch errors, clean up the data, and hand it to the screen.
 
 2. **Saved State:** Save the last term searched by the user in the device's shared_preferences.
     - We will test this by typing in a search term, doing a search, and then closing the application. When we re-open the app, the user's last search term should still be in the field.
     - Ideally this will also be true of the other controls, but we won't require it.
     - If there isn't a "search term" to save in your project, then save something else and be sure to document what is saved from visit to visit.
 
-3. **Required Controls:** There will be a MINIMUM of 3 controls that a user can use to filter and display the results. Search buttons or similar don't count towards the 3 controls. For example, GIF Finder has these controls:
-    - a search button (which doesn't count)
+3. **Required Controls:** At least 3 controls that change what the user sees, which usually means a search field plus two more. The Search button itself doesn't count. Your Lab 04 GIF Finder already has two:
     - a search term field that the user types into
-    - a pulldown that the user can use to limit the number of results
+    - a dropdown that limits the number of results
 
-    **So you will need at least one additional kind of control.** What kind of control to use depends on what parameters the web service will allow you to search it on. Here are some ideas:
+    A results-count dropdown like Lab 04's counts for Project 2 too, **so you only need one new kind of control.** What kind depends on what the API lets you search on. Here are some ideas:
     - a **rating** pulldown — if we had this on the GIPHY HW then a user would be able to choose between viewing "G" and "PG" videos for example
     - a **sort by** pulldown to allow the user to view the results sorted A->Z, Z->A, by date, etc
     - a **date** chooser to filter the results by date — a Datepicker Widget would be an excellent choice here
     - **next** and **previous** buttons — another really nice option is to allow the user to "page" through large numbers of results. In the GIPHY HW did you notice that we always get the same 100 "cat" GIFs back when we search? This is because there are ***thousands*** of cat GIFs on GIPHY, and if we don't otherwise specify we will always get them returned from the web service starting at index 0, which means we always get the first 100 (index 0-99) back. We can instead write code that requests a higher starting index.
+
+    **A control can work on the device, not just in the URL.** If your API has no parameter for something, you can still offer it by working with the results you already got back: sort them (A to Z, newest first) or filter what's on screen (only show items that have an image). Those count toward your 3. This is also how an API with only a couple of URL options can still work for this project.
 
 ### B. Design & Interaction
 - Pleasing graphic design:
   - Show me the cool things you can do in Flutter.
   - The interface does not closely resemble the GIPHY homework's UI
 - **Well-labeled controls:** Every input should have a clear label or hint text so users know exactly what to type or select. Don't make users guess what a field expects.
-- **Use the right control type for the job:** If a filter has a fixed set of options (e.g., Pokemon types, meal categories, content ratings), use a **DropdownButton** — not a TextField where the user has to type a value and hope it matches exactly. TextFields are great for open-ended search terms, but dropdowns prevent typos and make your app much easier to use. *(This was a common issue in past semesters — don't lose points over it!)*
+- **Use the right control type for the job:** If a filter has a fixed set of options (e.g., amiibo types, meal categories, content ratings), use a **DropdownButton** — not a TextField where the user has to type a value and hope it matches exactly. TextFields are great for open-ended search terms, but dropdowns prevent typos and make your app much easier to use. *(This was a common issue in past semesters — don't lose points over it!)*
 - Widgets follow interface conventions, for example:
   - radio buttons are for mutually exclusive options, checkboxes are for when you want to let the user choose *multiple* options.
 - Users should be able to figure out how to use the app with minimal instruction:
@@ -148,7 +163,7 @@ In 2-3 sentences, describe:
 - Who is the target user?
 - What makes it useful or engaging?
 
-**Example:** "PokeDex Tracker helps competitive Pokemon players quickly search and compare base stats across generations. Users can filter by type, generation, and stat ranges to build optimal team compositions."
+**Example:** "Amiibo Shelf helps collectors see what exists before they buy. Users search by character name and narrow it down by type and game series, so they can see everything from one game at a glance and keep track of what they already own."
 
 ### 3. Core Functionality Description (Required)
 
@@ -160,18 +175,18 @@ Describe what users will be able to do with your app. Your description must addr
 - [ ] What data persists between app sessions (shared_preferences) — likely the search term? (we will talk about this week 9)
 - [ ] How results are displayed (ListView, GridView, cards, etc.)
 
-**Beyond the Basics (for 'A' level work):**
-What makes your app more than a basic API viewer? Consider:
-- Additional features not covered in class
-- Particularly polished UI/UX
-- Creative use of the API data
-- Solving a real user need
+**Your one thing (recommended):**
+You don't need a long feature list. Name the one thing that will make your app nicer to use than a plain list of API data. A few kinds of things that work:
+- A really polished layout
+- A detail screen when you tap a result
+- A creative use of the API data
+- Solving a real problem for the person using it
 
-**Example (Pokemon App):**
+**Example (Amiibo App):**
 
-*Minimum:* "Users search Pokemon by name (text field), filter by generation (dropdown) and type (dropdown). Last search term is saved using shared_preferences. Results display in scrollable ListView with sprites and basic stats."
+*Minimum:* "Users search by character name (text field), filter by type such as figure or card (dropdown), and filter by game series (dropdown). All three go into one request URL. Last search term is saved using shared_preferences. Results display in a GridView with each amiibo's image, name, and series."
 
-*Beyond:* "Tap any Pokemon to see detailed stat comparison chart. Save favorites list that persists. View evolution chains with visual tree diagram. Compare two Pokemon side-by-side."
+*One thing:* "Tap an amiibo to see a detail screen with a bigger image and its release dates in each region."
 
 ### 4. Visual Mockup (Required)
 Include **at least one** mockup showing your app's main screen. This can be:
@@ -219,14 +234,12 @@ Include an About dialog or page inside your app. This is what a real app would h
 - Data source / API credit and link
 - Any other credits or attributions (fonts, images, packages, etc.)
 
-### Submission Document (Required) *(updated March 4, 2026)*
-Submit a **short PDF** (1-2 pages) alongside your project ZIP in the MyCourses dropbox. This is what I read while grading — it helps me find everything and give you full credit. Use this structure:
+### Submission Document (Required) *(updated October 2026)*
+Submit a **short PDF** (about a page) alongside your project ZIP in the MyCourses dropbox. This is what I read while grading, so it helps me find everything and give you credit. Three sections:
 
-1. **How to Use Your App** — Brief walkthrough: what to search, what the controls do, anything I should try
-2. **How You Met the Requirements** — Quick notes on your 3+ controls, shared_preferences, etc.
-3. **What's Special** — Anything beyond the basics you want me to notice (bonus polish, creative features, extra effort)
-4. **AI Tools Used** — If applicable: what tools, what for (see [Academic Integrity note](#iv-proposal))
-5. **Known Issues** — Anything that doesn't quite work or that you'd fix with more time (honesty here is appreciated and won't hurt your grade — it shows self-awareness)
+1. **How to Use Your App:** a quick walkthrough. What should I search for, what do the controls do, and is there anything I should try?
+2. **How You Met the Requirements:** where your 3 controls are, what you save with shared_preferences, and anything extra you want me to notice, including any bonus items.
+3. **AI Tools Used:** if you used any, which ones and what for (see the [Academic Integrity note](#iv-proposal)).
 
 **File naming:** `LastName_FirstName_P2Doc.pdf`
 
@@ -235,7 +248,7 @@ This replaces the old "document everything in the About page" approach — your 
 ## VII. Grading
 The grading rubric for this project is visible in myCourses. You should look it over carefully. Find it by going to the "Assignments" section and clicking through to the "Project 2 Final Submission" dropbox.
 
-Reminder — 'A'-level work means doing college-level work that goes beyond what we did in class. (You should be able to see this reflected in the online Rubric). Meeting only the base requirements will most likely only earn you a B.
+A clean, working app that meets every requirement and is pleasant to use will grade well. You don't need a pile of extra features to get there. Pick another API, show its data clearly, and pick **one thing** to do really well, whether that's the layout, a detail screen when you tap a result, or how the app handles errors.
 
 ## VIII. Submission
 - Perform a `flutter clean`, ZIP your project folder, and upload to the MyCourses dropbox
@@ -243,4 +256,4 @@ Reminder — 'A'-level work means doing college-level work that goes beyond what
 - Be sure to check the Submission Guidelines for more details!
 
 > **Need Help?**
-> Don't forget I added extensive documentation in the references area about how to [connect to Giphy](../reference/network/giphy-api-setup.md). Much of the code you need may end up being similar in nature to this; but the way you interact and build it will be different. In a sense we are providing you with much of the ingredients; but you need to creatively assemble and build the meal.
+> Start with your own [Lab 04](../labs/lab-04-gif-finder.md). Its `searchGifs()` function is the pattern, step by step, and your Project 2 search function will look a lot like it with a different URL and different fields. The references area also has extensive documentation on how to [connect to Giphy](../reference/network/giphy-api-setup.md). Much of the code you need may end up being similar in nature to this; but the way you interact and build it will be different. In a sense we are providing you with much of the ingredients; but you need to creatively assemble and build the meal.
