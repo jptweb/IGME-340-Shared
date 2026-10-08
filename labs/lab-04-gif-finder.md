@@ -481,7 +481,7 @@ The starter's header block has `YOUR NAME` and `TODAY'S DATE` in it. Fill those 
 
 ## VIII. Submission
 
-1. **Leave your API key in.** Whoever grades it needs your key to run your app.
+1. **Leave your API key in.** Whoever grades it needs your key to run your app. If that worries you, delete the key in your GIPHY dashboard after your grade comes back and make a new one. GIPHY never charges you for a key like this. It just cuts you off after 100 requests in an hour.
 2. Run `flutter clean` in your project's terminal. Without it your project is hundreds of MB and the upload will fail.
 3. Put your project folder inside a folder named `LastName_FirstName_Lab04`.
 4. Zip that folder and upload it to the Lab 04 dropbox in MyCourses.
