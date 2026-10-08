@@ -19,57 +19,47 @@ For this project you are creating a Flutter Application that utilizes a Web serv
 
 ## II. Choosing an API
 
-You can use **any public API** that interests you. The goal is to build something *you* find engaging. The main requirement is that the API returns data you can search/filter (to meet the 3-control requirement). You can make pretty much any experience you like as long as it captures a user request, gets data from the API, and then presents it back in a way that is useful or fun, easy to understand, and fairly well organized.
+You have two ways to go:
 
-### Find an API You're Excited About
+- **The easy path: pick from the list below.** Every API on it was checked in October 2026. Each one has a real search, filters you can combine in one URL, and an image in every result. If you want a solid project done well without fighting your API, start here.
+- **Your own pick.** Any public API is allowed, and if there's one you're excited about, go for it. You'll need to check it carefully first (see [Picking Your Own API](#picking-your-own-api)), and **talk to me before you submit your proposal** so we can make sure your controls will actually work.
 
-There are **hundreds** of free public APIs out there covering just about every topic you can think of:
+Either way, your proposal needs a screenshot showing the API returning data (see [Section IV](#iv-proposal)). APIs go down without warning, and this is how you find out early.
 
-Animals, Anime, Books, Cryptocurrency, Food & Drink, Games, Geography, Movies & TV, Music, News, Science, Sports, Vehicles, Weather, and a lot more.
+### Recommended APIs
 
-**Start here:** [Public API Lists](https://github.com/public-api-lists/public-api-lists), a massive categorized directory of free APIs. We'll look at this together in class.
+- **AmiiboAPI** (https://www.amiiboapi.org/docs/#amiibo): search amiibo by name and filter by type (figure, card, yarn), game series, amiibo series, and character. Image in every result. No auth required.
+- **Rick and Morty API** (https://rickandmortyapi.com/documentation): search characters by name and filter by status, species, and gender, all in one URL. Start with the `/character` endpoint; locations and episodes have fewer filters. Image in every result, and paging is built in. No auth required.
+- **iTunes Search API** (https://performance-partners.apple.com/search-api): search music, podcasts, and more by term, and narrow by media type, entity (song, album, artist), country, and number of results. Album art in every result except artist searches, so search songs or albums. A movie search came back empty when we checked, so test your media type first. No auth required.
+- **NASA Image and Video Library** (https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf): search NASA's photo archive by keyword and narrow by media type and year range, like `?q=moon&media_type=image&year_start=1969&year_end=1972`. Every result links to an image. The JSON is nested a few levels deep, so the "clean up the data" step from Lab 04 really pays off here. No auth required.
+- **Disney API** (https://disneyapi.dev/docs/): search Disney characters by name and filter by the films or shows they appear in. Image in every result. No auth required. The first request after a quiet stretch can take a few seconds, so make sure your loading indicator works.
+- **CheapShark** (https://apidocs.cheapshark.com/): search PC game deals by title, set a max price, and sort by price, rating, and more. Thumbnail in every result. No auth required.
+- **TCGdex** (https://tcgdex.dev/): the Pokémon pick. See [Popular APIs That Cause Trouble](#popular-apis-that-cause-trouble) below for why it beats PokeAPI.
+- ~~**Jikan (MyAnimeList) API v4** (https://docs.api.jikan.moe/): search and filter anime/manga by title, type, score, status, rating, genre, and more.~~ **Down as of Oct 8, 2026:** every request timed out. It has worked well in past semesters, so I'll put it back if it returns. If you want it, check it in Hoppscotch first and have a backup in mind.
 
-Other directories to browse:
-- [Free Public APIs for Developers (freeCodeCamp)](https://www.freecodecamp.org/news/public-apis-for-developers/)
+### Picking Your Own API
 
-**Tips for picking a good API:**
-- Look for APIs where the **Auth** column says `No` or `apiKey`. Those will be the easiest to get up and running. APIs that require an API key are totally fine (and good real-world practice!). Just be sure you can get the key and connect before submitting your proposal.
-- Pay attention to how many **endpoints and filter parameters** an API offers. You need enough to build 3 meaningful controls.
-- **Every** proposal requires a screenshot proving the API is live and returning data (see [Section IV](#iv-proposal) below), even for APIs on our "worked before" list. This is your safety net: if the API is down or too limited, you'll find out early enough to switch.
-- Keep your project to a reasonable scope that is roughly equivalent to the other assignments.
+There are **hundreds** of free public APIs out there: animals, anime, books, food, games, movies and TV, music, science, sports, and a lot more. **Start with [Public API Lists](https://github.com/public-api-lists/public-api-lists)**, a big categorized directory we'll look at together in class.
 
-### Read This If You're Thinking About Pokémon
+Look for APIs where the **Auth** column says `No` or `apiKey`. Those are the easiest to get running. An API key is totally fine (and good real-world practice), just make sure you can actually get one before your proposal.
 
-Every semester a bunch of you pick [PokeAPI](https://pokeapi.co/). I get it, everyone loves Pokémon. But PokeAPI is a *lookup* API, not a *search* API, and that makes this project a lot harder than it looks.
+Then, before you commit, try a few searches in Hoppscotch and check for these four things:
 
-- **No searching by partial name.** You can ask for one exact Pokémon by name or number (`/pokemon/pikachu`). Ask for `/pokemon/pika` and you get a 404, not a list of matches.
-- **No filters in the URL.** The only query parameters are `limit` and `offset`. There's no way to ask for "fire types from Generation 1" in one request.
-- **Lists are bare.** List endpoints like `/pokemon?limit=20` or `/type/fire` only give you a name and a URL for each Pokémon. To show a sprite or stats, you make one more request per Pokémon. Past students have ended up firing off over a thousand requests at once.
+- **Images.** Each result should include an image URL (see [Images](#a-functional)). No images? Talk to me, and we can work out an alternative.
+- **A real search.** Some APIs are *lookup* APIs: you can ask for one exact item by name or ID, but a partial name gives you an error or nothing instead of a list of matches.
+- **Filters that combine.** You want to search and filter in the same request. Some APIs only let you filter by one thing at a time, and some quietly ignore extra parameters, so check that your results actually changed.
+- **Full results.** If a search only gives you a name and an ID, showing an image or any details means one more request per item.
 
-None of that makes it impossible. It means your controls end up filtering on the device instead of in the API, which is real extra work on top of the project. Compare that to something like AmiiboAPI below, where `?name=mar` finds every amiibo with "mar" in the name and you can stack filters in a single URL.
+You can work around a weak API on the device. Sorting what came back (A to Z, newest first) is easy. But filtering on something the API can't search usually means downloading far more results than you show and sorting them out yourself, which is real extra work on top of the project. See [Required Controls](#a-functional) for what counts as a control.
 
-If you still want Pokémon, that's allowed. Come talk to me before you turn in your proposal so we can plan how your three controls will actually work.
+### Popular APIs That Cause Trouble
 
-### APIs That Have Worked Before
+These show up every semester and fail the checks above. They're allowed, but you'll be fighting them. If you still want one, talk to me before your proposal.
 
-The list below is a small handful of APIs that have been used in past semesters or that we've reviewed and think would work well. **You are not limited to this list.** It's just here as a starting point if you want something you know will work. Tags give you a quick sense of what to expect.
-
-- **Jikan (MyAnimeList) API v4** (https://docs.api.jikan.moe/): search and filter anime/manga by title, type, score, status, rating, genre, and more. Returns full details in a single request. `Tried & tested` `Highly configurable`
-  *(Note: v3 is no longer supported, so make sure you're using v4.)*
-
-- **REST Countries** (https://restcountries.com/): filter by region, language, currency, capital, etc. Full country data returned in every response. `Tried & tested` `Lots of filters`
-
-- **AmiiboAPI** (https://www.amiiboapi.org/docs/#amiibo): search by name, filter by type (Figure/Card/Yarn), game series, amiibo series, character. No auth required. `Looks promising` `Lots of filters`
-  *(New replacement for the old amiiboapi.com which shut down Dec 2025.)*
-
-- **NHTSA Vehicle API** (https://vpic.nhtsa.dot.gov/api/): decode VINs, search by make/model/year, filter by vehicle type, manufacturer. No auth required. Good exercise in URL building. `Looks promising` `Lots of filters`
-
-- **TheMealDB / TheCocktailDB** (https://www.themealdb.com/api.php and https://www.thecocktaildb.com/api.php): these are sister APIs with the same structure. Search by name, filter by category, area/glass type, ingredient. `Tried & tested` `Incomplete filter responses`
-  **Read this before choosing:** The *search* endpoint (`search.php?s=chicken`) returns full data: name, instructions, ingredients, images, everything. But the *filter* endpoints (`filter.php?c=Seafood`) only return three fields: name, thumbnail, and ID. That means if you want to show any real detail (ingredients, instructions, etc.) when filtering by category or area, you'd need to make a *second* request per item using `lookup.php?i={id}` to get the full data. This adds complexity that other APIs on this list don't have. Totally doable, but plan for it.
-
-*(The Dog API at dog.ceo was previously listed here but removed. It only returns image URLs with no search or filtering, making it very difficult to meet the 3-control requirement.)*
-
-*Note: 235 starters for some of the above APIs can be found in the [web-service-app-starters.md](https://github.com/tonethar/IGME-235-Shared/blob/master/tutorial/web-service-app-starters.md). These are web-based but useful for understanding the API structure.*
+- **PokeAPI:** only exact names work (`/pokemon/pika` is a 404), the only URL options are `limit` and `offset`, and list results are just names and links, so every sprite is one more request. Past students have fired off over a thousand requests at once. **Want Pokémon? Use [TCGdex](https://tcgdex.dev/) instead.** It's a trading card API with partial-name search and filters like type and HP (`/v2/en/cards?name=pika&types=Lightning`), and a student used it last semester with great results. Its search results only have each card's name and image, so a tap-for-details screen is a natural fit.
+- **The Dog API:** images only, no search or filters.
+- **TheMealDB / TheCocktailDB:** filters don't combine with each other or with a search, and a search returns at most 25 results.
+- **REST Countries:** the version past students used was shut down in 2026. The new one needs a key and works differently.
 
 ## III. Requirements
 
@@ -81,7 +71,7 @@ The list below is a small handful of APIs that have been used in past semesters 
     - Ideally this will also be true of the other controls, but we won't require it.
     - If there isn't a "search term" to save in your project, then save something else and be sure to document what is saved from visit to visit.
 
-3. **Required Controls:** At least 3 controls that change what the user sees, which usually means a search field plus two more. The Search button itself doesn't count. Your Lab 04 GIF Finder already has two:
+3. **Required Controls:** At least 3 controls that change what the user sees. Your search field counts as one, so that means a search field plus two more. The Search button itself doesn't count. Your Lab 04 GIF Finder already has two:
     - a search term field that the user types into
     - a dropdown that limits the number of results
 
@@ -91,7 +81,10 @@ The list below is a small handful of APIs that have been used in past semesters 
     - a **date** chooser to filter the results by date. A Datepicker Widget would be an excellent choice here
     - **next** and **previous** buttons. Another really nice option is to allow the user to "page" through large numbers of results. In the GIPHY HW did you notice that we always get the same 100 "cat" GIFs back when we search? This is because there are ***thousands*** of cat GIFs on GIPHY, and if we don't otherwise specify we will always get them returned from the web service starting at index 0, which means we always get the first 100 (index 0-99) back. We can instead write code that requests a higher starting index.
 
-    **A control can work on the device, not just in the URL.** If your API has no parameter for something, you can still offer it by working with the results you already got back: sort them (A to Z, newest first) or filter what's on screen (only show items that have an image). Those count toward your 3. This is also how an API with only a couple of URL options can still work for this project.
+    **A control can work on the device, not just in the URL.** If your API has no parameter for something, you can still offer it by working with the results you already got back: sort them (A to Z, newest first) or filter what's on screen (only show items that have an image). Those count toward your 3. This is also how an API with only a couple of URL options can still work for this project. Sorting what you got back is the easy version. Filtering on something the API can't search on often means fetching far more results than you show, so plan for that before you pick the API.
+
+4. **Images:** Your API should return images for its results (a photo, cover art, a character, a flag, and so on), and your app should display them with `Image.network`, the same way we did in [4A](../weekly/4A.md) and Lab 04. Images are a big part of what makes this feel like a real app.
+    - **Found an API you're excited about that has no images?** Come talk to me before you submit your proposal. I'm happy to work out an alternative requirement with you so you can still build what interests you.
 
 ### B. Design & Interaction
 - Pleasing graphic design:
@@ -123,39 +116,35 @@ Want a few extra points? Implement professional form behaviors that real-world a
 **To receive bonus points, you must document what you implemented** in your submission documentation (see [Section VI](#vi-documentation) below) so I know to look for it.
 
 ### C. Code Conventions
-- D.R.Y. - Don't Repeat Yourself. Repeated blocks of nearly identical code must be factored out and placed in a separate function.
-- Take advantage of separating your widgets out into their own classes to make managing the Widget tree easier.
-- Don't be afraid to create separate .dart files for specific functionality.
-- Variable and function names must follow a standard, ex, CONSTANTS, Classes, normalVariables. Make sure variables are easy to understand.
-- Well-commented code. Each and every function gets a comment indicating what it does. The three required rules:
+
+**Graded on every project:**
+- **Comments.** Project 1 was graded leniently on this. **Project 2 is not.** Functions without comments cost you points. Three rules (see the [Commenting Guide](../commenting_guide.md) for examples):
   - A header block at the top of every `.dart` file: what it does, your name, the date
   - One line above every function saying what it does
   - One line on anything non-obvious saying **why**
+- **Clear names that follow Dart's conventions:** `UpperCamelCase` for classes, `lowerCamelCase` for variables, functions, and constants, and `lowercase_with_underscores` for file names. A name should tell you what it holds or does: `searchResults` beats `data2`.
+- **Don't repeat yourself (DRY).** If nearly the same block of code shows up more than once (three dropdowns built the same way, for example), pull it into a function and call it.
 
-  Project 1 was graded leniently on this. **Project 2 is not.** Functions without comments cost
-  you points on the rubric. See the [Commenting Guide](../commenting_guide.md) for examples.
+**Worth doing as your app grows (not required):**
+- Pull big chunks of your widget tree into their own widget classes, so `build()` stays readable.
+- Give specific jobs their own `.dart` files, like your API code in `api_service.dart`.
 
 ## IV. Proposal
-
-The proposal ensures you've thoughtfully planned your application before diving into development. This checkpoint helps you validate your API choice, confirm scope feasibility, and receive early feedback.
 
 **Due Date:** See MyCourses for due date/time.
 
 Your proposal document must include:
 
-### 1. API Selection & Proof of Connection (Required)
-- **API Name & Documentation Link** (ex: https://developers.giphy.com/docs/)
+### 1. API and Proof It Works (Required)
+- **API name and documentation link** (ex: https://developers.giphy.com/docs/)
+- **A screenshot of a successful call** showing the JSON that comes back. Every API needs this, recommended ones included, because APIs go down without warning. Any of these works:
+  - **Hoppscotch:** paste an endpoint into [Hoppscotch](https://hoppscotch.io/), hit Send, and screenshot the response.
+  - **Your own Flutter code:** a search function that prints the JSON, with the debug console in the screenshot. If you've started your Lab 04-style search already, this is the most convincing proof there is.
+  - **Your browser:** if the API doesn't need a key, open the endpoint URL in a browser tab and screenshot the JSON. (A few, like iTunes, download a file instead of showing it. Use Hoppscotch for those.)
 
-**All APIs, including ones from the "worked before" list, require a screenshot proving the API is live and returning data.** APIs go up and down all the time, and we don't want you building a whole project around one that stops working. This takes just a few minutes and protects you.
+  Not sure your screenshot counts? Ask me.
 
-**Include a screenshot** of a successful API call showing JSON response data. The easiest way:
-1. Open [Hoppscotch](https://hoppscotch.io/) (free, no install needed)
-2. Paste in one of your API's endpoints
-3. Hit Send and screenshot the response
-
-That's it. This doesn't need to be in your Flutter app yet. It's just proof the API is live, accessible, and returns data you can work with. You're welcome to use Postman, your browser, DartPad, or even Flutter if you prefer.
-
-If you're using an API not on the "worked before" list, or one that requires an API key, I'm happy to offer guidance. Just come to office hours or reach out before the last minute.
+If you're using an API that isn't on the [recommended list](#recommended-apis), talk to me before you submit (see [Section II](#ii-choosing-an-api)). Office hours or Slack both work, just not the night before it's due.
 
 ### 2. Application Purpose (Required)
 In 2-3 sentences, describe:
@@ -167,47 +156,43 @@ In 2-3 sentences, describe:
 
 ### 3. Core Functionality Description (Required)
 
-Describe what users will be able to do with your app. Your description must address:
+Copy these questions into your proposal and answer each one. See [Required Controls](#a-functional) for what counts as a control, and [Picking Your Own API](#picking-your-own-api) for why Q4 matters.
 
-**Minimum Requirements:**
-- [ ] How users search/query the API (text input, dropdowns, etc.)
-- [ ] At least 3 user controls for filtering/displaying results (see [Required Controls](#a-functional) above for details and ideas)
-- [ ] What data persists between app sessions (shared_preferences). Likely the search term? (we will talk about this week 9)
-- [ ] How results are displayed (ListView, GridView, cards, etc.)
+**Q1. What do users type into the search field?**
 
-**Your one thing (recommended):**
-You don't need a long feature list. Name the one thing that will make your app nicer to use than a plain list of API data. A few kinds of things that work:
-- A really polished layout
-- A detail screen when you tap a result
-- A creative use of the API data
-- Solving a real problem for the person using it
+A:
 
-**Example (Amiibo App):**
+**Q2. What is your second control (dropdown, radio buttons, etc.), and what does it change?**
 
-*Minimum:* "Users search by character name (text field), filter by type such as figure or card (dropdown), and filter by game series (dropdown). All three go into one request URL. Last search term is saved using shared_preferences. Results display in a GridView with each amiibo's image, name, and series."
+A:
 
-*One thing:* "Tap an amiibo to see a detail screen with a bigger image and its release dates in each region."
+**Q3. What is your third control, and what does it change?**
+
+A:
+
+**Q4. Do your second and third controls go into the request URL, or do they work on the device? (In the URL means the API does the filtering, like adding `&type=figure`. On the device means you get the results back and sort or filter them yourself.)**
+
+A:
+
+**Q5. What gets saved between sessions? (Likely the search term. We cover shared_preferences in Week 9.)**
+
+A:
+
+**Q6. Which field in the API's response holds the image?**
+
+A:
+
+**Example answers (Amiibo app):**
+
+- **Q1:** A character name, like "mario."
+- **Q2:** A dropdown for type: figure, card, or yarn.
+- **Q3:** A dropdown for game series.
+- **Q4:** Both go into the URL.
+- **Q5:** The last search term.
+- **Q6:** `image`
 
 ### 4. Visual Mockup (Required)
-Include **at least one** mockup showing your app's main screen. This can be:
-- Hand-drawn sketch (photo/scan)
-- Digital wireframe (Figma, Balsamiq, draw.io, etc.)
-- Screenshot from similar app with annotations
-
-**Your mockup should clearly show:**
-- Where user inputs go (search field, dropdowns)
-- How results will be displayed
-- Navigation elements (if multi-page)
-
-Label key UI elements so we understand your vision.
-
-### 5. Technical Challenges (Optional but Recommended)
-Identify 1-2 potential technical hurdles:
-- API limitations (rate limits, authentication complexity)
-- Data parsing challenges (nested JSON, missing fields)
-- UI complexity concerns
-
-This helps me provide early guidance if needed.
+At least one mockup of your main screen: a hand-drawn sketch, a wireframe (Figma, Balsamiq, etc.), or an annotated screenshot of a similar app. Label where the inputs go, how the results will look, and any navigation if your app has more than one screen.
 
 ### Proposal Submission
 1. **Document Format:** Submit as PDF or Word document
@@ -239,7 +224,7 @@ Submit a **short PDF** (about a page) alongside your project ZIP in the MyCourse
 
 1. **How to Use Your App:** a quick walkthrough. What should I search for, what do the controls do, and is there anything I should try?
 2. **How You Met the Requirements:** where your 3 controls are, what you save with shared_preferences, and anything extra you want me to notice, including any bonus items.
-3. **AI Tools Used:** if you used any, which ones and what for (see the [Academic Integrity note](#iv-proposal)).
+3. **AI Tools Used:** if you used any, which ones and what for (see [Generative AI](../documents/syllabus.md#generative-ai-eg-chatgpt) in the syllabus).
 
 **File naming:** `LastName_FirstName_P2Doc.pdf`
 
