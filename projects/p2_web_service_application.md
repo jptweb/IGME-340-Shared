@@ -10,7 +10,7 @@
 
 For this project you are creating a Flutter Application that utilizes a Web service.
 - Your goal is to create an application that is easy to use, functional, and aesthetically pleasing.
-- **It must run on Android.** The Android emulator is where I grade it. Running on iOS too is great, but an iOS-only app needs my approval before you start.
+- **It must run on Android.** That's the default, and the Android emulator is where I grade it. Flutter can also build for iOS, Mac, and Windows, and it's great if yours runs there too. But if you want to target one of those *instead of* Android, get my approval before you start.
 - The objective of this project is for you to demonstrate your mastery of Flutter and Dart programming.
 - You will be evaluated on:
     - how well you met the requirements of the assignment.
