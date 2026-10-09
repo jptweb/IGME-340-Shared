@@ -90,6 +90,10 @@ These show up every semester and fail the checks above. They're allowed, but you
 - Pleasing graphic design:
   - Show me the cool things you can do in Flutter.
   - The interface does not closely resemble the GIPHY homework's UI
+- **Teaser first, then the full result:** each item in your results list or grid is a *teaser*: an image and a name or title, just enough to pick from. Tapping a teaser opens the *full result* in a popup (`showDialog` with an `AlertDialog`, like [4B](../weekly/4B.md)), with a bigger image and the rest of the details. Don't cram every field into the grid. If your API only returns a little data, the popup can be simple, but tapping a result should always show more. *(This was a common issue in past semesters.)*
+
+  ![Left: a grid of amiibo teasers, each just an image and a name, with Mario outlined. Right: after tapping Mario, a popup with a bigger image plus character, game series, amiibo series, type, and release date.](images/p2-teaser-vs-full.png)
+
 - **Well-labeled controls:** Every input should have a clear label or hint text so users know exactly what to type or select. Don't make users guess what a field expects.
 - **Use the right control type for the job:** If a filter has a fixed set of options (e.g., amiibo types, meal categories, content ratings), use a **DropdownButton**, not a TextField where the user has to type a value and hope it matches exactly. TextFields are great for open-ended search terms, but dropdowns prevent typos and make your app much easier to use. *(This was a common issue in past semesters, so don't lose points over it!)*
 - Widgets follow interface conventions, for example:
@@ -104,6 +108,7 @@ These show up every semester and fail the checks above. They're allowed, but you
   - for example, when they click the search button, there should some indication that a search is happening:
     - text that says "Searching for 'Tacos' near you" and so on
     - a "spinner" or other "indeterminate progress" animation
+- **A short About popup:** your name, plus a credit and link to the API you used. An info icon in the AppBar that opens it works well. Flutter's built-in `showAboutDialog` does most of the work for you.
 
 #### Bonus: Form Polish (up to +5 points) *(added March 4, 2026)*
 
@@ -210,16 +215,6 @@ At least one mockup of your main screen: a hand-drawn sketch, a wireframe (Figma
 
 ## VI. Documentation
 
-Your documentation has **two parts**: an in-app About dialog/page and a submission document.
-
-### In-App About Dialog or Page (Required)
-Include an About dialog or page inside your app. This is what a real app would have, so keep it app-focused:
-- App name and brief description
-- Developer name
-- Data source / API credit and link
-- Any other credits or attributions (fonts, images, packages, etc.)
-
-### Submission Document (Required) *(updated October 2026)*
 Submit a **short PDF** (about a page) alongside your project ZIP in the MyCourses dropbox. This is what I read while grading, so it helps me find everything and give you credit. Three sections:
 
 1. **How to Use Your App:** a quick walkthrough. What should I search for, what do the controls do, and is there anything I should try?
@@ -228,12 +223,10 @@ Submit a **short PDF** (about a page) alongside your project ZIP in the MyCourse
 
 **File naming:** `LastName_FirstName_P2Doc.pdf`
 
-This replaces the old "document everything in the About page" approach. Your About page stays clean and app-like, and I get a document that's easy to read while grading.
-
 ## VII. Grading
 The grading rubric for this project is visible in myCourses. You should look it over carefully. Find it by going to the "Assignments" section and clicking through to the "Project 2 Final Submission" dropbox.
 
-A clean, working app that meets every requirement and is pleasant to use will grade well. You don't need a pile of extra features to get there. Pick another API, show its data clearly, and pick **one thing** to do really well, whether that's the layout, a detail screen when you tap a result, or how the app handles errors.
+A clean, working app that meets every requirement and is pleasant to use will grade well. You don't need a pile of extra features to get there. Pick another API, show its data clearly, and pick **one thing** to do really well, whether that's the layout, a really polished popup when you tap a result, or how the app handles errors.
 
 ## VIII. Submission
 - Perform a `flutter clean`, ZIP your project folder, and upload to the MyCourses dropbox
