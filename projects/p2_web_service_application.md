@@ -1,7 +1,3 @@
-> **Project Scope & Success:** These projects are substantial, but manageable with proper planning. I've provided extensive code examples in our [Reference Manual](../reference/README.md), including complete implementations like the [shared preferences guide](../reference/data-persistence/shared-preferences.md).
->
-> **Time Management:** Plan for 6 to 9 hours of outside work weekly, which is standard for a 3-credit course. [I'm not making this up :)](https://www.humboldt.edu/sites/default/files/learning-center/2024-11/studyratiorecommendations.pdf). Starting early gives you time to create A-quality work and impressive portfolio pieces. Unlike unpredictable exams, you control your project outcomes through consistent effort. Last-minute starts typically lead to poor results and unnecessary stress.
-
 # Project 2 - Web Service Application
 
 > **Draft.** This is Project 2 as it stands right now. We'll kick it off properly in class on Thursday, Oct 15, and a few details may still shift before then. Due dates will be in MyCourses. Until then, the most useful thing you can do is browse APIs (Section II) and finish Lab 04, since its search function is the pattern this whole project uses.
@@ -16,6 +12,22 @@ For this project you are creating a Flutter Application that utilizes a Web serv
     - how well you met the requirements of the assignment.
     - the quality of the experience you create.
     - the soundness of your programming.
+
+### What You Turn In
+
+Three deliverables, each with its own dropbox in MyCourses. Due dates are there too.
+
+| Deliverable | What it is | Share of the P2 grade |
+|---|---|---|
+| [Proposal](#iv-proposal) | Your API, proof it works, what your app will do, and a mockup | 15% |
+| [Prototype](#v-prototype) | A rough check-in: your API call works and results show on screen | 5% |
+| [Final Submission](#vi-final-submission) | The finished app plus a short PDF | 80% |
+
+A clean, working app that meets every requirement and is pleasant to use will grade well. You don't need a pile of extra features to get there. Pick an API, show its data clearly, and pick **one thing** to do really well, whether that's the layout, a really polished popup when you tap a result, or how the app handles errors.
+
+> **Project Scope & Success:** These projects are substantial, but manageable with proper planning. I've provided extensive code examples in our [Reference Manual](../reference/README.md), including complete implementations like the [shared preferences guide](../reference/data-persistence/shared-preferences.md).
+>
+> **Time Management:** Plan for 6 to 9 hours of outside work weekly, which is standard for a 3-credit course. [I'm not making this up :)](https://www.humboldt.edu/sites/default/files/learning-center/2024-11/studyratiorecommendations.pdf). Starting early gives you time to create A-quality work and impressive portfolio pieces. Unlike unpredictable exams, you control your project outcomes through consistent effort. Last-minute starts typically lead to poor results and unnecessary stress.
 
 ## II. Choosing an API
 
@@ -77,10 +89,10 @@ These show up every semester and fail the checks above. They're allowed, but you
     - a dropdown that limits the number of results
 
     A results-count dropdown like Lab 04's counts for Project 2 too, **so you only need one new kind of control.** What kind depends on what the API lets you search on. Here are some ideas:
-    - a **rating** pulldown: if we had this on the GIPHY HW then a user would be able to choose between viewing "G" and "PG" videos for example
+    - a **rating** pulldown: if Lab 04 had one, a user could choose between "G" and "PG" GIFs, for example
     - a **sort by** pulldown to allow the user to view the results sorted A->Z, Z->A, by date, etc
     - a **date** chooser to filter the results by date. A Datepicker Widget would be an excellent choice here
-    - **next** and **previous** buttons. Another really nice option is to allow the user to "page" through large numbers of results. In the GIPHY HW did you notice that we always get the same 100 "cat" GIFs back when we search? This is because there are ***thousands*** of cat GIFs on GIPHY, and if we don't otherwise specify we will always get them returned from the web service starting at index 0, which means we always get the first 100 (index 0-99) back. We can instead write code that requests a higher starting index.
+    - **next** and **previous** buttons. Another really nice option is to allow the user to "page" through large numbers of results. In Lab 04, did you notice that searching "cat" always brings back the same GIFs? There are ***thousands*** of cat GIFs on GIPHY, and if we don't otherwise specify, the web service always starts at index 0, so we always get the first 25 (index 0-24) back. We can instead write code that requests a higher starting index.
 
     **A control can work on the device, not just in the URL.** If your API has no parameter for something, you can still offer it by working with the results you already got back: sort them (A to Z, newest first) or filter what's on screen (only show items that have an image). Those count toward your 3. This is also how an API with only a couple of URL options can still work for this project. Sorting what you got back is the easy version. Filtering on something the API can't search on often means fetching far more results than you show, so plan for that before you pick the API.
 
@@ -90,7 +102,7 @@ These show up every semester and fail the checks above. They're allowed, but you
 ### B. Design & Interaction
 - Pleasing graphic design:
   - Show me the cool things you can do in Flutter.
-  - The interface does not closely resemble the GIPHY homework's UI
+  - The interface does not closely resemble Lab 04's GIF Finder
 - **Teaser first, then the full result:** each item in your results list or grid is a *teaser*: an image and a name or title, just enough to pick from. Tapping a teaser opens the *full result* in a popup (`showDialog` with an `AlertDialog`, like [4B](../weekly/4B.md)), with a bigger image and the rest of the details. Don't cram every field into the grid. If your API only returns a little data, the popup can be simple, but tapping a result should always show more. *(This was a common issue in past semesters.)*
 
   ![Left: a grid of amiibo teasers, each just an image and a name, with Mario outlined. Right: after tapping Mario, a popup with a bigger image plus character, game series, amiibo series, type, and release date.](images/p2-teaser-vs-full.png)
@@ -111,7 +123,7 @@ These show up every semester and fail the checks above. They're allowed, but you
     - a "spinner" or other "indeterminate progress" animation
 - **A short About popup:** your name, plus a credit and link to the API you used. An info icon in the AppBar that opens it works well. Flutter's built-in `showAboutDialog` does most of the work for you.
 
-#### Bonus: Form Polish (up to +5 points) *(added March 4, 2026)*
+#### Bonus: Form Polish (up to +5 points)
 
 Want a few extra points? Implement professional form behaviors that real-world apps use. These small touches show attention to detail and can either push you past 100 or make up for a rough spot elsewhere. See [Week 7A](../weekly/7A.md) for how to implement these:
 
@@ -119,7 +131,7 @@ Want a few extra points? Implement professional form behaviors that real-world a
 - **Focus node management:** pressing the keyboard's next/enter button jumps to the next field
 - **Tap-outside keyboard dismissal:** tapping outside a TextField closes the keyboard (standard iOS/Android behavior)
 
-**To receive bonus points, you must document what you implemented** in your submission documentation (see [Section VI](#vi-documentation) below) so I know to look for it.
+**To receive bonus points, you must document what you implemented** in your PDF (see [The PDF](#the-pdf) in Section VI) so I know to look for it.
 
 ### C. Code Conventions
 
@@ -204,35 +216,42 @@ At least one mockup of your main screen: a hand-drawn sketch, a wireframe (Figma
 1. **Document Format:** Submit as PDF or Word document
 2. **File Naming:** `LastName_FirstName_P2Proposal.pdf`
 3. **MyCourses:** Upload to the Project 2 Proposal dropbox
-4. **Slack:** Share in `#section-[your-section]` channel for peer feedback
+4. **Slack:** Share it in the class Slack channel for feedback
 
-## V. Milestones
+### How the Proposal Is Graded
+Four parts, one per numbered section above, 2.5 points each. The rubric is attached to the Project 2 Proposal dropbox.
 
-| Milestone | What's Expected | Due Date |
-|-----------|----------------|----------|
-| **Proposal** | API choice, purpose, functionality description, mockup (see [Section IV](#iv-proposal)) | See MyCourses |
-| **Prototype** | Working API call with results displayed on screen at minimum. Enough for others to provide feedback. | See MyCourses |
-| **Final Submission** | Complete, polished application meeting all requirements | See MyCourses |
+## V. Prototype
 
-## VI. Documentation
+A check-in partway through, so I can catch problems while there's still time to fix them.
 
-Submit a **short PDF** (about a page) alongside your project ZIP in the MyCourses dropbox. This is what I read while grading, so it helps me find everything and give you credit. Three sections:
+### What to Do
+- At minimum, your app calls your API and shows the results on screen. Rough is fine: plain styling, half-wired controls, and placeholder text are all OK at this stage.
+- Stuck on something? Say so in the dropbox comment box. That's the most useful thing you can tell me right now.
+
+### What to Submit
+Run `flutter clean`, put your project folder inside a folder named `LastName_FirstName_Project2`, zip that folder, and upload it to the Project 2 Prototype dropbox. If your API needs a key, leave it in so I can run your app.
+
+### How the Prototype Is Graded
+With a small rubric, *Prototype Check*: does it run, and does the core work. The full Project 2 rubric is attached to the same dropbox so you can see what the final is graded on. A 10/10 on the prototype means you're on track. It doesn't mean the final is headed for 100.
+
+## VI. Final Submission
+
+Your finished app, plus a short PDF, both uploaded to the Project 2 Final Submission dropbox.
+
+### What to Submit
+1. **Your project.** Perform a `flutter clean`, put your project folder inside a folder named `LastName_FirstName_Project2`, ZIP that folder, and upload it. If your API needs a key, leave it in. See the [Submission Guidelines](../submission-guidelines.md) for more details.
+2. **Your PDF**, named `LastName_FirstName_P2Doc.pdf` (see below).
+
+### The PDF
+Keep it short, about a page. This is what I read while grading, so it helps me find everything and give you credit. Three sections:
 
 1. **How to Use Your App:** a quick walkthrough. What should I search for, what do the controls do, and is there anything I should try?
 2. **How You Met the Requirements:** where your 3 controls are, what you save with shared_preferences, and anything extra you want me to notice, including any bonus items.
 3. **AI Tools Used:** if you used any, which ones and what for (see [Generative AI](../documents/syllabus.md#generative-ai-eg-chatgpt) in the syllabus).
 
-**File naming:** `LastName_FirstName_P2Doc.pdf`
-
-## VII. Grading
-The grading rubric for this project is visible in myCourses. You should look it over carefully. Find it by going to the "Assignments" section and clicking through to the "Project 2 Final Submission" dropbox.
-
-A clean, working app that meets every requirement and is pleasant to use will grade well. You don't need a pile of extra features to get there. Pick another API, show its data clearly, and pick **one thing** to do really well, whether that's the layout, a really polished popup when you tap a result, or how the app handles errors.
-
-## VIII. Submission
-- Perform a `flutter clean`, ZIP your project folder, and upload to the MyCourses dropbox
-- Upload your **submission document PDF** (`LastName_FirstName_P2Doc.pdf`) to the same dropbox
-- Be sure to check the Submission Guidelines for more details!
+### How the Final Is Graded
+The grading rubric for this project is visible in MyCourses. You should look it over carefully. Find it by going to the "Assignments" section and clicking through to the "Project 2 Final Submission" dropbox. It follows the requirements in [Section III](#iii-requirements) closely.
 
 > **Need Help?**
 > Start with your own [Lab 04](../labs/lab-04-gif-finder.md). Its `searchGifs()` function is the pattern, step by step, and your Project 2 search function will look a lot like it with a different URL and different fields. The references area also has extensive documentation on how to [connect to Giphy](../reference/network/giphy-api-setup.md). Much of the code you need may end up being similar in nature to this; but the way you interact and build it will be different. In a sense we are providing you with much of the ingredients; but you need to creatively assemble and build the meal.
