@@ -493,7 +493,7 @@ If your `initState` API call fails on Chrome but works from a button, try runnin
 
 ## When Covered in Course
 - **[Week 7B](../../weekly/7B.md)** - HTTP requests, JSON parsing, authentication patterns
-- **[Week 8B](../../weekly/8B.md)** - Giphy API integration in GIF Finder lab
+- **[Lab 04](../../labs/lab-04-gif-finder.md)** - GIPHY search with try/catch and a cleaned list (Part 2)
 - **Project 2** - Extensive API integration practice
 
 ## External Resources

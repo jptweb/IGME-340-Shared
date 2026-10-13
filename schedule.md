@@ -178,14 +178,14 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 
 ### Week 8A (Tuesday): 🔴 No class, October Break (Oct 12-13)
 
-### [Week 8B](weekly/8B.md) (Thursday): GridView & Giphy API Integration
-- **Giphy API:** Real API integration, authentication with API keys, nested JSON responses
+### [Week 8B](weekly/8B.md) (Thursday): GridView with Real Images + Project 2 Kickoff
+- **Project 2:** kickoff, picking an API, what the proposal needs
 - **GridView:** GridView.count, GridView.builder, SliverGridDelegate
-- **GridTile:** Structured grid items with headers/footers
-- **Widget Inspector:** Visual debugging tools, widget tree navigation
-- **Code Standards:** Professional commenting, widget extraction techniques
+- **Images in a grid:** `fit:` (cover, contain, fill) and `childAspectRatio`
+- **GridTile:** a label bar over each photo with GridTileBar
+- **Tap for details:** GestureDetector and a showDialog popup (P2's teaser rule)
 
-**Assignments:** [Lab 04](labs/lab-04-gif-finder.md) (Gif Finder)
+**Assignments:** [Lab 04](labs/lab-04-gif-finder.md) (GIF Finder) due Sun Oct 18
 
 ---
 

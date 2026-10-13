@@ -350,7 +350,7 @@ if (response.statusCode == 200) {
 
 ## When Covered in Course
 - **[Week 7B](../../weekly/7B.md)** - HTTP requests and API authentication patterns
-- **[Week 8B](../../weekly/8B.md)** - GIPHY API integration walkthrough
+- **[Lab 04](../../labs/lab-04-gif-finder.md)** - GIPHY search, step by step (Part 2)
 - **[Lab 04 - GIF Finder](../../labs/lab-04-gif-finder.md)** - Building complete GIPHY search app
 
 ## Related Resources

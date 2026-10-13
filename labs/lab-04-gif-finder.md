@@ -7,7 +7,7 @@
 ## Helpful References
 - [GIPHY API Setup](../reference/network/giphy-api-setup.md): getting a key, the search endpoint, what comes back
 - [Week 7B Notes](../weekly/7B.md): async/await, `http.get`, try/catch, shaping API data for the screen
-- [Week 8B Notes](../weekly/8B.md): GIPHY in Flutter and `GridView.builder`
+- [Week 8B Notes](../weekly/8B.md): `GridView.builder`, `fit:`, and `GridTile`
 - [GridView Reference](../reference/widgets/gridview-basics.md)
 
 ---
@@ -38,7 +38,7 @@ Parts 1 and 2 only use what we've covered through 7B, so you can do them now. Pa
 3. In VS Code, open the folder that **contains `pubspec.yaml`**. Opening the folder above it is the most common way this goes wrong, and the error you get won't tell you that.
 4. Run it. You should see a purple app bar that says GIF Finder and an empty screen.
 
-Two things are already set up in the starter: the `http` package is installed, and the macOS network permission is turned on. In Project 2 you'll start your own project, so you'll do both of those yourself. Adding `http` is the `flutter pub add http` we did in [7B](../weekly/7B.md), and the macOS permission is the [bonus section in 8B](../weekly/8B.md#macos-network-permission-issue--bonus-content).
+Two things are already set up in the starter: the `http` package is installed, and the macOS network permission is turned on. In Project 2 you'll start your own project, so you'll do both of those yourself. Adding `http` is the `flutter pub add http` we did in [7B](../weekly/7B.md), and the macOS permission is in the [8B notes](../weekly/8B.md#macos-network-permission).
 
 ---
 
@@ -444,7 +444,7 @@ At the bottom of the Column, under the status text:
 - Make it look good. The plan above is a starting point, not the finish line. Column count, spacing, colors, and where the title sits are your call.
 
 **Where to look:**
-- `GridView.builder`, `gridDelegate`, and `GridTile` are all in [8B, GridView.builder](../weekly/8B.md#gridviewbuilder--dynamic-content) and [8B, GridTile](../weekly/8B.md#gridtile-for-structured-items), plus the [GridView reference](../reference/widgets/gridview-basics.md).
+- `GridView.builder`, `gridDelegate`, and `GridTile` are all in [8B, GridView.builder](../weekly/8B.md#iii-gridviewbuilder-one-cell-per-item-in-your-list) and [8B, GridTile](../weekly/8B.md#v-gridtile-for-structured-items), plus the [GridView reference](../reference/widgets/gridview-basics.md).
 - Showing an image from a URL is `Image.network`, which we used in [4A](../weekly/4A.md). See the [Images reference](../reference/widgets/images-assets.md) too. Its `fit` property controls how the image fills the cell.
 - A GIF with a blank title isn't a bug. Some GIFs on GIPHY just don't have one.
 - This is a change to the widgets only. Your `searchGifs()` function shouldn't change at all. If you find yourself editing it, back up.
