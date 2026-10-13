@@ -185,7 +185,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **GridTile:** a label bar over each photo with GridTileBar
 - **Tap for details:** GestureDetector and a showDialog popup (P2's teaser rule)
 
-**Assignments:** [Lab 04](labs/lab-04-gif-finder.md) (GIF Finder) due Sun Oct 18
+**Assignments:** [Lab 04](labs/lab-04-gif-finder.md) (GIF Finder) due Mon Oct 19
 
 ---
 
