@@ -336,8 +336,8 @@ There are 3 major projects to be completed in the semester.
 
 **Project Deliverables**: Projects 2 and 3 have multiple deliverables, not just a final submission:
 - **Proposal/Plan** - What you intend to build
-- **Prototype** - Early version with basic functionality
-- **Final Submission** - Complete project
+- **Prototype App** - An early, working version of your app with basic functionality
+- **Final App** - The complete project
 - **Video Walkthrough** (Project 3) - Demo video showing your app in action
 
 **Why multiple deliverables?** This mirrors how projects work in industry - you plan before you code. It also means your grade isn't entirely dependent on the final product. If you struggle with the programming but put effort into the proposal and prototype, those points can help cushion your grade.

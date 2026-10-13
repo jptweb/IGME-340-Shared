@@ -20,8 +20,8 @@ Three deliverables, each with its own dropbox in MyCourses. Due dates are there 
 | Deliverable | What it is | Share of the P2 grade |
 |---|---|---|
 | [Proposal](#iv-proposal) | Your API, proof it works, what your app will do, and a mockup | 15% |
-| [Prototype](#v-prototype) | A rough check-in: your API call works and results show on screen | 5% |
-| [Final Submission](#vi-final-submission) | The finished app plus a short PDF | 80% |
+| [Prototype App](#v-prototype-app) | A rough, working version of your app: your API call works and results show on screen | 5% |
+| [Final App](#vi-final-app) | The finished app plus a short PDF | 80% |
 
 A clean, working app that meets every requirement and is pleasant to use will grade well. You don't need a pile of extra features to get there. Pick an API, show its data clearly, and pick **one thing** to do really well, whether that's the layout, a really polished popup when you tap a result, or how the app handles errors.
 
@@ -221,7 +221,7 @@ At least one mockup of your main screen: a hand-drawn sketch, a wireframe (Figma
 ### How the Proposal Is Graded
 Four parts, one per numbered section above, 2.5 points each. The rubric is attached to the Project 2 Proposal dropbox.
 
-## V. Prototype
+## V. Prototype App
 
 A check-in partway through, so I can catch problems while there's still time to fix them.
 
@@ -230,14 +230,14 @@ A check-in partway through, so I can catch problems while there's still time to 
 - Stuck on something? Say so in the dropbox comment box. That's the most useful thing you can tell me right now.
 
 ### What to Submit
-Run `flutter clean`, put your project folder inside a folder named `LastName_FirstName_Project2`, zip that folder, and upload it to the Project 2 Prototype dropbox. If your API needs a key, leave it in so I can run your app.
+Run `flutter clean`, put your project folder inside a folder named `LastName_FirstName_Project2`, zip that folder, and upload it to the Project 2 Prototype App dropbox. If your API needs a key, leave it in so I can run your app.
 
 ### How the Prototype Is Graded
 With a small rubric, *Prototype Check*: does it run, and does the core work. The full Project 2 rubric is attached to the same dropbox so you can see what the final is graded on. A 10/10 on the prototype means you're on track. It doesn't mean the final is headed for 100.
 
-## VI. Final Submission
+## VI. Final App
 
-Your finished app, plus a short PDF, both uploaded to the Project 2 Final Submission dropbox.
+Your finished app, plus a short PDF, both uploaded to the Project 2 Final App dropbox.
 
 ### What to Submit
 1. **Your project.** Perform a `flutter clean`, put your project folder inside a folder named `LastName_FirstName_Project2`, ZIP that folder, and upload it. If your API needs a key, leave it in. See the [Submission Guidelines](../submission-guidelines.md) for more details.

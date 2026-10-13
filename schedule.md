@@ -225,7 +225,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **JSON Models:** Structured data classes, API response handling
 - **Network Error Handling:** Robust error patterns for API failures
 
-**Project 2 Prototype Due**
+**Project 2 Prototype App Due**
 
 ---
 
@@ -246,7 +246,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Input Handling:** PanDetector, TapCallbacks, JoystickComponent
 - **Game Architecture:** Component-based design, mixins for behaviors
 
-**Project 2 Due, Project 3 Proposals Due**
+**Project 2 Final App Due, Project 3 Proposal Due**
 
 ---
 
@@ -267,8 +267,6 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Audio Context:** Preventing channel conflicts, multiple audio streams
 - **Memory Management:** Proper disposal of audio players and providers
 
-**Project 3 Prototype Due**
-
 ---
 
 ## Week 13: Lifecycle & Production Prep
@@ -287,6 +285,8 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Custom Icons:** flutter_launcher_icons package, app icon generation
 - **Platform Requirements:** Icon sizes, adaptive icons for Android
 - **Asset Tools:** easyappicon.com for quick icon generation
+
+**Project 3 Prototype App Due** (end of the week)
 
 ---
 
@@ -327,7 +327,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Finals Week: Dec 9-11, 14-16
 **Scheduled time: TBD**
 
-**Project 3 Final Submissions & Presentations**
+**Project 3 Final App, Documentation & Video + Presentations**
 - Format details will be announced as the semester progresses
 - Likely a rapid-fire presentation format where everyone can show off their projects
 

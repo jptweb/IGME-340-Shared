@@ -37,7 +37,7 @@ Five deliverables, each with its own dropbox in MyCourses, so make sure you subm
 | Deliverable | What it is | Share of the P3 grade |
 |---|---|---|
 | [Proposal](#iv-proposal) | A short pitch for your idea, with mockups | 7.5% |
-| [Prototype](#v-prototype) | A rough check-in showing your progress | 2.5% |
+| [Prototype App](#v-prototype-app) | A rough, working version of your app or game | 2.5% |
 | [Final App](#vi-final-app) | Your finished Flutter project | 70% |
 | [Documentation](#vii-documentation) | A PDF that tells me what to look for while grading | 10% |
 | [Video Demonstration](#viii-video-demonstration) | A 3 to 5 minute demo of your project | 10% |
@@ -137,7 +137,7 @@ You may format this in any way that you want, but break each bulleted item below
 ### What to Submit
 One PDF, named `LastName_FirstName_P3Proposal.pdf`, uploaded to the Project 3 Proposal dropbox. The rubric is attached there.
 
-## V. Prototype
+## V. Prototype App
 
 A check-in partway through, so I can catch problems while there's still time to fix them.
 
@@ -146,7 +146,7 @@ A check-in partway through, so I can catch problems while there's still time to 
 - Stuck on something? Say so in the dropbox comment box. That's the most useful thing you can tell me right now.
 
 ### What to Submit
-Run `flutter clean`, put your project folder inside a folder named `LastName_FirstName_Project3`, zip that folder, and upload it to the Project 3 Prototype dropbox. If anything needs an API key, leave it in so I can run it.
+Run `flutter clean`, put your project folder inside a folder named `LastName_FirstName_Project3`, zip that folder, and upload it to the Project 3 Prototype App dropbox. If anything needs an API key, leave it in so I can run it.
 
 ### How the Prototype Is Graded
 With a small rubric, *Prototype Check*: does it run, and does the core work. A 10/10 on the prototype means you're on track. It doesn't mean the final is headed for 100. The final is graded on Section III.
