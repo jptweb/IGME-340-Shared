@@ -1,7 +1,3 @@
-> **Project Scope & Success:** These projects are substantial, but manageable with proper planning. I've provided extensive code examples in our [Reference Manual](../reference/README.md), including complete implementations like the [shared preferences guide](../reference/data-persistence/shared-preferences.md). 
->
-> **Time Management:** Plan for 6 to 9 hours of outside work weekly—standard for a 3-credit course. [I'm not making this up :)](https://www.humboldt.edu/sites/default/files/learning-center/2024-11/studyratiorecommendations.pdf). Starting early gives you time to create A-quality work and impressive portfolio pieces. Unlike unpredictable exams, you control your project outcomes through consistent effort. Last-minute starts typically lead to poor results and unnecessary stress.
-
 # Project 3 - Roll-Your-Own Flutter App
 
 > 📋 **How to Use This Document:** This is your official project brief covering scope, deadlines, and submission requirements. For a detailed breakdown of how to excel on each grading category with links to relevant course materials, see the **[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)**.
@@ -13,13 +9,6 @@
     - Flutter Game
     - Utility Application
     - Enhanced API-based Application
-
-- **You will submit the following deliverables:**
-  1. **Proposal** — A nicely formatted pitch describing your idea
-  2. **Prototype/Checkpoint** — A work-in-progress showing your progress
-  3. **Final Code Submission** — Your completed Flutter project
-  4. **Documentation** — A PDF explaining your project so I know what to look for while grading
-  5. **Video Presentation** — A 3-5 minute demo of your project
 
 - Your goal is to create a app or game that is easy to use, functional, and aesthetically pleasing.
 
@@ -41,13 +30,29 @@
   - Responsive Layout
   - Other package not discussed or shown in class
 
+### What You Turn In
+
+Five deliverables, each with its own dropbox in MyCourses, so make sure you submit to all five. Due dates are in MyCourses too.
+
+| Deliverable | What it is | Share of the P3 grade |
+|---|---|---|
+| [Proposal](#iv-proposal) | A short pitch for your idea, with mockups | 7.5% |
+| [Prototype](#v-prototype) | A rough check-in showing your progress | 2.5% |
+| [Final App](#vi-final-app) | Your finished Flutter project | 70% |
+| [Documentation](#vii-documentation) | A PDF that tells me what to look for while grading | 10% |
+| [Video Demonstration](#viii-video-demonstration) | A 3 to 5 minute demo of your project | 10% |
+
+> **Project Scope & Success:** These projects are substantial, but manageable with proper planning. I've provided extensive code examples in our [Reference Manual](../reference/README.md), including complete implementations like the [shared preferences guide](../reference/data-persistence/shared-preferences.md). 
+>
+> **Time Management:** Plan for 6 to 9 hours of outside work weekly, which is standard for a 3-credit course. [I'm not making this up :)](https://www.humboldt.edu/sites/default/files/learning-center/2024-11/studyratiorecommendations.pdf). Starting early gives you time to create A-quality work and impressive portfolio pieces. Unlike unpredictable exams, you control your project outcomes through consistent effort. Last-minute starts typically lead to poor results and unnecessary stress.
+
 ## II. Examples from Previous Semesters
 
-Check out some [Project 3 demos from previous semesters](../documents/p3-demos/p3-demos-showcase.md) to get a sense of what students have built — games, utility apps, and more.
+Check out some [Project 3 demos from previous semesters](../documents/p3-demos/p3-demos-showcase.md) to get a sense of what students have built: games, utility apps, and more.
 
-## III. Final Code Submission Requirements
+## III. Requirements
 
-Your **Final Code Submission (70% of project grade)** will be evaluated across six key categories. Each category is detailed extensively in the **[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)** with specific technical requirements and links to relevant course materials.
+This is what your **Final App** (Section VI, 70% of the project grade) is graded on. It will be evaluated across six key categories. Each category is detailed extensively in the **[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)** with specific technical requirements and links to relevant course materials.
 
 ### The Six Evaluation Categories (Code Submission):
 
@@ -96,38 +101,13 @@ To reach the highest grades, consider implementing advanced features like:
 ### A Note on Enhanced API-based Applications
 
 If you choose the "Enhanced API-based Application" option, you may build substantially on your Project 2 or create an entirely new API-driven app. If you are enhancing your Project 2:
-- Your P3 grade is based **only on what's new** — the original P2 work is your starting point, not your submission
+- Your P3 grade is based **only on what's new**. The original P2 work is your starting point, not your submission
 - You must clearly document what features and improvements were added for P3 in your documentation (Section VII)
 - The new work should be substantial enough to stand on its own as a full project
 
-## IV. Milestones & Deliverables
+## IV. Proposal
 
-This project has five separate submissions in MyCourses, each with its own dropbox:
-
-1. **Proposal (7.5%)** - Due early in the project timeline
-   - See Section V below for detailed requirements
-
-2. **Prototype/Checkpoint (2.5%)** - Due mid-project
-   - Working draft showing progress (basically free points for submitting work-in-progress)
-   - See MyCourses dropbox for due date
-
-3. **Final Code Submission (70%)** - Due final exam week
-   - Your completed Flutter project
-   - See MyCourses dropbox for due date and submission instructions
-
-4. **Documentation (10%)** - Due final exam week
-   - Separate PDF submission explaining your project and features
-   - See Section VII below for detailed requirements
-
-5. **Video Demonstration (10%)** - Due final exam week
-   - 3-5 minute video showcasing your work
-   - See Section VI below for detailed requirements
-
-> ⚠️ **Important:** These are SEPARATE submissions in MyCourses. Make sure you submit to all five dropboxes!
-
-## V. Proposal
-
-⚠️ **This submission is worth 7.5% of your overall course grade.**
+⚠️ **This submission is worth 7.5% of your Project 3 grade.**
 
 We would like you to write a brief project treatment for your Project 3 Proposal:
 
@@ -154,32 +134,36 @@ You may format this in any way that you want, but break each bulleted item below
 
 > The document is similar in style to the Project 3 template used in 230/235. For reference you can look at https://github.com/rit-igm-web/igme-235-shared/blob/main/projects/project-3.md.
 
-## VI. Video Demonstration
-During final exam week, you will present your project in a brief video demo. 
+### What to Submit
+One PDF, named `LastName_FirstName_P3Proposal.pdf`, uploaded to the Project 3 Proposal dropbox. The rubric is attached there.
 
-### Video Requirements:
+## V. Prototype
 
-⚠️ **This submission is worth 10% of your overall course grade.**
+A check-in partway through, so I can catch problems while there's still time to fix them.
 
-- **Length:** No more than **5 minutes** (ideally 3 minutes so we can watch everyone's during the final exam period)
-- **Format:** Record your computer screen or device using a tool such as [OBS](http://obsproject.com)
-- **Submission:** Upload to YouTube as an **unlisted video** and submit the link to MyCourses
-  - If you're uncomfortable with YouTube, contact me to arrange an alternative
-- **Content to Cover:**
-  - What you made
-  - How it works
-  - What's cool and what you think is "above and beyond"
-  - How you overcame any serious challenges
-  - Resources utilized (libraries, tutorials, etc.), if any
-- **Audio:** Ideally include a voice-over explanation. If you prefer not to do voice-over, you can upload a separate text description to the dropbox.
+### What to Do
+- At minimum, it runs and the main thing your app or game does is working. Rough is fine at this stage.
+- Stuck on something? Say so in the dropbox comment box. That's the most useful thing you can tell me right now.
 
-### Final Exam Viewing:
-We may watch the videos together as a class during the final exam period — details TBD and will be announced later in the semester.
+### What to Submit
+Run `flutter clean`, put your project folder inside a folder named `LastName_FirstName_Project3`, zip that folder, and upload it to the Project 3 Prototype dropbox. If anything needs an API key, leave it in so I can run it.
 
+### How the Prototype Is Graded
+With a small rubric, *Prototype Check*: does it run, and does the core work. A 10/10 on the prototype means you're on track. It doesn't mean the final is headed for 100. The final is graded on Section III.
+
+## VI. Final App
+
+Your finished Flutter project. Documentation (Section VII) and the video (Section VIII) are separate dropboxes, graded separately.
+
+### What to Submit
+Run `flutter clean`, put your project folder inside a folder named `LastName_FirstName_Project3`, zip that folder, and upload it to the Project 3 Final App dropbox. If anything needs an API key, leave it in. Before you zip it, check the [Critical Success Factors](#critical-success-factors) one more time, especially removing `print` statements.
+
+### How the Final App Is Graded
+On the six categories in [Section III](#iii-requirements), with the rubric attached to the dropbox in MyCourses. The [Project 3 Expectations Guide](p3_roll_your_own_expectations.md) breaks each category down with links to course materials. Review both before you get deep into development.
 
 ## VII. Documentation
 
-⚠️ **This submission is worth 10% of your overall course grade.**
+⚠️ **This submission is worth 10% of your Project 3 grade.**
 
 **WHY THIS MATTERS:** Your documentation tells me what to look for while grading. I will **NOT** have time to analyze everyone's code from top to bottom searching for features. **To get credit for the work you did, you MUST describe it in your documentation.** If you implemented something cool but didn't document it, I might miss it and you won't receive credit.
 
@@ -203,30 +187,32 @@ We may watch the videos together as a class during the final exam period — det
 
 4. **Export to PDF** - Use File > Download > PDF in Google Docs
 
-5. **Submit to MyCourses** - Upload your PDF to the "Project 3 - Documentation" dropbox
+5. **Submit to MyCourses** - Upload your PDF to the Project 3 Documentation dropbox
    - Filename format: `LastName_FirstName_P3_Documentation.pdf`
 
 **Remember:** If it's not documented, it might not get graded! This is your opportunity to make sure I see all the hard work you put into your project.
 
----
+## VIII. Video Demonstration
+During final exam week, you will present your project in a brief video demo. 
 
-## VIII. Grading
+### Video Requirements:
 
-### Grading Breakdown:
-- **7.5%** - Proposal
-- **2.5%** - Checkpoint/Prototype (essentially free points for submitting progress)
-- **70%** - Final Code Submission
-- **10%** - Documentation
-- **10%** - Video Demonstration
+⚠️ **This submission is worth 10% of your Project 3 grade.**
 
-### Grading Rubrics:
-The detailed grading rubrics for each part of this assignment are attached to the assignments in myCourses:
-- Project 3 - Proposal
-- Project 3 - Checkpoint/Prototype
-- Project 3 - Final Code Submission
-- Project 3 - Video Demo
+- **Length:** No more than **5 minutes** (ideally 3 minutes so we can watch everyone's during the final exam period)
+- **Format:** Record your computer screen or device using a tool such as [OBS](http://obsproject.com)
+- **Submission:** Upload to YouTube as an **unlisted video** and submit the link to MyCourses
+  - If you're uncomfortable with YouTube, contact me to arrange an alternative
+- **Content to Cover:**
+  - What you made
+  - How it works
+  - What's cool and what you think is "above and beyond"
+  - How you overcame any serious challenges
+  - Resources utilized (libraries, tutorials, etc.), if any
+- **Audio:** Ideally include a voice-over explanation. If you prefer not to do voice-over, you can upload a separate text description to the dropbox.
 
-Please review them before you get deep into your project development. For a detailed breakdown of how to excel on the final submission, see the companion document: [Project 3 Expectations Guide](p3_roll_your_own_expectations.md).
+### Final Exam Viewing:
+We may watch the videos together as a class during the final exam period. Details will be announced later in the semester.
 
 ---
 
@@ -236,7 +222,7 @@ Please review them before you get deep into your project development. For a deta
 
 ### Academic Integrity Policy
 
-Using any form of assistance—whether from other people, AI tools, or online sources—without proper disclosure constitutes **academic dishonesty**. This includes:
+Using any form of assistance (from other people, AI tools, or online sources) without proper disclosure constitutes **academic dishonesty**. This includes:
 
 - Having someone else write code for you
 - Using AI tools (Claude, ChatGPT, GitHub Copilot, Cursor, etc.) to generate code without documenting their use
@@ -249,7 +235,7 @@ Using any form of assistance—whether from other people, AI tools, or online so
 
 ### The Reality of AI in Professional Development
 
-You've already demonstrated fundamental understanding through Projects 1 and 2. At this point in your education, it's appropriate to learn how professional developers use AI tools—because employers increasingly expect this skill.
+You've already demonstrated fundamental understanding through Projects 1 and 2. At this point in your education, it's appropriate to learn how professional developers use AI tools, because employers increasingly expect this skill.
 
 **However:** AI is a tool for leverage, not a substitute for understanding. In the professional world, you'll need to:
 - Understand architecture and make design decisions (AI can't do this for you)
@@ -272,7 +258,7 @@ This project is your opportunity to practice using AI as a professional tool whi
 
 You may use AI coding assistants (Claude, ChatGPT, GitHub Copilot, Cursor, etc.), BUT you must:
 
-1. **Declare AI usage in your Proposal** (Section V above)
+1. **Declare AI usage in your Proposal** (Section IV above)
    - Indicate you plan to use AI tools
    - Briefly mention which tools and for what aspects (e.g., "planning to use Claude for complex state management logic")
 
@@ -308,16 +294,16 @@ Whether you write code yourself or use AI assistance, you must be able to:
 - Debug issues and explain what's happening when things break
 - Modify and extend the code for new requirements
 
-If you can't do these things, you don't understand your code—and that's a problem whether AI wrote it or you copied it from Stack Overflow.
+If you can't do these things, you don't understand your code, and that's a problem whether AI wrote it or you copied it from Stack Overflow.
 
 ### Why This Approach?
 
-This isn't about making your life harder—it's about preparing you for professional development:
+This isn't about making your life harder. It's about preparing you for professional development:
 - **Transparency:** In the workplace, you'll need to document decisions and tools used
 - **Understanding:** You can't maintain or debug code you don't understand
 - **Collaboration:** You'll need to explain technical choices to teammates and stakeholders
 - **Professional skills:** Learning to use AI effectively is valuable; hiding that you used it is not
 
-By requiring disclosure and understanding, I'm teaching you to use AI as a professional tool while maintaining accountability for your work—exactly what employers will expect.
+By requiring disclosure and understanding, I'm teaching you to use AI as a professional tool while maintaining accountability for your work, which is exactly what employers will expect.
 
 ---
