@@ -1,4 +1,4 @@
-# Phase 3 — External Data
+# Study Guide 04: External Data
 
 **Read before:** Week 7B (HTTP requests and async/await)
 

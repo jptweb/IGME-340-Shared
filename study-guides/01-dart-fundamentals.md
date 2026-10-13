@@ -1,4 +1,4 @@
-# Phase 0 — Dart Fundamentals
+# Study Guide 01: Dart Fundamentals
 
 **Read before:** Week 1A (ideally before the semester starts)
 

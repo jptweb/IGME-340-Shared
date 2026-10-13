@@ -1,4 +1,4 @@
-# Phase 2 — Static to Stateful
+# Study Guide 03: Static to Stateful
 
 **Read before:** Week 4A (setState and interactive widgets)
 

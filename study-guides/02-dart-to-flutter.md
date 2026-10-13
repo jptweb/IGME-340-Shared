@@ -1,4 +1,4 @@
-# Phase 1 — Dart to Flutter
+# Study Guide 02: Dart to Flutter
 
 **Read before:** Week 2A (your first full Flutter session)
 

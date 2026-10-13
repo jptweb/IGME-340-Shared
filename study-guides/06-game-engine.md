@@ -1,4 +1,4 @@
-# Phase 5 — Into the Game Engine
+# Study Guide 06: Into the Game Engine
 
 **Read before:** Week 11B (Flame setup and your first game)
 
