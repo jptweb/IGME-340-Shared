@@ -149,7 +149,7 @@ A check-in partway through, so I can catch problems while there's still time to 
 Run `flutter clean`, put your project folder inside a folder named `LastName_FirstName_Project3`, zip that folder, and upload it to the Project 3 Prototype App dropbox. If anything needs an API key, leave it in so I can run it.
 
 ### How the Prototype Is Graded
-With a small rubric, *Prototype Check*: does it run, and does the core work. A 10/10 on the prototype means you're on track. It doesn't mean the final is headed for 100. The final is graded on Section III.
+With a small rubric, *Prototype Check*: does it run, and does the core work. The full Project 3 rubric is linked at the top of the Prototype App dropbox. A 10/10 on the prototype means you're on track. It doesn't mean the final is headed for 100. The final is graded on Section III.
 
 ## VI. Final App
 

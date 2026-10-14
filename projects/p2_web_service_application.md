@@ -233,7 +233,7 @@ A check-in partway through, so I can catch problems while there's still time to 
 Run `flutter clean`, put your project folder inside a folder named `LastName_FirstName_Project2`, zip that folder, and upload it to the Project 2 Prototype App dropbox. If your API needs a key, leave it in so I can run your app.
 
 ### How the Prototype Is Graded
-With a small rubric, *Prototype Check*: does it run, and does the core work. The full Project 2 rubric is attached to the same dropbox so you can see what the final is graded on. A 10/10 on the prototype means you're on track. It doesn't mean the final is headed for 100.
+With a small rubric, *Prototype Check*: does it run, and does the core work. The full Project 2 rubric is linked at the top of the Prototype App dropbox so you can see what the final is graded on. A 10/10 on the prototype means you're on track. It doesn't mean the final is headed for 100.
 
 ## VI. Final App
 
