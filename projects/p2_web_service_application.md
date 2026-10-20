@@ -34,7 +34,7 @@ No zip this time. Your Project 2 code lives in a private GitHub repo, set up the
 3. **Commit and push as you go.** Push whenever something works: your first API call showing results, the grid, each new control. Your commit history is how I see your app come together. A whole project that arrives in one commit the night it's due is hard to tell apart from code that came from somewhere else, and that's when I'll ask you to walk me through it. It also counts toward your grade (see [How the Final Is Graded](#how-the-final-is-graded)).
 4. **I grade what's pushed by each due time.** If it's only on your laptop, I can't see it.
 
-Your repo is private, so if your API needs a key, leave it in. I need it to run your app.
+Your repo is private, so if your API needs a key, leave it in. I need it to run your app. (OMDb keys can't be cancelled, so if you ever make the repo public, the worst case is someone using up your free 1,000 requests a day.)
 
 > **Project Scope & Success:** These projects are substantial, but manageable with proper planning. I've provided extensive code examples in our [Reference Manual](../reference/README.md), including complete implementations like the [shared preferences guide](../reference/data-persistence/shared-preferences.md).
 >
