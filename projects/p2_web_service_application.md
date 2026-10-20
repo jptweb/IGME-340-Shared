@@ -51,15 +51,22 @@ Either way, your proposal needs a screenshot showing the API returning data (see
 
 ### Recommended APIs
 
+*NO API KEY REQUIRED:*
+
 - **AmiiboAPI** (https://www.amiiboapi.org/docs/#amiibo): search amiibo by name and filter by type (figure, card, yarn), game series, amiibo series, and character. Image in every result. No auth required. Basic search: `https://www.amiiboapi.org/api/amiibo/?name=mario`
 - **Rick and Morty API** (https://rickandmortyapi.com/documentation): search characters by name and filter by status, species, and gender, all in one URL. Start with the `/character` endpoint; locations and episodes have fewer filters. Image in every result, and paging is built in. No auth required. Basic search: `https://rickandmortyapi.com/api/character/?name=rick`
 - **iTunes Search API** (https://performance-partners.apple.com/search-api): search music, podcasts, and more by term, and narrow by media type, entity (song, album, artist), country, and number of results. Album art in every result except artist searches, so search songs or albums. A movie search came back empty when we checked (use OMDb below for movies), so test your media type first. No auth required. Basic search: `https://itunes.apple.com/search?term=beatles`
-- **OMDb, the Open Movie Database** (https://www.omdbapi.com/): search movies and TV shows by title and narrow by type (movie, series) and year. Poster in almost every result. Needs a free API key: sign up with your email, then **click the activation link in that email**, or every request says "Invalid API key!" Basic search: `https://www.omdbapi.com/?apikey=YOUR_KEY&s=batman`
 - **NASA Image and Video Library** (https://images.nasa.gov/docs/images.nasa.gov_api_docs.pdf): search NASA's photo archive by keyword and narrow by media type and year range. Every result links to an image. The JSON is nested a few levels deep, so the "clean up the data" step from Lab 04 really pays off here. No auth required. Basic search: `https://images-api.nasa.gov/search?q=moon`
 - **Disney API** (https://disneyapi.dev/docs/): search Disney characters by name and filter by the films or shows they appear in. Image in every result. No auth required. The first request after a quiet stretch can take a few seconds, so make sure your loading indicator works. Basic search: `https://api.disneyapi.dev/character?name=Mickey`
 - **CheapShark** (https://apidocs.cheapshark.com/): search PC game deals by title, set a max price, and sort by price, rating, and more. Thumbnail in every result. No auth required. Basic search: `https://www.cheapshark.com/api/1.0/deals?title=batman`
 - **TCGdex** (https://tcgdex.dev/): the Pokémon pick. See [Popular APIs That Cause Trouble](#popular-apis-that-cause-trouble) below for why it beats PokeAPI. Basic search: `https://api.tcgdex.net/v2/en/cards?name=pika`
 - **Anime: ~~Jikan~~ → Tenrai** (https://api.tenrai.org/documentation): Jikan shut down for good in October 2026, and Tenrai replaces it with the same data in the same format. Search anime and manga by title and filter by type, score, status, rating, genre, and more. Image in every result. No auth required. It's new and still in beta, so check it in Hoppscotch first. Basic search: `https://api.tenrai.org/v1/anime?q=frieren`
+
+*API KEY REQUIRED:* \*
+
+- **OMDb, the Open Movie Database** (https://www.omdbapi.com/): search movies and TV shows by title and narrow by type (movie, series) and year. Poster in almost every result. Needs a free API key: sign up with your email, then **click the activation link in that email**, or every request says "Invalid API key!" . Basic search: `https://www.omdbapi.com/?apikey=YOUR_KEY&s=batman`
+
+\* Keys and your repo: see [Your Code Goes in a GitHub Repo](#your-code-goes-in-a-github-repo).
 
 ### Picking Your Own API
 
