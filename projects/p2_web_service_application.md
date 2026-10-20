@@ -1,6 +1,6 @@
 # Project 2 - Web Service Application
 
-> **Draft.** This is Project 2 as it stands right now. We'll kick it off properly in class on Thursday, Oct 15, and a few details may still shift before then. Due dates will be in MyCourses. Until then, the most useful thing you can do is browse APIs (Section II) and finish Lab 04, since its search function is the pattern this whole project uses.
+> **Updated Oct 19:** your Project 2 code now goes in a GitHub repo instead of a zip, one repo for both the prototype and the final. The dropboxes take a short document with your repo link. See [Your Code Goes in a GitHub Repo](#your-code-goes-in-a-github-repo).
 
 ## I. Overview
 
@@ -24,6 +24,17 @@ Three deliverables, each with its own dropbox in MyCourses. Due dates are there 
 | [Final App](#vi-final-app) | The finished app plus a short PDF | 80% |
 
 A clean, working app that meets every requirement and is pleasant to use will grade well. You don't need a pile of extra features to get there. Pick an API, show its data clearly, and pick **one thing** to do really well, whether that's the layout, a really polished popup when you tap a result, or how the app handles errors.
+
+### Your Code Goes in a GitHub Repo
+
+No zip this time. Your Project 2 code lives in a private GitHub repo, set up the same way as the participation repos. The MyCourses dropboxes take only a short document: a reflection for the prototype, and the PDF for the final.
+
+1. **Get your repo** from the link at the top of the Prototype App dropbox in MyCourses. Accepting it creates a repo just for you, `igme-340-project-2-<your-github-username>`, with a plain Flutter app already in it. **It's one repo for both the Prototype App and the Final App.** Keep working in it after the prototype; there's no second repo.
+2. **Already started?** Copy your work into the new repo. Its README walks you through it.
+3. **Commit and push as you go.** Push whenever something works: your first API call showing results, the grid, each new control. Your commit history is how I see your app come together. A whole project that arrives in one commit the night it's due is hard to tell apart from code that came from somewhere else, and that's when I'll ask you to walk me through it. It also counts toward your grade (see [How the Final Is Graded](#how-the-final-is-graded)).
+4. **I grade what's pushed by each due time.** If it's only on your laptop, I can't see it.
+
+Your repo is private, so if your API needs a key, leave it in. I need it to run your app.
 
 > **Project Scope & Success:** These projects are substantial, but manageable with proper planning. I've provided extensive code examples in our [Reference Manual](../reference/README.md), including complete implementations like the [shared preferences guide](../reference/data-persistence/shared-preferences.md).
 >
@@ -227,31 +238,38 @@ A check-in partway through, so I can catch problems while there's still time to 
 
 ### What to Do
 - At minimum, your app calls your API and shows the results on screen. Rough is fine: plain styling, half-wired controls, and placeholder text are all OK at this stage.
-- Stuck on something? Say so in the dropbox comment box. That's the most useful thing you can tell me right now.
+- Stuck on something? Say so in your reflection. That's the most useful thing you can tell me right now.
 
 ### What to Submit
-Run `flutter clean`, put your project folder inside a folder named `LastName_FirstName_Project2`, zip that folder, and upload it to the Project 2 Prototype App dropbox. If your API needs a key, leave it in so I can run your app.
+1. **Push your code** to your Project 2 repo before the deadline. That's what I run.
+2. **Upload a short reflection** to the Project 2 Prototype App dropbox, named `LastName_FirstName_P2Reflection.pdf` (Word is fine too). Your repo's link at the top, then a paragraph or two on where the project stands:
+    - what works so far, and what doesn't yet
+    - what you're stuck on, if anything
+    - what you'll do between now and the final
+    - AI tools used and what for, or "None" (see [Generative AI](../documents/syllabus.md#generative-ai-eg-chatgpt) in the syllabus)
 
 ### How the Prototype Is Graded
-With a small rubric, *Prototype Check*: does it run, and does the core work. The full Project 2 rubric is linked at the top of the Prototype App dropbox so you can see what the final is graded on. A 10/10 on the prototype means you're on track. It doesn't mean the final is headed for 100.
+With a small rubric, *Prototype Check*: does it run, and does the core work. A missing reflection costs 2 of the 10 points. The full Project 2 rubric is linked at the top of the Prototype App dropbox so you can see what the final is graded on. A 10/10 on the prototype means you're on track. It doesn't mean the final is headed for 100.
 
 ## VI. Final App
 
-Your finished app, plus a short PDF, both uploaded to the Project 2 Final App dropbox.
+Your finished app, pushed to the same repo you used for the prototype, plus a short PDF uploaded to the Project 2 Final App dropbox.
 
 ### What to Submit
-1. **Your project.** Perform a `flutter clean`, put your project folder inside a folder named `LastName_FirstName_Project2`, ZIP that folder, and upload it. If your API needs a key, leave it in. See the [Submission Guidelines](../submission-guidelines.md) for more details.
-2. **Your PDF**, named `LastName_FirstName_P2Doc.pdf` (see below).
+1. **Your code**, pushed to your Project 2 repo before the deadline. No zip.
+2. **Your PDF**, named `LastName_FirstName_P2Doc.pdf`, uploaded to the dropbox (see below).
 
 ### The PDF
-Keep it short, about a page. This is what I read while grading, so it helps me find everything and give you credit. Three sections:
+Keep it short, about a page, with your repo's link at the top. This is what I read while grading, so it helps me find everything and give you credit. Three sections:
 
 1. **How to Use Your App:** a quick walkthrough. What should I search for, what do the controls do, and is there anything I should try?
 2. **How You Met the Requirements:** where your 3 controls are, what you save with shared_preferences, and anything extra you want me to notice, including any bonus items.
-3. **AI Tools Used:** if you used any, which ones and what for (see [Generative AI](../documents/syllabus.md#generative-ai-eg-chatgpt) in the syllabus).
+3. **AI Tools Used:** which ones and what for (see [Generative AI](../documents/syllabus.md#generative-ai-eg-chatgpt) in the syllabus). If you didn't use any, write "None." This section is required either way.
 
 ### How the Final Is Graded
-The grading rubric for this project is visible in MyCourses. You should look it over carefully. Find it by going to the "Assignments" section and clicking through to the "Project 2 Final Submission" dropbox. It follows the requirements in [Section III](#iii-requirements) closely.
+The grading rubric for this project is visible in MyCourses. You should look it over carefully. Find it by going to the "Assignments" section and clicking through to the "Project 2 Final App" dropbox. It follows the requirements in [Section III](#iii-requirements) closely.
+
+**Commit history counts too.** I want to see your app come together over time, so your repo needs at least 5 commits of your own. Fewer than that costs up to 10 points, taken off after the rubric. Your first commit can be a big one if you brought in work you'd already started.
 
 > **Need Help?**
 > Start with your own [Lab 04](../labs/lab-04-gif-finder.md). Its `searchGifs()` function is the pattern, step by step, and your Project 2 search function will look a lot like it with a different URL and different fields. The references area also has extensive documentation on how to [connect to Giphy](../reference/network/giphy-api-setup.md). Much of the code you need may end up being similar in nature to this; but the way you interact and build it will be different. In a sense we are providing you with much of the ingredients; but you need to creatively assemble and build the meal.
