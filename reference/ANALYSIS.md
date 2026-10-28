@@ -25,8 +25,8 @@
 - GoRouter - Week 10A ✅
 - Provider Pattern - Week 10A ✅
 - ChangeNotifier - Week 10A ✅
-- FutureProvider - Week 10B ✅
-- Consumer Widget - Week 10B ✅
+- Provider with async API calls + model classes - Week 10B ✅
+- Consumer Widget - Provider reference (10B mentions it only)
 - BottomNavigationBar - Week 11A ✅
 - TabBar & TabBarView - Week 11A ✅
 - Flame topics - Week 11B, 12A, 12B ✅

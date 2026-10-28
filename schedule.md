@@ -218,12 +218,13 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **State Architecture:** Eliminating setState, centralized data management
 - **notifyListeners():** Triggering UI rebuilds across multiple pages
 
-### [Week 10B](weekly/10B.md): Provider from Scratch — Wizard Directory
-- **FutureProvider patterns:** Provider wrapper for async operations, API integration
-- **Custom Providers:** Creating ChangeNotifier classes for business logic
-- **Consumer Widget:** Alternative syntax for accessing provider data
-- **JSON Models:** Structured data classes, API response handling
-- **Network Error Handling:** Robust error patterns for API failures
+### [Week 10B](weekly/10B.md): Provider from Scratch: Wizard Directory
+- **Plan First:** model, provider, and UI designed before any code
+- **Model Classes:** typed properties and computed getters (`HPCharacter`)
+- **Async API Calls in a Provider:** your Lab 04 search function, moved into a ChangeNotifier
+- **context.read() vs context.watch():** actions vs. display
+- **Loading and Error State:** `isLoading` and `errorMessage` owned by the provider
+- **Detail Dialog:** one model object reused in the list and the popup
 
 **Project 2 Prototype App Due**
 
@@ -357,7 +358,7 @@ Text, Image, Icon, Card, AlertDialog, SnackBar, MaterialBanner
 GameWidget, SpriteComponent, JoystickComponent, Game Overlays
 
 ### State Management
-StatefulWidget, Provider, ChangeNotifier, FutureProvider, Consumer
+StatefulWidget, Provider, ChangeNotifier, context.read / context.watch, model classes
 
 ### Platform Integration
 WebView, Audio Players, Shared Preferences, URL Launcher, Cached Network Image, Camera/Image Picker

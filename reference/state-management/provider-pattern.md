@@ -662,7 +662,7 @@ void update() {
 ## When Covered in Course
 
 - **[Week 10A](../../weekly/10A.md)** - Introduction to Provider Pattern, ChangeNotifier, context.watch vs context.read, replacing setState and globals with centralized state management (clicker game example)
-- **[Week 10B](../../weekly/10B.md)** - Same Provider concepts applied to async API calls, plus Consumer widget deep dive (JSONPlaceholder API example)
+- **[Week 10B](../../weekly/10B.md)** - Provider built in from the start for an API app (Wizard Directory): a typed model class, an async fetch inside the provider, loading and error state, and the same model reused in a detail dialog. Consumer gets a one-paragraph mention that points back here
 - **Project 2** - Recommended for managing API data and app state
 - **Project 3** - Optional enhancement for complex state management (bonus points)
 
@@ -673,7 +673,7 @@ void update() {
 - [setState Basics](setstate-basics.md) - Local state management
 - [Declarative UI Architecture](declarative-ui-architecture.md) - Understanding Flutter's UI model
 - [GoRouter](../navigation/gorouter.md) - Navigation with Provider
-- **[Week 10B Class Notes](../../weekly/10B.md)** - Consumer widget patterns and async Provider with API calls
+- **[Week 10B Class Notes](../../weekly/10B.md)** - Provider from scratch with async API calls and a model class
 
 ---
 
@@ -723,4 +723,4 @@ MultiProvider(
 
 ---
 
-*Last updated: Week 10A | Fall 2025*
+*Last updated: Week 10B | Fall 2026*

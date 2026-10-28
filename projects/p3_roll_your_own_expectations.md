@@ -181,7 +181,7 @@ This doesn't need to be revolutionary - just demonstrate that you've taken what 
 - **[Flame game engine](../weekly/11B.md)** - For game projects *(Week 11B-12B)*
 - **Responsive design** for tablets - [MediaQuery & LayoutBuilder](../reference/responsive-design/mediaquery-layoutbuilder.md) *(Week 14A)*
 - **[App Lifecycle Management](../weekly/13A.md)** - Proper state handling *(Week 13A)*
-- **Smooth loading states** with [FutureProvider](../weekly/10B.md) *(Week 10B)*
+- **Smooth loading states** - a provider that owns loading and error state, see [Week 10B](../weekly/10B.md) Part 6 *(Week 10B)*
 
 ### Advanced Features (not covered - extra learning required):
 - **Riverpod** - 🌐 [Riverpod Official Docs](https://riverpod.dev/) (advanced state management alternative)
