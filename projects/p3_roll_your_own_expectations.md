@@ -1,252 +1,183 @@
 # How to Excel on Project 3
 
-> 📋 **Start Here:** This guide shows you exactly how to succeed on Project 3 by breaking down the grading rubric into actionable items with links to relevant course materials. For project logistics, deadlines, and submission requirements, see the **[Project 3 Instructions](p3_roll_your_own_instructions.md)**.
->
-> **Important:** The **Code Submission (70%)** is graded on six categories below. **Documentation (5%)** and **Video Demo (10%)** are separate MyCourses submissions.
+This page breaks the Project 3 rubric into concrete things you can build, with links to the course notes that cover each one. The [Project 3 Instructions](p3_roll_your_own_instructions.md) are still the source of truth for deadlines and submissions.
 
-This guide breaks down the GRADING RUBRIC (which is attached to the MyCourses Assignment Dropbox) into actionable items. Not everything listed is required—focus on the categories that matter most for your grade. This is just to help people out but the [INSTRUCTIONS for P3](p3_roll_your_own_instructions.md) are still the source of truth!
+Every project is different, so no page can be an exact checklist for your app. Use this as a guide, and ask me if you're not sure where a feature fits. I can also answer questions you put in your proposal.
 
-## Grading Philosophy
+## How to read this page
 
-Your project is graded on **six categories** (95 points total); with advanced features you can reach 110. Quality of execution matters:
+Each category below has up to two lists:
 
-**Grade Ranges:**
-- **70-80:** Meets basic requirements but with quality issues or missing features
-- **80-90 (B range):** All "Must Haves" completed with solid, functional quality
-- **90-95 (A- range):** All "Must Haves" with strong execution and attention to detail
-- **95-100 (A range):** Exceptional polish throughout, **OR** solid execution + advanced feature(s)
-- **100-110 (A+ range):** Exceptional polish AND multiple advanced features
+- **Must Have:** everyone does these. This part is a checklist.
+- **Professional Execution:** ideas for doing the Must Haves really well. This is about quality, not more features. You don't need every item, just the ones that make sense for your app.
 
-**Two Paths to 95+:**
-1. **Polish Path:** Make everything beautiful - professional UI, clean code, thoughtful UX
-2. **Feature Path:** Solid execution + implement advanced features like Provider, Flame, Firebase
-3. **Best Path:** Combine both for 100+
+**Advanced Features** are not inside the categories. They're all in [one menu at the bottom](#advanced-features-optional-menu). They're optional, and they're how you get past 100. Pick one or two that fit your project. Nobody is expected to do all of them, and a game and a habit tracker will pick completely different ones.
 
-> Because everyones project is differen't it's impossible to just give people a checklist of exactly what to do; so you must carefully understand these guidelines and/or contact me with questions about your features. I may also be able to respond to issues / questions you put in your proposal!
+These three names match the sections of the P3 Documentation template, so you can use this page when you fill it out.
 
-**The key to success:** Document your work! I can only grade what I can see.
+## How the grade works
+
+The final app is graded on six categories worth 95 points total. Advanced Features can take you as high as 110. Documentation and the Video Demo are separate MyCourses submissions with their own grades.
+
+| Score | What it looks like |
+|---|---|
+| 70-80 | Some Must Haves missing, or there but rough |
+| 80-90 | All Must Haves done and working |
+| 90-95 | All Must Haves, with strong execution and attention to detail |
+| 95-100 | Exceptional polish throughout, **or** solid work plus an Advanced Feature or two |
+| 100-110 | Exceptional polish **and** multiple Advanced Features |
+
+So there are two ways into the A range. You can polish everything and skip Advanced Features entirely, or you can do solid work and add one or two. Doing both is how you get past 100.
+
+Most important: **document your work.** I can only grade what I can see. If you built something you're proud of, especially an Advanced Feature, say so in your documentation and tell me where to find it.
 
 ---
 
 ## 1. Usefulness & Entertainment (10 pts)
 
-Your app/game should be genuinely useful or fun:
-- Clear purpose that someone would actually want to use
-- Engaging experience that works as intended
-- Polish that makes people want to try it
+**Must Have:**
+- A clear purpose: something someone would actually want to use or play
+- It works as intended
 
----
+**Professional Execution** (ideas, pick what fits):
+- An engaging experience that holds someone's attention
+- Enough polish that people want to try it
 
 ## 2. Error Prevention & Handling (10 pts)
 
-Build a robust application:
-- [**Input validation**](../reference/input-forms/form-validation.md) where applicable
-- Graceful error handling (doesn't crash)
-- User-friendly error messages
-- [**Keyboard dismissal**](../reference/input-forms/focus-management.md#dismissing-the-keyboard) when appropriate
+**Must Have:**
+- Graceful error handling: problems show a message instead of crashing the app
+- [Input validation](../reference/input-forms/form-validation.md) anywhere the user types
+- Error messages a user can understand
 
----
+**Professional Execution** (ideas, pick what fits):
+- [Keyboard dismissal](../reference/input-forms/focus-management.md#dismissing-the-keyboard) when appropriate
 
 ## 3. Code Quality & Organization (15 pts)
 
-**Required:**
-- Code comments. The three required rules, at the highest bar of the semester:
+**Must Have:**
+- Comments at the highest bar of the semester. This is the standard for everyone on P3, whether or not you used AI tools. See the [Commenting Guide](../commenting_guide.md) for examples.
   - A header block at the top of every `.dart` file: what it does, your name, the date
   - One line above every function saying what it does
-  - Comments that explain **why** you made a decision, not just what the code does
+  - Comments that explain **why** you made a decision, not only what the code does
+- Code [organized into multiple .dart files](../reference/patterns/code-organization.md#file-organization)
+- At least one [custom class](../study-guides/01-dart-fundamentals.md#v-classes) of your own
+- Typed variables instead of `var` everywhere (see [Study Guide 01](../study-guides/01-dart-fundamentals.md#var-final-and-const))
+- [DRY](../reference/patterns/code-organization.md#dry-dont-repeat-yourself): no repeated blocks of code
+- Debug `print` statements removed
 
-  This is the standard for everyone on P3, not only students using AI tools. See the
-  [Commenting Guide](../commenting_guide.md) for examples.
-- [**Organized into multiple .dart files**](../reference/patterns/code-organization.md#file-organization)
-- [**Custom classes**](../reference/patterns/code-organization.md#extracting-to-custom-classes) (at least one)
-- Type-aware variables (not just `var`) - see [Week 2B notes](../weekly/2B.md#type-safety)
-- [**DRY principles**](../reference/patterns/code-organization.md#method-extraction-dry-principle) (no repeated code blocks)
-- Removed debug print statements
+**If you used AI tools:**
+- Document it in your submission (see [Instructions, Section IX](p3_roll_your_own_instructions.md#ix-ai-tools--academic-integrity))
+- Be ready to explain the decisions in your code with more than "the AI suggested it"
+- The file structure should show you thought about it, not that you pasted output
 
-**If Using AI Tools (Optional):**
-- Must document AI usage in your submission (see [Project Instructions - Section IX](p3_roll_your_own_instructions.md#ix-ai-tools--academic-integrity))
-- Comments must explain WHY decisions were made, not just WHAT the code does
-- Must demonstrate understanding of all code through documentation
-- Be prepared to explain architectural decisions beyond "the AI suggested it"
-- Code organization should show thoughtful structure, not just AI output
+Whether you wrote the code yourself or had help, you need to understand and be able to explain all of it. Using AI code you don't understand is the same problem as copying from Stack Overflow without understanding it.
 
-**Remember:** Whether you write code yourself or use AI assistance, you must be able to explain and justify every architectural decision. Using AI without understanding the code is no different than copying from Stack Overflow without understanding—both are problematic.
-
-**Related Resources:**
-- [Code Organization & DRY Principles](../reference/patterns/code-organization.md)
-- [Declarative UI Architecture](../reference/state-management/declarative-ui-architecture.md) - Separation of data and UI
-
----
+Related: [Code Organization & DRY](../reference/patterns/code-organization.md), [Declarative UI Architecture](../reference/state-management/declarative-ui-architecture.md) (keeping data separate from UI)
 
 ## 4. Functional Requirements (20 pts)
 
-### Must Have:
-- **Custom Splash Screen** - *[Week 13B](../weekly/13B.md)*
-- **Custom App Icon** - *[Week 13B](../weekly/13B.md)*
-- **Appropriate App Name** - *[Week 13B](../weekly/13B.md)*
-- **No debug banner** - Remove the "DEBUG" banner from your app (hint: MaterialApp has a property for this)
-- **[SharedPreferences](../reference/data-persistence/shared-preferences.md)** for data persistence
-  - *At minimum: save user preferences, settings, or game state*
-- **Multiple pages/screens** (at minimum: your main app pages - no specific "about" page required)
-  - *Games: Consider menu, game, pause, game-over as separate screens*
-  - *Apps: Multiple functional pages based on your app's purpose*
-  - *Note: All project documentation is submitted as a separate PDF, not in-app*
-  - *Covered in [Week 9A](../weekly/9A.md) - Stupid Clicker Game*
-- **No crashes**
+**Must Have:**
+- Custom splash screen, custom app icon, and an appropriate app name ([Week 13B](../weekly/13B.md))
+- No debug banner (hint: `MaterialApp` has a property for this)
+- [SharedPreferences](../reference/data-persistence/shared-preferences.md) to save something: settings, preferences, or game state
+- Multiple pages or screens (we built these in [Week 9B](../weekly/9B.md), the Stupid Clicker Game)
+  - Games: think menu, game, pause, and game over
+  - Apps: whatever pages your app's purpose needs. No About page is required, since your documentation is a separate PDF.
+- One navigation method. Pick **one**:
+  - [BottomNavigationBar](../reference/navigation/bottomnavigationbar.md) ([Week 11A](../weekly/11A.md))
+  - [TabBar](../reference/navigation/tabbar-tabbarview.md) ([Week 11A](../weekly/11A.md))
+  - [Named routes](../reference/navigation/named-routes.md)
+- No crashes
+- Something we didn't build together in class. It doesn't need to be revolutionary. A unique feature or workflow, a creative use of what we covered, a new package or API, or original game mechanics all count. Say what makes yours different in your documentation.
 
-### Choose ONE navigation method:
-- **[BottomNavigationBar](../reference/navigation/bottomnavigationbar.md)** - *[Week 11A](../weekly/11A.md)*, OR
-- **[TabBar](../reference/navigation/tabbar-tabbarview.md)** - *[Week 11A](../weekly/11A.md)*, OR
-- **[Named routing](../reference/navigation/named-routes.md)** - Clean string-based navigation
-
-**Navigation Resources:**
-- [Basic Navigation](../reference/navigation/basic-navigation.md) - Navigator.push/pop fundamentals
-- [Data Passing Between Pages](../reference/navigation/data-passing.md) - Arguments and return values
-- [GoRouter Package](../reference/navigation/gorouter.md) - Advanced routing (optional)
-
-### Additional functionality beyond class examples
-**Your project should do something we haven't built together in class!** This could be:
-- A unique feature or workflow
-- Creative application of concepts we've covered
-- Integration of a new package or API
-- Original game mechanics or app functionality
-
-This doesn't need to be revolutionary - just demonstrate that you've taken what we learned and applied it to something new. **Document what makes your project different from class examples!**
-
----
+Navigation help: [Basic Navigation](../reference/navigation/basic-navigation.md), [Passing Data Between Pages](../reference/navigation/data-passing.md)
 
 ## 5. Interface Quality (20 pts)
 
-### Must Have:
-- Intuitive, well-labeled interface
-- [**Dialogs/alerts**](../reference/navigation/dialogs-alerts.md) with clear instructions where needed
-- Works well in portrait orientation
-  - Use [**Expanded & Flexible**](../reference/widgets/expanded-flexible.md) widgets for responsive layouts
-  - Ensure content fits without overflow on standard phone screens
+**Must Have:**
+- An intuitive, well-labeled interface
+- [Dialogs or alerts](../reference/navigation/dialogs-alerts.md) with clear instructions where they're needed
+- Works well in portrait: content fits on a standard phone screen without overflow. [Expanded and Flexible](../reference/widgets/expanded-flexible.md) help with this.
 
-### Professional Execution (part of getting to 95-100):
-- Smooth, polished interactions with [InkWell](../reference/widgets/inkwell-gesturedetector.md) for visual feedback
-- Contextual feedback with [SnackBars/ScaffoldMessenger](../reference/notifications/scaffold-messenger.md)
-- **[URL Launcher](../reference/platform-integration/url-launcher.md)** for external links (if your app needs them)
-- Thoughtful use of loading states and empty states
-
-### Advanced Features (for 100+):
-- **Responsive layout** for tablets - [MediaQuery & LayoutBuilder](../reference/responsive-design/mediaquery-layoutbuilder.md) *([Week 14A](../weekly/14A.md))*
-- **[WebView](../weekly/12A.md)** integration with complex interactions
-- Advanced navigation patterns with [GoRouter](../reference/navigation/gorouter.md)
-
-**Related Resources:**
-- [Basic Navigation](../reference/navigation/basic-navigation.md)
-- [Data Passing Between Pages](../reference/navigation/data-passing.md)
-
----
+**Professional Execution** (ideas, pick what fits):
+- Tap feedback with [InkWell](../reference/widgets/inkwell-gesturedetector.md) on interactive elements
+- Contextual feedback with [SnackBars](../reference/notifications/scaffold-messenger.md)
+- [URL Launcher](../reference/platform-integration/url-launcher.md) for external links, if your app has any
+- Loading states and empty states that look intentional
 
 ## 6. Visual Design (20 pts)
 
-### Must Have:
-- **[Custom font](../reference/styling/text-fonts.md)** - Local or Google Fonts
-- **Coordinated colors** - [Theme](../reference/styling/themes.md) or [ColorScheme](../reference/styling/colorscheme.md)
-- **Polished visual design** with [BoxDecoration](../reference/styling/box-decoration.md) (gradients, shadows, borders, rounded corners)
-- **Appropriate imagery and icons**
-  - [Images & Assets](../reference/widgets/images-assets.md)
-  - [SVG Images](../reference/assets/svg-images.md)
-- Beyond default Flutter appearance
+**Must Have:**
+- A [custom font](../reference/styling/text-fonts.md), local or Google Fonts
+- Coordinated colors using a [Theme](../reference/styling/themes.md) or [ColorScheme](../reference/styling/colorscheme.md)
+- [BoxDecoration](../reference/styling/box-decoration.md) for polish: gradients, shadows, borders, rounded corners
+- Appropriate [images](../reference/widgets/images-assets.md) and icons ([SVG](../reference/assets/svg-images.md) works too)
+- Clearly beyond the default Flutter look
 
-### Professional Execution (part of getting to 95-100):
-- **[CachedNetworkImage](../reference/platform-integration/cached-network-image.md)** with smart caching strategies (if your app uses network images)
-- Consistent visual hierarchy and spacing throughout
-- Thoughtful use of color for meaning (errors, success, warnings)
-- Professional iconography and imagery choices
+**Professional Execution** (ideas, pick what fits):
+- Consistent spacing and visual hierarchy on every screen
+- Color that means something (errors, success, warnings) instead of random colors
+- Icons and imagery that look like they belong together
+- [CachedNetworkImage](../reference/platform-integration/cached-network-image.md) if your app loads images from the network
 
-### Advanced Features (for 100+):
-- **Sound effects/music** - *[Week 12B](../weekly/12B.md) - AudioPlayers package*
-- **Custom animations** - 🌐 [Flutter Animation Tutorial](https://docs.flutter.dev/ui/animations/tutorial) (beyond basic implicit animations)
-
-**Styling Resources:**
-- [Themes & ThemeData](../reference/styling/themes.md) - Global app styling
-- [Text Styling & Custom Fonts](../reference/styling/text-fonts.md)
+Styling help: [Themes & ThemeData](../reference/styling/themes.md), [Text Styling & Custom Fonts](../reference/styling/text-fonts.md)
 
 ---
 
-## Going "Above and Beyond"
+## Advanced Features (optional menu)
 
-**To reach 95-100:** Choose ONE path:
-- Path A: Exceptional execution quality on all requirements (professional polish)
-- Path B: Solid execution + 1-2 advanced features from the list below
+This is the only list of Advanced Features on the page. Pick one or two that fit your project. Most of these won't fit any given app, and that's fine. One done well is worth more than three done badly.
 
-**To reach 100-110:** Professional execution quality PLUS multiple advanced features from below.
+The "Counts when" column is the bar. A single fade animation or one sound on a button tap is a nice touch, but it isn't an Advanced Feature.
 
-### Advanced Features (covered in class - use if they fit your project):
-- **[Provider pattern](../reference/state-management/provider-pattern.md)** - Centralized state management *(Week 10A)*
-- **[Flame game engine](../weekly/11B.md)** - For game projects *(Week 11B-12B)*
-- **Responsive design** for tablets - [MediaQuery & LayoutBuilder](../reference/responsive-design/mediaquery-layoutbuilder.md) *(Week 14A)*
-- **[App Lifecycle Management](../weekly/13A.md)** - Proper state handling *(Week 13A)*
-- **Smooth loading states** - a provider that owns loading and error state, see [Week 10B](../weekly/10B.md) Part 6 *(Week 10B)*
+### Covered in class
 
-### Advanced Features (not covered - extra learning required):
-- **Riverpod** - 🌐 [Riverpod Official Docs](https://riverpod.dev/) (advanced state management alternative)
-- **Firebase integration** - Real-time database, authentication
-  - *Note: Firebase basics covered in IGME-330 - [Firebase Guide](https://github.com/rit-igm-web/igme-330-shared/blob/main/notes/firebase-1.md)*
-- **GPS/Maps integration** - Location services
-- **[Camera access](../weekly/14A.md)** - Device camera features
-- **BLoC pattern** - Another advanced state management approach
+| Feature | Good fit for | Counts when | Learn it |
+|---|---|---|---|
+| Provider | Any app | Multiple ChangeNotifiers managing real app state | [Provider pattern](../reference/state-management/provider-pattern.md), Week 10A |
+| GoRouter | Apps with many screens | Advanced navigation patterns, beyond the basic setup from class | [GoRouter](../reference/navigation/gorouter.md), [Week 10A](../weekly/10A.md) |
+| Loading and errors in a provider | Apps that load data | The provider owns loading and error state, and the UI reacts to it | [Week 10B](../weekly/10B.md), Part 6 |
+| Flame game engine | Games | A Flame game with multiple levels and state | [Week 11B](../weekly/11B.md) to 12B |
+| WebView | Apps that show web content | Two-way communication between Flutter and the page | [Week 12A](../weekly/12A.md) |
+| Sound effects or music | Games, some apps | Sound that's part of the experience, used throughout | [Week 12B](../weekly/12B.md), AudioPlayers |
+| App lifecycle | Any app | Proper state handling when the app is paused and resumed | [Week 13A](../weekly/13A.md) |
+| Camera | Apps that capture photos | Camera or image picking that's part of what the app does | [Week 14A](../weekly/14A.md) |
+| Responsive tablet layout | Any app | Works well on phones **and** tablets | [MediaQuery & LayoutBuilder](../reference/responsive-design/mediaquery-layoutbuilder.md), [Week 14B notes](../weekly/14B.md) |
 
-### UX Polish Extras *(added March 4, 2026)*
+### Not covered in class (extra learning)
 
-You don't need a "killer app" to reach 100+. A simpler app with **lots of professional polish** can get there too. These are small but meaningful UX touches that real-world apps implement - the kind of details users expect but rarely notice until they're missing:
+| Feature | Good fit for | Counts when | Learn it |
+|---|---|---|---|
+| Custom animations | Any app | Beyond basic implicit animations, used throughout the app | [Flutter animation tutorial](https://docs.flutter.dev/ui/animations/tutorial) |
+| Production error handling | Apps that load data | Retry logic and offline support, with clear feedback to the user | On your own |
+| Riverpod or BLoC | Any app | Used for your app's state management in place of Provider | [Riverpod docs](https://riverpod.dev/) |
+| Firebase | Apps with accounts or shared data | Authentication or a real-time database that the app depends on | [IGME-330 Firebase guide](https://github.com/rit-igm-web/igme-330-shared/blob/main/notes/firebase-1.md) |
+| GPS or maps | Location-based apps | Location services that are part of what the app does | On your own |
 
-- **Clear (X) buttons** on TextFields - let users quickly clear input with a suffixIcon ([Week 7A](../weekly/7A.md#part-1-adding-clear-buttons-to-textfields))
-- **Focus node next-field navigation** - pressing the keyboard's enter/next button jumps to the next field instead of doing nothing ([Week 7A](../weekly/7A.md#part-2-focus-nodes---taking-control-of-navigation))
-- **Tap-outside keyboard dismissal** - tapping outside a TextField dismisses the keyboard, standard iOS/Android behavior ([Week 7A](../weekly/7A.md#part-3-dismissing-the-keyboard))
-- **SingleChildScrollView on forms** - prevents the keyboard from covering input fields ([Week 7A](../weekly/7A.md#part-4-preventing-keyboard-from-covering-fields))
+### Small UX polish
 
-*More items may be added here as the semester progresses.* If you implement UX polish extras, **document them in your submission** so I know to look for them. A quick list in your documentation like "I added clear buttons, focus management, and keyboard dismissal" is all you need.
+You don't need a killer app to reach 100+. A simpler app with a lot of professional polish can get there too. These are small touches real apps have, the kind users only notice when they're missing. They mostly fit apps with forms or text input, and all four are in [Week 7A](../weekly/7A.md).
 
-### Production Polish (can elevate execution quality):
-- Professional error handling with retry logic and user feedback
-- Advanced animation sequences throughout the app
-- WebView integration with two-way communication
+- [Clear (X) buttons](../weekly/7A.md#part-1-adding-clear-buttons-to-textfields) on TextFields
+- [Next-field navigation](../weekly/7A.md#part-2-focus-nodes---taking-control-of-navigation): the keyboard's Next button jumps to the next field
+- [Tap outside to dismiss the keyboard](../weekly/7A.md#part-3-dismissing-the-keyboard)
+- [SingleChildScrollView on forms](../weekly/7A.md#part-4-preventing-keyboard-from-covering-fields) so the keyboard doesn't cover the fields
 
-> 💡 **Remember:** Document which advanced features you implemented! If it's not documented, it might not get credit.
-> 📚 **Full Reference Guide:** See [reference/README.md](../reference/README.md) for complete documentation of all topics covered in this course.
+If you add these, list them in your documentation ("I added clear buttons, focus management, and keyboard dismissal") so I know to look.
 
+### What doesn't count as Advanced
 
-## Examples of What Counts as What
+These are all Must Haves, so they don't count toward the menu:
+- Multiple pages
+- SharedPreferences
+- Images and a custom font
+- Looking better than default Flutter
+- Commented, organized code
+- Basic navigation
 
-These are examples — you don't need all of them. A few done well is better than many done poorly.
-
-**Professional Execution (gets you to 95-100):**
-- BoxDecoration throughout with gradients, shadows, consistent rounded corners
-- InkWell feedback on all interactive elements
-- URL Launcher for external links where appropriate
-- Loading states, empty states, error states all handled gracefully
-- Consistent spacing and visual hierarchy
-- Thoughtful color usage (not just random colors)
-- Clean, well-commented, organized code across multiple files
-
-**Advanced Features (gets you to 100-110):**
-- Implementing Firebase authentication with multiple sign-in methods
-- Building a Flame game with multiple levels and state management
-- Creating responsive design that works on phones AND tablets
-- Provider pattern with multiple ChangeNotifiers managing complex app state
-- WebView integration with two-way communication between Flutter and web content
-- Professional error handling with retry logic and offline support
-- Custom animations throughout (not just one simple animation)
-- Sound effects/music integrated meaningfully
-
-**NOT "Going Beyond" (these are baseline expectations):**
-- Having multiple pages (requirement)
-- Using SharedPreferences (requirement)
-- Adding images and a custom font (requirement)
-- Making the UI look better than default Flutter (requirement)
-- Writing commented, organized code (requirement)
-- Using basic navigation (requirement)
-
-**The Key Distinction:**
-- **Professional Execution** = Doing required things REALLY WELL (polish, attention to detail)
-- **Advanced Features** = Adding SUBSTANTIAL new functionality beyond requirements
-- Either path can get you to 100. Both together gets you to 110.
+For everything else we've covered, see the [full reference guide](../reference/README.md).
 
 ---
 
-*Last updated: Week 11 | Fall 2025*
+*Last updated: Week 10 | Fall 2026*
