@@ -1,18 +1,18 @@
 # Project 3 - Roll-Your-Own Flutter App
 
-> 📋 **How to Use This Document:** This is your official project brief covering scope, deadlines, and submission requirements. For a detailed breakdown of how to excel on each grading category with links to relevant course materials, see the **[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)**.
+> **How to Use This Document:** This is your official project brief covering scope, deadlines, and submission requirements. For a detailed breakdown of how to excel on each grading category with links to relevant course materials, see the **[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)**.
 
 ## I. Overview
 **Using Flutter, create a Game or App**:
-- For this project you are creating a Flutter game or App experience for Mobile platforms, Android or IOS (ideally both).
+- For this project you are creating a Flutter game or app experience for mobile platforms, Android or iOS (ideally both).
   - Example projects:
     - Flutter Game
     - Utility Application
     - Enhanced API-based Application
 
-- Your goal is to create a app or game that is easy to use, functional, and aesthetically pleasing.
+- Your goal is to create an app or game that is easy to use, functional, and aesthetically pleasing.
 
-- Ideally the experience will run in all platforms Flutter can run on, but the bare minimum will be the Android Simulator or IOS Simulator.
+- Ideally the experience will run on all platforms Flutter can run on, but the bare minimum is the Android Emulator or the iOS Simulator.
 
 - You will be evaluated on:
     - your creativity
@@ -20,15 +20,17 @@
     - the soundness of your programming
     - how far you went beyond what we did in class, as described below
 
-- The project will be very open and it will be up to you to decide what technologies/packages to implement, below are some examples:
+- The project is very open. It's up to you to decide which technologies and packages to use. Some examples:
   - Flame Engine
   - GPS / Maps
   - Native Camera
-  - Flutter Casual Game Kit
+  - [Flutter Casual Games Toolkit](https://docs.flutter.dev/resources/games-toolkit)
   - Firebase
   - Advanced State Management, ex: BLoC, Riverpod
   - Responsive Layout
-  - Other package not discussed or shown in class
+  - Another package we haven't discussed or shown in class
+
+- These are Advanced Features, and they're optional. See [Going Above and Beyond](#going-above-and-beyond) for how they fit into your grade.
 
 ### What You Turn In
 
@@ -69,11 +71,11 @@ This is what your **Final App** (Section VI, 70% of the project grade) is graded
    - Functionality that goes beyond class examples
    - No crashes or debug statements
 
-5. **Interface Quality (20 pts)** - Intuitive, well-labeled interface that works well in portrait orientation with appropriate use of dialogs and responsive layout techniques
+5. **Interface Quality (20 pts)** - Intuitive, well-labeled interface that works well in portrait orientation, with dialogs where they help and layouts that fit a phone screen without overflow
 
 6. **Visual Design (20 pts)** - Custom fonts, coordinated colors, appropriate imagery, and polish beyond default Flutter appearance
 
-> 💡 **Note:** Documentation (10%) is graded separately as its own MyCourses submission (see Section VII).
+> **Note:** Documentation (10%) and the Video Demonstration (10%) are graded separately as their own MyCourses submissions (see Sections VII and VIII).
 
 ### Critical Success Factors
 
@@ -86,17 +88,11 @@ This is what your **Final App** (Section VI, 70% of the project grade) is graded
 - Comment all functions explaining what they do, and explain **why** on anything non-obvious. See the [Commenting Guide](../commenting_guide.md)
 - Remove or comment out all `print` statements
 
-### Going Above and Beyond (95-105+ points)
+### Going Above and Beyond
 
-To reach the highest grades, consider implementing advanced features like:
-- Firebase integration or advanced state management (Provider, Riverpod, BLoC)
-- Flame game engine for game projects
-- GPS/Maps or camera integration
-- Responsive design for tablets
-- Professional animations and polished UI
-- Production-quality error handling and loading states
+The rubric has one more row after the six categories: **Above and Beyond**, worth up to 5 points, for exceptional polish or Advanced Features. Projects with both can go past 100, and I add those points by hand.
 
-**See the [Project 3 Expectations Guide](p3_roll_your_own_expectations.md) for detailed examples, technical guidance, and links to relevant course materials for each category.**
+Advanced Features are optional. Think of them as a menu: pick one or two that fit your project, or pitch something that isn't on the list (your proposal is a good place to ask). The full menu, with what counts for each one, is in the [Expectations Guide](p3_roll_your_own_expectations.md#advanced-features-optional-menu), along with [how the grade works](p3_roll_your_own_expectations.md#how-the-grade-works).
 
 ### A Note on Enhanced API-based Applications
 
@@ -109,16 +105,12 @@ If you choose the "Enhanced API-based Application" option, you may build substan
 
 ⚠️ **This submission is worth 7.5% of your Project 3 grade.**
 
-We would like you to write a brief project treatment for your Project 3 Proposal:
-
-Here are some elements/sections to include:
-
-You may format this in any way that you want, but break each bulleted item below into a separate paragraph at least.  Feel free to label the paragraphs with headings.
+Write a brief project treatment: a short pitch for your idea. You can format it any way you want, but give each item below at least its own paragraph. Feel free to label the paragraphs with headings.
 
 - Give your game/app a name. It can be changed later. Put it at the top of your page.
 - Add a High Concept: A 1-3 sentence description that pitches and summarizes your app/game.  Examples in link below.
 - Genre: Identify the genre(s) the experience belongs to. There are sample lists of genres provided in the link below.
-- Platform: Desktop, Web, mobile, or all?
+- Platform: Android, iOS, web, desktop, or all?
 - Aesthetics: How would you describe the desired graphic style... You might not make it there, but what are you aiming for?
 - Mockups: Provide at least 2 mockup screens of the app/game.  They can be hand-drawn sketches captured on a phone camera, Photoshop mockups, etc.  
 
@@ -128,11 +120,12 @@ You may format this in any way that you want, but break each bulleted item below
 - Game Project:
   - Gameplay: Discuss what choices the player will be able to make and what kind of control they have to make those choices.  How will the player learn how to play?  
   
-- Other: Anything else that you like to say, like discuss packages you'd like to use, etc.
-- **AI Tool Usage:** Indicate whether you plan to use AI coding assistants (Claude, ChatGPT, GitHub Copilot, Cursor, etc.) for this project. If yes, briefly describe which tools and for what aspects (e.g., "Planning to use Claude for help with complex state management patterns"). See [Section IX](p3_roll_your_own_instructions.md#ix-ai-tools--academic-integrity) for full requirements.
+- Advanced Features (optional): any from the [menu](p3_roll_your_own_expectations.md#advanced-features-optional-menu) you're aiming for, or something else you'd like to try. I'll let you know if it counts, or if it's too much for the time you have.
+- Other: anything else you'd like to say, like packages you plan to use.
+- **AI Tool Usage:** Indicate whether you plan to use AI coding assistants (Claude, ChatGPT, GitHub Copilot, Cursor, etc.) for this project. If yes, briefly describe which tools and for what aspects (e.g., "Planning to use Claude for help with complex state management patterns"). See [Section IX](#ix-ai-tools--academic-integrity) for full requirements.
 - About the developer: Give your name/major/minor/year and your skill set/interests.  
 
-> The document is similar in style to the Project 3 template used in 230/235. For reference you can look at https://github.com/rit-igm-web/igme-235-shared/blob/main/projects/project-3.md.
+> The document is similar in style to the Project 3 proposal used in IGME-235. For reference, including the high concept examples and genre lists mentioned above, see the [IGME-235 Project 3 page](https://github.com/rit-igm-web/igme-235-shared/blob/main/projects/project-3.md).
 
 ### What to Submit
 One PDF, named `LastName_FirstName_P3Proposal.pdf`, uploaded to the Project 3 Proposal dropbox. The rubric is attached there.
@@ -173,11 +166,11 @@ On the six categories in [Section III](#iii-requirements), with the rubric attac
    - **[P3 Documentation Template (Google Doc)](https://docs.google.com/document/d/1YKIwzxLpxgO9H1lsbCcu6r4z4WUJgCe_cSYE5Mprp2s/copy)**
    - The link will automatically create a copy in your Google Drive
 
-2. **Fill out ALL sections** - Don't skip anything! Each section is important for grading:
+2. **Fill out every section.** Each one matters for grading. In Professional Execution and Advanced Features, list only what you actually built and leave the rest blank:
    - Project Information
    - Must-Have Features Checklist
    - Professional Execution details
-   - Advanced Features (if applicable)
+   - Advanced Features (only if you built any)
    - **AI Tool Usage Declaration (Required for everyone)**
    - **MOST IMPORTANT:** Section 8 - Step-by-Step Testing Guide
 
@@ -218,7 +211,7 @@ We may watch the videos together as a class during the final exam period. Detail
 
 ## IX. AI Tools & Academic Integrity
 
-> 📋 **Quick Links:** [Documentation Section (VII)](#vii-documentation) | [AI Documentation Template](https://docs.google.com/document/d/1YKIwzxLpxgO9H1lsbCcu6r4z4WUJgCe_cSYE5Mprp2s/copy)
+> **Quick Links:** [Documentation Section (VII)](#vii-documentation) | [AI Documentation Template](https://docs.google.com/document/d/1YKIwzxLpxgO9H1lsbCcu6r4z4WUJgCe_cSYE5Mprp2s/copy)
 
 ### Academic Integrity Policy
 
@@ -237,7 +230,7 @@ Using any form of assistance (from other people, AI tools, or online sources) wi
 
 You've already demonstrated fundamental understanding through Projects 1 and 2. At this point in your education, it's appropriate to learn how professional developers use AI tools, because employers increasingly expect this skill.
 
-**However:** AI is a tool for leverage, not a substitute for understanding. In the professional world, you'll need to:
+**However:** AI is a tool, not a substitute for understanding. In the professional world, you'll need to:
 - Understand architecture and make design decisions (AI can't do this for you)
 - Collaborate with teams and explain technical choices (AI can't attend your meetings)
 - Debug and maintain code over time (AI-generated code you don't understand becomes a liability)
@@ -264,7 +257,7 @@ You may use AI coding assistants (Claude, ChatGPT, GitHub Copilot, Cursor, etc.)
 
 2. **Document AI usage in your Final Documentation** ([Section VII](#vii-documentation) | [Documentation Template](https://docs.google.com/document/d/1YKIwzxLpxgO9H1lsbCcu6r4z4WUJgCe_cSYE5Mprp2s/copy))
    - Include an "AI Collaboration" section covering:
-     - Which specific AI tools you used (be specific: "ChatGPT-4", "GitHub Copilot", "Claude Sonnet 3.5", etc.)
+     - Which specific AI tools you used, and the model if you know it (for example: "Claude in VS Code", "ChatGPT", "GitHub Copilot autocomplete")
      - Which features/components used AI assistance and to what degree
        - Example: "Used Claude to help structure my Provider pattern - it generated initial boilerplate which I then modified for my specific needs"
        - Example: "Used GitHub Copilot for autocomplete suggestions while writing repetitive widget code"

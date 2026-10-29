@@ -17,7 +17,7 @@ These three names match the sections of the P3 Documentation template, so you ca
 
 ## How the grade works
 
-The final app is graded on six categories worth 95 points total. Advanced Features can take you as high as 110. Documentation and the Video Demo are separate MyCourses submissions with their own grades.
+The final app is graded on six categories worth 95 points, plus one more rubric row, Above and Beyond, worth up to 5 points for exceptional polish or Advanced Features. That's how you reach 100. Projects with both can go past 100, up to 110, and I add those points by hand. Documentation and the Video Demo are separate MyCourses submissions with their own grades.
 
 | Score | What it looks like |
 |---|---|
@@ -128,6 +128,8 @@ Styling help: [Themes & ThemeData](../reference/styling/themes.md), [Text Stylin
 ## Advanced Features (optional menu)
 
 This is the only list of Advanced Features on the page. Pick one or two that fit your project. Most of these won't fit any given app, and that's fine. One done well is worth more than three done badly.
+
+Want to try something that isn't here? Pitch it in your proposal and I'll tell you if it counts.
 
 The "Counts when" column is the bar. A single fade animation or one sound on a button tap is a nice touch, but it isn't an Advanced Feature.
 
