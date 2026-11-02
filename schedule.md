@@ -233,7 +233,8 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 ## Week 11: Navigation UI & Game Development Introduction
 **Nov 3 & 5**
 
-### [Week 11A](weekly/11A.md): Navigation UI Components
+### [Week 11A](weekly/11A.md): Project 3 Kickoff + Navigation UI Components
+- **Project 3 Overview:** Roll Your Own requirements, past projects, and the proposal
 - **TabBar System:** DefaultTabController, TabBar, TabBarView, Tab widgets
 - **BottomNavigationBar:** BottomNavigationBarItem, multiple page management
 - **State Preservation:** IndexedStack vs direct widget switching
@@ -241,7 +242,6 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Navigation State:** Managing currentIndex, onTap handlers
 
 ### [Week 11B](weekly/11B.md): Flame Game Engine Basics
-- **Project 3 Overview:** Roll Your Own Application requirements
 - **Flame Setup:** GameWidget, FlameGame base class, game lifecycle
 - **Sprite Components:** Loading and displaying game sprites
 - **Input Handling:** PanDetector, TapCallbacks, JoystickComponent

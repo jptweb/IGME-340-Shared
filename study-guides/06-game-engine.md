@@ -26,20 +26,7 @@ In a Flutter widget app, nothing happens until something changes: a user taps a 
 
 In a Flame game, the world is always in motion. Every frame, Flame calls your `update()` method whether the player touched the screen or not. That's where you move things, check for collisions, and keep score. Then Flame redraws everything in its new spot and starts over.
 
-```
-┌──────────────┐
-│   onLoad()   │        once: load the image, set size and position
-└──────┬───────┘
-       ↓
-┌──────────────┐
-│  update(dt)  │ ←──┐   every frame: move, collide, keep score
-└──────┬───────┘    │
-       ↓            │
-┌──────────────┐    │
-│    render    │ ───┘   every frame: Flame draws it all for you
-└──────────────┘
-  repeats about 60 times per second
-```
+![The Flame game loop: onLoad() runs once to set things up, then update(dt) and render repeat about 60 times per second. You write onLoad and update; Flame does render.](images/sg06-game-loop.png)
 
 On Thursday you'll write two methods: `onLoad()` to set something up, and `update(dt)` to change it every frame. You won't write the drawing step. A `SpriteComponent` already knows how to draw its own image.
 
@@ -64,18 +51,7 @@ Most things you know from widgets have a Flame version. If you only read one par
 
 There are no `Column`, `Row`, or `Padding` widgets in game space. Everything has a `position`, which is a `Vector2` (an x and a y), plus a `size`. To move something, you change its position.
 
-```
-(0, 0)                 x grows →
-   ┌──────────────────────────┐
-   │                          │
-   │                          │
- y │                          │
- ↓ │                          │
-   │                          │
-   │          [ship]          │  ← Vector2(game.size.x / 2, game.size.y - 100)
-   │                          │     (centered, 100 pixels up from the bottom)
-   └──────────────────────────┘ (game.size.x, game.size.y)
-```
+![Positioning in Flame: (0, 0) is the top-left corner, x grows to the right, and y grows downward. The ship's anchor sits at Vector2(game.size.x / 2, game.size.y - 100), centered and 100 pixels up from the bottom.](images/sg06-coordinates.png)
 
 Two things that trip people up:
 
@@ -112,16 +88,7 @@ GameWidget                    a normal Flutter widget
 
 UI that sits on top of the game, like a score or a pause button, is still regular Flutter widgets. Flame calls these **overlays**, and they're Week 12A.
 
-```
-┌──────────────────────────┐
-│ Score: 120        [ || ] │  ← overlays: regular Flutter widgets
-│                          │
-│                          │
-│          [ship]          │  ← the game: Flame draws everything in here
-│                          │
-│                          │
-└──────────────────────────┘
-```
+![A phone running a game. The score and pause button at the top are overlays: regular Flutter widgets on top. Everything else is drawn by Flame inside the GameWidget.](images/sg06-overlays.png)
 
 ---
 
