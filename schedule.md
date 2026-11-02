@@ -247,7 +247,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Input Handling:** PanDetector, TapCallbacks, JoystickComponent
 - **Game Architecture:** Component-based design, mixins for behaviors
 
-**Project 2 Final App Due, Project 3 Proposal Due**
+**Project 2 Final App Due**
 
 ---
 
@@ -267,6 +267,8 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 - **Audio System:** audioplayers package, background music vs sound effects
 - **Audio Context:** Preventing channel conflicts, multiple audio streams
 - **Memory Management:** Proper disposal of audio players and providers
+
+**Project 3 Proposal Due** (Thursday)
 
 ---
 
