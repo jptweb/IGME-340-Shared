@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="620" height="480" viewBox="0 0 620 480" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <title>Overlays on top of the game</title>
+  <desc>The score and pause button are regular Flutter widgets layered on top. Everything else is drawn by Flame inside the GameWidget.</desc>
+  <rect width="620" height="480" rx="16" fill="#FFFFFF"/>
+
+  <!-- phone -->
+  <rect x="40" y="16" width="250" height="448" rx="36" fill="#D0D3D4"/>
+  <rect x="52" y="28" width="226" height="424" rx="26" fill="#282828"/>
+
+  <!-- the game world -->
+  <g fill="#A2AAAD">
+    <circle cx="80" cy="130" r="1.6"/><circle cx="240" cy="110" r="1.6"/><circle cx="190" cy="160" r="1.2"/>
+    <circle cx="70" cy="250" r="1.4"/><circle cx="255" cy="215" r="1.6"/><circle cx="125" cy="345" r="1.2"/>
+    <circle cx="240" cy="330" r="1.4"/><circle cx="95" cy="420" r="1.6"/><circle cx="250" cy="425" r="1.2"/>
+  </g>
+  <g fill="#7C878E">
+    <circle cx="110" cy="195" r="17"/>
+    <circle cx="218" cy="262" r="11"/>
+    <circle cx="150" cy="300" r="7"/>
+  </g>
+  <polygon points="165,370 149,406 165,398 181,406" fill="#F2F3F3"/>
+
+  <!-- overlays -->
+  <rect x="64" y="44" width="106" height="32" rx="16" fill="#FFFFFF" fill-opacity="0.14"/>
+  <text x="117" y="65" text-anchor="middle" font-size="15" font-weight="700" fill="#FFFFFF">Score: 120</text>
+  <rect x="226" y="43" width="34" height="34" rx="9" fill="#FFFFFF" fill-opacity="0.14"/>
+  <rect x="236" y="51" width="5" height="18" rx="1" fill="#FFFFFF"/>
+  <rect x="245" y="51" width="5" height="18" rx="1" fill="#FFFFFF"/>
+  <rect x="58" y="37" width="210" height="48" rx="13" fill="none" stroke="#F76902" stroke-width="2" stroke-dasharray="6 4"/>
+
+  <!-- labels -->
+  <line x1="270" y1="61" x2="316" y2="61" stroke="#F76902" stroke-width="2"/>
+  <text x="326" y="58" font-size="17" font-weight="700" fill="#F76902">Overlays</text>
+  <text x="326" y="80" font-size="14" fill="#282828">Regular Flutter widgets on top</text>
+  <text x="326" y="99" font-size="13" fill="#7C878E">(a Text, an IconButton...) · Week 12A</text>
+
+  <line x1="280" y1="300" x2="316" y2="300" stroke="#7C878E" stroke-width="2"/>
+  <text x="326" y="297" font-family="Menlo, Consolas, monospace" font-size="17" font-weight="700" fill="#282828">GameWidget</text>
+  <text x="326" y="319" font-size="14" fill="#282828">Flame draws everything in here:</text>
+  <text x="326" y="338" font-size="13" fill="#7C878E">ship, asteroids, background · Week 11B</text>
+</svg>

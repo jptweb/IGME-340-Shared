@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="450" viewBox="0 0 660 450" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <title>Positioning in Flame</title>
+  <desc>(0, 0) is the top-left corner. x grows to the right and y grows downward. The ship's anchor sits at Vector2(game.size.x / 2, game.size.y - 100).</desc>
+  <defs>
+    <marker id="arrowDark" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#282828"/>
+    </marker>
+  </defs>
+  <rect width="660" height="450" rx="16" fill="#FFFFFF"/>
+
+  <!-- axes -->
+  <line x1="100" y1="36" x2="322" y2="36" stroke="#282828" stroke-width="2" marker-end="url(#arrowDark)"/>
+  <text x="210" y="26" text-anchor="middle" font-size="14" font-weight="700" fill="#282828">x grows</text>
+  <line x1="62" y1="84" x2="62" y2="302" stroke="#282828" stroke-width="2" marker-end="url(#arrowDark)"/>
+  <text transform="translate(46,192) rotate(90)" text-anchor="middle" font-size="14" font-weight="700" fill="#282828">y grows</text>
+
+  <!-- the game screen -->
+  <rect x="90" y="60" width="240" height="350" rx="3" fill="#282828"/>
+  <circle cx="90" cy="60" r="6" fill="#F76902" stroke="#FFFFFF" stroke-width="2"/>
+  <text x="80" y="52" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="14" font-weight="700" fill="#282828">(0, 0)</text>
+  <circle cx="330" cy="410" r="4" fill="#7C878E"/>
+  <text x="330" y="434" text-anchor="end" font-family="Menlo, Consolas, monospace" font-size="12" fill="#7C878E">(game.size.x, game.size.y)</text>
+
+  <!-- horizontal center -->
+  <text x="210" y="88" text-anchor="middle" font-family="Menlo, Consolas, monospace" font-size="11" fill="#D0D3D4">game.size.x / 2</text>
+  <line x1="210" y1="98" x2="210" y2="322" stroke="#7C878E" stroke-width="1.5" stroke-dasharray="4 5"/>
+
+  <!-- the ship, its sprite box, and its anchor -->
+  <rect x="188" y="325" width="44" height="44" fill="none" stroke="#A2AAAD" stroke-width="1.5" stroke-dasharray="3 3"/>
+  <polygon points="210,329 194,365 210,357 226,365" fill="#F2F3F3"/>
+  <circle cx="210" cy="347" r="5" fill="#F76902" stroke="#282828" stroke-width="1.5"/>
+
+  <!-- 100 up from the bottom -->
+  <line x1="216" y1="347" x2="256" y2="347" stroke="#A2AAAD" stroke-width="1" stroke-dasharray="2 3"/>
+  <line x1="252" y1="347" x2="252" y2="408" stroke="#D0D3D4" stroke-width="1.5"/>
+  <line x1="246" y1="347" x2="258" y2="347" stroke="#D0D3D4" stroke-width="1.5"/>
+  <line x1="246" y1="408" x2="258" y2="408" stroke="#D0D3D4" stroke-width="1.5"/>
+  <text x="262" y="383" font-family="Menlo, Consolas, monospace" font-size="12" fill="#D0D3D4">100</text>
+
+  <!-- notes -->
+  <text x="362" y="96" font-size="15" font-weight="700" fill="#282828">Bigger y = lower on the screen.</text>
+  <text x="362" y="116" font-size="13" fill="#7C878E">(Unity is the other way around.)</text>
+
+  <text x="362" y="180" font-size="15" font-weight="700" fill="#282828">The orange dot is the anchor.</text>
+  <text x="362" y="200" font-size="13" fill="#7C878E"><tspan font-family="Menlo, Consolas, monospace">Anchor.center</tspan> puts it in the</text>
+  <text x="362" y="218" font-size="13" fill="#7C878E">middle of the sprite.</text>
+
+  <text x="362" y="300" font-size="12" font-weight="700" letter-spacing="1.5" fill="#7C878E">THURSDAY'S CODE</text>
+  <rect x="356" y="312" width="262" height="96" rx="8" fill="#F2F3F3"/>
+  <g font-family="Menlo, Consolas, monospace" font-size="14" fill="#282828">
+    <text x="370" y="336">position = Vector2(</text>
+    <text x="390" y="356">game.size.x / 2,</text>
+    <text x="390" y="376">game.size.y - 100,</text>
+    <text x="370" y="396">);</text>
+  </g>
+</svg>

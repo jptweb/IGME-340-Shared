@@ -9,20 +9,19 @@ Pre-class reading modules tied to the six major phase shifts in the course. Each
 | [03 — Static to Stateful](03-static-to-stateful.md)       | Week 4A        | Layouts that sit there → layouts that respond; setState | ✅ Ready |
 | [04 — External Data](04-external-data.md)                 | Week 7B        | App-contained data → APIs and async; Futures/await      | ✅ Ready |
 | [05 — Navigation and State](05-navigation-and-state.md)   | Week 9B–10A    | One screen → many screens; GoRouter + Provider          | ✅ Ready |
-| [06 — Into the Game Engine](06-game-engine.md)            | Week 11B       | Widget apps → Flame game loop; different rules          | 📝 Draft |
+| [06 — Into the Game Engine](06-game-engine.md)            | Week 11B       | Widget apps → Flame game loop; different rules          | ✅ Ready (reading only) |
 
 Each guide includes reference guide links and a **Check Yourself** section.
 
-**About the drafts.** Guides 01 through 05 are finished. Guide 06 is still being written and gets
-finalized before the week it's assigned, so don't study ahead from it yet. It's public
-because this whole repo is, not because it's ready. Nothing you need before a deadline will
-be in draft form when that deadline arrives.
+**About guide 06.** It's reading only: no video and no quiz. It's short, and still worth reading
+before Week 11B. There will be one more study guide with a quiz later in the semester, a
+catch-all for useful topics we don't have much class time for, like publishing your app.
 
 ## How study guides are graded
 
 The study guides are worth **5% of your grade**, through six short quizzes in MyCourses.
 
-- **Multiple choice, auto-graded.** One quiz per guide.
+- **Multiple choice, auto-graded.** One quiz per guide, except 06.
 - **Three attempts, and your highest score counts.** The point is that you end up knowing the material, not that I catch you on a first attempt.
 - **Small stake by design.** 5% across six quizzes. Missing one isn't a crisis; skipping all six is.
 - **Some questions ask you to run code.** "Paste this into DartPad and tell me what it prints." Keep a tab open.
