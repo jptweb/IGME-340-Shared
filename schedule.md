@@ -285,7 +285,7 @@ Multi-platform development focused on Flutter/Dart, progressing from foundationa
 
 ### [Week 13B](weekly/13B.md): Splash Screens & App Icons
 - **Splash Screens:** flutter_native_splash package, app startup experience
-- **Custom Icons:** flutter_launcher_icons package, app icon generation
+- **Custom Icons:** easyappicon.com, app icon generation
 - **Platform Requirements:** Icon sizes, adaptive icons for Android
 - **Asset Tools:** easyappicon.com for quick icon generation
 
