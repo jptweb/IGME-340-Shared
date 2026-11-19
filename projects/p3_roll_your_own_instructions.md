@@ -1,5 +1,7 @@
 # Project 3 - Roll-Your-Own Flutter App
 
+> **Updated Nov 19:** your Project 3 code now goes in a GitHub repo instead of a zip, the same way Project 2 did. It's one repo for both the prototype and the final. Already started? You bring your whole project in with one push. See [Your Code Goes in a GitHub Repo](#your-code-goes-in-a-github-repo).
+
 > **How to Use This Document:** This is your official project brief covering scope, deadlines, and submission requirements. For a detailed breakdown of how to excel on each grading category with links to relevant course materials, see the **[Project 3 Expectations Guide](p3_roll_your_own_expectations.md)**.
 
 ## I. Overview
@@ -43,6 +45,16 @@ Five deliverables, each with its own dropbox in MyCourses, so make sure you subm
 | [Final App](#vi-final-app) | Your finished Flutter project | 70% |
 | [Documentation](#vii-documentation) | A PDF that tells me what to look for while grading | 10% |
 | [Video Demonstration](#viii-video-demonstration) | A 3 to 5 minute demo of your project | 10% |
+
+### Your Code Goes in a GitHub Repo
+
+No zip for Project 3. Your code lives in a private GitHub repo, set up the same way as your Project 2 repo. The Prototype App and Final App dropboxes in MyCourses take your repo link instead of a file. The Proposal, Documentation, and Video dropboxes haven't changed.
+
+1. **Get your repo** from the link at the top of the Prototype App dropbox in MyCourses. Accepting it creates a repo just for you, `igme-340-project-3-<your-github-username>`, with a plain Flutter app in it. **It's one repo for both the Prototype App and the Final App.** Keep working in it after the prototype; there's no second repo.
+2. **Bring your project in.** You've probably started already, so copy your whole project into the new repo and push it. The repo's README walks you through it. That first push can be everything you have so far, all in one commit.
+3. **Commit and push as you go** from there. I grade what's in the repo at each due time, so work that's only on your laptop doesn't count.
+
+Your repo is private, so if anything needs an API key, leave it in. I need it to run your app.
 
 > **Project Scope & Success:** These projects are substantial, but manageable with proper planning. I've provided extensive code examples in our [Reference Manual](../reference/README.md), including complete implementations like the [shared preferences guide](../reference/data-persistence/shared-preferences.md). 
 >
@@ -136,10 +148,16 @@ A check-in partway through, so I can catch problems while there's still time to 
 
 ### What to Do
 - At minimum, it runs and the main thing your app or game does is working. Rough is fine at this stage.
-- Stuck on something? Say so in the dropbox comment box. That's the most useful thing you can tell me right now.
+- Stuck on something? Say so in your dropbox submission. That's the most useful thing you can tell me right now.
 
 ### What to Submit
-Run `flutter clean`, put your project folder inside a folder named `LastName_FirstName_Project3`, zip that folder, and upload it to the Project 3 Prototype App dropbox. If anything needs an API key, leave it in so I can run it.
+1. **Push your code** to your Project 3 repo before the deadline. That's what I run. One push of what you have so far is fine for the prototype. See [Your Code Goes in a GitHub Repo](#your-code-goes-in-a-github-repo).
+2. **Paste your repo link** into the Project 3 Prototype App dropbox, with a few sentences on where the project stands:
+   - What works right now
+   - What doesn't yet, and anything you're stuck on
+   - AI tools used so far, or "None"
+
+The dropbox takes text, not a file. No zip.
 
 ### How the Prototype Is Graded
 With a small rubric, *Prototype Check*: does it run, and does the core work. The full Project 3 rubric is linked at the top of the Prototype App dropbox. A 10/10 on the prototype means you're on track. It doesn't mean the final is headed for 100. The final is graded on Section III.
@@ -149,7 +167,12 @@ With a small rubric, *Prototype Check*: does it run, and does the core work. The
 Your finished Flutter project. Documentation (Section VII) and the video (Section VIII) are separate dropboxes, graded separately.
 
 ### What to Submit
-Run `flutter clean`, put your project folder inside a folder named `LastName_FirstName_Project3`, zip that folder, and upload it to the Project 3 Final App dropbox. If anything needs an API key, leave it in. Before you zip it, check the [Critical Success Factors](#critical-success-factors) one more time, especially removing `print` statements.
+1. **Your code**, pushed to your Project 3 repo before the deadline. It's the same repo you used for the prototype. No zip. If anything needs an API key, leave it in.
+2. **Your repo link**, pasted into the Project 3 Final App dropbox. The dropbox takes text, not a file.
+
+Before your last push, check the [Critical Success Factors](#critical-success-factors) one more time, especially removing `print` statements.
+
+**Commit history counts.** I want to see your project come together over time, so your repo needs at least 5 commits of your own by the final deadline. Fewer than that costs up to 10 points, taken off after the rubric. Your first commit can be a big one, since most of you are bringing in work you've already started.
 
 ### How the Final App Is Graded
 On the six categories in [Section III](#iii-requirements), with the rubric attached to the dropbox in MyCourses. The [Project 3 Expectations Guide](p3_roll_your_own_expectations.md) breaks each category down with links to course materials. Review both before you get deep into development.
